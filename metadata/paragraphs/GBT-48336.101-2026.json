@@ -2836,13 +2836,28 @@
       "page": 13,
       "kind": "definition",
       "line_ids": [
-        1,
-        2
+        1
       ],
-      "source_text": "COT：信道占用时间（Channel Occupancy Time）\nCP⁃OFDM：循环前缀正交频分复用（Cyclic Prefix Orthogonal Frequency Division Multiplexing）",
+      "source_text": "COT：信道占用时间（Channel Occupancy Time）",
       "bbox": [
         92.25981903076172,
         92.29988861083984,
+        308.3980712890625,
+        107.42221069335938
+      ],
+      "file": "standards/GBT-48336/GBT-48336.101-2026_星闪无线通信系统-第101部分-架构和通用要求/gbt-48336-101-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.101-2026_星闪无线通信系统-第101部分-架构和通用要求/gbt-48336-101-2026-07.md"
+    },
+    {
+      "page": 13,
+      "kind": "definition",
+      "line_ids": [
+        2
+      ],
+      "source_text": "CP⁃OFDM：循环前缀正交频分复用（Cyclic Prefix Orthogonal Frequency Division Multiplexing）",
+      "bbox": [
+        92.25981903076172,
+        108.04988861083984,
         515.6569213867188,
         123.17221069335938
       ],
@@ -3334,14 +3349,29 @@
       "page": 13,
       "kind": "definition",
       "line_ids": [
-        34,
+        34
+      ],
+      "source_text": "SSAP：星闪服务交互协议（Sparklink Service Access Protocol）",
+      "bbox": [
+        92.25981903076172,
+        612.0496826171875,
+        369.6231384277344,
+        627.1719970703125
+      ],
+      "file": "standards/GBT-48336/GBT-48336.101-2026_星闪无线通信系统-第101部分-架构和通用要求/gbt-48336-101-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.101-2026_星闪无线通信系统-第101部分-架构和通用要求/gbt-48336-101-2026-07.md"
+    },
+    {
+      "page": 13,
+      "kind": "definition",
+      "line_ids": [
         35,
         36
       ],
-      "source_text": "SSAP：星闪服务交互协议（Sparklink Service Access Protocol）\nS⁃AODV：星闪无线自组网按需距离矢量路由协议（Sparklink Ad hoc On⁃demand Distance Vector\nrouting protocol）",
+      "source_text": "S⁃AODV：星闪无线自组网按需距离矢量路由协议（Sparklink Ad hoc On⁃demand Distance Vector\nrouting protocol）",
       "bbox": [
         71.25981903076172,
-        612.0496826171875,
+        627.7996826171875,
         541.2810668945312,
         658.6719970703125
       ],
@@ -3350,7 +3380,7 @@
     },
     {
       "page": 13,
-      "kind": "paragraph",
+      "kind": "definition",
       "line_ids": [
         37,
         38
@@ -16134,12 +16164,12 @@
   ],
   "kinds": {
     "heading": 119,
-    "paragraph": 300,
+    "paragraph": 299,
     "list_item": 348,
     "reference": 7,
     "term_heading": 34,
     "note": 2,
-    "definition": 68,
+    "definition": 71,
     "caption": 12,
     "equation": 1
   }

@@ -1,5 +1,5 @@
 {
-  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "manifest_sha256": "263625d524618382d2f5e018a30599ade52820289c03a0360ee3f11249ed4ecf",
   "documents": 17,
   "chapters": 819,
   "issues": [],
@@ -30,7 +30,7 @@
       "source_pages": 47,
       "source_lines": 1507,
       "accounted_source_lines": 1507,
-      "paragraph_blocks": 898,
+      "paragraph_blocks": 900,
       "assets": 13,
       "issues": []
     },
@@ -110,7 +110,7 @@
       "source_pages": 75,
       "source_lines": 1756,
       "accounted_source_lines": 1756,
-      "paragraph_blocks": 1014,
+      "paragraph_blocks": 1020,
       "assets": 81,
       "issues": []
     },

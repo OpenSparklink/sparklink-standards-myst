@@ -190,6 +190,8 @@ def organize(lines, *, page_number, min_y, max_y, page_height, page_width, exclu
             parts=re.split(r'—+|[：:]',rich_line(ls[0]),maxsplit=1)
             if len(parts)<2:parts=[html.escape(p) for p in re.split(r'—+|[：:]',ls[0]['text'],maxsplit=1)]
             term,definition=parts
+            if re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9 /⁃-]*', term.strip()):
+                term = term.replace('⁃', '-')
             body=text_join([definition]+[rich_line(l) for l in ls[1:]])
             markup=f'<dl class="standard-definitions"><dt>{term.strip()}</dt><dd>{body}</dd></dl>'
         else:
@@ -288,7 +290,8 @@ def organize(lines, *, page_number, min_y, max_y, page_height, page_width, exclu
             events.append((box[1],2,'```text\n'+text+'\n```'))
             add_record('pseudocode',[(i,line)]);previous=line;continue
         reference=bool(re.match(r'^\[\s*\d+\s*\]|^(?:GB/?T|GB/T|ISO|IEC|IEEE|IETF|ITU[ -])',text))
-        abbreviation=re.match(r'^([A-Za-z0-9][A-Za-z0-9 /-]{0,18})[：:]\s*(\S.*)$',text)
+        # Some embedded PDF fonts extract an ordinary hyphen as U+2043.
+        abbreviation=re.match(r'^([A-Za-z0-9][A-Za-z0-9 /⁃-]{0,18})[：:]\s*(\S.*)$',text)
         definition=bool(abbreviation and (abbreviation[1].upper()==abbreviation[1] or re.search(r'[\u3400-\u9fff]',abbreviation[2])))
         symbol_definition=re.match(r'^(.{1,50}?)\s*——+\s*(\S.*)$',text)
         if symbol_definition and not re.search(r'[\u3400-\u9fff]',symbol_definition[1]):definition=True

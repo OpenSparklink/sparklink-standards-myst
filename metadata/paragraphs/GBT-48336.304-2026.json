@@ -1601,13 +1601,28 @@
       "page": 10,
       "kind": "definition",
       "line_ids": [
-        20,
-        21
+        20
       ],
-      "source_text": "EAP：扩展认证协议（Extensible Authentication Protocol）\nEAP⁃5G：5G 扩展认证协议（Extensible Authentication Protocol for 5G）",
+      "source_text": "EAP：扩展认证协议（Extensible Authentication Protocol）",
       "bbox": [
         78.08662414550781,
         420.9498596191406,
+        331.2818603515625,
+        436.0721740722656
+      ],
+      "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-07.md"
+    },
+    {
+      "page": 10,
+      "kind": "definition",
+      "line_ids": [
+        21
+      ],
+      "source_text": "EAP⁃5G：5G 扩展认证协议（Extensible Authentication Protocol for 5G）",
+      "bbox": [
+        78.08662414550781,
+        436.6998596191406,
         394.121826171875,
         451.8221740722656
       ],
@@ -1618,13 +1633,28 @@
       "page": 10,
       "kind": "definition",
       "line_ids": [
-        22,
-        23
+        22
       ],
-      "source_text": "GPRS：通用分组无线业务（General Packet Radio Service）\nGTP⁃U：用户面 GPRS 隧道协议（GPRS Tunnelling Protocol for the User⁃plane）",
+      "source_text": "GPRS：通用分组无线业务（General Packet Radio Service）",
       "bbox": [
         78.08662414550781,
         452.4498596191406,
+        336.3215026855469,
+        467.5721740722656
+      ],
+      "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-07.md"
+    },
+    {
+      "page": 10,
+      "kind": "definition",
+      "line_ids": [
+        23
+      ],
+      "source_text": "GTP⁃U：用户面 GPRS 隧道协议（GPRS Tunnelling Protocol for the User⁃plane）",
+      "bbox": [
+        78.08662414550781,
+        468.1998596191406,
         434.7470397949219,
         483.3221740722656
       ],
@@ -1731,15 +1761,45 @@
       "page": 10,
       "kind": "definition",
       "line_ids": [
-        30,
-        31,
-        32
+        30
       ],
-      "source_text": "NAS：非接入层（Non⁃Access Stratum）\nNAS⁃PDU：非接入层协议数据单元（Non⁃Access Stratum⁃Protocol Data Unit）\nNG⁃RAN：下一代无线接入网（Next Generation Radio Access Network）",
+      "source_text": "NAS：非接入层（Non⁃Access Stratum）",
       "bbox": [
         78.08662414550781,
         578.44970703125,
+        250.7132110595703,
+        593.572021484375
+      ],
+      "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-07.md"
+    },
+    {
+      "page": 10,
+      "kind": "definition",
+      "line_ids": [
+        31
+      ],
+      "source_text": "NAS⁃PDU：非接入层协议数据单元（Non⁃Access Stratum⁃Protocol Data Unit）",
+      "bbox": [
+        78.08662414550781,
+        594.19970703125,
         424.5087585449219,
+        609.322021484375
+      ],
+      "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-07.md"
+    },
+    {
+      "page": 10,
+      "kind": "definition",
+      "line_ids": [
+        32
+      ],
+      "source_text": "NG⁃RAN：下一代无线接入网（Next Generation Radio Access Network）",
+      "bbox": [
+        78.08662414550781,
+        609.94970703125,
+        395.890625,
         625.072021484375
       ],
       "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
@@ -2037,15 +2097,45 @@
       "page": 11,
       "kind": "definition",
       "line_ids": [
-        10,
-        11,
-        12
+        10
       ],
-      "source_text": "SLB：同步低时延宽带（Synchronous Low⁃latency Broadband）\nSLB⁃CMTC：SLB 通用管理传输通道（SLB Common Management Transmission Channel）\nSLB⁃SMTC：SLB 服务管理传输通道（SLB Service Management Transmission Channel）",
+      "source_text": "SLB：同步低时延宽带（Synchronous Low⁃latency Broadband）",
       "bbox": [
         92.25992584228516,
         234.04989624023438,
+        365.1168212890625,
+        249.17221069335938
+      ],
+      "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-07.md"
+    },
+    {
+      "page": 11,
+      "kind": "definition",
+      "line_ids": [
+        11
+      ],
+      "source_text": "SLB⁃CMTC：SLB 通用管理传输通道（SLB Common Management Transmission Channel）",
+      "bbox": [
+        92.25992584228516,
+        249.79978942871094,
         493.4984130859375,
+        264.9220886230469
+      ],
+      "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
+      "source_file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-07.md"
+    },
+    {
+      "page": 11,
+      "kind": "definition",
+      "line_ids": [
+        12
+      ],
+      "source_text": "SLB⁃SMTC：SLB 服务管理传输通道（SLB Service Management Transmission Channel）",
+      "bbox": [
+        92.25992584228516,
+        265.5498962402344,
+        484.6907043457031,
         280.6722106933594
       ],
       "file": "standards/GBT-48336/GBT-48336.304-2026_星闪无线通信系统-第304部分-基础服务层-5G蜂窝网络融合/gbt-48336-304-2026-clause-4.md",
@@ -19071,7 +19161,7 @@
     "list_item": 494,
     "reference": 6,
     "term_heading": 2,
-    "definition": 61,
+    "definition": 67,
     "caption": 85,
     "note": 18,
     "title_fragment": 12

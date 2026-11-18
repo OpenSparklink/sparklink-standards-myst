@@ -62,6 +62,39 @@ try {
   await page.getByRole('dialog').locator('a').first().waitFor();
   assert.ok(await page.getByRole('dialog').locator('a').count());
   results.push({check:'390 px 手机宽度中文搜索',passed:true});
+
+  const glossaryTerms = {
+    '101': ['COT', 'CP-OFDM', 'SSAP', 'S-AODV', 'S-RPL', 'TCID'],
+    '304': ['EAP', 'EAP-5G', 'GPRS', 'GTP-U', 'NAS', 'NAS-PDU', 'NG-RAN', 'SLB', 'SLB-CMTC', 'SLB-SMTC'],
+  };
+  for (const [part, expected] of Object.entries(glossaryTerms)) {
+    await page.goto(origin + '/gbt-48336-' + part + '-2026-clause-4/');
+    const definitions = await page.locator('article .standard-definitions dt').evaluateAll(terms =>
+      terms.map(term => ({term: term.textContent.trim(), definition: term.nextElementSibling.textContent.trim()})));
+    assert.deepEqual(definitions.filter(entry => expected.includes(entry.term)).map(entry => entry.term), expected);
+    for (const entry of definitions.filter(entry => expected.includes(entry.term))) {
+      assert.ok(entry.definition, 'Missing definition for ' + entry.term);
+      for (const term of expected) {
+        assert.ok(!entry.definition.includes(term + '：'), 'Merged definition for ' + term);
+      }
+    }
+  }
+  results.push({check:'带连字符的缩略语独立成条，保留原有顺序',passed:true});
+
+  const paragraphGaps = {};
+  for (const width of [1440, 390]) {
+    await page.setViewportSize({width, height: 900});
+    await page.goto(origin + '/gbt-48336-101-2026-clause-5/');
+    const gaps = await page.locator('article .standard-paragraph > p').evaluateAll(paragraphs => {
+      const first = paragraphs.slice(0, 6).map(p => p.getBoundingClientRect());
+      return first.slice(1).map((rect, index) => Math.round(rect.top - first[index].bottom));
+    });
+    assert.equal(gaps.length, 5);
+    assert.ok(gaps.every(gap => gap >= 6 && gap <= 20), 'Unexpected paragraph gaps at ' + width + ' px: ' + gaps);
+    paragraphGaps[width] = gaps;
+  }
+  results.push({check:'桌面与手机连续正文段距',passed:true,gaps_px:paragraphGaps});
+
   assert.deepEqual(external,[],'Reader unexpectedly requested external resources');
   results.push({check:'正文、数学字体与全文搜索无需外部 CDN',passed:true});
 } finally {await browser.close();}

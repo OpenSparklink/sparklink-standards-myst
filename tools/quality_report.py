@@ -19,6 +19,9 @@ def write_report(manifest=None):
            f"- 合并 {t.get('joined_table_parts',0)} 个相邻的分页续表片段，去除 {t.get('deduplicated_header_rows',0)} 行经比对相同的重复表头。每个原始单元格保留到网页行列的映射，跨行单元格必须保持连续。",
            f"- 原生数学表达式 {t['native_inline_math']+t['native_display_math']} 处；公式切图引用 {t['remaining_math_images']} 个。分页重复表头已去重，固定比特布局图保留为原始插图，原始单元格逐格核验仍完整覆盖。",
            '- 更新规范概览、技术主题、侧栏层级、全文搜索及图表／公式／条款交叉引用。原有 398 个地址转向对应概览或条款，防止旧链接回到纸版页面。','',
+           '## 正文和缩略语排版','',
+           '- 恢复 GB/T 48336.101 和 GB/T 48336.304 的 9 个带连字符的独立缩略语条目，并核对释义和原文顺序。',
+           '- 收紧正文和缩略语列表间距。浏览器验收检查示例条款的桌面和手机段距，以及缩略语与释义的对应关系。','',
            f"源记录中有 {t.get('omitted_blocks',0)} 个封面排版块明确标记为不发布；附录题名片段归入完整标题。其余源文由类型、源页、原始行、坐标和网页文件追溯。",'',
            '## 当前版本检查','']
     definitions=[('structure-check.json','源文及条款结构'),('native-math-check.json','原生公式'),('heading-check.json','标题'),('browser-check.json','全量浏览器'),('reader-interactions.json','阅读交互'),('corpus-content-check.json','逐段及逐格内容'),('corpus-vector-check.json','数学绘制线条'),('corpus-visual-check.json','源图保真'),('web-edition-check.json','网页残留与交叉引用'),('201-content-check.json','201 字形与源行'),('201-rendered-text-check.json','201 实际渲染文字')]
@@ -41,7 +44,7 @@ def write_report(manifest=None):
     rows+=['','## 核验方法','',
            '中文按内容块核对字符顺序；英文、数字和希腊字母核对大小写与字符数量；普通单元格另核对字符顺序。数学内容核对运算符及 MathML 上下标结构，二维分式、绝对值、集合基数和横线另与源图和显式转写核对。字符清点不能单独证明数学语义。','',
            '每个原始表格单元格独立比对网页中的目标单元格，包括复用的分页表头，并检查行列、合并关系和跨行连续性。逐段和逐格证据分别在 corpus-block-checks.jsonl、corpus-cell-checks.jsonl。','',
-           '归档原页的视觉比较用于源文件校对；网页采用适合屏幕的连续排版。插图及原 PDF 自带的栅格代码保留内容，可放大查看。当前页面截图在 metadata/review/web-edition/；历史校对图和早期报告仅作追溯，当前结果以本报告及 reading-manifest.json 为准。','']
+           '归档原页的视觉比较用于源文件校对；网页采用适合屏幕的连续排版。插图及原 PDF 自带的栅格代码保留内容，可放大查看。metadata/review/web-edition/ 保留网页视觉验收样例，当前检查结果以本报告及 reading-manifest.json 为准。','']
     (ROOT/'metadata/html-quality.md').write_text('\n'.join(rows))
 
 

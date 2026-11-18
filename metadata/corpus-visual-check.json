@@ -1,5 +1,5 @@
 {
-  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "manifest_sha256": "263625d524618382d2f5e018a30599ade52820289c03a0360ee3f11249ed4ecf",
   "method": "All 1755 page SVGs compared to fresh PDF at 144 dpi. Secondary SVG renderer discrepancies resolved in Chromium; blank pages explicitly checked for absent ink. All extracted figures compared pixel-exact to source crops.",
   "pages": 1755,
   "figures": 831,
