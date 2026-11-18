@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "documents": 17,
+  "pages": 819,
+  "targets": 4965,
+  "references": 3234,
+  "legacy_redirects": 398,
+  "joined_table_parts": 339,
+  "deduplicated_header_rows": 338,
+  "issues": []
+}

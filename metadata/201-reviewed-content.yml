@@ -1,0 +1,383 @@
+- code: GBT-48336.201-2026
+  page: 1
+  bbox:
+  - 50
+  - 323
+  - 565
+  - 398
+  markup: <p class="standard-paragraph">星闪无线通信系统　第 201 部分：接入层<br>同步低时延宽带（SLB）空中接口技术要求</p>
+- code: GBT-48336.201-2026
+  page: 1
+  bbox:
+  - 50
+  - 410
+  - 565
+  - 458
+  markup: '<p class="standard-paragraph">SparkLink wireless communication system—Part 201: Radio access layer—<br>Synchronous low latency broadband (SLB) air interface technical requirements</p>'
+- code: GBT-48336.201-2026
+  page: 1
+  bbox:
+  - 175
+  - 745
+  - 450
+  - 789
+  reading_order_text: 国家市场监督管理总局 国家标准化管理委员会 发布
+  markup: <p class="standard-paragraph">国家市场监督管理总局<br>国家标准化管理委员会　发布</p>
+- code: GBT-48336.201-2026
+  page: 300
+  bbox:
+  - 100
+  - 576
+  - 545
+  - 608
+  review_id: crypto-53
+  latex: \mathrm{PSK}=\operatorname{KDF}(\mathrm{Kgt},\text{口令},\text{T 节点 phy-ID},\text{G 节点 phy-ID},\mathrm{NONCEt},\mathrm{NONCEg})\tag{53}
+- code: GBT-48336.201-2026
+  page: 300
+  bbox:
+  - 100
+  - 653
+  - 545
+  - 685
+  review_id: crypto-54
+  latex: \mathrm{AUTHg}=\operatorname{AUF}(\mathrm{PSK},\mathrm{KKE},\mathrm{NONCEg},\text{没有安全上下文的关联请求信息内容})\text{。}\tag{54}
+- code: GBT-48336.201-2026
+  page: 301
+  bbox:
+  - 105
+  - 382
+  - 545
+  - 414
+  review_id: crypto-55
+  latex: \mathrm{PSK}=\operatorname{KDF}(\mathrm{Kgt},\text{口令},\text{T 节点 phy-ID},\text{G 节点 phy-ID},\mathrm{NONCEt},\mathrm{NONCEg})\tag{55}
+- code: GBT-48336.201-2026
+  page: 301
+  bbox:
+  - 82
+  - 522
+  - 545
+  - 555
+  review_id: crypto-56
+  latex: \mathrm{AUTHt}=\operatorname{AUF}(\mathrm{PSK},\mathrm{KKE},\text{安全上下文请求消息内容},\mathrm{NONCEt},\text{G 节点密钥协商算法能力})\tag{56}
+- code: GBT-48336.201-2026
+  page: 302
+  bbox:
+  - 210
+  - 223
+  - 545
+  - 240
+  review_id: crypto-57
+  latex: \mathrm{GK}=\operatorname{KDF}(\mathrm{RAND},\text{组 ID})\tag{57}
+- code: GBT-48336.201-2026
+  page: 306
+  bbox:
+  - 140
+  - 389
+  - 545
+  - 424
+  review_id: crypto-58
+  latex: \begin{aligned}\text{派生的密钥}&=\operatorname{KDF}(\mathrm{Key},\text{参数 1},\text{参数 2},\cdots,\text{参数 }n)\\&=\operatorname{HMAC-SHA256}(\mathrm{Key},\text{参数 1}\mathbin{\Vert}\text{参数 2}\mathbin{\Vert}\cdots\mathbin{\Vert}\text{参数 }n)\end{aligned}\tag{58}
+- code: GBT-48336.201-2026
+  page: 306
+  bbox:
+  - 140
+  - 439
+  - 545
+  - 474
+  review_id: crypto-59
+  latex: \begin{aligned}\text{派生的密钥}&=\operatorname{KDF}(\mathrm{Key},\text{参数 1},\text{参数 2},\cdots,\text{参数 }n)\\&=\operatorname{HMAC-SM3}(\mathrm{Key},\text{参数 1}\mathbin{\Vert}\text{参数 2}\mathbin{\Vert}\cdots\mathbin{\Vert}\text{参数 }n)\end{aligned}\tag{59}
+- code: GBT-48336.201-2026
+  page: 306
+  bbox:
+  - 210
+  - 522
+  - 545
+  - 540
+  review_id: crypto-60
+  latex: \mathrm{Kmid}=\operatorname{KDF}(\mathrm{Kgt},\mathrm{counter})\tag{60}
+- code: GBT-48336.201-2026
+  page: 306
+  bbox:
+  - 135
+  - 656
+  - 545
+  - 674
+  review_id: crypto-61
+  latex: \mathrm{Ks.ac}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"signalling auth enc"})\tag{61}
+- code: GBT-48336.201-2026
+  page: 306
+  bbox:
+  - 135
+  - 690
+  - 545
+  - 708
+  review_id: crypto-62
+  latex: \mathrm{Ku.ac}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"user auth enc"})\tag{62}
+- code: GBT-48336.201-2026
+  page: 306
+  bbox:
+  - 135
+  - 724
+  - 545
+  - 742
+  review_id: crypto-63
+  latex: \mathrm{Kc.ac}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"control auth enc"})\tag{63}
+- code: GBT-48336.201-2026
+  page: 306
+  bbox:
+  - 135
+  - 757
+  - 545
+  - 775
+  review_id: crypto-64
+  latex: \mathrm{Ks.enc}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"signalling enc"})\tag{64}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 114
+  - 545
+  - 132
+  review_id: crypto-65
+  latex: \mathrm{Ks.int}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"signalling int"})\tag{65}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 147
+  - 545
+  - 165
+  review_id: crypto-66
+  latex: \mathrm{Ku.enc}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"user enc"})\tag{66}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 181
+  - 545
+  - 199
+  review_id: crypto-67
+  latex: \mathrm{Ku.int}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"user int"})\tag{67}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 214
+  - 545
+  - 232
+  review_id: crypto-68
+  latex: \mathrm{Kc.int}=\operatorname{KDF}(\mathrm{Kmid},\text{算法标识},\text{预留},\text{"control int"})\tag{68}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 220
+  - 313
+  - 545
+  - 331
+  review_id: crypto-69
+  latex: \mathrm{GK}=\operatorname{KDF}(\mathrm{RAND},\text{组 ID})\tag{69}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 447
+  - 545
+  - 465
+  review_id: crypto-70
+  latex: \mathrm{GKs.ac}=\operatorname{KDF}(\mathrm{GK},\text{算法标识},\text{预留},\text{"Group signalling auth enc"})\tag{70}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 480
+  - 545
+  - 498
+  review_id: crypto-71
+  latex: \mathrm{GKu.ac}=\operatorname{KDF}(\mathrm{GK},\text{算法标识},\text{预留},\text{"Group user auth enc"})\tag{71}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 514
+  - 545
+  - 532
+  review_id: crypto-72
+  latex: \mathrm{GKs.enc}=\operatorname{KDF}(\mathrm{GK},\text{算法标识},\text{预留},\text{"Group signalling enc"})\tag{72}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 547
+  - 545
+  - 565
+  review_id: crypto-73
+  latex: \mathrm{GKs.int}=\operatorname{KDF}(\mathrm{GK},\text{算法标识},\text{预留},\text{"Group signalling int"})\tag{73}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 580
+  - 545
+  - 598
+  review_id: crypto-74
+  latex: \mathrm{GKu.enc}=\operatorname{KDF}(\mathrm{GK},\text{算法标识},\text{预留},\text{"Group user enc"})\tag{74}
+- code: GBT-48336.201-2026
+  page: 307
+  bbox:
+  - 135
+  - 614
+  - 545
+  - 632
+  review_id: crypto-75
+  latex: \mathrm{GKu.int}=\operatorname{KDF}(\mathrm{GK},\text{算法标识},\text{预留},\text{"Group user int"})\tag{75}
+- code: GBT-48336.201-2026
+  page: 322
+  bbox:
+  - 100
+  - 656
+  - 545
+  - 691
+  review_id: crypto-76
+  latex: \mathrm{HASHg}=\operatorname{KDF}(\mathrm{rk},\mathrm{NONCEg},\text{关联请求信息内容},\text{安全上下文响应消息内容})\tag{76}
+- code: GBT-48336.201-2026
+  page: 322
+  bbox:
+  - 100
+  - 721
+  - 545
+  - 757
+  review_id: crypto-77
+  latex: \begin{aligned}\mathrm{HASHt}=\operatorname{KDF}(&\mathrm{rk},\text{G 节点密钥协商算法能力},\text{认证类型指示},\mathrm{NONCEt},\\&\text{安全上下文请求消息内容},\text{关联建立消息内容})\end{aligned}\tag{77}
+- code: GBT-48336.201-2026
+  page: 325
+  bbox:
+  - 105
+  - 263
+  - 545
+  - 298
+  review_id: crypto-78
+  latex: \mathrm{HASHg}=\operatorname{KDF}(\mathrm{rk},\mathrm{NONCEg},\text{关联请求信息内容},\text{安全上下文响应消息内容})\tag{78}
+- code: GBT-48336.201-2026
+  page: 325
+  bbox:
+  - 110
+  - 333
+  - 545
+  - 382
+  review_id: crypto-79
+  latex: \begin{aligned}\mathrm{HASHt}=\operatorname{KDF}(&\mathrm{rk},\text{G 节点密钥协商算法能力},\text{认证类型指示},\mathrm{NONCEt},\\&\text{安全上下文请求消息内容},\text{关联建立消息内容})\end{aligned}\tag{79}
+- code: GBT-48336.201-2026
+  page: 245
+  bbox:
+  - 190
+  - 211
+  - 410
+  - 241
+  latex: \mathrm{ChannelBusyRatioMeasure}=\frac{t_{\mathrm{channelBusy}}}{t_{\mathrm{measure}}}\times255
+  review_id: cbr-fraction
+- code: GBT-48336.201-2026
+  page: 64
+  bbox:
+  - 78
+  - 477
+  - 180
+  - 586
+  mode: algorithm
+  review_id: crc-initialization
+- code: GBT-48336.201-2026
+  page: 64
+  bbox:
+  - 78
+  - 633
+  - 225
+  - 775
+  mode: algorithm
+  review_id: crc-loop
+- code: GBT-48336.201-2026
+  page: 343
+  bbox:
+  - 85
+  - 429
+  - 450
+  - 571
+  kind: pseudocode
+  markup: "```text\nfound=FALSE,\ncounter=0,\nwhile ! found\n    counter++;\n    x=hash256(counter,gen_string) mod p; //counter is treated as string\n    if is_valid_for_curve(x,curve_equation) //x satisfies the curve equation\n        found=True;\n        y=sqrt(curve_equation(x)); //use the positive square root\nreturn P(x,y)\n```"
+  review_id: tbpeke-source-code
+- code: GBT-48336.201-2026
+  page: 313
+  bbox:
+  - 85
+  - 638
+  - 355
+  - 774
+  kind: pseudocode
+  markup: '```text
+
+    IV[0]=GFN[0], IV[1]=GFN[1],
+
+    IV[2]=GFN[2], IV[3]=GFN[3],
+
+    IV[4]=逻辑信道标识[低5位]预留字段[高3位],
+
+    IV[5]=预留字段[低7位]0,
+
+    IV[6]=0x00, IV[7]=0x00,
+
+    IV[8]=IV[0]⊕(链路方向标识<<7), IV[9]=IV[1],
+
+    IV[10]=IV[2], IV[11]=IV[3],
+
+    IV[12]=IV[4], IV[13]=IV[5],
+
+    ```'
+  review_id: zuc-iv-initialization
+- code: GBT-48336.201-2026
+  page: 314
+  bbox:
+  - 78
+  - 97
+  - 355
+  - 114
+  kind: pseudocode
+  markup: '```text
+
+    IV[14]=IV[6]⊕(链路方向标识<<7), IV[15]=IV[7]。
+
+    ```'
+  review_id: zuc-iv-continuation
+- code: GBT-48336.201-2026
+  page: 92
+  bbox:
+  - 75
+  - 380
+  - 245
+  - 402
+  latex: r_{u,v}^{(\alpha,\delta)}(n)=e^{j\alpha n}\overline r_{u,v}(n),\quad0\leq n<M_{\mathrm{SC}}^{\mathrm{RS}}
+  review_id: zadoff-chu-unumbered
+- code: GBT-48336.201-2026
+  page: 344
+  bbox:
+  - 205
+  - 190
+  - 385
+  - 209
+  latex: h_k^{\mathrm R}(t_1)=h_{k,0}e^{-j[2\pi(f_k^{\mathrm R}-f_k^{\mathrm I})t_1+\varphi_{\mathrm{I,init}}-\varphi_{\mathrm{R,init}}]}
+  review_id: reciprocal-channel-r
+- code: GBT-48336.201-2026
+  page: 344
+  bbox:
+  - 205
+  - 210
+  - 385
+  - 228
+  latex: h_k^{\mathrm I}(t_2)=h_{k,0}e^{-j[2\pi(f_k^{\mathrm I}-f_k^{\mathrm R})t_2+\varphi_{\mathrm{R,init}}-\varphi_{\mathrm{I,init}}]}
+  review_id: reciprocal-channel-i
+- code: GBT-48336.201-2026
+  page: 344
+  bbox:
+  - 150
+  - 330
+  - 435
+  - 350
+  latex: \varphi_{2W}(f_k,r)=\varphi_{\mathrm R}(f_k,r)+\varphi_{\mathrm I}(f_k,r)=-4\pi(f_k^{\mathrm R}-f_k^{\mathrm I})r/c_0
+  review_id: two-way-phase

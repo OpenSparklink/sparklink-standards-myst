@@ -1,0 +1,471 @@
+# Each region was read against the source-page render. Coordinates: PDF points.
+- code: &slb GBT-48336.201-2026
+  page: 60
+  bbox: [40, 602, 550, 675]
+  markup: &bit_count >-
+    <p class="standard-paragraph">计算信道比特序列数 $E_{\mathrm{tot}}$：如果流数 $v=1$，$E_{\mathrm{tot}}=\left[\frac{N_{\mathrm{RE}}}{N_{\mathrm{dup}}}\right]\cdot Q_m$；如果流数 $v=2$，$E_{\mathrm{tot}}=N_{\mathrm{RE}}\cdot Q_m+\left[\frac{N_{\mathrm{RE}}}{N_{\mathrm{dup}}}\right]\cdot Q_m$；如果流数 $v\geq3$，$E_{\mathrm{tot}}=N_{\mathrm{RE}}\cdot Q_m\cdot v$。其中 $N_{\mathrm{RE}}$ 是调度的子载波数，$Q_m$ 是调制方式，$N_{\mathrm{dup}}$ 是调制符号重复次数，$[\cdot]$ 表示向上取整，$v$ 是传输流数。</p>
+- code: *slb
+  page: 60
+  bbox: [40, 699, 550, 742]
+  markup: >-
+    <p class="standard-paragraph">计算量化初始信息比特数 $N'_{\mathrm{info}}$：$N'_{\mathrm{info}}=\max\left(24,2^n\cdot\operatorname{round}\left(\frac{N_{\mathrm{info}}-24}{2^n}\right)\right)$，其中 $n=\max(3,[\log_2(N_{\mathrm{info}}-24)]-5)$，其中 round 是就近取整数的运算。</p>
+- code: *slb
+  page: 60
+  bbox: [40, 745, 550, 771]
+  markup: >-
+    <p class="standard-paragraph">计算分段数 $C$：如果 $R\geq5/32$，$C=\left[\frac{E_{\mathrm{tot}}}{N_{\mathrm{max}}}\right]$，其中，$N_{\mathrm{max}}$ 的值为 4096 或 1024。如果</p>
+- code: *slb
+  page: 61
+  bbox: [40, 92, 550, 188]
+  markup: >-
+    <p class="standard-paragraph">$\operatorname{mod}(E_{\mathrm{tot}},N_{\mathrm{max}})\ne0$ 且 $\left(R>\frac7{16}\parallel C<9\right)$ 且 $(E_{\mathrm{tot}}-C\cdot N_{\mathrm{max}})\cdot R>T$，则 $C=C+1$，否则 $C=\max(1,C)$；其中 $R$ 是调制编码索引指示的编码速率，$T$ 根据码率 $R$ 以及 $N_{\mathrm{max}}$ 确定。如果 $R>2/3$，$T=192\times N_{\mathrm{max}}/4096$，否则 $T=384\times N_{\mathrm{max}}/4096$。如果 $R<5/32$，$C=\left[\frac{3\times N'_{\mathrm{info}}}{N_{\mathrm{max}}}\right]$。</p>
+- code: *slb
+  page: 61
+  bbox: [40, 192, 550, 217]
+  markup: >-
+    <p class="standard-paragraph">如 $v>1$，$C1=\left[\frac{E_{\mathrm{tot}}}{E_{\mathrm{int}}}\right]$，$C=\max(C1,C)$，其中 $E_{\mathrm{int}}$ 表示信道交织器最大支持的输入长度。</p>
+- code: *slb
+  page: 61
+  bbox: [40, 219, 550, 245]
+  markup: >-
+    <p class="standard-paragraph">计算信息比特数 $A_{\mathrm{TBS}}$：$A_{\mathrm{TBS}}=8\cdot C\cdot\left[\frac{N'_{\mathrm{info}}+24}{8\cdot C}\right]-24$。</p>
+- code: *slb
+  page: 61
+  bbox: [40, 426, 550, 500]
+  markup: *bit_count
+- code: *slb
+  page: 61
+  bbox: [40, 584, 550, 657]
+  markup: *bit_count
+- code: *slb
+  page: 85
+  bbox: [40, 600, 550, 614]
+  latex: c(i)=(x_1(i+1600)+x_2(i+1600))\bmod2\tag{24}
+- code: *slb
+  page: 85
+  bbox: [40, 617, 550, 631]
+  latex: x_1(i+31)=(x_1(i+3)+x_1(i))\bmod2\tag{25}
+- code: *slb
+  page: 85
+  bbox: [40, 634, 550, 648]
+  latex: x_2(i+31)=(x_2(i+3)+x_2(i+2)+x_2(i+1)+x_2(i))\bmod2\tag{26}
+- code: *slb
+  page: 85
+  bbox: [40, 685, 550, 721]
+  kind: list_item
+  markup: >-
+    <ul><li><p>——第二 m 序列的初始化参数表示为 $c_{\mathrm{init}}=\sum_{i=0}^{30}x_2(i)\cdot2^i$，其中 $c_{\mathrm{init}}$ 的取值取决于 $c(i)$ 的使用场景。</p></li></ul>
+- code: *slb
+  page: 86
+  bbox: [40, 148, 550, 176]
+  latex: r_{n,l}(m)=-\frac1{\sqrt2}\{(2c(2m)-1)+j(2c(2m+1)-1)\},\quad m=0,1,\cdots\tag{27}
+- code: *slb
+  page: 86
+  bbox: [40, 229, 550, 243]
+  latex: c_{\mathrm{init}}=N_{\mathrm{CP}}\cdot2^{29}+N_{\mathrm{PID}}\cdot31\tag{28}
+- code: *slb
+  page: 86
+  bbox: [40, 262, 550, 277]
+  latex: c_{\mathrm{init}}=2^{10}(15\cdot(n+1)+l+1)\cdot(4\cdot N_{\mathrm{ID}}+1)+4\cdot N_{\mathrm{ID}}+N_{\mathrm{CP}}\tag{29}
+- code: *slb
+  page: 86
+  bbox: [40, 541, 550, 557]
+  latex: P=10\lg(M)+P_o+PL\tag{30}
+- code: *slb
+  page: 87
+  bbox: [40, 131, 550, 159]
+  latex: \hat P=\min\left\{\hat P_{\mathrm{MAX}},\sum_{i=0}^{N-1}\hat P_i\right\}\tag{31}
+- code: *slb
+  page: 88
+  bbox: [40, 180, 550, 193]
+  latex: \boldsymbol y_k=\boldsymbol H_k\boldsymbol x_k+\boldsymbol n\tag{32}
+- code: *slb
+  page: 88
+  bbox: [40, 374, 550, 403]
+  latex: \mathrm{IQ}[\mathrm{dBm}]=20\lg\left(\operatorname{abs}\left(\frac{\mathrm{IQ}[\mathrm{linear}]}{1024}\right)\right)+\mathrm{RPL}[\mathrm{dBm}]\tag{33}
+- code: *slb
+  page: 91
+  bbox: [40, 653, 550, 671]
+  latex: \widetilde t_i=(t_i+c(i))\bmod2\tag{40}
+- code: *slb
+  page: 91
+  bbox: [40, 725, 550, 741]
+  latex: c_{\mathrm{init}}=n_f\cdot2^{24}+N_{\mathrm{PID}}\tag{41}
+- code: *slb
+  page: 92
+  bbox: [40, 213, 550, 297]
+  latex: |-
+    \begin{gathered}
+    y(l\times M_{\mathrm{SC}}^{\mathrm{Total}}+k)=\frac1{\sqrt{M_{\mathrm{SC}}^{\mathrm{Total}}}}\sum_{i=0}^{M_{\mathrm{SC}}^{\mathrm{Total}}-1}x(l\times M_{\mathrm{SC}}^{\mathrm{Total}}+i)e^{-j\frac{2\pi ik}{M_{\mathrm{SC}}^{\mathrm{Total}}}}\\
+    k=0,\cdots,M_{\mathrm{SC}}^{\mathrm{Total}}-1\\
+    l=0,\cdots,\frac{M_{\mathrm{symb}}}{M_{\mathrm{SC}}^{\mathrm{Total}}}-1
+    \end{gathered}\tag{42}
+- code: *slb
+  page: 92
+  bbox: [40, 565, 550, 578]
+  latex: u=(f_{\mathrm{gh}}(n_S)+f_{\mathrm{SS}})\bmod30\tag{43}
+- code: *slb
+  page: 92
+  bbox: [40, 581, 550, 604]
+  markup: >-
+    <p class="standard-paragraph">式中：$f_{\mathrm{gh}}(n_S)=\left(\sum_{i=0}^{7}c(8n_s+i)\cdot2^i\right)\bmod30$，$f_{\mathrm{SS}}=[ n_{\mathrm{ID}}^X/16]\bmod30$。</p>
+- code: *slb
+  page: 92
+  bbox: [40, 605, 550, 632]
+  markup: >-
+    <p class="standard-paragraph">伪随机序列 $c(i)$ 由 6.5.2 确定，序列生成器 $c_{\mathrm{init}}=\left[\frac{n_{\mathrm{ID}}^X}{30}\right]$。</p>
+- code: *slb
+  page: 95
+  bbox: [40, 461, 550, 490]
+  latex: D=\frac{T_a\times T_d-T_b\times T_c}{T_a+T_d+T_b+T_c}C\tag{45}
+- code: *slb
+  page: 111
+  bbox: [40, 287, 550, 315]
+  latex: \widehat T_{\mathrm{prop}}=\frac12(R_a-D_b)\tag{46}
+- code: *slb
+  page: 111
+  bbox: [40, 743, 550, 772]
+  latex: \widehat T_{\mathrm{prop}}=\frac{R_a\times R_b-D_a\times D_b}{R_a+R_b+D_a+D_b}\tag{47}
+- code: *slb
+  page: 112
+  bbox: [40, 317, 550, 345]
+  latex: b=\arccos\left(\frac{(\Delta\Phi)\times\lambda}{2\times\pi\times d_1}\right)\tag{48}
+- code: *slb
+  page: 112
+  bbox: [40, 596, 550, 622]
+  latex: b=\arccos\left(\frac{(\Delta\Phi)\times\lambda}{2\times\pi\times d_1}\right)\tag{49}
+- code: *slb
+  page: 141
+  bbox: [40, 96, 550, 155]
+  latex: |-
+    \begin{cases}
+    \phi=\frac{k\pi}{2^{b_\phi-1}}+\frac{\pi}{2^{b_\phi}},\ \text{radians, where }k=0,1,2,\cdots,2^{b_\phi}-1\\
+    \psi=\frac{k\pi}{2^{b_\psi+1}}+\frac{\pi}{2^{b_\psi+2}},\ \text{radians, where }k=0,1,2,\cdots,2^{b_\psi}-1
+    \end{cases}\tag{50}
+- code: *slb
+  page: 69
+  bbox: [40, 379, 550, 472]
+  mode: code
+  numbers: true
+- code: *slb
+  page: 20
+  bbox: [374, 179, 499, 201]
+  inline: true
+  anchor_y: 194
+  latex: \#1,\ldots,\#\left(16\times\frac{N_{\mathrm{CH}}}{L_{\mathrm{CH}}}-1\right)
+- code: *slb
+  page: 29
+  bbox: [87, 661, 166, 694]
+  inline: true
+  anchor_y: 679
+  latex: \phi_i^p=\frac{2\pi pi}{N_t(N_t-1)}
+- code: *slb
+  page: 65
+  bbox: [40, 488, 550, 506]
+  latex: \boldsymbol Q_0^{2N-1}=\boldsymbol Q_0^{N-1}\otimes[1\quad1]
+- code: *slb
+  page: 68
+  bbox: [40, 317, 550, 345]
+  latex: \overline{\boldsymbol Q}_{\mathrm F,\mathrm{tmp}}^N=\overline{\boldsymbol Q}_{\mathrm F,\mathrm{tmp}}^N\cup\left\{\frac N4,\frac N2\right\}
+- code: *slb
+  page: 68
+  bbox: [40, 397, 550, 414]
+  latex: \overline{\boldsymbol Q}_{\mathrm I,\mathrm{tmp}}^N=\boldsymbol Q_0^{N-1}\setminus\overline{\boldsymbol Q}_{\mathrm F,\mathrm{tmp}}^N;
+- code: *slb
+  page: 68
+  bbox: [40, 434, 550, 462]
+  latex: \overline{\boldsymbol Q}_{\mathrm I,\mathrm{tmp}}^N=\overline{\boldsymbol Q}_{\mathrm I,\mathrm{tmp}}^N\setminus\left(\overline{\boldsymbol Q}_{\mathrm{I1}}^N\cup\left[0,1,2,\cdots,\frac N2-1\right]\right);
+- code: *slb
+  page: 344
+  bbox: [40, 260, 550, 287]
+  latex: \varphi_{\mathrm R}(f_k,r)=-2\pi(f_k^{\mathrm R}-f_k^{\mathrm I})\left(\frac r{c_0}+\Delta_t\right)-\theta_{\mathrm{IR}}\pmod{2\pi}
+- code: *slb
+  page: 344
+  bbox: [40, 289, 550, 316]
+  latex: \varphi_{\mathrm I}(f_k,r)=-2\pi(f_k^{\mathrm I}-f_k^{\mathrm R})\left(\frac r{c_0}-\Delta_t\right)+\theta_{\mathrm{IR}}\pmod{2\pi}
+- code: *slb
+  page: 90
+  bbox: [40, 299, 550, 328]
+  qam: [2, 2, 34]
+- code: *slb
+  page: 90
+  bbox: [40, 396, 550, 442]
+  qam: [4, 10, 35]
+- code: *slb
+  page: 90
+  bbox: [40, 511, 550, 570]
+  qam: [6, 42, 36]
+- code: *slb
+  page: 90
+  bbox: [40, 639, 550, 752]
+  qam: [8, 170, 37]
+- code: *slb
+  page: 91
+  bbox: [40, 180, 550, 321]
+  qam: [10, 682, 38]
+- code: *slb
+  page: 91
+  bbox: [40, 407, 550, 581]
+  qam: [12, 2730, 39]
+- code: *slb
+  page: 94
+  bbox: [40, 660, 550, 688]
+  latex: D=\frac{T_a-T_b}{2}C=\frac{(t_4-t_1)-(t_3-t_2)}2C\tag{44}
+- code: *slb
+  page: 290
+  bbox: [40, 521, 550, 562]
+  latex: \mathrm{EVM}=\sqrt{\frac{\sum_{t\in T}\sum_{f\in F(t)}|Z'(t,f)-I(t,f)|^2}{\sum_{t\in T}\sum_{f\in F(t)}|I(t,f)|^2}}\tag{51}
+- code: *slb
+  page: 290
+  bbox: [40, 650, 550, 681]
+  latex: Z'(t,f)=\frac{\operatorname{FFT}\{z(v-\Delta\widetilde t)\cdot\exp(-j2\pi\Delta\widetilde f\cdot v)\}\cdot\exp(j2\pi f\Delta\widetilde t)}{\widetilde a(f)\cdot\exp(j\varphi(f))}\tag{52}
+- code: *slb
+  page: 65
+  bbox: [40, 454, 550, 691]
+  mode: algorithm
+- code: *slb
+  page: 66
+  bbox: [40, 436, 550, 776]
+  mode: algorithm
+- code: *slb
+  page: 67
+  bbox: [40, 93, 550, 231]
+  mode: algorithm
+- code: *slb
+  page: 68
+  bbox: [40, 115, 550, 515]
+  mode: algorithm
+- code: *slb
+  page: 68
+  bbox: [40, 614, 550, 751]
+  mode: algorithm
+- code: *slb
+  page: 69
+  bbox: [40, 568, 550, 777]
+  mode: algorithm
+- code: *slb
+  page: 70
+  bbox: [40, 94, 550, 187]
+  mode: algorithm
+- code: *slb
+  page: 70
+  bbox: [40, 577, 550, 745]
+  mode: algorithm
+- code: &sle GBT-46803.1-2025
+  page: 54
+  bbox: [40, 635, 550, 665]
+  markup: >-
+    <p class="standard-paragraph">将 $G_N=(G_2)^{\otimes n}$ 表示为矩阵 $G_2$ 的 $n$ 次克罗内克积，其中 $G_2=\begin{bmatrix}1&0\\1&1\end{bmatrix}$。</p>
+- code: *sle
+  page: 54
+  bbox: [40, 678, 550, 778]
+  mode: algorithm
+- code: *sle
+  page: 55
+  bbox: [40, 96, 550, 158]
+  mode: algorithm
+- code: *sle
+  page: 55
+  bbox: [40, 260, 550, 427]
+  mode: algorithm
+- code: *sle
+  page: 52
+  bbox: [40, 306, 550, 325]
+  markup: >-
+    <p class="standard-paragraph">符号 $\lfloor *\rfloor$ 表示向下取整，符号 $\lceil *\rceil$ 表示向上取整。</p>
+- code: *sle
+  page: 52
+  bbox: [40, 354, 550, 490]
+  mode: algorithm
+- code: *sle
+  page: 52
+  bbox: [40, 370, 550, 410]
+  latex: N_{1024}=\left\lfloor\frac{K+L-(512+256+128+8)*R}{1024*R}\right\rfloor
+- code: *sle
+  page: 52
+  bbox: [40, 481, 550, 520]
+  markup: >-
+    <p class="standard-paragraph">然后，根据表 19 查表确定 512、256、128 码块的个数，其中索引为 $\left\lfloor\frac{K_m-1}{128*R}\right\rfloor$，</p>
+- code: *sle
+  page: 52
+  bbox: [40, 627, 550, 684]
+  markup: >-
+    <p class="standard-paragraph">最后，计算得到 64 码块的码块个数 $N_{64}=\left\lceil\frac{K_m-N_{512}*K_{512}-N_{256}*K_{256}-N_{128}*K_{128}}{K_{64}}\right\rceil$，总分段数为 $C_{\mathrm{total}}=N_{1024}+N_{512}+N_{256}+N_{128}+N_{64}$。</p>
+- code: *sle
+  page: 53
+  bbox: [40, 125, 550, 277]
+  mode: algorithm
+- code: *sle
+  page: 53
+  bbox: [40, 218, 550, 247]
+  latex: \text{码块数量：}C=\left\lceil B/(K_{\mathrm{cb}}-L)\right\rceil
+- code: *sle
+  page: 53
+  bbox: [40, 328, 550, 452]
+  mode: algorithm
+- code: *sle
+  page: 53
+  bbox: [40, 517, 550, 738]
+  mode: algorithm
+- code: *sle
+  page: 54
+  bbox: [40, 93, 550, 305]
+  render_counts: {list_item: 4, paragraph: 1}
+  markup: >-
+    <ul class="standard-list"><li><p>——若 $K_r>1024*\left(R-\frac1{16}\right)$，则在 $K_r$ 个待编码位前补 $1024*R-K_r$ 个“0”，采用码率 $R$ 码长 1024 进行编码。</p></li>
+    <li><p>——若 $K_r\leq1024*\left(R-\frac1{16}\right)$，则在 $K_r$ 个待编码位前补 $\left\lceil K_r/\left(64*\left(R-\frac1{16}\right)\right)\right\rceil*\left(64*\left(R-\frac1{16}\right)\right)-K_r$ 位个“0”：</p>
+    <ul class="standard-list"><li><p>●若 $K_r>(1024-64)*\left(R-\frac1{16}\right)$，则采用码率为 $R-\frac1{16}$ 码率的 1024 码长极化码编码；</p></li>
+    <li><p>●若 $K_r\leq(1024-64)*\left(R-\frac1{16}\right)$，则计算 $\left\lceil K_r/\left(64*\left(R-\frac1{16}\right)\right)\right\rceil$ 的值并转换为 2 进制，其从最高位到最低位分别对应是否采用 512、256、128、64 码长的编码，“1”为是，“0”为否，计 1 的数量为 $C'$，并根据表 22 针对每个确定采用的码长进行 $\left(R-\frac1{16}\right)$ 码率的极化码编码。</p></li></ul></li></ul>
+    <p class="standard-paragraph">总分段数为 $C_{\mathrm{total}}=C+C'-1$。</p>
+- code: *slb
+  page: 65
+  bbox: [40, 280, 550, 327]
+  markup: >-
+    <p class="standard-paragraph">记第一次传输速率匹配后的输出比特序列长度为 $E_0$，$n_1=[\log_2 E_0]$，$n=\max\{\min\{n_1,n_{\mathrm{max}}\},n_{\mathrm{min}}\}$，$n_{\mathrm{min}}=5$，其中 $n_{\mathrm{max}}$ 根据 6.2.6.1.5.1 和 6.2.6.1.6.1 确定。最小码长 32，最大码长取决于业务类型。</p>
+- code: GBT-48336.402-2026
+  page: 16
+  bbox: [60, 651.625, 550, 671.904]
+  latex: V_{\mathrm{hash}}=\operatorname{ah}(\mathrm{Key},\mathrm{Rand})\bmod2^{32}\tag{1}
+- code: GBT-46803.1-2025
+  page: 1
+  bbox:
+  - 50
+  - 409.125
+  - 565
+  - 461
+  markup: '<p class="standard-paragraph">Information technology—Low power wireless communication network<br>based on polar coding—Part 1: Physical layer</p>'
+- code: GBT-46803.2-2025
+  page: 1
+  bbox:
+  - 50
+  - 409.124
+  - 565
+  - 461
+  markup: '<p class="standard-paragraph">Information technology—Low power wireless communication network based on<br>polar coding—Part 2: Data link layer</p>'
+- code: GBT-48336.202-2026
+  page: 1
+  bbox:
+  - 50
+  - 445.706
+  - 565
+  - 508.81
+  markup: '<p class="standard-paragraph">SparkLink wireless communication system—<br>Part 202: Radio access layer—Synchronous low latency broadband (SLB)<br>device technical requirements and test methods</p>'
+- code: GBT-48336.301-2026
+  page: 1
+  bbox:
+  - 50
+  - 406.399
+  - 565
+  - 452.626
+  markup: '<p class="standard-paragraph">SparkLink wireless communication system—Part 301: Basic service layer—<br>Device discovery and transmission control</p>'
+- code: GBT-48336.302-2026
+  page: 1
+  bbox:
+  - 50
+  - 409.124
+  - 565
+  - 458.994
+  markup: '<p class="standard-paragraph">SparkLink wireless communication system—<br>Part 302: Basic service layer—QoS management</p>'
+- code: GBT-48336.303-2026
+  page: 1
+  bbox:
+  - 50
+  - 406.399
+  - 565
+  - 452.626
+  markup: '<p class="standard-paragraph">SparkLink wireless communication system—Part 303: Basic service layer—<br>Multi-domain coordination and management</p>'
+
+# PDF rules (absolute values, cardinalities and overbars), visually checked.
+- code: GBT-46803.1-2025
+  page: 54
+  bbox:
+  - 40
+  - 572.48
+  - 550
+  - 638.49
+  # The standalone small dash is the overbar of Q_I, verified on PDF 54.
+  reading_order_text: "对于码长为 N,N∈{64,128,256,512,1024},信息位数量为 K 的编码,在可靠度排序序列Q0N-1=\n¯\n{Q0N ,Q1N ,Q2N ,…,QNN-1}中,取后 K 个位索引值组成非冻结位的集合,表示为QIN ,并取前 N-K 个位索\n引值组成冻结位的集合,表示为QFN。"
+  markup: <p class="standard-paragraph">对于码长为 $N,N\in\{64,128,256,512,1024\}$，信息位数量为 $K$ 的编码，在可靠度排序序列 $Q_0^{N-1}=\{Q_0^N,Q_1^N,Q_2^N,\cdots,Q_{N-1}^N\}$ 中，取后 $K$ 个位索引值组成非冻结位的集合，表示为 $\overline{Q}_I^N$，并取前 $N-K$ 个位索引值组成冻结位的集合，表示为 $\overline{Q}_F^N$。</p>
+- code: GBT-48336.201-2026
+  page: 66
+  bbox:
+  - 40
+  - 199.65
+  - 550
+  - 252.53
+  markup: <p class="standard-paragraph">将可靠度排序序列 $\boldsymbol Q_0^{N-1}$ 中非冻结比特的索引组成的集合表示为 $\overline{\boldsymbol Q}_I^N$，将可靠度排序序列 $\boldsymbol Q_0^{N-1}$ 中冻结比特的索引组成的集合表示为 $\overline{\boldsymbol Q}_F^N$，$\overline{\boldsymbol Q}_I^N$ 和 $\overline{\boldsymbol Q}_F^N$ 根据 6.2.6.1.3.2 确定，$\overline{\boldsymbol Q}_I^N$ 包含的元素个数为 $|\overline{\boldsymbol Q}_I^N|=K+n_{PC}$，$\overline{\boldsymbol Q}_F^N$ 包含的元素个数为 $|\overline{\boldsymbol Q}_F^N|=N-|\overline{\boldsymbol Q}_I^N|$，$n_{\mathrm{PC}}$ 是奇偶校验比特的个数。</p>
+- code: GBT-48336.201-2026
+  page: 66
+  bbox:
+  - 40
+  - 323.46
+  - 550
+  - 337.34
+  markup: <p class="standard-paragraph">将奇偶校验比特的比特索引组成的集合表示为 $\boldsymbol Q_{PC}^N$，$\boldsymbol Q_{PC}^N$ 包含的元素的个数为 $|\boldsymbol Q_{PC}^N|=n_{\mathrm{PC}}$。</p>
+- code: GBT-48336.201-2026
+  page: 66
+  bbox:
+  - 40
+  - 342.87
+  - 550
+  - 416.91
+  markup: <p class="standard-paragraph">$(n_{\mathrm{PC}}-n_{\mathrm{PC}}^{\mathrm{wm}})$ 个校验比特放置在 $\overline{\boldsymbol Q}_I^N$ 集合中 $(n_{\mathrm{PC}}-n_{\mathrm{PC}}^{\mathrm{wm}})$ 个可靠性度量值最小的比特索引上。剩余的 $n_{\mathrm{PC}}^{\mathrm{wm}}$ 个校验比特放置在 $\widetilde{\boldsymbol Q}_I^N$ 中行重量最小的比特索引上，其中 $\widetilde{\boldsymbol Q}_I^N$ 是在 $\overline{\boldsymbol Q}_I^N$ 中个可靠性度量值最大的 $|\overline{\boldsymbol Q}_I^N|-n_{\mathrm{PC}}$ 个比特索引。如果在 $\widetilde{\boldsymbol Q}_I^N$ 中相同的最小行重的比特索引多于 $n_{\mathrm{PC}}^{\mathrm{wm}}$ 个，则剩余的 $n_{\mathrm{PC}}^{\mathrm{wm}}$ 放置在 $\widetilde{\boldsymbol Q}_I^N$ 中具有最小行重的 $n_{\mathrm{PC}}^{\mathrm{wm}}$ 个最大可靠性度量值对应的比特索引上。</p>
+- code: GBT-48336.201-2026
+  page: 75
+  bbox:
+  - 40
+  - 611.46
+  - 550
+  - 640.86
+  markup: <p class="standard-paragraph">令 $|\phi(\tau)|$ 表示 $\phi(\tau)$ 的强度，则 $|\phi(\tau)|$ 需要满足在至少 $T_w$ 的持续时间里主瓣强度大于或等于 0.92，旁瓣强度不大于 0.1。具体而言，令 $\tau_i(i=1,2,\cdots)$ 为公式（23）定义的临界点的集合。</p>
+- code: GBT-48336.201-2026
+  page: 75
+  bbox:
+  - 40
+  - 671.72
+  - 550
+  - 702.87
+  markup: <p class="standard-paragraph">归一化互相关函数的强度最大值出现在 $\tau_{\mathrm{max}}$，对于所有的 $\tau$ 都有 $|\phi(\tau_{\mathrm{max}})|\geq|\phi(\tau)|$。对于包含 $\tau_{\mathrm{max}}$ 且持续时间大于或等于 $T_w$ 的连续集合，要求 $|\phi(\tau)|\geq0.92$。同时对所有 $\tau_i$，旁瓣需满足 $|\phi(\tau_i)|\leq0.1$。</p>
+- code: GBT-48336.201-2026
+  page: 92
+  bbox:
+  - 40
+  - 366.6
+  - 550
+  - 380.91
+  markup: <p class="standard-paragraph">Zadoff-Chu 序列 $r_{u,v}^{(\alpha,\delta)}(n)$ 是在基序列 $\overline r_{u,v}(n)$ 基础上，增加循环移位 $\alpha$ 确定的：</p>
+- code: GBT-48336.201-2026
+  page: 92
+  bbox:
+  - 40
+  - 451.06
+  - 550
+  - 498.86
+  markup: <p class="standard-paragraph">基序列 $\overline r_{u,v}(n)$ 分成不同的组，组编号 $u\in\{0,1\cdots,29\}$。每个组内的基序列编号由 $v$ 表示。每组中包含 1 个序列长度为 $M_{\mathrm{SC}}^{\mathrm{RS}}=mN_{\mathrm{SCG},1}$，$1\leq m\leq5$ 的基序列 $(v=0)$ 和 2 个序列长度为 $M_{\mathrm{SC}}^{\mathrm{RS}}=mN_{\mathrm{SCG},1}$，$6\leq m\leq(N_{\mathrm{sc}}^{\mathrm{Total}}/N_{\mathrm{SCG},1})$ 的基序列 $(v=0,1)$。</p>
+- code: GBT-48336.201-2026
+  page: 297
+  bbox:
+  - 40
+  - 285.62
+  - 550
+  - 336.08
+  markup: <p class="standard-paragraph">在 $0.65/T_p<|f-f_c|<0.8/T_p$ 范围内，超宽带脉冲的功率谱密度应小于该脉冲最大功率谱密度 10 dB，在 $|f-f_c|>0.8/T_p$ 范围内，超宽带脉冲的功率谱密度应小于该脉冲最大功率谱密度 18 dB，其中 $T_p$ 是脉冲宽度。超宽带脉冲的 -10 dB 带宽应大于或等于 500 MHz。</p>
+
+# Three stacked feedback fractions, kept within their full source paragraphs.
+- code: GBT-48336.201-2026
+  page: 53
+  bbox:
+  - 40
+  - 717
+  - 550
+  - 773
+  markup: <p class="standard-paragraph">当配置为基于工作子载波组的反馈方式时，CQI 反馈信息中，有效比特 $64\times\frac{N_{\mathrm{CH}}}{L_{\mathrm{CH}}}$ 比特，CRC16 比特，共 $64\times\frac{N_{\mathrm{CH}}}{L_{\mathrm{CH}}}+16$ 比特，从最低位比特到最高位比特如下。</p>
+- code: GBT-48336.201-2026
+  page: 54
+  bbox:
+  - 40
+  - 100
+  - 550
+  - 159
+  kind: list_item
+  markup: <ul><li><p>——— $64\times\frac{N_{\mathrm{CH}}}{L_{\mathrm{CH}}}$ 比特：信道质量指示信息。按照频率从低到高的顺序，每 4 比特依次指示 G 节点工作载波中一个 G 节点工作子载波组的参考调制编码方式，参考调制编码方式为当前使用的调制编码方式表格中调制编码索引为 $2M+1$ 的调制编码方式，其中 $M$ 为该 4 比特对应的数值。</p></li></ul>

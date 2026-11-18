@@ -1,0 +1,346 @@
+{
+  "evidence": "Transcribed from fresh renders of the original PDF; bbox coordinates are PDF points. Source equation numbers are explicit tags.",
+  "regions": [
+    {
+      "code": "GBT-46803.1-2025",
+      "page": 13,
+      "bbox": [
+        68,
+        300,
+        540,
+        379
+      ],
+      "latex": "|P(f)|=\\begin{cases}1,&0\\leq|f|\\leq\\frac{1-\\beta}{2T}\\\\\\sqrt{\\frac12\\left\\{1-\\sin\\left[\\frac{\\pi(2|f|T-1)}{2\\beta}\\right]\\right\\}},&\\frac{1-\\beta}{2T}\\leq|f|\\leq\\frac{1+\\beta}{2T}\\\\0,&\\text{其他}\\end{cases}\\tag{1}"
+    },
+    {
+      "code": "GBT-48336.101-2026",
+      "page": 28,
+      "bbox": [
+        50,
+        90,
+        550,
+        184
+      ],
+      "latex": "r(t)=\\begin{cases}\\frac1{T_c}\\frac{I_0\\!\\left[\\beta\\sqrt{1-\\left(\\frac{2t}{T_c}\\right)^2}\\right]}{I_0[\\beta]},&|t|\\leq\\frac{T_c}{2}\\\\0,&|t|>\\frac{T_c}{2}\\end{cases}\\tag{1}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 21,
+      "bbox": [
+        40,
+        420,
+        550,
+        465
+      ],
+      "latex": "d_{\\mathrm{FTS}}(n)=\\begin{cases}\\exp\\left(-j\\frac{\\pi u n(n+1)}{161}\\right),&n=0,1,\\cdots,160\\text{ 且 }n\\ne80\\\\0,&n=80\\end{cases}\\tag{1}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 21,
+      "bbox": [
+        40,
+        615,
+        550,
+        648
+      ],
+      "latex": "a_{k,l}=d_{\\mathrm{FTS}}(k)\\times\\exp\\left(j\\pi\\frac{N0^2}{10}\\right),\\quad k=0,1,\\cdots,160\\tag{2}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 22,
+      "bbox": [
+        40,
+        173,
+        550,
+        229
+      ],
+      "latex": "d_{\\mathrm{STS}}(n)=\\begin{cases}\\exp\\left[-j\\frac{\\pi u\\frac n8(\\frac n8+1)}{21}\\right],&n=0,8,\\cdots,160\\text{ 且 }n\\ne80\\\\0,&n=80\\text{ 或 }\\operatorname{mod}(n,8)\\ne0\\end{cases}\\tag{3}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 22,
+      "bbox": [
+        40,
+        360,
+        550,
+        390
+      ],
+      "latex": "a_{k,l}=2\\sqrt2\\times d_{\\mathrm{STS}}(k)\\times\\exp\\left(j\\pi\\frac{N0^2}{10}\\right),\\quad k=0,1,\\cdots,160\\tag{4}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 22,
+      "bbox": [
+        40,
+        613,
+        550,
+        644
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{5}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 22,
+      "bbox": [
+        40,
+        736,
+        550,
+        773
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\text{ 且 }p=p_0\\\\0,&k=80\\text{ 或 }p\\ne p_0\\end{cases}\\tag{6}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 23,
+      "bbox": [
+        40,
+        354,
+        550,
+        384
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{7}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 23,
+      "bbox": [
+        40,
+        483,
+        550,
+        526
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\text{ 且 }p=p_0\\\\0,&k=80\\text{ 或 }p\\ne p_0\\end{cases}\\tag{8}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 24,
+      "bbox": [
+        40,
+        403,
+        550,
+        421
+      ],
+      "latex": "a_{k,l}=r_{n,l}(k+161\\times N0)\\tag{9}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 24,
+      "bbox": [
+        40,
+        614,
+        550,
+        629
+      ],
+      "latex": "a_{k,l}=r_{n,l}(k+161\\times N0)\\tag{10}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 25,
+      "bbox": [
+        40,
+        347,
+        550,
+        377
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{11}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 25,
+      "bbox": [
+        40,
+        480,
+        550,
+        524
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\text{ 且 }p=p_0\\\\0,&k=80\\text{ 或 }p\\ne p_0\\end{cases}\\tag{12}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 26,
+      "bbox": [
+        40,
+        409,
+        550,
+        424
+      ],
+      "latex": "a_{k,l}=r_{n,l}(k+161\\times N0)\\tag{13}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 26,
+      "bbox": [
+        40,
+        708,
+        550,
+        742
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=k_0,k_1\\text{ 且 }p=0\\\\0,&k=k_0,k_1\\text{ 且 }p\\ne0\\end{cases}\\tag{14}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 27,
+      "bbox": [
+        40,
+        221,
+        550,
+        293
+      ],
+      "latex": "d(n)=\\begin{cases}\\exp\\left(-j\\frac{\\pi un(n+1)}{161}\\right),&n=0,1,\\cdots,79\\\\0,&n=80\\\\\\exp\\left(-j\\frac{\\pi un(n+1)}{161}\\right),&n=81,82,\\cdots,160\\end{cases}\\tag{15}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 27,
+      "bbox": [
+        40,
+        592,
+        550,
+        622
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{16}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 30,
+      "bbox": [
+        40,
+        114,
+        550,
+        220
+      ],
+      "latex": "\\boldsymbol X(k,n)=\\begin{bmatrix}X_0^0(k,n)&X_1^1(k,n)e^{j(-\\rho_1(k,n)-\\phi_1^1)}&\\cdots&X_{N_t-1}^{N_t-1}(k,n)e^{j(-\\rho_{N_t-1}(k,n)-\\phi_{N_t-1}^{N_t-1})}\\\\X_0^0(k,n)e^{j(\\rho_1(k,n)+\\phi_1^0)}&X_1^1(k,n)&\\cdots&X_{N_t-1}^{N_t-1}(k,n)e^{j(\\rho_1(k,n)-\\rho_{N_t-1}(k,n)+\\phi_1^{N_t-1}-\\phi_{N_t-1}^{N_t-1})}\\\\X_0^0(k,n)e^{j(\\rho_2(k,n)+\\phi_2^0)}&X_1^1(k,n)e^{j(\\rho_2(k,n)-\\rho_1(k,n)+\\phi_2^1-\\phi_1^1)}&\\cdots&X_{N_t-1}^{N_t-1}(k,n)e^{j(\\rho_2(k,n)-\\rho_{N_t-1}(k,n)+\\phi_2^{N_t-1}-\\phi_{N_t-1}^{N_t-1})}\\\\\\vdots&\\vdots&\\vdots&\\vdots\\\\X_0^0(k,n)e^{j(\\rho_{N_t-1}(k,n)+\\phi_{N_t-1}^0)}&X_1^1(k,n)e^{j(\\rho_{N_t-1}(k,n)-\\rho_1(k,n)+\\phi_{N_t-1}^1-\\phi_1^1)}&\\cdots&X_{N_t-1}^{N_t-1}(k,n)\\end{bmatrix}\\tag{17}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 56,
+      "bbox": [
+        40,
+        383,
+        550,
+        462
+      ],
+      "markup": "<p class=\"standard-paragraph\">计算信道比特序列数 $E_{\\mathrm{tot}}$：如果流数 $v=1$，$E_{\\mathrm{tot}}=\\left[\\frac{N_{\\mathrm{RE}}}{N_{\\mathrm{dup}}}\\right]\\cdot Q_m$；如果流数 $v=2$，$E_{\\mathrm{tot}}=N_{\\mathrm{RE}}\\cdot Q_m+\\left[\\frac{N_{\\mathrm{RE}}}{N_{\\mathrm{dup}}}\\right]\\cdot Q_m$；如果流数 $v\\geq3$，$E_{\\mathrm{tot}}=N_{\\mathrm{RE}}\\cdot Q_m\\cdot v$。其中 $N_{\\mathrm{RE}}$ 是调度的子载波数，$Q_m$ 是调制方式，$N_{\\mathrm{dup}}$ 是调制符号重复次数；$[\\cdot]$ 表示向上取整；$v$ 是传输流数。$R=(K\\cdot N+L)/E_{\\mathrm{tot}}$，需满足 $R\\leq15/16$。</p>"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 56,
+      "bbox": [
+        40,
+        463,
+        550,
+        564
+      ],
+      "markup": "<p class=\"standard-paragraph\">计算分段数 $C$：如果 $R\\geq5/32$，$C=\\left[\\frac{E_{\\mathrm{tot}}}{N_{\\mathrm{max}}}\\right]$，其中，$N_{\\mathrm{max}}$ 的值为 4096 或者 1024。如果 $\\operatorname{mod}(E_{\\mathrm{tot}},N_{\\mathrm{max}})\\ne0$ 且 $\\left(R>\\frac7{16}\\parallel C<9\\right)$ 且 $(E_{\\mathrm{tot}}-C\\cdot N_{\\mathrm{max}})\\cdot R>T$，则 $C=C+1$，否则 $C=\\max(1,C)$；其中 $R=(K\\cdot N+L)/E_{\\mathrm{tot}}$，$T$ 根据 $R$ 以及 $N_{\\mathrm{max}}$ 确定，如果 $R>2/3$，$T=192\\times N_{\\mathrm{max}}/4096$，否则 $T=384\\times N_{\\mathrm{max}}/4096$；如果 $R<5/32$，$C=\\left[\\frac{3\\times(K\\cdot N+L)}{N_{\\mathrm{max}}}\\right]$。</p>"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 56,
+      "bbox": [
+        40,
+        568,
+        550,
+        612
+      ],
+      "markup": "<p class=\"standard-paragraph\">如 $v>1$ 或调制方式非 QPSK，$C1=\\left[\\frac{E_{\\mathrm{tot}}}{E_{\\mathrm{int}}}\\right]$，$C=\\max(C1,C)$，其中 $E_{\\mathrm{int}}$ 表示信道交织器最大支持的输入长度。</p>"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 56,
+      "bbox": [
+        40,
+        614,
+        550,
+        688
+      ],
+      "markup": "<p class=\"standard-paragraph\">计算信息比特数 $A$：$A=8\\cdot C\\cdot\\left[\\frac{K\\cdot N+L}{8\\cdot C}\\right]-L$，如 $A>K\\cdot N$，则将比特序列 $a_0,a_1,a_2,a_3,\\cdots,a_{K\\cdot N-1}$ 扩展为 $a_{k\\_E}$，其中 $a_{k\\_E}=a_k$，$k=0,\\cdots,K\\cdot N-1$，$k=K\\cdot N,\\cdots,A-1$ 时，$a_{k\\_E}=0$。计算序列 $a_{k\\_E}$ 的循环冗余校验比特 $p_0,p_1,p_2,p_3,\\cdots,p_{L-1}$，并生成循环冗余校验后的输出比特序列 $b_0,b_1,b_2,b_3,\\cdots,b_{A+L-1}$。</p>"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 63,
+      "bbox": [
+        40,
+        328,
+        550,
+        358
+      ],
+      "latex": "x^{(0)}(i)=d\\!\\left(\\left[\\frac{i}{N_{\\mathrm{dup}}}\\right]\\right)\\times\\mathrm{DMRS}(i),\\quad i=0,1,\\cdots,M_{\\mathrm{symb}}^{\\mathrm{layer}}-1\\tag{18}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 63,
+      "bbox": [
+        40,
+        533,
+        550,
+        581
+      ],
+      "latex": "\\begin{bmatrix}y^{(p_0)}(i)\\\\\\vdots\\\\y^{(p_{\\nu-1})}(i)\\end{bmatrix}=\\begin{bmatrix}x^{(0)}(i)\\\\\\vdots\\\\x^{(\\nu-1)}(i)\\end{bmatrix}\\tag{19}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 66,
+      "bbox": [
+        40,
+        252,
+        550,
+        287
+      ],
+      "markup": "<p class=\"standard-paragraph\">将 $\\boldsymbol G_N=(\\boldsymbol G_2)^{\\otimes n}$ 表示为矩阵 $\\boldsymbol G_2$ 的 $n$ 次克罗内克积，其中 $\\boldsymbol G_2=\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix}$。</p>"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 67,
+      "bbox": [
+        40,
+        382,
+        550,
+        755
+      ],
+      "latex": "\\begin{aligned}K'&=K+n_{\\mathrm{PC}}\\\\&\\text{if }(E_0\\geq N)\\parallel(K'/E_0>3/4)\\\\T_{\\mathrm{I1}}&=K';\\\\&\\text{else if }(K/E_0)\\leq7/16\\quad\\text{//该条件下采用打孔}\\\\&\\quad\\text{if }(E_0/N)<5/8\\\\T_{\\mathrm{I1}}&=\\left[\\frac{11\\times E_0\\times K'}{2\\times N}-\\frac{43\\times K'}{16}\\right]\\\\&\\quad\\text{else if }(E_0/N)<3/4\\\\T_{\\mathrm{I1}}&=\\left[\\frac{5\\times E_0\\times K'}{4\\times N}-\\frac{K'}{32}\\right]\\\\&\\quad\\text{else}\\\\T_{\\mathrm{I1}}&=\\left[\\frac{3\\times E_0\\times K'}{8\\times N}+\\frac{5\\times K'}8\\right]\\\\&\\quad\\text{end if}\\qquad\\text{// }(E_0/N)<5/8\\\\&\\text{else}\\qquad\\text{//该条件下采用缩短}\\\\&\\quad\\text{if }(E_0/N)<9/16\\\\T_{\\mathrm{I1}}&=\\left[\\frac{9\\times K'}8-\\frac{E_0\\times K'}{4\\times N}\\right]\\\\&\\quad\\text{else}\\\\T_{\\mathrm{I1}}&=\\left[\\frac{31\\times K'}{32}+\\frac{E_0\\times K'}{32\\times N}\\right]\\\\&\\quad\\text{end if}\\\\&\\text{end if}\\end{aligned}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 73,
+      "bbox": [
+        40,
+        381,
+        550,
+        411
+      ],
+      "latex": "s_l^{(p)}(t)=\\sum_{k=0}^{160}a_{k,l}^{(p)}\\cdot e^{j2\\pi(k-80)\\Delta f(t-T_{\\mathrm{CP}}-t_{\\mathrm{start},l})}\\tag{20}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 75,
+      "bbox": [
+        40,
+        213,
+        550,
+        289
+      ],
+      "latex": "r(t)=\\begin{cases}\\frac1L\\frac{I_0\\!\\left[\\beta\\sqrt{1-\\left(\\frac{2t}{L}\\right)^2}\\right]}{I_0[\\beta]},&|t|\\leq\\frac L2\\\\0,&|t|>\\frac L2\\end{cases}\\tag{21}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 75,
+      "bbox": [
+        40,
+        500,
+        550,
+        528
+      ],
+      "latex": "\\phi(\\tau)=\\frac1{\\sqrt{E_r}\\sqrt{E_p}}\\operatorname{Re}\\left[\\int_{-\\infty}^{\\infty}r(t)\\,p^*(t+\\tau)\\,\\mathrm dt\\right]\\tag{22}"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 75,
+      "bbox": [
+        40,
+        640,
+        550,
+        670
+      ],
+      "latex": "\\left.\\frac{\\mathrm d}{\\mathrm d\\tau}|\\phi(\\tau)|\\right|_{\\tau=\\tau_i}=0\\tag{23}"
+    }
+  ]
+}

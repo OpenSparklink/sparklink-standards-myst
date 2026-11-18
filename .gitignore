@@ -1,0 +1,11 @@
+_build/
+.myst/
+node_modules/
+.venv/
+__pycache__/
+tmp/
+.local-archive/
+.DS_Store
+*.log
+assets/structured/*/pages/
+assets/structured/*/regions/p000[1-4]-*

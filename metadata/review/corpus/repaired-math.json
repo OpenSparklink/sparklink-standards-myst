@@ -1,0 +1,353 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "samples": [
+    {
+      "id": "GBT-48336.201-2026-p66-1",
+      "code": "GBT-48336.201-2026",
+      "page": 66,
+      "bbox": [
+        40,
+        252,
+        550,
+        287
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-2-6",
+      "kind": "paragraph",
+      "node_index": 15,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "868aa88895b274159fc67ff9d344c09f54b9afd3fa7b3f9aae3a9cccc4ed3a71",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-1-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-1-html.png",
+      "native_tex": [
+        "\\boldsymbol G_N=(\\boldsymbol G_2)^{\\otimes n}",
+        "\\boldsymbol G_2",
+        "n",
+        "\\boldsymbol G_2=\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix}"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p66-1-pair.png"
+    },
+    {
+      "id": "GBT-46803.1-2025-p54-2",
+      "code": "GBT-46803.1-2025",
+      "page": 54,
+      "bbox": [
+        40,
+        635,
+        550,
+        665
+      ],
+      "slug": "gbt-46803-1-2025-clause-6-6",
+      "kind": "paragraph",
+      "node_index": 24,
+      "source_pdf_sha256": "a40f5f352d59dfe9e8a2cbf2231183ca9564e21404ae04662f0d647f62b8fe42",
+      "markdown_sha256": "47f07d4098d5215fbc46f46f14c079ca6931fed6d3b6860fa1d20c578ef368c8",
+      "source_crop": "metadata/review/corpus/GBT-46803.1-2025-p54-2-source.png",
+      "html_crop": "metadata/review/corpus/GBT-46803.1-2025-p54-2-html.png",
+      "native_tex": [
+        "G_N=(G_2)^{\\otimes n}",
+        "G_2",
+        "n",
+        "G_2=\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix}"
+      ],
+      "evidence": "metadata/review/corpus/GBT-46803.1-2025-p54-2-pair.png"
+    },
+    {
+      "id": "GBT-46803.1-2025-p54-3",
+      "code": "GBT-46803.1-2025",
+      "page": 54,
+      "bbox": [
+        40,
+        572.48,
+        550,
+        638.49
+      ],
+      "slug": "gbt-46803-1-2025-clause-6-6",
+      "kind": "paragraph",
+      "node_index": 23,
+      "source_pdf_sha256": "a40f5f352d59dfe9e8a2cbf2231183ca9564e21404ae04662f0d647f62b8fe42",
+      "markdown_sha256": "47f07d4098d5215fbc46f46f14c079ca6931fed6d3b6860fa1d20c578ef368c8",
+      "source_crop": "metadata/review/corpus/GBT-46803.1-2025-p54-3-source.png",
+      "html_crop": "metadata/review/corpus/GBT-46803.1-2025-p54-3-html.png",
+      "native_tex": [
+        "N,N\\in\\{64,128,256,512,1024\\}",
+        "K",
+        "Q_0^{N-1}=\\{Q_0^N,Q_1^N,Q_2^N,\\cdots,Q_{N-1}^N\\}",
+        "K",
+        "\\overline{Q}_I^N",
+        "N-K",
+        "\\overline{Q}_F^N"
+      ],
+      "evidence": "metadata/review/corpus/GBT-46803.1-2025-p54-3-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p66-4",
+      "code": "GBT-48336.201-2026",
+      "page": 66,
+      "bbox": [
+        40,
+        199.65,
+        550,
+        252.53
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-2-6",
+      "kind": "paragraph",
+      "node_index": 14,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "868aa88895b274159fc67ff9d344c09f54b9afd3fa7b3f9aae3a9cccc4ed3a71",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-4-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-4-html.png",
+      "native_tex": [
+        "\\boldsymbol Q_0^{N-1}",
+        "\\overline{\\boldsymbol Q}_I^N",
+        "\\boldsymbol Q_0^{N-1}",
+        "\\overline{\\boldsymbol Q}_F^N",
+        "\\overline{\\boldsymbol Q}_I^N",
+        "\\overline{\\boldsymbol Q}_F^N",
+        "\\overline{\\boldsymbol Q}_I^N",
+        "|\\overline{\\boldsymbol Q}_I^N|=K+n_{PC}",
+        "\\overline{\\boldsymbol Q}_F^N",
+        "|\\overline{\\boldsymbol Q}_F^N|=N-|\\overline{\\boldsymbol Q}_I^N|",
+        "n_{\\mathrm{PC}}"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p66-4-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p66-5",
+      "code": "GBT-48336.201-2026",
+      "page": 66,
+      "bbox": [
+        40,
+        323.46,
+        550,
+        337.34
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-2-6",
+      "kind": "paragraph",
+      "node_index": 17,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "868aa88895b274159fc67ff9d344c09f54b9afd3fa7b3f9aae3a9cccc4ed3a71",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-5-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-5-html.png",
+      "native_tex": [
+        "\\boldsymbol Q_{PC}^N",
+        "\\boldsymbol Q_{PC}^N",
+        "|\\boldsymbol Q_{PC}^N|=n_{\\mathrm{PC}}"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p66-5-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p66-6",
+      "code": "GBT-48336.201-2026",
+      "page": 66,
+      "bbox": [
+        40,
+        342.87,
+        550,
+        416.91
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-2-6",
+      "kind": "paragraph",
+      "node_index": 18,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "868aa88895b274159fc67ff9d344c09f54b9afd3fa7b3f9aae3a9cccc4ed3a71",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-6-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p66-6-html.png",
+      "native_tex": [
+        "(n_{\\mathrm{PC}}-n_{\\mathrm{PC}}^{\\mathrm{wm}})",
+        "\\overline{\\boldsymbol Q}_I^N",
+        "(n_{\\mathrm{PC}}-n_{\\mathrm{PC}}^{\\mathrm{wm}})",
+        "n_{\\mathrm{PC}}^{\\mathrm{wm}}",
+        "\\widetilde{\\boldsymbol Q}_I^N",
+        "\\widetilde{\\boldsymbol Q}_I^N",
+        "\\overline{\\boldsymbol Q}_I^N",
+        "|\\overline{\\boldsymbol Q}_I^N|-n_{\\mathrm{PC}}",
+        "\\widetilde{\\boldsymbol Q}_I^N",
+        "n_{\\mathrm{PC}}^{\\mathrm{wm}}",
+        "n_{\\mathrm{PC}}^{\\mathrm{wm}}",
+        "\\widetilde{\\boldsymbol Q}_I^N",
+        "n_{\\mathrm{PC}}^{\\mathrm{wm}}"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p66-6-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p75-7",
+      "code": "GBT-48336.201-2026",
+      "page": 75,
+      "bbox": [
+        40,
+        611.46,
+        550,
+        640.86
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-4",
+      "kind": "paragraph",
+      "node_index": 6,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "903c2509b031e23c16bf8421e5c8562bc0d7cc5422bbf13f3b802a345b92afa7",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p75-7-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p75-7-html.png",
+      "native_tex": [
+        "|\\phi(\\tau)|",
+        "\\phi(\\tau)",
+        "|\\phi(\\tau)|",
+        "T_w",
+        "\\tau_i(i=1,2,\\cdots)"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p75-7-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p75-8",
+      "code": "GBT-48336.201-2026",
+      "page": 75,
+      "bbox": [
+        40,
+        671.72,
+        550,
+        702.87
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-4",
+      "kind": "paragraph",
+      "node_index": 7,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "903c2509b031e23c16bf8421e5c8562bc0d7cc5422bbf13f3b802a345b92afa7",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p75-8-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p75-8-html.png",
+      "native_tex": [
+        "\\tau_{\\mathrm{max}}",
+        "\\tau",
+        "|\\phi(\\tau_{\\mathrm{max}})|\\geq|\\phi(\\tau)|",
+        "\\tau_{\\mathrm{max}}",
+        "T_w",
+        "|\\phi(\\tau)|\\geq0.92",
+        "\\tau_i",
+        "|\\phi(\\tau_i)|\\leq0.1"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p75-8-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p92-9",
+      "code": "GBT-48336.201-2026",
+      "page": 92,
+      "bbox": [
+        40,
+        366.6,
+        550,
+        380.91
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-5",
+      "kind": "paragraph",
+      "node_index": 67,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "7a38386df978f84989caebb83fbf42b5525670436a4221f7d224e6678c2ec366",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p92-9-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p92-9-html.png",
+      "native_tex": [
+        "r_{u,v}^{(\\alpha,\\delta)}(n)",
+        "\\overline r_{u,v}(n)",
+        "\\alpha"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p92-9-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p92-10",
+      "code": "GBT-48336.201-2026",
+      "page": 92,
+      "bbox": [
+        40,
+        451.06,
+        550,
+        498.86
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-5",
+      "kind": "paragraph",
+      "node_index": 70,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "7a38386df978f84989caebb83fbf42b5525670436a4221f7d224e6678c2ec366",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p92-10-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p92-10-html.png",
+      "native_tex": [
+        "\\overline r_{u,v}(n)",
+        "u\\in\\{0,1\\cdots,29\\}",
+        "v",
+        "M_{\\mathrm{SC}}^{\\mathrm{RS}}=mN_{\\mathrm{SCG},1}",
+        "1\\leq m\\leq5",
+        "(v=0)",
+        "M_{\\mathrm{SC}}^{\\mathrm{RS}}=mN_{\\mathrm{SCG},1}",
+        "6\\leq m\\leq(N_{\\mathrm{sc}}^{\\mathrm{Total}}/N_{\\mathrm{SCG},1})",
+        "(v=0,1)"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p92-10-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p297-11",
+      "code": "GBT-48336.201-2026",
+      "page": 297,
+      "bbox": [
+        40,
+        285.62,
+        550,
+        336.08
+      ],
+      "slug": "gbt-48336-201-2026-clause-8-6",
+      "kind": "paragraph",
+      "node_index": 5,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "3307f2e08048dcc3977aa61e2709efdc921dd3372f1b4c92356442c0ce6c145b",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p297-11-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p297-11-html.png",
+      "native_tex": [
+        "0.65/T_p<|f-f_c|<0.8/T_p",
+        "|f-f_c|>0.8/T_p",
+        "T_p"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p297-11-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p53-12",
+      "code": "GBT-48336.201-2026",
+      "page": 53,
+      "bbox": [
+        40,
+        717,
+        550,
+        773
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-2-4-10",
+      "kind": "paragraph",
+      "node_index": 13,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "4ebbb28a567057e3b4c84757a76c7b70cd62cffa6c113a5f1d56959b2405daf9",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p53-12-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p53-12-html.png",
+      "native_tex": [
+        "64\\times\\frac{N_{\\mathrm{CH}}}{L_{\\mathrm{CH}}}",
+        "64\\times\\frac{N_{\\mathrm{CH}}}{L_{\\mathrm{CH}}}+16"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p53-12-pair.png"
+    },
+    {
+      "id": "GBT-48336.201-2026-p54-13",
+      "code": "GBT-48336.201-2026",
+      "page": 54,
+      "bbox": [
+        40,
+        100,
+        550,
+        159
+      ],
+      "slug": "gbt-48336-201-2026-clause-6-2-4-10",
+      "kind": "list_item",
+      "node_index": 13,
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "markdown_sha256": "4ebbb28a567057e3b4c84757a76c7b70cd62cffa6c113a5f1d56959b2405daf9",
+      "source_crop": "metadata/review/corpus/GBT-48336.201-2026-p54-13-source.png",
+      "html_crop": "metadata/review/corpus/GBT-48336.201-2026-p54-13-html.png",
+      "native_tex": [
+        "64\\times\\frac{N_{\\mathrm{CH}}}{L_{\\mathrm{CH}}}",
+        "2M+1",
+        "M"
+      ],
+      "evidence": "metadata/review/corpus/GBT-48336.201-2026-p54-13-pair.png"
+    }
+  ]
+}

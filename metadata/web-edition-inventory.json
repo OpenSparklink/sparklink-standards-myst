@@ -1,0 +1,155 @@
+{
+  "source_documents": 17,
+  "source_layout_chapters": 398,
+  "removed_covers": 17,
+  "garbled_covers": 10,
+  "removed_pdf_continuations": 46,
+  "semantic_pages": 819,
+  "omitted_blocks": 124,
+  "policy": "Only paper covers, printed tables of contents, repeated headings and PDF presentation are omitted. Every omitted source block remains explicit in the provenance ledger. Normative body, figures, tables and mathematics remain source-verifiable.",
+  "documents": [
+    {
+      "code": "GBT-46803.1-2025",
+      "chapters": 32,
+      "covers": 1,
+      "page_continuations": 2,
+      "removed_classification_labels": 2,
+      "garbled_cover": false
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "chapters": 32,
+      "covers": 1,
+      "page_continuations": 10,
+      "removed_classification_labels": 2,
+      "garbled_cover": false
+    },
+    {
+      "code": "GBT-48336.101-2026",
+      "chapters": 14,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.102-2026",
+      "chapters": 10,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapters": 60,
+      "covers": 1,
+      "page_continuations": 12,
+      "removed_classification_labels": 2,
+      "garbled_cover": false
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapters": 36,
+      "covers": 1,
+      "page_continuations": 16,
+      "removed_classification_labels": 2,
+      "garbled_cover": false
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "chapters": 15,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "chapters": 46,
+      "covers": 1,
+      "page_continuations": 6,
+      "removed_classification_labels": 2,
+      "garbled_cover": false
+    },
+    {
+      "code": "GBT-48336.302-2026",
+      "chapters": 15,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": false
+    },
+    {
+      "code": "GBT-48336.303-2026",
+      "chapters": 13,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": false
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "chapters": 22,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.401-2026",
+      "chapters": 19,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.402-2026",
+      "chapters": 13,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.403-2026",
+      "chapters": 12,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.404-2026",
+      "chapters": 14,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.405-2026",
+      "chapters": 29,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    },
+    {
+      "code": "GBT-48336.406-2026",
+      "chapters": 16,
+      "covers": 1,
+      "page_continuations": 0,
+      "removed_classification_labels": 2,
+      "garbled_cover": true
+    }
+  ],
+  "source_table_parts": 1776,
+  "web_tables": 1437,
+  "joined_table_parts": 339,
+  "deduplicated_header_rows": 338,
+  "joined_paragraphs_at_old_chunk_boundaries": 6,
+  "legacy_redirects": 398,
+  "retained_figures": 831
+}

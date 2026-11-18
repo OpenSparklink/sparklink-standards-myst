@@ -1,0 +1,58 @@
+[
+  {
+    "name": "native-table-120khz",
+    "page": 18,
+    "table": true,
+    "chapter": "gbt-48336-201-2026-clause-6-2-2",
+    "screenshot": "metadata/review/native-table-120khz.png"
+  },
+  {
+    "name": "native-piecewise-fts",
+    "page": 21,
+    "tex": "d_{\\mathrm{FTS}}(n)",
+    "chapter": "gbt-48336-201-2026-clause-6-2-3",
+    "screenshot": "metadata/review/native-piecewise-fts.png"
+  },
+  {
+    "name": "native-matrix",
+    "page": 30,
+    "tex": "\\boldsymbol X(k,n)",
+    "chapter": "gbt-48336-201-2026-clause-6-2-3",
+    "screenshot": "metadata/review/native-matrix.png"
+  },
+  {
+    "name": "native-fractions-in-text",
+    "page": 56,
+    "text": "计算信道比特序列数",
+    "chapter": "gbt-48336-201-2026-clause-6-2-5",
+    "screenshot": "metadata/review/native-fractions-in-text.png"
+  },
+  {
+    "name": "native-table-fractions",
+    "page": 69,
+    "table": true,
+    "chapter": "gbt-48336-201-2026-clause-6-2-6",
+    "screenshot": "metadata/review/native-table-fractions.png"
+  },
+  {
+    "name": "native-qam1024",
+    "page": 91,
+    "tex": "\\sqrt{682}",
+    "chapter": "gbt-48336-201-2026-clause-6-5",
+    "screenshot": "metadata/review/native-qam1024.png"
+  },
+  {
+    "name": "native-evm",
+    "page": 290,
+    "tex": "\\mathrm{EVM}",
+    "chapter": "gbt-48336-201-2026-clause-8-4",
+    "screenshot": "metadata/review/native-evm.png"
+  },
+  {
+    "name": "native-phase-ranging",
+    "page": 344,
+    "tex": "\\varphi_{\\mathrm R}",
+    "chapter": "gbt-48336-201-2026-appendix-k",
+    "screenshot": "metadata/review/native-phase-ranging.png"
+  }
+]

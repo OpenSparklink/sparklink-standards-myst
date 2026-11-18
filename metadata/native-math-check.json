@@ -1,0 +1,76 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "documents": 17,
+  "expressions": 6719,
+  "issues": [],
+  "results": [
+    {
+      "code": "GBT-46803.1-2025",
+      "expressions": 1084
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "expressions": 339
+    },
+    {
+      "code": "GBT-48336.101-2026",
+      "expressions": 70
+    },
+    {
+      "code": "GBT-48336.102-2026",
+      "expressions": 0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "expressions": 2555
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "expressions": 2158
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "expressions": 50
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "expressions": 227
+    },
+    {
+      "code": "GBT-48336.302-2026",
+      "expressions": 37
+    },
+    {
+      "code": "GBT-48336.303-2026",
+      "expressions": 22
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "expressions": 40
+    },
+    {
+      "code": "GBT-48336.401-2026",
+      "expressions": 32
+    },
+    {
+      "code": "GBT-48336.402-2026",
+      "expressions": 2
+    },
+    {
+      "code": "GBT-48336.403-2026",
+      "expressions": 1
+    },
+    {
+      "code": "GBT-48336.404-2026",
+      "expressions": 42
+    },
+    {
+      "code": "GBT-48336.405-2026",
+      "expressions": 55
+    },
+    {
+      "code": "GBT-48336.406-2026",
+      "expressions": 5
+    }
+  ]
+}

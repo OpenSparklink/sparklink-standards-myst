@@ -1,0 +1,8 @@
+*.md text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+assets/** linguist-generated=true
+metadata/** linguist-generated=true
+styles/reader.css linguist-generated=true

@@ -1,0 +1,468 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "samples": 51,
+  "passed": 51,
+  "failed": 0,
+  "method": "Browser SVG canvas at 144 dpi vs fresh PDF rasterization; core ink <180 matched to antialiased ink <200 within 1 pixel; ink recall/precision >= 96%; mean gray error <= 8/255",
+  "results": [
+    {
+      "code": "GBT-46803.1-2025",
+      "page": 1,
+      "path": "tmp/html-review/GBT-46803.1-2025-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.33848,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-46803.1-2025",
+      "page": 19,
+      "path": "tmp/html-review/GBT-46803.1-2025-p0019-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.56864,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.998401
+    },
+    {
+      "code": "GBT-46803.1-2025",
+      "page": 163,
+      "path": "tmp/html-review/GBT-46803.1-2025-p0163-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "page": 1,
+      "path": "tmp/html-review/GBT-46803.2-2025-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.37121,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "page": 15,
+      "path": "tmp/html-review/GBT-46803.2-2025-p0015-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 2.59797,
+      "ink_recall_with_1px_tolerance": 0.99998,
+      "ink_precision_with_1px_tolerance": 0.998547
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "page": 219,
+      "path": "tmp/html-review/GBT-46803.2-2025-p0219-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.101-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.101-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.22256,
+      "ink_recall_with_1px_tolerance": 0.998262,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.101-2026",
+      "page": 22,
+      "path": "tmp/html-review/GBT-48336.101-2026-p0022-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 2.60492,
+      "ink_recall_with_1px_tolerance": 0.999946,
+      "ink_precision_with_1px_tolerance": 0.997868
+    },
+    {
+      "code": "GBT-48336.101-2026",
+      "page": 47,
+      "path": "tmp/html-review/GBT-48336.101-2026-p0047-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.102-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.102-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.21363,
+      "ink_recall_with_1px_tolerance": 0.998238,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.102-2026",
+      "page": 10,
+      "path": "tmp/html-review/GBT-48336.102-2026-p0010-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.74499,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.996576
+    },
+    {
+      "code": "GBT-48336.102-2026",
+      "page": 15,
+      "path": "tmp/html-review/GBT-48336.102-2026-p0015-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.91572,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.99704
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.201-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.36538,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 18,
+      "path": "tmp/html-review/GBT-48336.201-2026-p0018-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 2.31714,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 351,
+      "path": "tmp/html-review/GBT-48336.201-2026-p0351-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.202-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.47611,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "page": 11,
+      "path": "tmp/html-review/GBT-48336.202-2026-p0011-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.33542,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.99955
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "page": 327,
+      "path": "tmp/html-review/GBT-48336.202-2026-p0327-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.203-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.49963,
+      "ink_recall_with_1px_tolerance": 0.998595,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "page": 10,
+      "path": "tmp/html-review/GBT-48336.203-2026-p0010-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.91041,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.995901
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "page": 31,
+      "path": "tmp/html-review/GBT-48336.203-2026-p0031-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.301-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.36352,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "page": 13,
+      "path": "tmp/html-review/GBT-48336.301-2026-p0013-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.9134,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.999432
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "page": 203,
+      "path": "tmp/html-review/GBT-48336.301-2026-p0203-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.302-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.302-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.29161,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.302-2026",
+      "page": 15,
+      "path": "tmp/html-review/GBT-48336.302-2026-p0015-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 2.57771,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.999738
+    },
+    {
+      "code": "GBT-48336.302-2026",
+      "page": 35,
+      "path": "tmp/html-review/GBT-48336.302-2026-p0035-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.303-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.303-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.3322,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.303-2026",
+      "page": 17,
+      "path": "tmp/html-review/GBT-48336.303-2026-p0017-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 2.34887,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.999184
+    },
+    {
+      "code": "GBT-48336.303-2026",
+      "page": 39,
+      "path": "tmp/html-review/GBT-48336.303-2026-p0039-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.304-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.28994,
+      "ink_recall_with_1px_tolerance": 0.998416,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "page": 20,
+      "path": "tmp/html-review/GBT-48336.304-2026-p0020-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.56832,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.998841
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "page": 75,
+      "path": "tmp/html-review/GBT-48336.304-2026-p0075-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.401-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.401-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.41909,
+      "ink_recall_with_1px_tolerance": 0.998514,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.401-2026",
+      "page": 11,
+      "path": "tmp/html-review/GBT-48336.401-2026-p0011-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 2.07396,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.998477
+    },
+    {
+      "code": "GBT-48336.401-2026",
+      "page": 67,
+      "path": "tmp/html-review/GBT-48336.401-2026-p0067-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.402-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.402-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.32683,
+      "ink_recall_with_1px_tolerance": 0.998435,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.402-2026",
+      "page": 13,
+      "path": "tmp/html-review/GBT-48336.402-2026-p0013-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.51139,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.997896
+    },
+    {
+      "code": "GBT-48336.402-2026",
+      "page": 23,
+      "path": "tmp/html-review/GBT-48336.402-2026-p0023-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.403-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.403-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.29552,
+      "ink_recall_with_1px_tolerance": 0.998325,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.403-2026",
+      "page": 13,
+      "path": "tmp/html-review/GBT-48336.403-2026-p0013-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.90035,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.99843
+    },
+    {
+      "code": "GBT-48336.403-2026",
+      "page": 31,
+      "path": "tmp/html-review/GBT-48336.403-2026-p0031-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.404-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.404-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.32438,
+      "ink_recall_with_1px_tolerance": 0.998412,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.404-2026",
+      "page": 10,
+      "path": "tmp/html-review/GBT-48336.404-2026-p0010-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.47221,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.996896
+    },
+    {
+      "code": "GBT-48336.404-2026",
+      "page": 27,
+      "path": "tmp/html-review/GBT-48336.404-2026-p0027-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.405-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.405-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.41467,
+      "ink_recall_with_1px_tolerance": 0.998492,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.405-2026",
+      "page": 19,
+      "path": "tmp/html-review/GBT-48336.405-2026-p0019-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 3.08019,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.998307
+    },
+    {
+      "code": "GBT-48336.405-2026",
+      "page": 75,
+      "path": "tmp/html-review/GBT-48336.405-2026-p0075-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.13914,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.406-2026",
+      "page": 1,
+      "path": "tmp/html-review/GBT-48336.406-2026-p0001-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.29598,
+      "ink_recall_with_1px_tolerance": 0.998385,
+      "ink_precision_with_1px_tolerance": 1.0
+    },
+    {
+      "code": "GBT-48336.406-2026",
+      "page": 13,
+      "path": "tmp/html-review/GBT-48336.406-2026-p0013-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 1.77838,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 0.998675
+    },
+    {
+      "code": "GBT-48336.406-2026",
+      "page": 27,
+      "path": "tmp/html-review/GBT-48336.406-2026-p0027-browser.png",
+      "pass": true,
+      "mean_absolute_gray_error": 0.0,
+      "ink_recall_with_1px_tolerance": 1.0,
+      "ink_precision_with_1px_tolerance": 1.0
+    }
+  ]
+}

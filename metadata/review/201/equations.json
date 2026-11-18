@@ -1,0 +1,1049 @@
+{
+  "source_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+  "equations": [
+    {
+      "index": 0,
+      "page": 21,
+      "bbox": [
+        40,
+        420,
+        550,
+        465
+      ],
+      "latex": "d_{\\mathrm{FTS}}(n)=\\begin{cases}\\exp\\left(-j\\frac{\\pi u n(n+1)}{161}\\right),&n=0,1,\\cdots,160\\text{ 且 }n\\ne80\\\\0,&n=80\\end{cases}\\tag{1}",
+      "source_text": "⎧ πun(n+1)\nexp(-j ),n=0,1,…,160且n ≠80\ndFTS(n)={ 161 ………………(1)\n⎩ 0,n=80"
+    },
+    {
+      "index": 1,
+      "page": 21,
+      "bbox": [
+        40,
+        615,
+        550,
+        648
+      ],
+      "latex": "a_{k,l}=d_{\\mathrm{FTS}}(k)\\times\\exp\\left(j\\pi\\frac{N0^2}{10}\\right),\\quad k=0,1,\\cdots,160\\tag{2}",
+      "source_text": "N02\nak,l =dFTS(k)×exp(jπ ),k=0,1,…,160 …………………(2)\n10"
+    },
+    {
+      "index": 2,
+      "page": 22,
+      "bbox": [
+        40,
+        173,
+        550,
+        229
+      ],
+      "latex": "d_{\\mathrm{STS}}(n)=\\begin{cases}\\exp\\left[-j\\frac{\\pi u\\frac n8(\\frac n8+1)}{21}\\right],&n=0,8,\\cdots,160\\text{ 且 }n\\ne80\\\\0,&n=80\\text{ 或 }\\operatorname{mod}(n,8)\\ne0\\end{cases}\\tag{3}",
+      "source_text": "⎧ ⎧ n n ⎫\nπu ( +1)\nexp 8 8 ,n=0,8,…,160且n ≠80\ndSTS(n)={ -j 21 ……………(3)\n⎩ ⎭\n⎩ 0 ,n=80或 mod(n,8)≠0"
+    },
+    {
+      "index": 3,
+      "page": 22,
+      "bbox": [
+        40,
+        360,
+        550,
+        390
+      ],
+      "latex": "a_{k,l}=2\\sqrt2\\times d_{\\mathrm{STS}}(k)\\times\\exp\\left(j\\pi\\frac{N0^2}{10}\\right),\\quad k=0,1,\\cdots,160\\tag{4}",
+      "source_text": "2\nN0\nak,l =2 √2×dSTS(k)×exp (jπ ),k=0,1,…,160 …………………(4)\n10"
+    },
+    {
+      "index": 4,
+      "page": 22,
+      "bbox": [
+        40,
+        613,
+        550,
+        644
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{5}",
+      "source_text": "rn,l(k+161×N0),k=0,1,…,78,79,81,82,…,160\nak,l = { ………………(5)\n0,k=80"
+    },
+    {
+      "index": 5,
+      "page": 22,
+      "bbox": [
+        40,
+        736,
+        550,
+        773
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\text{ 且 }p=p_0\\\\0,&k=80\\text{ 或 }p\\ne p_0\\end{cases}\\tag{6}",
+      "source_text": "(p) ⎧rn,l(k+161×N0),k=0,1,…,78,79,81,82,…,160且p=p0\nak,l ={ …………(6)\n⎩ 0,k=80或p ≠p0"
+    },
+    {
+      "index": 6,
+      "page": 23,
+      "bbox": [
+        40,
+        354,
+        550,
+        384
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{7}",
+      "source_text": "rn,l(k+161×N0),k=0,1,…,78,79,81,82,…,160\nak,l = { ………………(7)\n0,k=80"
+    },
+    {
+      "index": 7,
+      "page": 23,
+      "bbox": [
+        40,
+        483,
+        550,
+        526
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\text{ 且 }p=p_0\\\\0,&k=80\\text{ 或 }p\\ne p_0\\end{cases}\\tag{8}",
+      "source_text": "(p) ⎧rn,l(k+161×N0),k=0,1,…,78,79,81,82,…,160且p=p0\nak,l ={\n⎩ 0,k=80或p ≠p0\n…………………(8)"
+    },
+    {
+      "index": 8,
+      "page": 24,
+      "bbox": [
+        40,
+        403,
+        550,
+        421
+      ],
+      "latex": "a_{k,l}=r_{n,l}(k+161\\times N0)\\tag{9}",
+      "source_text": "ak,l =rn,l(k+161×N0) …………………………(9)"
+    },
+    {
+      "index": 9,
+      "page": 24,
+      "bbox": [
+        40,
+        614,
+        550,
+        629
+      ],
+      "latex": "a_{k,l}=r_{n,l}(k+161\\times N0)\\tag{10}",
+      "source_text": "ak,l =rn,l(k+161×N0) …………………………(10)"
+    },
+    {
+      "index": 10,
+      "page": 25,
+      "bbox": [
+        40,
+        347,
+        550,
+        377
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{11}",
+      "source_text": "⎧rn,l(k+161×N0),k=0,1,…,78,79,81,82,…,160\nak,l ={ ……………(11)\n⎩ 0,k=80"
+    },
+    {
+      "index": 11,
+      "page": 25,
+      "bbox": [
+        40,
+        480,
+        550,
+        524
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,78,79,81,82,\\cdots,160\\text{ 且 }p=p_0\\\\0,&k=80\\text{ 或 }p\\ne p_0\\end{cases}\\tag{12}",
+      "source_text": "(p) ⎧rn,l(k+161×N0),k=0,1,…,78,79,81,82,…,160且p=p0\nak,l ={\n⎩ 0,k=80或p ≠p0\n…………………………(12)"
+    },
+    {
+      "index": 12,
+      "page": 26,
+      "bbox": [
+        40,
+        409,
+        550,
+        424
+      ],
+      "latex": "a_{k,l}=r_{n,l}(k+161\\times N0)\\tag{13}",
+      "source_text": "ak,l =rn,l(k+161×N0) …………………………(13)"
+    },
+    {
+      "index": 13,
+      "page": 26,
+      "bbox": [
+        40,
+        708,
+        550,
+        742
+      ],
+      "latex": "a_{k,l}^{(p)}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=k_0,k_1\\text{ 且 }p=0\\\\0,&k=k_0,k_1\\text{ 且 }p\\ne0\\end{cases}\\tag{14}",
+      "source_text": "(p) ⎧rn,l(k+161×N0),k=k0,k1 且p=0\nak,l ={ ………………(14)\n⎩ 0,k=k0,k1 且p ≠0"
+    },
+    {
+      "index": 14,
+      "page": 27,
+      "bbox": [
+        40,
+        221,
+        550,
+        293
+      ],
+      "latex": "d(n)=\\begin{cases}\\exp\\left(-j\\frac{\\pi un(n+1)}{161}\\right),&n=0,1,\\cdots,79\\\\0,&n=80\\\\\\exp\\left(-j\\frac{\\pi un(n+1)}{161}\\right),&n=81,82,\\cdots,160\\end{cases}\\tag{15}",
+      "source_text": "⎧ πun(n+1)\nexp(-j ) ,n=0,1,…,79\n161\nd(n)={0          ,n=80 ………………(15)\nπun(n+1)\nexp(-j ) ,n=81,82,…,160\n⎩ 161"
+    },
+    {
+      "index": 15,
+      "page": 27,
+      "bbox": [
+        40,
+        592,
+        550,
+        622
+      ],
+      "latex": "a_{k,l}=\\begin{cases}r_{n,l}(k+161\\times N0),&k=0,1,\\cdots,79,81,82,\\cdots,160\\\\0,&k=80\\end{cases}\\tag{16}",
+      "source_text": "⎧rn,l(k+161×N0),k=0,1,…,79,81,82,…,160\nak,l ={ ………………(16)\n⎩  0,k=80"
+    },
+    {
+      "index": 16,
+      "page": 30,
+      "bbox": [
+        40,
+        114,
+        550,
+        220
+      ],
+      "latex": "\\boldsymbol X(k,n)=\\begin{bmatrix}X_0^0(k,n)&X_1^1(k,n)e^{j(-\\rho_1(k,n)-\\phi_1^1)}&\\cdots&X_{N_t-1}^{N_t-1}(k,n)e^{j(-\\rho_{N_t-1}(k,n)-\\phi_{N_t-1}^{N_t-1})}\\\\X_0^0(k,n)e^{j(\\rho_1(k,n)+\\phi_1^0)}&X_1^1(k,n)&\\cdots&X_{N_t-1}^{N_t-1}(k,n)e^{j(\\rho_1(k,n)-\\rho_{N_t-1}(k,n)+\\phi_1^{N_t-1}-\\phi_{N_t-1}^{N_t-1})}\\\\X_0^0(k,n)e^{j(\\rho_2(k,n)+\\phi_2^0)}&X_1^1(k,n)e^{j(\\rho_2(k,n)-\\rho_1(k,n)+\\phi_2^1-\\phi_1^1)}&\\cdots&X_{N_t-1}^{N_t-1}(k,n)e^{j(\\rho_2(k,n)-\\rho_{N_t-1}(k,n)+\\phi_2^{N_t-1}-\\phi_{N_t-1}^{N_t-1})}\\\\\\vdots&\\vdots&\\vdots&\\vdots\\\\X_0^0(k,n)e^{j(\\rho_{N_t-1}(k,n)+\\phi_{N_t-1}^0)}&X_1^1(k,n)e^{j(\\rho_{N_t-1}(k,n)-\\rho_1(k,n)+\\phi_{N_t-1}^1-\\phi_1^1)}&\\cdots&X_{N_t-1}^{N_t-1}(k,n)\\end{bmatrix}\\tag{17}",
+      "source_text": "⌈ X00(k,n) X11(k,n)ej(-ρ1(k,n)-φ11) … XNNtt--11(k,n)ej(-ρNt-1(k,n)-φNNtt--11) ⌉\nX00(k,n)ej(ρ1(k,n)+φ01) X11(k,n) … XNNtt--11(k,n)ej(ρ1(k,n)-ρNt-1(k,n)+φN1t-1-φNNtt--11)\nX(k,n)= X0(k,n)ej(ρ2(k,n)+φ02) X1(k,n)ej(ρ2(k,n)-ρ1(k,n)+φ21-φ11) … XNt-1(k,n)ej(ρ2(k,n)-ρNt-1(k,n)+φN2t-1-φNNtt--11)\n0 1 Nt-1\n⋮ ⋮ ⋮ ⋮\n⌊X00(k,n)ej(ρNt-1(k,n)+φ0Nt-1) X11(k,n)ej(ρNt-1(k,n)-ρ1(k,n)+φN1t-1-φ11) … XNNtt--11(k,n) ⌋\n…………………………(17)"
+    },
+    {
+      "index": 17,
+      "page": 63,
+      "bbox": [
+        40,
+        328,
+        550,
+        358
+      ],
+      "latex": "x^{(0)}(i)=d\\!\\left(\\left[\\frac{i}{N_{\\mathrm{dup}}}\\right]\\right)\\times\\mathrm{DMRS}(i),\\quad i=0,1,\\cdots,M_{\\mathrm{symb}}^{\\mathrm{layer}}-1\\tag{18}",
+      "source_text": "x(0)(i)=d([i ])×DMRS(i),i=0,1,…,Mlayersymb-1 ………………(18)\nNdup"
+    },
+    {
+      "index": 18,
+      "page": 63,
+      "bbox": [
+        40,
+        533,
+        550,
+        581
+      ],
+      "latex": "\\begin{bmatrix}y^{(p_0)}(i)\\\\\\vdots\\\\y^{(p_{\\nu-1})}(i)\\end{bmatrix}=\\begin{bmatrix}x^{(0)}(i)\\\\\\vdots\\\\x^{(\\nu-1)}(i)\\end{bmatrix}\\tag{19}",
+      "source_text": "⌈y(p0)(i)⌉ ⌈x(0)(i)⌉\n⋮ = ⋮ …………………………(19)\n⌊y(pν-1)(i)⌋ ⌊x(ν-1)(i)⌋"
+    },
+    {
+      "index": 19,
+      "page": 67,
+      "bbox": [
+        40,
+        382,
+        550,
+        755
+      ],
+      "latex": "\\begin{aligned}K'&=K+n_{\\mathrm{PC}}\\\\&\\text{if }(E_0\\geq N)\\parallel(K'/E_0>3/4)\\\\T_{\\mathrm{I1}}&=K';\\\\&\\text{else if }(K/E_0)\\leq7/16\\quad\\text{//该条件下采用打孔}\\\\&\\quad\\text{if }(E_0/N)<5/8\\\\T_{\\mathrm{I1}}&=\\left[\\frac{11\\times E_0\\times K'}{2\\times N}-\\frac{43\\times K'}{16}\\right]\\\\&\\quad\\text{else if }(E_0/N)<3/4\\\\T_{\\mathrm{I1}}&=\\left[\\frac{5\\times E_0\\times K'}{4\\times N}-\\frac{K'}{32}\\right]\\\\&\\quad\\text{else}\\\\T_{\\mathrm{I1}}&=\\left[\\frac{3\\times E_0\\times K'}{8\\times N}+\\frac{5\\times K'}8\\right]\\\\&\\quad\\text{end if}\\qquad\\text{// }(E_0/N)<5/8\\\\&\\text{else}\\qquad\\text{//该条件下采用缩短}\\\\&\\quad\\text{if }(E_0/N)<9/16\\\\T_{\\mathrm{I1}}&=\\left[\\frac{9\\times K'}8-\\frac{E_0\\times K'}{4\\times N}\\right]\\\\&\\quad\\text{else}\\\\T_{\\mathrm{I1}}&=\\left[\\frac{31\\times K'}{32}+\\frac{E_0\\times K'}{32\\times N}\\right]\\\\&\\quad\\text{end if}\\\\&\\text{end if}\\end{aligned}",
+      "source_text": "K'=K +nPC。\nif(E0>=N)||(K′/E0>3/4)\nTI1=K′;\nelseif(K/E0)≤ 7/16  //该条件下采用打孔\nif(E0/N)< 5/8\n11×E0×K′ 43×K′\nTI1= [ - ]\n2×N 16\nelseif(E0/N)< 3/4\n5×E0×K′ K′\nTI1= [ - ]\n4×N 32\nelse\n3×E0×K′ 5×K′\nTI1= [ + ]\n8×N 8\nendif       //(E0/N)< 5/8\nelse         //该条件下采用缩短\nif(E0/N)< 9/16\n9×K′ E0×K′\nTI1= [ - ]\n8 4×N\nelse\n31×K′ E0×K′\nTI1= [ + ]\n32 32×N\nendif\nendif"
+    },
+    {
+      "index": 20,
+      "page": 73,
+      "bbox": [
+        40,
+        381,
+        550,
+        411
+      ],
+      "latex": "s_l^{(p)}(t)=\\sum_{k=0}^{160}a_{k,l}^{(p)}\\cdot e^{j2\\pi(k-80)\\Delta f(t-T_{\\mathrm{CP}}-t_{\\mathrm{start},l})}\\tag{20}",
+      "source_text": "160\ns(lp)(t)= a(kp,l)·ej2π(k-80)Δf(t-TCP-tstart,l) …………………………(20)\n∑k=0"
+    },
+    {
+      "index": 21,
+      "page": 75,
+      "bbox": [
+        40,
+        213,
+        550,
+        289
+      ],
+      "latex": "r(t)=\\begin{cases}\\frac1L\\frac{I_0\\!\\left[\\beta\\sqrt{1-\\left(\\frac{2t}{L}\\right)^2}\\right]}{I_0[\\beta]},&|t|\\leq\\frac L2\\\\0,&|t|>\\frac L2\\end{cases}\\tag{21}",
+      "source_text": "⎧   2t 2\n1I0 [β√1- (L ) ] L\n, t ≤\nr(t)={L I0 [β] 2 …………………………(21)\nL\n0, t >\n⎩ 2"
+    },
+    {
+      "index": 22,
+      "page": 75,
+      "bbox": [
+        40,
+        500,
+        550,
+        528
+      ],
+      "latex": "\\phi(\\tau)=\\frac1{\\sqrt{E_r}\\sqrt{E_p}}\\operatorname{Re}\\left[\\int_{-\\infty}^{\\infty}r(t)\\,p^*(t+\\tau)\\,\\mathrm dt\\right]\\tag{22}",
+      "source_text": "1 ∞ *\nφ(τ)=    Re[ r(t)p (t+τ)dt] …………………(22)\n√Er √Ep ∫-∞"
+    },
+    {
+      "index": 23,
+      "page": 75,
+      "bbox": [
+        40,
+        640,
+        550,
+        670
+      ],
+      "latex": "\\left.\\frac{\\mathrm d}{\\mathrm d\\tau}|\\phi(\\tau)|\\right|_{\\tau=\\tau_i}=0\\tag{23}",
+      "source_text": "d\nφ(τ)τ=τi =0 …………………………(23)\ndτ"
+    },
+    {
+      "index": 24,
+      "page": 85,
+      "bbox": [
+        40,
+        600,
+        550,
+        614
+      ],
+      "latex": "c(i)=(x_1(i+1600)+x_2(i+1600))\\bmod2\\tag{24}",
+      "source_text": "c(i)=(x1(i+1600)+x2(i+1600))mod2 …………………(24)"
+    },
+    {
+      "index": 25,
+      "page": 85,
+      "bbox": [
+        40,
+        617,
+        550,
+        631
+      ],
+      "latex": "x_1(i+31)=(x_1(i+3)+x_1(i))\\bmod2\\tag{25}",
+      "source_text": "x1(i+31)=(x1(i+3)+x1(i))mod2 …………………………(25)"
+    },
+    {
+      "index": 26,
+      "page": 85,
+      "bbox": [
+        40,
+        634,
+        550,
+        648
+      ],
+      "latex": "x_2(i+31)=(x_2(i+3)+x_2(i+2)+x_2(i+1)+x_2(i))\\bmod2\\tag{26}",
+      "source_text": "x2(i+31)=(x2(i+3)+x2(i+2)+x2(i+1)+x2(i))mod2 …………(26)"
+    },
+    {
+      "index": 27,
+      "page": 86,
+      "bbox": [
+        40,
+        148,
+        550,
+        176
+      ],
+      "latex": "r_{n,l}(m)=-\\frac1{\\sqrt2}\\{(2c(2m)-1)+j(2c(2m+1)-1)\\},\\quad m=0,1,\\cdots\\tag{27}",
+      "source_text": "1\nrn,l(m)=-  {(2c(2m)-1)+j(2c(2m +1)-1)},m =0,1,… …………(27)\n√2"
+    },
+    {
+      "index": 28,
+      "page": 86,
+      "bbox": [
+        40,
+        229,
+        550,
+        243
+      ],
+      "latex": "c_{\\mathrm{init}}=N_{\\mathrm{CP}}\\cdot2^{29}+N_{\\mathrm{PID}}\\cdot31\\tag{28}",
+      "source_text": "cinit=NCP·229 +NPID·31 …………………………(28)"
+    },
+    {
+      "index": 29,
+      "page": 86,
+      "bbox": [
+        40,
+        262,
+        550,
+        277
+      ],
+      "latex": "c_{\\mathrm{init}}=2^{10}(15\\cdot(n+1)+l+1)\\cdot(4\\cdot N_{\\mathrm{ID}}+1)+4\\cdot N_{\\mathrm{ID}}+N_{\\mathrm{CP}}\\tag{29}",
+      "source_text": "cinit=210(15·(n+1)+l+1)·(4·NID +1)+4·NID +NCP ……………(29)"
+    },
+    {
+      "index": 30,
+      "page": 86,
+      "bbox": [
+        40,
+        541,
+        550,
+        557
+      ],
+      "latex": "P=10\\lg(M)+P_o+PL\\tag{30}",
+      "source_text": "P =10lg(M)+Po+PL …………………………(30)"
+    },
+    {
+      "index": 31,
+      "page": 87,
+      "bbox": [
+        40,
+        131,
+        550,
+        159
+      ],
+      "latex": "\\hat P=\\min\\left\\{\\hat P_{\\mathrm{MAX}},\\sum_{i=0}^{N-1}\\hat P_i\\right\\}\\tag{31}",
+      "source_text": "N-1\nP =min{PMAX,∑ Pi} …………………………(31)\ni=0"
+    },
+    {
+      "index": 32,
+      "page": 88,
+      "bbox": [
+        40,
+        180,
+        550,
+        193
+      ],
+      "latex": "\\boldsymbol y_k=\\boldsymbol H_k\\boldsymbol x_k+\\boldsymbol n\\tag{32}",
+      "source_text": "yk =Hkxk +n …………………………(32)"
+    },
+    {
+      "index": 33,
+      "page": 88,
+      "bbox": [
+        40,
+        374,
+        550,
+        403
+      ],
+      "latex": "\\mathrm{IQ}[\\mathrm{dBm}]=20\\lg\\left(\\operatorname{abs}\\left(\\frac{\\mathrm{IQ}[\\mathrm{linear}]}{1024}\\right)\\right)+\\mathrm{RPL}[\\mathrm{dBm}]\\tag{33}",
+      "source_text": "IQ[linear]\nIQ[dBm]=20lg(abs( ))+RPL[dBm] …………………(33)\n1024"
+    },
+    {
+      "index": 34,
+      "page": 91,
+      "bbox": [
+        40,
+        653,
+        550,
+        671
+      ],
+      "latex": "\\widetilde t_i=(t_i+c(i))\\bmod2\\tag{40}",
+      "source_text": "t˜i =(ti +c(i))mod2 …………………………(40)"
+    },
+    {
+      "index": 35,
+      "page": 91,
+      "bbox": [
+        40,
+        725,
+        550,
+        741
+      ],
+      "latex": "c_{\\mathrm{init}}=n_f\\cdot2^{24}+N_{\\mathrm{PID}}\\tag{41}",
+      "source_text": "cinit=nf·224 +NPID …………………………(41)"
+    },
+    {
+      "index": 36,
+      "page": 92,
+      "bbox": [
+        40,
+        213,
+        550,
+        297
+      ],
+      "latex": "\\begin{gathered}\ny(l\\times M_{\\mathrm{SC}}^{\\mathrm{Total}}+k)=\\frac1{\\sqrt{M_{\\mathrm{SC}}^{\\mathrm{Total}}}}\\sum_{i=0}^{M_{\\mathrm{SC}}^{\\mathrm{Total}}-1}x(l\\times M_{\\mathrm{SC}}^{\\mathrm{Total}}+i)e^{-j\\frac{2\\pi ik}{M_{\\mathrm{SC}}^{\\mathrm{Total}}}}\\\\\nk=0,\\cdots,M_{\\mathrm{SC}}^{\\mathrm{Total}}-1\\\\\nl=0,\\cdots,\\frac{M_{\\mathrm{symb}}}{M_{\\mathrm{SC}}^{\\mathrm{Total}}}-1\n\\end{gathered}\\tag{42}",
+      "source_text": "MTotalSC -1\ny(l×MTotalSC +k)=  1Total ∑ x(l×MTotalSC +i)e-jM2TotalSCπik\n√MSC i=0\nk=0,…,MTotalSC -1\nMsymb\nl=0,…, Total-1 …………………………(42)\nMSC"
+    },
+    {
+      "index": 37,
+      "page": 92,
+      "bbox": [
+        40,
+        565,
+        550,
+        578
+      ],
+      "latex": "u=(f_{\\mathrm{gh}}(n_S)+f_{\\mathrm{SS}})\\bmod30\\tag{43}",
+      "source_text": "u=(fgh(nS)+fSS)mod30 …………………………(43)"
+    },
+    {
+      "index": 38,
+      "page": 95,
+      "bbox": [
+        40,
+        461,
+        550,
+        490
+      ],
+      "latex": "D=\\frac{T_a\\times T_d-T_b\\times T_c}{T_a+T_d+T_b+T_c}C\\tag{45}",
+      "source_text": "Ta×Td-Tb×Tc\nD = C …………………………(45)\nTa+Td+Tb+Tc"
+    },
+    {
+      "index": 39,
+      "page": 111,
+      "bbox": [
+        40,
+        287,
+        550,
+        315
+      ],
+      "latex": "\\widehat T_{\\mathrm{prop}}=\\frac12(R_a-D_b)\\tag{46}",
+      "source_text": "1\nTprop= (Ra -Db) …………………………(46)\n2"
+    },
+    {
+      "index": 40,
+      "page": 111,
+      "bbox": [
+        40,
+        743,
+        550,
+        772
+      ],
+      "latex": "\\widehat T_{\\mathrm{prop}}=\\frac{R_a\\times R_b-D_a\\times D_b}{R_a+R_b+D_a+D_b}\\tag{47}",
+      "source_text": "(Ra ×Rb -Da ×Db)\nTprop= …………………………(47)\nRa +Rb +Da +Db"
+    },
+    {
+      "index": 41,
+      "page": 112,
+      "bbox": [
+        40,
+        317,
+        550,
+        345
+      ],
+      "latex": "b=\\arccos\\left(\\frac{(\\Delta\\Phi)\\times\\lambda}{2\\times\\pi\\times d_1}\\right)\\tag{48}",
+      "source_text": "(ΔΦ)×λ\nb=arccos( ) …………………………(48)\n2×π×d1"
+    },
+    {
+      "index": 42,
+      "page": 112,
+      "bbox": [
+        40,
+        596,
+        550,
+        622
+      ],
+      "latex": "b=\\arccos\\left(\\frac{(\\Delta\\Phi)\\times\\lambda}{2\\times\\pi\\times d_1}\\right)\\tag{49}",
+      "source_text": "(ΔΦ)×λ\nb=arccos( ) …………………………(49)\n2×π×d1"
+    },
+    {
+      "index": 43,
+      "page": 141,
+      "bbox": [
+        40,
+        96,
+        550,
+        155
+      ],
+      "latex": "\\begin{cases}\n\\phi=\\frac{k\\pi}{2^{b_\\phi-1}}+\\frac{\\pi}{2^{b_\\phi}},\\ \\text{radians, where }k=0,1,2,\\cdots,2^{b_\\phi}-1\\\\\n\\psi=\\frac{k\\pi}{2^{b_\\psi+1}}+\\frac{\\pi}{2^{b_\\psi+2}},\\ \\text{radians, where }k=0,1,2,\\cdots,2^{b_\\psi}-1\n\\end{cases}\\tag{50}",
+      "source_text": "⎧φ= kbπ-1 + πb ,radians,wherek=0,1,2,…,2bφ -1\n2φ 2φ\n{ ………………(50)\nψ= kbπ+1 + bπ+2,radians,wherek=0,1,2,…,2bψ -1\n⎩ 2ψ 2ψ"
+    },
+    {
+      "index": 44,
+      "page": 344,
+      "bbox": [
+        40,
+        260,
+        550,
+        287
+      ],
+      "latex": "\\varphi_{\\mathrm R}(f_k,r)=-2\\pi(f_k^{\\mathrm R}-f_k^{\\mathrm I})\\left(\\frac r{c_0}+\\Delta_t\\right)-\\theta_{\\mathrm{IR}}\\pmod{2\\pi}",
+      "source_text": "ϕR(fk,r)=-2π(fRk -fkI)(r +Δt)-θIR(mod2π)\nc0"
+    },
+    {
+      "index": 45,
+      "page": 344,
+      "bbox": [
+        40,
+        289,
+        550,
+        316
+      ],
+      "latex": "\\varphi_{\\mathrm I}(f_k,r)=-2\\pi(f_k^{\\mathrm I}-f_k^{\\mathrm R})\\left(\\frac r{c_0}-\\Delta_t\\right)+\\theta_{\\mathrm{IR}}\\pmod{2\\pi}",
+      "source_text": "ϕI(fk,r)=-2π(fkI -fRk)(r -Δt)+θIR(mod2π)\nc0"
+    },
+    {
+      "index": 46,
+      "page": 90,
+      "bbox": [
+        40,
+        299,
+        550,
+        328
+      ],
+      "latex": "d(i)=-\\frac1{\\sqrt{2}}\\left\\{\\begin{aligned}&(2b(2i)-1)\\\\&+j(2b(2i+1)-1)\\end{aligned}\\right\\}\\tag{34}",
+      "source_text": "1\nd(i)=-  {(2b(2i)-1)+j(2b(2i+1)-1)} …………………(34)\n√2"
+    },
+    {
+      "index": 47,
+      "page": 90,
+      "bbox": [
+        40,
+        396,
+        550,
+        442
+      ],
+      "latex": "d(i)=-\\frac1{\\sqrt{10}}\\left\\{\\begin{aligned}&(2b(4i)-1)[2-(1-2b(4i+2))]\\\\&+j(2b(4i+1)-1)[2-(1-2b(4i+3))]\\end{aligned}\\right\\}\\tag{35}",
+      "source_text": "1\nd(i)=-  {(2b(4i)-1)[2- (1-2b(4i+2))]+j(2b(4i+1)-1)[2- (1-2b(4i+3))]}\n√10\n…………………………(35)"
+    },
+    {
+      "index": 48,
+      "page": 90,
+      "bbox": [
+        40,
+        511,
+        550,
+        570
+      ],
+      "latex": "d(i)=-\\frac1{\\sqrt{42}}\\left\\{\\begin{aligned}&(2b(6i)-1)[4\\\\&\\qquad -(1-2b(6i+2))[2-(1-2b(6i+4))]]\\\\&+j(2b(6i+1)-1)[4\\\\&\\qquad -(1-2b(6i+3))[2-(1-2b(6i+5))]]\\end{aligned}\\right\\}\\tag{36}",
+      "source_text": "1\nd(i)=-  {(2b(6i)-1)[4- (1-2b(6i+2))[2- (1-2b(6i+4))]]\n√42\n+j(2b(6i+1)-1)[4\n- (1-2b(6i+3))[2- (1-2b(6i+5))]]} ……………(36)"
+    },
+    {
+      "index": 49,
+      "page": 90,
+      "bbox": [
+        40,
+        639,
+        550,
+        752
+      ],
+      "latex": "d(i)=-\\frac1{\\sqrt{170}}\\left\\{\\begin{aligned}&(2b(8i)-1)[8\\\\&\\qquad -(1-2b(8i+2))[4\\\\&\\qquad -(1-2b(8i+4))[2-(1-2b(8i+6))]]]\\\\&+j(2b(8i+1)-1)[8\\\\&\\qquad -(1-2b(8i+3))[4\\\\&\\qquad -(1-2b(8i+5))[2-(1-2b(8i+7))]]]\\end{aligned}\\right\\}\\tag{37}",
+      "source_text": "1\nd(i)=-  {(2b(8i)-1)[8\n√170\n- (1-2b(8i+2))[4\n- (1-2b(8i+4))[2- (1-2b(8i+6))]]]\n+j(2b(8i+1)-1)[8\n- (1-2b(8i+3))[4\n- (1-2b(8i+5))[2- (1-2b(8i+7))]]]}…………(37)"
+    },
+    {
+      "index": 50,
+      "page": 91,
+      "bbox": [
+        40,
+        180,
+        550,
+        321
+      ],
+      "latex": "d(i)=-\\frac1{\\sqrt{682}}\\left\\{\\begin{aligned}&(2b(10i)-1)[16\\\\&\\qquad -(1-2b(10i+2))[8\\\\&\\qquad -(1-2b(10i+4))[4\\\\&\\qquad -(1-2b(10i+6))[2-(1-2b(10i+8))]]]]\\\\&+j(2b(10i+1)-1)[16\\\\&\\qquad -(1-2b(10i+3))[8\\\\&\\qquad -(1-2b(10i+5))[4\\\\&\\qquad -(1-2b(10i+7))[2-(1-2b(10i+9))]]]]\\end{aligned}\\right\\}\\tag{38}",
+      "source_text": "1\nd(i)=-  {(2b(10i)-1)[16\n√682\n- (1-2b(10i+2))[8\n- (1-2b(10i+4))[4\n- (1-2b(10i+6))[2- (1-2b(10i+8))]]]]\n+j(2b(10i+1)-1)[16\n- (1-2b(10i+3))[8\n- (1-2b(10i+5))[4\n- (1-2b(10i+7))[2- (1-2b(10i+9))]]]]}………(38)"
+    },
+    {
+      "index": 51,
+      "page": 91,
+      "bbox": [
+        40,
+        407,
+        550,
+        581
+      ],
+      "latex": "d(i)=-\\frac1{\\sqrt{2730}}\\left\\{\\begin{aligned}&(2b(12i)-1)[32\\\\&\\qquad -(1-2b(12i+2))[16\\\\&\\qquad -(1-2b(12i+4))[8\\\\&\\qquad -(1-2b(12i+6))[4\\\\&\\qquad -(1-2b(12i+8))[2-(1-2b(12i+10))]]]]]\\\\&+j(2b(12i+1)-1)[32\\\\&\\qquad -(1-2b(12i+3))[16\\\\&\\qquad -(1-2b(12i+5))[8\\\\&\\qquad -(1-2b(12i+7))[4\\\\&\\qquad -(1-2b(12i+9))[2-(1-2b(12i+11))]]]]]\\end{aligned}\\right\\}\\tag{39}",
+      "source_text": "1\nd(i)=-  {(2b(12i)-1)[32\n√2730\n- (1-2b(12i+2))[16\n- (1-2b(12i+4))[8\n- (1-2b(12i+6))[4\n- (1-2b(12i+8))[2- (1-2b(12i+10))]]]]]\n+j(2b(12i+1)-1)[32\n- (1-2b(12i+3))[16\n- (1-2b(12i+5))[8\n- (1-2b(12i+7))[4\n- (1-2b(12i+9))[2- (1-2b(12i+11))]]]]]}………(39)"
+    },
+    {
+      "index": 52,
+      "page": 94,
+      "bbox": [
+        40,
+        660,
+        550,
+        688
+      ],
+      "latex": "D=\\frac{T_a-T_b}{2}C=\\frac{(t_4-t_1)-(t_3-t_2)}2C\\tag{44}",
+      "source_text": "Ta-Tb (t4-t1)- (t3-t2)\nD = C = C …………………………(44)\n2 2"
+    },
+    {
+      "index": 53,
+      "page": 290,
+      "bbox": [
+        40,
+        521,
+        550,
+        562
+      ],
+      "latex": "\\mathrm{EVM}=\\sqrt{\\frac{\\sum_{t\\in T}\\sum_{f\\in F(t)}|Z'(t,f)-I(t,f)|^2}{\\sum_{t\\in T}\\sum_{f\\in F(t)}|I(t,f)|^2}}\\tag{51}",
+      "source_text": "∑t∈T ∑f∈F(t) Z'(t,f)-I(t,f)2\nEVM= 2 …………………(51)\n√ ∑t∈T ∑f∈F(t) I(t,f)"
+    },
+    {
+      "index": 54,
+      "page": 290,
+      "bbox": [
+        40,
+        650,
+        550,
+        681
+      ],
+      "latex": "Z'(t,f)=\\frac{\\operatorname{FFT}\\{z(v-\\Delta\\widetilde t)\\cdot\\exp(-j2\\pi\\Delta\\widetilde f\\cdot v)\\}\\cdot\\exp(j2\\pi f\\Delta\\widetilde t)}{\\widetilde a(f)\\cdot\\exp(j\\varphi(f))}\\tag{52}",
+      "source_text": "~ ~ ~\nFFT{z(v-Δt)·exp(-j2πΔf·v}·exp(j2πfΔt)\nZ'(t,f)= ~ ………(52)\na(f)·exp(jϕ(f))"
+    },
+    {
+      "index": 55,
+      "page": 300,
+      "bbox": [
+        100,
+        576,
+        545,
+        608
+      ],
+      "latex": "\\mathrm{PSK}=\\operatorname{KDF}(\\mathrm{Kgt},\\text{口令},\\text{T 节点 phy-ID},\\text{G 节点 phy-ID},\\mathrm{NONCEt},\\mathrm{NONCEg})\\tag{53}",
+      "source_text": "PSK=KDF(Kgt,口令,T 节点phy-ID,G 节点phy-ID,NONCEt,NONCEg)\n…………………………(53)"
+    },
+    {
+      "index": 56,
+      "page": 300,
+      "bbox": [
+        100,
+        653,
+        545,
+        685
+      ],
+      "latex": "\\mathrm{AUTHg}=\\operatorname{AUF}(\\mathrm{PSK},\\mathrm{KKE},\\mathrm{NONCEg},\\text{没有安全上下文的关联请求信息内容})\\text{。}\\tag{54}",
+      "source_text": "AUTHg=AUF(PSK,KKE,NONCEg,没有安全上下文的关联请求信息内容)。\n…………………………(54)"
+    },
+    {
+      "index": 57,
+      "page": 301,
+      "bbox": [
+        105,
+        382,
+        545,
+        414
+      ],
+      "latex": "\\mathrm{PSK}=\\operatorname{KDF}(\\mathrm{Kgt},\\text{口令},\\text{T 节点 phy-ID},\\text{G 节点 phy-ID},\\mathrm{NONCEt},\\mathrm{NONCEg})\\tag{55}",
+      "source_text": "PSK=KDF(Kgt,口令,T 节点phy-ID,G 节点phy-ID,NONCEt,NONCEg)\n…………………………(55)"
+    },
+    {
+      "index": 58,
+      "page": 301,
+      "bbox": [
+        82,
+        522,
+        545,
+        555
+      ],
+      "latex": "\\mathrm{AUTHt}=\\operatorname{AUF}(\\mathrm{PSK},\\mathrm{KKE},\\text{安全上下文请求消息内容},\\mathrm{NONCEt},\\text{G 节点密钥协商算法能力})\\tag{56}",
+      "source_text": "AUTHt=AUF(PSK,KKE,安全上下文请求消息内容,NONCEt,G 节点密钥协商算法能力)\n…………………………(56)"
+    },
+    {
+      "index": 59,
+      "page": 302,
+      "bbox": [
+        210,
+        223,
+        545,
+        240
+      ],
+      "latex": "\\mathrm{GK}=\\operatorname{KDF}(\\mathrm{RAND},\\text{组 ID})\\tag{57}",
+      "source_text": "GK=KDF(RAND,组ID) …………………………(57)"
+    },
+    {
+      "index": 60,
+      "page": 306,
+      "bbox": [
+        140,
+        389,
+        545,
+        424
+      ],
+      "latex": "\\begin{aligned}\\text{派生的密钥}&=\\operatorname{KDF}(\\mathrm{Key},\\text{参数 1},\\text{参数 2},\\cdots,\\text{参数 }n)\\\\&=\\operatorname{HMAC-SHA256}(\\mathrm{Key},\\text{参数 1}\\mathbin{\\Vert}\\text{参数 2}\\mathbin{\\Vert}\\cdots\\mathbin{\\Vert}\\text{参数 }n)\\end{aligned}\\tag{58}",
+      "source_text": "派生的密钥 =KDF(Key,参数1,参数2,…,参数n)\n=HMAC-SHA256(Key,参数1||参数2||…||参数n)………………(58)"
+    },
+    {
+      "index": 61,
+      "page": 306,
+      "bbox": [
+        140,
+        439,
+        545,
+        474
+      ],
+      "latex": "\\begin{aligned}\\text{派生的密钥}&=\\operatorname{KDF}(\\mathrm{Key},\\text{参数 1},\\text{参数 2},\\cdots,\\text{参数 }n)\\\\&=\\operatorname{HMAC-SM3}(\\mathrm{Key},\\text{参数 1}\\mathbin{\\Vert}\\text{参数 2}\\mathbin{\\Vert}\\cdots\\mathbin{\\Vert}\\text{参数 }n)\\end{aligned}\\tag{59}",
+      "source_text": "派生的密钥 =KDF(Key,参数1,参数2,…,参数n)\n=HMAC-SM3(Key,参数1||参数2||…||参数n)………………(59)"
+    },
+    {
+      "index": 62,
+      "page": 306,
+      "bbox": [
+        210,
+        522,
+        545,
+        540
+      ],
+      "latex": "\\mathrm{Kmid}=\\operatorname{KDF}(\\mathrm{Kgt},\\mathrm{counter})\\tag{60}",
+      "source_text": "Kmid=KDF(Kgt,counter) ………………(60)"
+    },
+    {
+      "index": 63,
+      "page": 306,
+      "bbox": [
+        135,
+        656,
+        545,
+        674
+      ],
+      "latex": "\\mathrm{Ks.ac}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"signalling auth enc\"})\\tag{61}",
+      "source_text": "Ks.ac=KDF(Kmid,算法标识,预留,″signallingauthenc″)………………(61)"
+    },
+    {
+      "index": 64,
+      "page": 306,
+      "bbox": [
+        135,
+        690,
+        545,
+        708
+      ],
+      "latex": "\\mathrm{Ku.ac}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"user auth enc\"})\\tag{62}",
+      "source_text": "Ku.ac=KDF(Kmid,算法标识,预留,″userauthenc″) ………………(62)"
+    },
+    {
+      "index": 65,
+      "page": 306,
+      "bbox": [
+        135,
+        724,
+        545,
+        742
+      ],
+      "latex": "\\mathrm{Kc.ac}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"control auth enc\"})\\tag{63}",
+      "source_text": "Kc.ac=KDF(Kmid,算法标识,预留,″controlauthenc″)………………(63)"
+    },
+    {
+      "index": 66,
+      "page": 306,
+      "bbox": [
+        135,
+        757,
+        545,
+        775
+      ],
+      "latex": "\\mathrm{Ks.enc}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"signalling enc\"})\\tag{64}",
+      "source_text": "Ks.enc=KDF(Kmid,算法标识,预留,″signallingenc″) ………………(64)"
+    },
+    {
+      "index": 67,
+      "page": 307,
+      "bbox": [
+        135,
+        114,
+        545,
+        132
+      ],
+      "latex": "\\mathrm{Ks.int}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"signalling int\"})\\tag{65}",
+      "source_text": "Ks.int=KDF(Kmid,算法标识,预留,″signallingint″) ………………(65)"
+    },
+    {
+      "index": 68,
+      "page": 307,
+      "bbox": [
+        135,
+        147,
+        545,
+        165
+      ],
+      "latex": "\\mathrm{Ku.enc}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"user enc\"})\\tag{66}",
+      "source_text": "Ku.enc=KDF(Kmid,算法标识,预留,″userenc″) ………………(66)"
+    },
+    {
+      "index": 69,
+      "page": 307,
+      "bbox": [
+        135,
+        181,
+        545,
+        199
+      ],
+      "latex": "\\mathrm{Ku.int}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"user int\"})\\tag{67}",
+      "source_text": "Ku.int=KDF(Kmid,算法标识,预留,″userint″) ………………(67)"
+    },
+    {
+      "index": 70,
+      "page": 307,
+      "bbox": [
+        135,
+        214,
+        545,
+        232
+      ],
+      "latex": "\\mathrm{Kc.int}=\\operatorname{KDF}(\\mathrm{Kmid},\\text{算法标识},\\text{预留},\\text{\"control int\"})\\tag{68}",
+      "source_text": "Kc.int=KDF(Kmid,算法标识,预留,″controlint″) ………………(68)"
+    },
+    {
+      "index": 71,
+      "page": 307,
+      "bbox": [
+        220,
+        313,
+        545,
+        331
+      ],
+      "latex": "\\mathrm{GK}=\\operatorname{KDF}(\\mathrm{RAND},\\text{组 ID})\\tag{69}",
+      "source_text": "GK=KDF(RAND,组ID) …………………………(69)"
+    },
+    {
+      "index": 72,
+      "page": 307,
+      "bbox": [
+        135,
+        447,
+        545,
+        465
+      ],
+      "latex": "\\mathrm{GKs.ac}=\\operatorname{KDF}(\\mathrm{GK},\\text{算法标识},\\text{预留},\\text{\"Group signalling auth enc\"})\\tag{70}",
+      "source_text": "GKs.ac=KDF(GK,算法标识,预留,″Groupsignallingauthenc″)……………(70)"
+    },
+    {
+      "index": 73,
+      "page": 307,
+      "bbox": [
+        135,
+        480,
+        545,
+        498
+      ],
+      "latex": "\\mathrm{GKu.ac}=\\operatorname{KDF}(\\mathrm{GK},\\text{算法标识},\\text{预留},\\text{\"Group user auth enc\"})\\tag{71}",
+      "source_text": "GKu.ac=KDF(GK,算法标识,预留,″Groupuserauthenc″) ……………(71)"
+    },
+    {
+      "index": 74,
+      "page": 307,
+      "bbox": [
+        135,
+        514,
+        545,
+        532
+      ],
+      "latex": "\\mathrm{GKs.enc}=\\operatorname{KDF}(\\mathrm{GK},\\text{算法标识},\\text{预留},\\text{\"Group signalling enc\"})\\tag{72}",
+      "source_text": "GKs.enc=KDF(GK,算法标识,预留,″Groupsignallingenc″)……………(72)"
+    },
+    {
+      "index": 75,
+      "page": 307,
+      "bbox": [
+        135,
+        547,
+        545,
+        565
+      ],
+      "latex": "\\mathrm{GKs.int}=\\operatorname{KDF}(\\mathrm{GK},\\text{算法标识},\\text{预留},\\text{\"Group signalling int\"})\\tag{73}",
+      "source_text": "GKs.int=KDF(GK,算法标识,预留,″Groupsignallingint″) ……………(73)"
+    },
+    {
+      "index": 76,
+      "page": 307,
+      "bbox": [
+        135,
+        580,
+        545,
+        598
+      ],
+      "latex": "\\mathrm{GKu.enc}=\\operatorname{KDF}(\\mathrm{GK},\\text{算法标识},\\text{预留},\\text{\"Group user enc\"})\\tag{74}",
+      "source_text": "GKu.enc=KDF(GK,算法标识,预留,″Groupuserenc″) ……………(74)"
+    },
+    {
+      "index": 77,
+      "page": 307,
+      "bbox": [
+        135,
+        614,
+        545,
+        632
+      ],
+      "latex": "\\mathrm{GKu.int}=\\operatorname{KDF}(\\mathrm{GK},\\text{算法标识},\\text{预留},\\text{\"Group user int\"})\\tag{75}",
+      "source_text": "GKu.int=KDF(GK,算法标识,预留,″Groupuserint″) ……………(75)"
+    },
+    {
+      "index": 78,
+      "page": 322,
+      "bbox": [
+        100,
+        656,
+        545,
+        691
+      ],
+      "latex": "\\mathrm{HASHg}=\\operatorname{KDF}(\\mathrm{rk},\\mathrm{NONCEg},\\text{关联请求信息内容},\\text{安全上下文响应消息内容})\\tag{76}",
+      "source_text": "HASHg=KDF(rk,NONCEg,关联请求信息内容,安全上下文响应消息内容)\n…………………………(76)"
+    },
+    {
+      "index": 79,
+      "page": 322,
+      "bbox": [
+        100,
+        721,
+        545,
+        757
+      ],
+      "latex": "\\begin{aligned}\\mathrm{HASHt}=\\operatorname{KDF}(&\\mathrm{rk},\\text{G 节点密钥协商算法能力},\\text{认证类型指示},\\mathrm{NONCEt},\\\\&\\text{安全上下文请求消息内容},\\text{关联建立消息内容})\\end{aligned}\\tag{77}",
+      "source_text": "HASHt=KDF(rk,G 节点密钥协商算法能力,认证类型指示,NONCEt,\n安全上下文请求消息内容,关联建立消息内容) ……………………(77)"
+    },
+    {
+      "index": 80,
+      "page": 325,
+      "bbox": [
+        105,
+        263,
+        545,
+        298
+      ],
+      "latex": "\\mathrm{HASHg}=\\operatorname{KDF}(\\mathrm{rk},\\mathrm{NONCEg},\\text{关联请求信息内容},\\text{安全上下文响应消息内容})\\tag{78}",
+      "source_text": "HASHg=KDF(rk,NONCEg,关联请求信息内容,安全上下文响应消息内容)\n…………………………(78)"
+    },
+    {
+      "index": 81,
+      "page": 325,
+      "bbox": [
+        110,
+        333,
+        545,
+        382
+      ],
+      "latex": "\\begin{aligned}\\mathrm{HASHt}=\\operatorname{KDF}(&\\mathrm{rk},\\text{G 节点密钥协商算法能力},\\text{认证类型指示},\\mathrm{NONCEt},\\\\&\\text{安全上下文请求消息内容},\\text{关联建立消息内容})\\end{aligned}\\tag{79}",
+      "source_text": "HASHt=KDF(rk,G 节点密钥协商算法能力,认证类型指示,\nNONCEt,安全上下文请求消息内容,关联建立消息内容)\n…………………………(79)"
+    },
+    {
+      "index": 82,
+      "page": 245,
+      "bbox": [
+        190,
+        211,
+        410,
+        241
+      ],
+      "latex": "\\mathrm{ChannelBusyRatioMeasure}=\\frac{t_{\\mathrm{channelBusy}}}{t_{\\mathrm{measure}}}\\times255",
+      "source_text": "tchannelBusy\nChannelBusyRatioMeasure= ×255\ntmeasure"
+    },
+    {
+      "index": 83,
+      "page": 92,
+      "bbox": [
+        75,
+        380,
+        245,
+        402
+      ],
+      "latex": "r_{u,v}^{(\\alpha,\\delta)}(n)=e^{j\\alpha n}\\overline r_{u,v}(n),\\quad0\\leq n<M_{\\mathrm{SC}}^{\\mathrm{RS}}",
+      "source_text": "ru(α,,vδ)(n)=ejαnru,v(n),0≤n<MRSSC"
+    },
+    {
+      "index": 84,
+      "page": 344,
+      "bbox": [
+        205,
+        190,
+        385,
+        209
+      ],
+      "latex": "h_k^{\\mathrm R}(t_1)=h_{k,0}e^{-j[2\\pi(f_k^{\\mathrm R}-f_k^{\\mathrm I})t_1+\\varphi_{\\mathrm{I,init}}-\\varphi_{\\mathrm{R,init}}]}",
+      "source_text": "hkR(t1)=hk,0e-j[2π(fkR-fkI)t1+ϕI,init-ϕR,init]"
+    },
+    {
+      "index": 85,
+      "page": 344,
+      "bbox": [
+        205,
+        210,
+        385,
+        228
+      ],
+      "latex": "h_k^{\\mathrm I}(t_2)=h_{k,0}e^{-j[2\\pi(f_k^{\\mathrm I}-f_k^{\\mathrm R})t_2+\\varphi_{\\mathrm{R,init}}-\\varphi_{\\mathrm{I,init}}]}",
+      "source_text": "hkI(t2)=hk,0e-j[2π(fkI-fkR)t2+ϕR,init-ϕI,init]"
+    },
+    {
+      "index": 86,
+      "page": 344,
+      "bbox": [
+        150,
+        330,
+        435,
+        350
+      ],
+      "latex": "\\varphi_{2W}(f_k,r)=\\varphi_{\\mathrm R}(f_k,r)+\\varphi_{\\mathrm I}(f_k,r)=-4\\pi(f_k^{\\mathrm R}-f_k^{\\mathrm I})r/c_0",
+      "source_text": "ϕ2W (fk,r)=ϕR(fk,r)+ϕI(fk,r)=-4π(fRk -fkI)r/c0"
+    }
+  ]
+}

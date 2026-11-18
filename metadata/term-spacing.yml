@@ -1,0 +1,75 @@
+# Recover word spaces in English term titles; retain source spelling/case.
+radioframe: radio frame
+systembasicslotlength: system basic slot length
+systemschedulingslotlength: system scheduling slot length
+eventgroup: event group
+eventgroupset: event group set
+intraeventinterval: intra event interval
+intereventinterval: inter event interval
+intereventgroupinterval: inter event group interval
+asynchronousdatatransmission: asynchronous data transmission
+synchronousdatatransmission: synchronous data transmission
+groupleadernode: group leader node
+groupmembernode: group member node
+groupcastwithdatatransmission: groupcast with data transmission
+groupcastwithgroupleaderfeekback: groupcast with group leader feekback
+formertransmissionnode: former transmission node
+lattertransmissionnode: latter transmission node
+eventgroupsynchronizationanchor: event group synchronization anchor
+delayofeventgroupsynchronizationanchor: delay of event group synchronization anchor
+lowpowerwirelesscommunicationnetworkbasedonpolarcoding: low power wireless communication network based on polar coding
+basicbroadcastchannel: basic broadcast channel
+extendedbroadcastchannel: extended broadcast channel
+bose-chaudhuri-hocquenghemcode: bose-chaudhuri-hocquenghem code
+polarcode: polar code
+controlpanel: control panel
+datapanel: data panel
+systemmanagementframe: system management frame
+discoverylevel: discovery level
+servicestructure: service structure
+servicestructurecache: service structure cache
+attributevalue: attribute value
+standardservice: standard service
+customservice: custom service
+transportmode: transport mode
+defaulttransportchannel: default transport channel
+servicetransportchannel: service transport channel
+multipleaccessservicesofdatatransfer: multiple access services of data transfer
+trafficflow: traffic flow
+SLBdevice: SLB device
+SLEdevice: SLE device
+qualityofservice: quality of service
+QoSflow: QoS flow
+QoSrule: QoS rule
+serviceQoSparameter: service QoS parameter
+sparklinkQoSparameter: sparklink QoS parameter
+dynamicQoScontrol: dynamic QoS control
+servicetransmissionrequest: service transmission request
+differentiatedservicescodepoint: differentiated services code point
+multi-domaingroup: multi-domain group
+multi-domainheader: multi-domain header
+multi-domainmember: multi-domain member
+trusteddomain: trusted domain
+firsttrainingsignal: first training signal
+secondarytrainingsignal: secondary training signal
+phaseadjustmentsignal: phase adjustment signal
+physicallayeridentity: physical layer identity
+positioninganchor: positioning anchor
+positioningtag: positioning tag
+positioningsignal: positioning signal
+positioningsymbol: positioning symbol
+rangingsymbol: ranging symbol
+positioningframe: positioning frame
+rangingframe: ranging frame
+singlesidepositioning: single side positioning
+doublesidespositioning: double sides positioning
+firstpositioningsignal: first positioning signal
+secondpositioningsignal: second positioning signal
+thirdpositioningsignal: third positioning signal
+firstpositioningnode: first positioning node
+secondpositioningnode: second positioning node
+timeofdepartureofpositioningsignal: time of departure of positioning signal
+timeofarrivalofpositioningsignal: time of arrival of positioning signal
+angleofdepartureofpositioningsignal: angle of departure of positioning signal
+angleofarrivalofpositioningsignal: angle of arrival of positioning signal
+synchronouslinkpositioningmeasurementevent: synchronous link positioning measurement event

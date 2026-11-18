@@ -1,0 +1,39 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "time": "2026-11-18T00:19:42.586Z",
+  "results": [
+    {
+      "check": "中文全文搜索及结果锚点跳转",
+      "passed": true,
+      "query": "循环前缀",
+      "target": "/sparklink-standards-myst/gbt-48336-201-2026-clause-6-2-2#gbt-48336-201-2026-clause-6-2-2-1"
+    },
+    {
+      "check": "直接阅读正文，无纸版切换或原页图像",
+      "passed": true
+    },
+    {
+      "check": "旧封面地址转到标准概览",
+      "passed": true
+    },
+    {
+      "check": "正文交叉引用跳转到图表或条款",
+      "passed": true,
+      "target": "/sparklink-standards-myst/gbt-48336-101-2026-clause-6/#gbt-48336-101-2026-figure-1"
+    },
+    {
+      "check": "原始栅格代码图放大与原尺寸查看",
+      "passed": true,
+      "chapter": "gbt-48336-201-2026-clause-7-5-1"
+    },
+    {
+      "check": "390 px 手机宽度中文搜索",
+      "passed": true
+    },
+    {
+      "check": "正文、数学字体与全文搜索无需外部 CDN",
+      "passed": true
+    }
+  ],
+  "issues": []
+}

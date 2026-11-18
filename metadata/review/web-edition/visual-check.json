@@ -1,0 +1,62 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "results": [
+    {
+      "name": "home",
+      "route": "/",
+      "ready_ms": 260,
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "name": "overview",
+      "route": "/gbt-48336-101-2026/",
+      "ready_ms": 158,
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "name": "body",
+      "route": "/gbt-48336-101-2026-clause-6/",
+      "ready_ms": 162,
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "name": "table",
+      "route": "/gbt-48336-201-2026-clause-6-2-2/",
+      "ready_ms": 202,
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "name": "field-table",
+      "route": "/gbt-46803-2-2025-clause-6-1/",
+      "ready_ms": 204,
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "name": "byte-layout",
+      "route": "/gbt-46803-2-2025-clause-6-1/",
+      "ready_ms": 183,
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "name": "mobile-home",
+      "route": "/",
+      "ready_ms": 192,
+      "width": 390,
+      "document": 390
+    },
+    {
+      "name": "mobile-terms",
+      "route": "/gbt-48336-101-2026-clause-3/",
+      "ready_ms": 153,
+      "width": 390,
+      "document": 390
+    }
+  ],
+  "issues": []
+}

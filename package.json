@@ -1,0 +1,42 @@
+{
+  "name": "sparklink-standards-myst",
+  "private": true,
+  "scripts": {
+    "start": "node tools/serve_html.mjs",
+    "dev": "node tools/build_html.mjs --preview",
+    "build": "node tools/build_html.mjs",
+    "check:html": "node tools/check_html.mjs",
+    "check:structure": ".venv/bin/python -B tools/check_structure.py",
+    "check:pdf": ".venv/bin/python -B tools/verify_pdf_rendering.py",
+    "check:math": "node tools/check_native_math.mjs",
+    "check:201": ".venv/bin/python -B tools/check_201_content.py",
+    "check:201-html": "node tools/check_201_rendered_text.mjs",
+    "check:reader": "node tools/check_reader_interactions.mjs",
+    "check:headings": "python3 -B tools/check_headings.py",
+    "check:web": ".venv/bin/python -B tools/check_web_edition.py",
+    "check:scope": "node tools/check_reference_scope.mjs",
+    "audit:source": ".venv/bin/python -B tools/prepare_corpus_audit.py",
+    "audit:dom": "node tools/capture_corpus_dom.mjs",
+    "check:content": ".venv/bin/python -B tools/check_corpus_content.py",
+    "check:vectors": ".venv/bin/python -B tools/check_vector_math.py",
+    "audit:visual": ".venv/bin/python -B tools/check_source_visuals.py",
+    "audit:svg-browser": "node tools/check_svg_browser.mjs",
+    "audit:visual-resolve": ".venv/bin/python -B tools/resolve_visual_audit.py",
+    "audit:publish": ".venv/bin/python -B tools/publish_corpus_audit.py",
+    "check:pages": "npm run check:math && npm run check:scope && npm run check:headings && npm run check:html && npm run check:reader"
+  },
+  "devDependencies": {
+    "katex": "0.19.1",
+    "mystmd": "^1.8.0",
+    "playwright": "^1.56.0"
+  },
+  "description": "SparkLink 国家标准的结构化 MyST 在线文档",
+  "engines": {
+    "node": ">=24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanchuanhehe/sparklink-standards-myst.git"
+  },
+  "homepage": "https://sanchuanhehe.github.io/sparklink-standards-myst/"
+}

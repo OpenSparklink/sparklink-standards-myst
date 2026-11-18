@@ -1,0 +1,3284 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "chapters": 819,
+  "headings": 3036,
+  "issues": [],
+  "results": [
+    {
+      "chapter": "gbt-46803-1-2025-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-3",
+      "headings": 27
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-1",
+      "headings": 10
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-2",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-3",
+      "headings": 41
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-4",
+      "headings": 46
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-5",
+      "headings": 10
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-6",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-7",
+      "headings": 17
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-8-1",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-8-2",
+      "headings": 13
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-6-8-3",
+      "headings": 12
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7-2",
+      "headings": 20
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7-3",
+      "headings": 19
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7-4",
+      "headings": 19
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7-5",
+      "headings": 19
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7-6",
+      "headings": 11
+    },
+    {
+      "chapter": "gbt-46803-1-2025-clause-7-7",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-46803-1-2025-appendix-a",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-appendix-b",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-appendix-c",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-appendix-d",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-1-2025-appendix-e",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-3",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-1",
+      "headings": 20
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-2",
+      "headings": 36
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-12",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-13",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-14",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-15",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-16",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-17",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-18",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-19",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-20",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-21",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-22",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-23",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-24",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-25",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-26",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-27",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-28",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-29",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-30",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-31",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-32",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-33",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-34",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-35",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-36",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-37",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-38",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-39",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-40",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-41",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-42",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-43",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-44",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-45",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-46",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-47",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-48",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-49",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-50",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-51",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-52",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-53",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-54",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-55",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-56",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-57",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-58",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-59",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-60",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-61",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-62",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-63",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-64",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-65",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-66",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-67",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-68",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-2-69",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-3",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-6-3-4",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-7-1",
+      "headings": 22
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-7-2",
+      "headings": 16
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-7-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-8-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-8-2",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-8-3",
+      "headings": 27
+    },
+    {
+      "chapter": "gbt-46803-2-2025-clause-8-4",
+      "headings": 56
+    },
+    {
+      "chapter": "gbt-46803-2-2025-references",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-101-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-101-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-3",
+      "headings": 35
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-4",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-6",
+      "headings": 28
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-7",
+      "headings": 34
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-8",
+      "headings": 13
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-9",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-10",
+      "headings": 10
+    },
+    {
+      "chapter": "gbt-48336-101-2026-clause-11",
+      "headings": 19
+    },
+    {
+      "chapter": "gbt-48336-102-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-102-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-102-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-102-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-102-2026-clause-3",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-102-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-102-2026-clause-5",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-102-2026-appendix-a",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-102-2026-appendix-b",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-preface",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-3",
+      "headings": 25
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-2",
+      "headings": 11
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-3",
+      "headings": 21
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-1",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-3",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-4",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-6",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-4-10",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-5",
+      "headings": 12
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-6",
+      "headings": 18
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-2-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-3",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-4",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-5",
+      "headings": 20
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-6",
+      "headings": 27
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-7",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-6-8",
+      "headings": 11
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-2",
+      "headings": 28
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-3",
+      "headings": 56
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-4",
+      "headings": 26
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-1",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-12",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-13",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-14",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-15",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-16",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-17",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-18",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-19",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-20",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-21",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-22",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-23",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-24",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-25",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-26",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-27",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-28",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-29",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-30",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-31",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-32",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-33",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-34",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-35",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-36",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-37",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-38",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-39",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-40",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-41",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-42",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-43",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-44",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-45",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-46",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-47",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-48",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-49",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-50",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-51",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-52",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-53",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-54",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-55",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-56",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-57",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-58",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-59",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-60",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-61",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-62",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-63",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-64",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-65",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-66",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-67",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-68",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-69",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-2-70",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-12",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-13",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-14",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-15",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-16",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-17",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-18",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-19",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-20",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-21",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-22",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-23",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-24",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-25",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-26",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-27",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-28",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-29",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-30",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-31",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-32",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-33",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-34",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-35",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-36",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-37",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-38",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-39",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-40",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-41",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-42",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-43",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-44",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-45",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-46",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-47",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-48",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-49",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-50",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-51",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-52",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-53",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-54",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-55",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-56",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-57",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-58",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-59",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-60",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-61",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-62",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-63",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-64",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-65",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-66",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-67",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-68",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-69",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-70",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-71",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-72",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-73",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-74",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-75",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-76",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-77",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-78",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-79",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-80",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-81",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-82",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-83",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-84",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-85",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-86",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-87",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-88",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-89",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-90",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-91",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-92",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-93",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-94",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-95",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-96",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-97",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-98",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-99",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-100",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-101",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-102",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-103",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-104",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-105",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-106",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-107",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-108",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-109",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-110",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-111",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-112",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-113",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-114",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-115",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-116",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-117",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-118",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-119",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-120",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-121",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-122",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-123",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-124",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-125",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-126",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-127",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-128",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-129",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-130",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-131",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-132",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-133",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-134",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-135",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-136",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-3-137",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-7-5-4",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-8-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-8-2",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-8-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-8-4",
+      "headings": 17
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-8-5",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-8-6",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-1",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-2",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-3",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-4",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-5",
+      "headings": 17
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-6",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-3-9",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-201-2026-clause-9-4",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-a",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-b",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-c",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-d",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-e",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-f",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-g",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-h",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-i",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-j",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-k",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-l",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-m",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-201-2026-appendix-n",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-3",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1-1",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1-2",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1-3",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1-4",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1-5",
+      "headings": 22
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1-6",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-1-7",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2-1",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2-2",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2-3",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2-4",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2-5",
+      "headings": 22
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2-6",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-6-2-7",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-7",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-2",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-12",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-13",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-14",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-15",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-16",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-17",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-18",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-19",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-20",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-21",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-22",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-23",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-24",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-25",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-26",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-27",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-28",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-29",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-30",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-31",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-32",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-33",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-34",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-35",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-36",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-37",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-38",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-39",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-40",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-41",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-42",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-43",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-44",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-45",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-46",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-47",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-3-48",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-4",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-5",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-12",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-14",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-15",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-16",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-17",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-18",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-1-6-19",
+      "headings": 38
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-2",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-12",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-13",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-14",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-15",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-16",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-17",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-18",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-19",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-20",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-21",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-22",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-23",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-24",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-25",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-26",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-27",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-28",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-29",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-30",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-31",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-32",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-33",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-34",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-35",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-36",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-37",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-38",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-39",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-40",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-41",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-3-42",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-4",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-5",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-12",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-14",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-15",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-16",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-17",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-8-2-6-18",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-9",
+      "headings": 21
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-10-1",
+      "headings": 21
+    },
+    {
+      "chapter": "gbt-48336-202-2026-clause-10-2",
+      "headings": 18
+    },
+    {
+      "chapter": "gbt-48336-202-2026-references",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-203-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-203-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-5",
+      "headings": 20
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-6",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-7",
+      "headings": 23
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-8",
+      "headings": 23
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-9",
+      "headings": 26
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-10",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-203-2026-clause-11",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-203-2026-appendix-a",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-3",
+      "headings": 18
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-5",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-6",
+      "headings": 56
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-4",
+      "headings": 41
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-2",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-3",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-3",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-4",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-5",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-6",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-7",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-8",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-7-5-5-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-3",
+      "headings": 13
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-4",
+      "headings": 36
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-5",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-6",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-7",
+      "headings": 16
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-8",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-8-9",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-2-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-2-2",
+      "headings": 23
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-2-3",
+      "headings": 14
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-2-4",
+      "headings": 15
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-3",
+      "headings": 19
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-9-4",
+      "headings": 37
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-10-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-10-2",
+      "headings": 14
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-10-3",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-10-4",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-301-2026-clause-10-5",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-301-2026-appendix-a",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-301-2026-appendix-b",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-301-2026-appendix-c",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-301-2026-appendix-d",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-3",
+      "headings": 10
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-6",
+      "headings": 12
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-7",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-8",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-9",
+      "headings": 12
+    },
+    {
+      "chapter": "gbt-48336-302-2026-clause-10",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-302-2026-appendix-a",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-302-2026-references",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-303-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-303-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-3",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-5",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-6",
+      "headings": 22
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-7",
+      "headings": 11
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-8",
+      "headings": 34
+    },
+    {
+      "chapter": "gbt-48336-303-2026-clause-9",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-303-2026-appendix-a",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-304-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-304-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-3",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-5",
+      "headings": 25
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6-1",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6-2",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6-3",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6-4",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6-5",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6-6",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-6-7",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-7",
+      "headings": 18
+    },
+    {
+      "chapter": "gbt-48336-304-2026-clause-8",
+      "headings": 27
+    },
+    {
+      "chapter": "gbt-48336-304-2026-appendix-a",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-304-2026-appendix-b",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-304-2026-appendix-c",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-304-2026-appendix-d",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-401-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-401-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-3",
+      "headings": 11
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-5",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-6-1",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-6-2",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-6-3",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-6-4",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-7",
+      "headings": 16
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-8",
+      "headings": 12
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-9",
+      "headings": 23
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-10",
+      "headings": 13
+    },
+    {
+      "chapter": "gbt-48336-401-2026-clause-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-401-2026-references",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-402-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-402-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-3",
+      "headings": 10
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-6",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-7",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-8",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-9",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-402-2026-clause-10",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-403-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-403-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-3",
+      "headings": 21
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-6",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-7",
+      "headings": 17
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-8",
+      "headings": 7
+    },
+    {
+      "chapter": "gbt-48336-403-2026-clause-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-3",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-6",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-7",
+      "headings": 3
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-8",
+      "headings": 12
+    },
+    {
+      "chapter": "gbt-48336-404-2026-clause-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-appendix-a",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-404-2026-appendix-b",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-3",
+      "headings": 19
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-5",
+      "headings": 19
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-6-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-6-2",
+      "headings": 12
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-6-3",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-6-4",
+      "headings": 8
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-6-5",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-8-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-8-2",
+      "headings": 9
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-8-3",
+      "headings": 11
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-8-4",
+      "headings": 6
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-9",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-clause-10",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-appendix-a",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-appendix-b",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-appendix-c",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-appendix-d",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-appendix-e",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-appendix-f",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-405-2026-references",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-preface",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-introduction",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-1",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-2",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-3",
+      "headings": 4
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-4",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-5",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-6",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-7",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-8",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-9",
+      "headings": 11
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-10",
+      "headings": 5
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-11",
+      "headings": 1
+    },
+    {
+      "chapter": "gbt-48336-406-2026-clause-12",
+      "headings": 10
+    },
+    {
+      "chapter": "gbt-48336-406-2026-appendix-a",
+      "headings": 1
+    }
+  ]
+}

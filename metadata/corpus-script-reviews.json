@@ -1,0 +1,152 @@
+{
+  "method": "Direct visual comparison of source PDF crop and native KaTeX, bound to the exact source text, PDF, LaTeX and geometry warning. These records only resolve six model disagreements; actual fraction defects are repaired.",
+  "reviews": [
+    {
+      "code": "GBT-46803.1-2025",
+      "page": 69,
+      "line_ids": [
+        14,
+        15
+      ],
+      "source_pdf_sha256": "a40f5f352d59dfe9e8a2cbf2231183ca9564e21404ae04662f0d647f62b8fe42",
+      "source_text_sha256": "cc725bf2c40d9c146968685c201f8be893a6c2254aae16bbe72b5d43812e062a",
+      "native_tex": [
+        "\\pi /2-\\mathrm{BPSK}",
+        "\\pi /4-\\mathrm{QPSK}",
+        "\\pi /8-8\\mathrm{PSK}"
+      ],
+      "native_tex_sha256": "1885e8e56c9a553cf05f3e12bf81a3a679a9f754f582cb4f894a943bbb096cdf",
+      "geometry_warning_sha256": "46c34355653da0f274421661fed210bd1ad38b783f1083d258eecaaa5d054a9b",
+      "status": "verified",
+      "reason": "π is an ordinary math symbol after 采用; the CJK font baseline does not make π a subscript.",
+      "evidence": "metadata/review/corpus/script-geometry-1.png"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 29,
+      "line_ids": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "source_text_sha256": "1b3721df214374607ab40c4e0c692b529f0a24d6bdfad85dc2e44501dae74922",
+      "native_tex": [
+        "S",
+        "N_{t}(N_{t}\\geq 2)",
+        "n",
+        "P(P\\geq N_{t})",
+        "p",
+        "i",
+        "k",
+        "X_{i}^{p}(k,n)(",
+        "p",
+        "i(i=p)",
+        "X_{p}^{p}(k,n)",
+        "i(i\\ne p)",
+        "X_{i}^{p}(k,n)",
+        "X_{p}^{p}(k,n)",
+        "i(i\\ne 0)",
+        ":X_{i}^{p}(k,n)=X^{p}_{0}(k,n)\\times e^{\\mathrm{j}(\\rho _{i}(k,n)+\\phi _{i}^{p})}",
+        "\\rho _{i}(k,n)"
+      ],
+      "native_tex_sha256": "2eae486b838f31b81620e9e7ca0bf29c00d2342c93b3bd808e746299ad3b0d91",
+      "geometry_warning_sha256": "40ae45d129d1095aa2591e8d69ad3a103b2a22e6a13311813588103059480136",
+      "status": "verified",
+      "reason": "Original render places i below ρ and φ. The damaged Greek font origin is lower than the printed baseline.",
+      "evidence": "metadata/review/corpus/script-geometry-1.png"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 66,
+      "line_ids": [
+        13,
+        14
+      ],
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "source_text_sha256": "6a8066aaf3f6fb9898839374038b45585288bfd64f34fecdcfc77fc6016c77ef",
+      "native_tex": [
+        "j",
+        "j=0",
+        "1,\\ldots ,N-1",
+        "\\mathbf{g}_{j}",
+        "\\mathbf{G}_{N}",
+        "j",
+        "w(\\mathbf{g}_{j})",
+        "\\mathbf{g}_{j}",
+        "\\mathbf{g}_{j}"
+      ],
+      "native_tex_sha256": "711895050b53709e329eb997afe334208baee4ab7bee68cc1336adc089bcc906",
+      "geometry_warning_sha256": "0eade6658c22309944f5835c85c575db899e07cbd73313b430ab90c59f60aa41",
+      "status": "verified",
+      "reason": "j is the subscript of g inside w(g_j), not a subscript of w.",
+      "evidence": "metadata/review/corpus/script-geometry-1.png"
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "page": 92,
+      "line_ids": [
+        14,
+        15
+      ],
+      "source_pdf_sha256": "23a176195b4023d57bb91177b47b5f922ad0ead7a20d10c6247019d63ed1b09b",
+      "source_text_sha256": "03f383fa691f505e9d70f5d6bb1e570eb5e4992eabc29bf3ffd349a5807928e3",
+      "native_tex": [
+        "y(0),\\ldots ,y(M_{\\mathrm{symb}}-1)\\text{。}M^{\\mathrm{Total}}_{\\mathrm{sc}}=M_{\\mathrm{SCG},1}N_{\\mathrm{SCG},1}",
+        "M_{\\mathrm{SCG},1}",
+        "M_{\\mathrm{SCG},1}=2^{\\alpha _{2}}\\cdot 3^{\\alpha _{3}}\\cdot 5^{\\alpha _{5}}",
+        ",\\alpha _{2}",
+        "\\alpha _{3}",
+        "\\alpha _{5}"
+      ],
+      "native_tex_sha256": "d4e5a875d6f8d36702aa1aeb7f761401fc7bb2770f934bd194831bf859718bc4",
+      "geometry_warning_sha256": "2b991d499a7c841be6fb8c653a05526641e0fcc66eb53ae7a67f438b3d71e918",
+      "status": "verified",
+      "reason": "2, 3 and 5 are subscripts of α inside the exponents, as shown in the source render.",
+      "evidence": "metadata/review/corpus/script-geometry-2.png"
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "page": 41,
+      "line_ids": [
+        35,
+        36
+      ],
+      "source_pdf_sha256": "b8fd9c80f3a5ee13e6eefd84457f4fbbe425a985eabb51ea2f0899eeeec702d2",
+      "source_text_sha256": "5fca1a3d55f7078df11a25aab95bc62a04920dc43975c844cbeac154d13099b3",
+      "native_tex": [
+        "=",
+        "*10^{d}",
+        "d"
+      ],
+      "native_tex_sha256": "9e808139d7e3b584d9cd5dd0e815a9e4c4e898483593667d72b09b151eb91374",
+      "geometry_warning_sha256": "4d39ef4db84d42dc14c9c5166fafee27b7bc1c6cf55323a63e44456bfd56b305",
+      "status": "verified",
+      "reason": "The exponent d belongs to 10. The second d, after the comma, names the exponent in prose; the source uses a small raised font for that declaration.",
+      "evidence": "metadata/review/corpus/script-geometry-2.png"
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "page": 41,
+      "line_ids": [
+        37,
+        38
+      ],
+      "source_pdf_sha256": "b8fd9c80f3a5ee13e6eefd84457f4fbbe425a985eabb51ea2f0899eeeec702d2",
+      "source_text_sha256": "338b5cf3e2f3e0a3ebfdfe6e58603a7254936aec9214b0d525d0c91a1e572294",
+      "native_tex": [
+        "=",
+        "*2^{b}",
+        "b"
+      ],
+      "native_tex_sha256": "2ad45a4d69b3b2f98f5bdce5798b0ca5512fbc03eca7352f30bcb43d6a88d38b",
+      "geometry_warning_sha256": "005ec6d6d4f67868e0dd2606bc39083ced9243273feb6215a7bdc9265d50f9b6",
+      "status": "verified",
+      "reason": "The exponent b belongs to 2. The second b, after the comma, names the exponent in prose; the source uses a small raised font for that declaration.",
+      "evidence": "metadata/review/corpus/script-geometry-2.png"
+    }
+  ]
+}

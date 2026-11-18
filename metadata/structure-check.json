@@ -1,0 +1,178 @@
+{
+  "manifest_sha256": "786060dacd58a416c32d9cbbc1eeb0f09f99c72cee395ebb84c4f071a4e41f89",
+  "documents": 17,
+  "chapters": 819,
+  "issues": [],
+  "results": [
+    {
+      "code": "GBT-46803.1-2025",
+      "chapters": 32,
+      "source_pages": 163,
+      "source_lines": 5764,
+      "accounted_source_lines": 5764,
+      "paragraph_blocks": 1984,
+      "assets": 38,
+      "issues": []
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "chapters": 94,
+      "source_pages": 219,
+      "source_lines": 6602,
+      "accounted_source_lines": 6602,
+      "paragraph_blocks": 1876,
+      "assets": 107,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.101-2026",
+      "chapters": 13,
+      "source_pages": 47,
+      "source_lines": 1507,
+      "accounted_source_lines": 1507,
+      "paragraph_blocks": 898,
+      "assets": 13,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.102-2026",
+      "chapters": 9,
+      "source_pages": 15,
+      "source_lines": 308,
+      "accounted_source_lines": 308,
+      "paragraph_blocks": 139,
+      "assets": 0,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapters": 286,
+      "source_pages": 351,
+      "source_lines": 10305,
+      "accounted_source_lines": 10305,
+      "paragraph_blocks": 3785,
+      "assets": 375,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapters": 170,
+      "source_pages": 327,
+      "source_lines": 12726,
+      "accounted_source_lines": 12726,
+      "paragraph_blocks": 2175,
+      "assets": 4,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "chapters": 14,
+      "source_pages": 31,
+      "source_lines": 934,
+      "accounted_source_lines": 934,
+      "paragraph_blocks": 471,
+      "assets": 0,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "chapters": 57,
+      "source_pages": 203,
+      "source_lines": 7016,
+      "accounted_source_lines": 7016,
+      "paragraph_blocks": 2276,
+      "assets": 93,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.302-2026",
+      "chapters": 14,
+      "source_pages": 35,
+      "source_lines": 870,
+      "accounted_source_lines": 870,
+      "paragraph_blocks": 431,
+      "assets": 26,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.303-2026",
+      "chapters": 12,
+      "source_pages": 39,
+      "source_lines": 1211,
+      "accounted_source_lines": 1211,
+      "paragraph_blocks": 512,
+      "assets": 13,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "chapters": 21,
+      "source_pages": 75,
+      "source_lines": 1756,
+      "accounted_source_lines": 1756,
+      "paragraph_blocks": 1014,
+      "assets": 81,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.401-2026",
+      "chapters": 18,
+      "source_pages": 67,
+      "source_lines": 2085,
+      "accounted_source_lines": 2085,
+      "paragraph_blocks": 529,
+      "assets": 19,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.402-2026",
+      "chapters": 12,
+      "source_pages": 23,
+      "source_lines": 571,
+      "accounted_source_lines": 571,
+      "paragraph_blocks": 242,
+      "assets": 9,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.403-2026",
+      "chapters": 11,
+      "source_pages": 31,
+      "source_lines": 1028,
+      "accounted_source_lines": 1028,
+      "paragraph_blocks": 270,
+      "assets": 2,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.404-2026",
+      "chapters": 13,
+      "source_pages": 27,
+      "source_lines": 811,
+      "accounted_source_lines": 811,
+      "paragraph_blocks": 220,
+      "assets": 2,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.405-2026",
+      "chapters": 28,
+      "source_pages": 75,
+      "source_lines": 2166,
+      "accounted_source_lines": 2166,
+      "paragraph_blocks": 640,
+      "assets": 42,
+      "issues": []
+    },
+    {
+      "code": "GBT-48336.406-2026",
+      "chapters": 15,
+      "source_pages": 27,
+      "source_lines": 741,
+      "accounted_source_lines": 741,
+      "paragraph_blocks": 232,
+      "assets": 7,
+      "issues": []
+    }
+  ]
+}
