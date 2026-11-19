@@ -186,6 +186,7 @@ async function worker() {
       }
       const codeText = await page.locator('article pre').allTextContents();
       if (codeText.some(t => /::::|tab-item|tab-set|^\s*[\u3400-\u9fff]{10}/m.test(t))) found.issues.push('body/directive misparsed as code');
+      if (codeText.some(t => /^\s*--\s*ASN1(?:START|STOP)\s*$/.test(t))) found.issues.push('detached ASN.1 marker');
       await page.setViewportSize({ width:390, height:844 });
       const mobile = await page.evaluate(() => ({ width:innerWidth, scroll:document.documentElement.scrollWidth, scrollTables:[...document.querySelectorAll('.table-scroll')].map(e=>{
         const scroller=e.querySelector('[aria-label="table content"]') || e;

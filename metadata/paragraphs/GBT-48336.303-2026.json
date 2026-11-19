@@ -5416,7 +5416,7 @@
     },
     {
       "page": 27,
-      "kind": "paragraph",
+      "kind": "pseudocode",
       "line_ids": [
         1,
         2,
@@ -5433,7 +5433,23 @@
         196.94923400878906
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "continuation_of": {
+        "page": 26,
+        "line_ids": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ]
+      }
     },
     {
       "page": 27,
@@ -5965,7 +5981,7 @@
     },
     {
       "page": 29,
-      "kind": "paragraph",
+      "kind": "pseudocode",
       "line_ids": [
         1,
         2
@@ -5978,7 +5994,22 @@
         133.19723510742188
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "continuation_of": {
+        "page": 28,
+        "line_ids": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      }
     },
     {
       "page": 29,
@@ -6012,7 +6043,23 @@
         431.8712463378906
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "continuation_of": {
+        "page": 28,
+        "line_ids": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "reading_order_text": "SLEDedicatedReport::= SEQUENCE {\nsleLayer2IDLayer2ID,\nsle-TrafficInformationToAddModListSLESlotPatternInfoListOPTIONAL,\ncurrentSLECarrierChannelListSEQUENCE (SIZE (1..80))OFChannelNumberOPTIONAL,\ncurrentSLESlotPatternInfoListSLESlotPatternInfoListOPTIONAL,\n...\n}\nSPS-TrafficInformationToAddModList::= SEQUENCE (SIZE(1..32))OFSPS-TrafficInformation\nSPS-TrafficInformation ::= SEQUENCE {\nsps-TrafficpatternInformationSPSTrafficPatternInfoOPTIONAL,\nserviceCharcteristicSEQUENCE{\nsamplinglengthENUMERATED {sl16,sl24,sl32},\nsamplingrateENUMERATED {sr16,sr24,sr32,sr48,sr96,sr128}\n}OPTIONAL,\napplication-InfoAIDOPTIONAL,\nqos-InfoXQIOPTIONAL,\nvendor-specificBITSTRING (SIZE (128))OPTIONAL\n}"
     },
     {
       "page": 29,
@@ -6251,7 +6298,7 @@
     },
     {
       "page": 30,
-      "kind": "paragraph",
+      "kind": "pseudocode",
       "line_ids": [
         1
       ],
@@ -6263,7 +6310,18 @@
         117.47722625732422
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "continuation_of": {
+        "page": 29,
+        "line_ids": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      }
     },
     {
       "page": 30,
@@ -6290,7 +6348,18 @@
         306.11322021484375
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "continuation_of": {
+        "page": 29,
+        "line_ids": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      }
     },
     {
       "page": 30,
@@ -6783,13 +6852,45 @@
     },
     {
       "page": 32,
-      "kind": "paragraph",
+      "kind": "pseudocode",
       "line_ids": [
         1,
-        2,
+        2
+      ],
+      "source_text": "...\n}",
+      "bbox": [
+        84.22599792480469,
+        96.06956481933594,
+        177.9619903564453,
+        148.91622924804688
+      ],
+      "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "continuation_of": {
+        "page": 31,
+        "line_ids": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      }
+    },
+    {
+      "page": 32,
+      "kind": "paragraph",
+      "line_ids": [
         3
       ],
-      "source_text": "...\n}\n各个字段含义如下。",
+      "source_text": "各个字段含义如下。",
       "bbox": [
         84.22599792480469,
         96.06956481933594,
@@ -7670,7 +7771,8 @@
         732.6792602539062
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "reading_order_text": "GlinkDataResourceConfArray ::= SEQUENCE (SIZE (1..32))OF GlinkDataResourceConfType1"
     },
     {
       "page": 34,
@@ -7720,7 +7822,8 @@
         135.33123779296875
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "reading_order_text": "TLinkDataResourceConfArray::= SEQUENCE (SIZE (1..32))OF TLinkDataResourceConfType1"
     },
     {
       "page": 35,
@@ -7954,7 +8057,8 @@
         746.2642211914062
       ],
       "file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-clause-8.md",
-      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md"
+      "source_file": "standards/GBT-48336/GBT-48336.303-2026_星闪无线通信系统-第303部分-基础服务层-多域协调与管理/gbt-48336-303-2026-11.md",
+      "reading_order_text": "DataResourceConfType2 ::= SEQUENCE {\ndmrs-PortInfoENUMERATED {port1,port2,port4,port8},\ndmrs-CombInfoENUMERATED {off,on,even,odd},\ncodingModulationInfoENUMERATED {mcs0,mcs1,mcs2,mcs3,mcs4,mcs5,mcs6,mcs7,\nmcs8,mcs9, mcs10, mcs11, mcs12, mcs13,mcs14, mcs15, mcs16, mcs17, mcs18, mcs19,\nmcs20,mcs21,mcs22,mcs23,mcs24,mcs25,mcs26,mcs27,mcs28,mcs29,mcs30,mcs31}OPTIONAL,\nfreqResourceType2BITSTRING (SIZE (10)),\nframeScheduleStartingINTEGER (0..7),\nframeScheduleLengthINTEGER (0..7),\nsuperframePeriodINTEGER (0..127),\nsuperframeOffsetINTEGER (0..127)\n}"
     },
     {
       "page": 35,

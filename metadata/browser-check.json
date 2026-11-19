@@ -1,6 +1,6 @@
 {
-  "manifest_sha256": "263625d524618382d2f5e018a30599ade52820289c03a0360ee3f11249ed4ecf",
-  "time": "2026-11-18T19:15:51.914Z",
+  "manifest_sha256": "01064f2b329a652499d683e645f8b7e833cdad80464dfa56562757ec5068ce08",
+  "time": "2026-11-19T04:37:25.300Z",
   "basePath": "/sparklink-standards-myst",
   "sourcePixelComparison": false,
   "documents": 17,
@@ -3325,7 +3325,7 @@
       "route": "/gbt-48336-201-2026-clause-7-5-2-40/",
       "issues": [],
       "paragraphs": 1,
-      "definitions": 2,
+      "definitions": 0,
       "references": 0,
       "listItems": 0,
       "nativeMath": 0,
@@ -3352,8 +3352,8 @@
       "chapter": "7.5.2.42 感知能力响应消息",
       "route": "/gbt-48336-201-2026-clause-7-5-2-42/",
       "issues": [],
-      "paragraphs": 3,
-      "definitions": 2,
+      "paragraphs": 2,
+      "definitions": 0,
       "references": 0,
       "listItems": 0,
       "nativeMath": 0,
@@ -3465,7 +3465,7 @@
       "route": "/gbt-48336-201-2026-clause-7-5-2-50/",
       "issues": [],
       "paragraphs": 11,
-      "definitions": 1,
+      "definitions": 0,
       "references": 0,
       "listItems": 0,
       "nativeMath": 30,
@@ -3562,8 +3562,8 @@
       "chapter": "7.5.2.57 超宽带脉冲代理感知反馈消息",
       "route": "/gbt-48336-201-2026-clause-7-5-2-57/",
       "issues": [],
-      "paragraphs": 2,
-      "definitions": 1,
+      "paragraphs": 1,
+      "definitions": 0,
       "references": 0,
       "listItems": 0,
       "nativeMath": 0,
@@ -3590,8 +3590,8 @@
       "chapter": "7.5.2.59 超宽带脉冲感知能力响应消息",
       "route": "/gbt-48336-201-2026-clause-7-5-2-59/",
       "issues": [],
-      "paragraphs": 5,
-      "definitions": 2,
+      "paragraphs": 4,
+      "definitions": 0,
       "references": 0,
       "listItems": 0,
       "nativeMath": 1,
@@ -3605,7 +3605,7 @@
       "route": "/gbt-48336-201-2026-clause-7-5-2-60/",
       "issues": [],
       "paragraphs": 6,
-      "definitions": 1,
+      "definitions": 0,
       "references": 0,
       "listItems": 0,
       "nativeMath": 1,
@@ -5948,7 +5948,7 @@
       "listItems": 0,
       "nativeMath": 0,
       "tables": 3,
-      "mergedCells": 18,
+      "mergedCells": 7,
       "mobileTables": 3
     },
     {
@@ -6324,7 +6324,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 32,
+      "nativeMath": 31,
       "tables": 4,
       "mergedCells": 0,
       "mobileTables": 4
@@ -6604,7 +6604,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 181,
+      "nativeMath": 158,
       "tables": 18,
       "mergedCells": 0,
       "mobileTables": 18
@@ -6618,7 +6618,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6632,7 +6632,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6646,7 +6646,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6660,7 +6660,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6674,7 +6674,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6688,7 +6688,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6702,7 +6702,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6716,7 +6716,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6730,7 +6730,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6744,7 +6744,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6758,7 +6758,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6772,7 +6772,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6800,7 +6800,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 8,
+      "nativeMath": 6,
       "tables": 5,
       "mergedCells": 2,
       "mobileTables": 5
@@ -6814,7 +6814,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 8,
+      "nativeMath": 6,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6828,7 +6828,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6842,7 +6842,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6856,7 +6856,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 11,
+      "nativeMath": 9,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6870,7 +6870,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6884,7 +6884,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6898,7 +6898,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 11,
+      "nativeMath": 9,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6912,7 +6912,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6926,7 +6926,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 7,
+      "nativeMath": 5,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6940,7 +6940,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 7,
+      "nativeMath": 5,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6954,7 +6954,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6968,7 +6968,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 23,
+      "nativeMath": 19,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6982,7 +6982,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 23,
+      "nativeMath": 19,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -6996,7 +6996,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7010,7 +7010,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7024,7 +7024,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7038,7 +7038,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7052,7 +7052,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 23,
+      "nativeMath": 19,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7066,7 +7066,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 20,
+      "nativeMath": 16,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7080,7 +7080,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7094,7 +7094,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7108,7 +7108,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7136,7 +7136,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 7,
+      "nativeMath": 5,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7192,7 +7192,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 7,
+      "nativeMath": 5,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7626,7 +7626,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 139,
+      "nativeMath": 116,
       "tables": 18,
       "mergedCells": 0,
       "mobileTables": 18
@@ -7640,7 +7640,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7654,7 +7654,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7668,7 +7668,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7682,7 +7682,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7696,7 +7696,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7710,7 +7710,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7724,7 +7724,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7738,7 +7738,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7752,7 +7752,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7766,7 +7766,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7780,7 +7780,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7808,7 +7808,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7822,7 +7822,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 8,
+      "nativeMath": 6,
       "tables": 4,
       "mergedCells": 0,
       "mobileTables": 4
@@ -7836,7 +7836,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 2,
       "mobileTables": 2
@@ -7850,7 +7850,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7864,7 +7864,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7878,7 +7878,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7892,7 +7892,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 11,
+      "nativeMath": 9,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7906,7 +7906,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 18,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7920,7 +7920,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 14,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7934,7 +7934,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 11,
+      "nativeMath": 9,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7948,7 +7948,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 7,
+      "nativeMath": 5,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7962,7 +7962,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 8,
+      "nativeMath": 6,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7976,7 +7976,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7990,7 +7990,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 23,
+      "nativeMath": 19,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8004,7 +8004,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 23,
+      "nativeMath": 19,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8018,7 +8018,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8032,7 +8032,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8046,7 +8046,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 22,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8060,7 +8060,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 9,
+      "nativeMath": 7,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8074,7 +8074,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8088,7 +8088,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 8,
+      "nativeMath": 6,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8102,7 +8102,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8116,7 +8116,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8144,7 +8144,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 15,
+      "nativeMath": 12,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8158,7 +8158,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 7,
+      "nativeMath": 5,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8200,7 +8200,7 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 7,
+      "nativeMath": 5,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -9890,7 +9890,7 @@
       "chapter": "8 多域协调与管理信息",
       "route": "/gbt-48336-303-2026-clause-8/",
       "issues": [],
-      "paragraphs": 58,
+      "paragraphs": 55,
       "definitions": 0,
       "references": 0,
       "listItems": 56,

@@ -79,8 +79,8 @@
 <text x="696.5" y="281" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">4个事件组资源用于初传和重传</text>
 <text x="696.5" y="308" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">初传和重传不保证100%正确率交付</text>
 <line x1="367" y1="259" x2="367" y2="297"/>
-<text x="367" y="324" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组集合</text>
-<text x="367" y="342" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间同步参考点</text>
+<text x="367" y="318" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组集合</text>
+<text x="367" y="335" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间同步参考点</text>
 <line x1="438" y1="259" x2="438" y2="324"/>
 <text x="438" y="351" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组集合</text>
 <text x="438" y="369" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间同步锚点</text>

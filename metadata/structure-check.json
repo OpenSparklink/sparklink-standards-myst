@@ -1,5 +1,5 @@
 {
-  "manifest_sha256": "263625d524618382d2f5e018a30599ade52820289c03a0360ee3f11249ed4ecf",
+  "manifest_sha256": "01064f2b329a652499d683e645f8b7e833cdad80464dfa56562757ec5068ce08",
   "documents": 17,
   "chapters": 819,
   "issues": [],
@@ -100,7 +100,7 @@
       "source_pages": 39,
       "source_lines": 1211,
       "accounted_source_lines": 1211,
-      "paragraph_blocks": 512,
+      "paragraph_blocks": 513,
       "assets": 3,
       "issues": []
     },

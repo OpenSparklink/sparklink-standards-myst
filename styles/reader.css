@@ -99,6 +99,8 @@ ol.decimal-list > li::marker { content: counter(list-item) ") "; }
 .standard-table th { background-color: #e2e8f040; font-weight: 600; }
 .standard-table .katex { white-space: nowrap; }
 .standard-table.figure-table { min-width: 0; }
+.standard-table.source-bit-table th { white-space: nowrap; }
+.standard-table.figure-table.source-bit-table { min-width: 34rem; }
 .standard-table.figure-table th,
 .standard-table.figure-table td { text-align: center; }
 .standard-table.figure-table :is(th,td).figure-table-dashed {

@@ -1,7 +1,7 @@
 {
-  "manifest_sha256": "263625d524618382d2f5e018a30599ade52820289c03a0360ee3f11249ed4ecf",
+  "manifest_sha256": "01064f2b329a652499d683e645f8b7e833cdad80464dfa56562757ec5068ce08",
   "documents": 17,
-  "expressions": 6801,
+  "expressions": 6522,
   "issues": [],
   "results": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "expressions": 2158
+      "expressions": 1879
     },
     {
       "code": "GBT-48336.203-2026",

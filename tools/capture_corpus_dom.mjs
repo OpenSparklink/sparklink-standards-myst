@@ -44,8 +44,9 @@ try{
     const captions=[...article.querySelectorAll('.standard-table-caption > p')].map(snapshot);
     const tables=[...article.querySelectorAll('table.standard-table:not(.figure-table)')].map(table=>{
      const occupied=[];const cells=[];
-     [...table.rows].forEach((row,r)=>{occupied[r]||=[];let c=0;
-      for(const cell of row.cells){while(occupied[r][c])c++;const rs=cell.rowSpan,cs=cell.colSpan;
+     // Source bit and byte labels are printed outside the PDF's ruled cells.
+     [...table.rows].filter(row=>!row.matches('.figure-table-bit-boundaries')).forEach((row,r)=>{occupied[r]||=[];let c=0;
+      for(const cell of [...row.cells].filter(cell=>!cell.matches('.source-bit-row-label'))){while(occupied[r][c])c++;const rs=cell.rowSpan,cs=cell.colSpan;
        for(let y=r;y<r+rs;y++){occupied[y]||=[];for(let x=c;x<c+cs;x++)occupied[y][x]=true;}
        cells.push({r,c,rowspan:rs,colspan:cs,...snapshot(cell)});c+=cs;
       }

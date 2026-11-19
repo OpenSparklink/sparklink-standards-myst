@@ -4,10 +4,10 @@
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
 <rect width="995" height="749" fill="#fff"/>
 <g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
-<rect x="8" y="8" width="980" height="379" fill="#f4f7fa"/>
+<rect x="8" y="8" width="980" height="350" fill="#f4f7fa"/>
 <rect x="8" y="399" width="980" height="267" fill="#f4f7fa"/>
 <rect x="8" y="675" width="980" height="66" fill="#f4f7fa"/>
-<text x="498" y="371" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础应用层</text>
+<text x="498" y="344" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础应用层</text>
 <text x="498" y="650" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础服务层</text>
 <text x="498" y="718" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">接入层</text>
 <rect x="84" y="691" width="236" height="30" fill="#fff"/>
@@ -55,8 +55,8 @@
 <text x="818.0" y="430.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">传输功能</text>
 <rect x="694" y="441" width="245" height="18" fill="#fff"/>
 <text x="816.5" y="454.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">网络功能</text>
-<line x1="257" y1="387" x2="257" y2="409" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-<line x1="496" y1="387" x2="496" y2="467" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="257" y1="358" x2="257" y2="409" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="496" y1="358" x2="496" y2="467" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
 <text x="247" y="369" text-anchor="end" font-size="13" fill="#22344a" stroke="none">控制面层间原语与</text>
 <text x="247" y="385" text-anchor="end" font-size="13" fill="#22344a" stroke="none">信令</text>
 <text x="482" y="369" text-anchor="end" font-size="13" fill="#22344a" stroke="none">视频配置与管理</text>
@@ -94,13 +94,13 @@
 <text x="499.0" y="234.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">性能</text>
 <text x="499.0" y="249.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">反馈</text>
 <text x="499.0" y="264.78999999999996" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">服务</text>
-<line x1="652" y1="387" x2="652" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="652" y1="358" x2="652" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
 <text x="646" y="367" text-anchor="end" font-size="13" fill="#22344a" stroke="none">IP媒体</text>
 <text x="646" y="383" text-anchor="end" font-size="13" fill="#22344a" stroke="none">数据</text>
-<line x1="748" y1="387" x2="748" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="748" y1="358" x2="748" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
 <text x="742" y="367" text-anchor="end" font-size="13" fill="#22344a" stroke="none">IP媒体</text>
 <text x="742" y="383" text-anchor="end" font-size="13" fill="#22344a" stroke="none">数据</text>
-<line x1="904" y1="387" x2="904" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="904" y1="358" x2="904" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
 <text x="898" y="367" text-anchor="end" font-size="13" fill="#22344a" stroke="none">非IP媒体</text>
 <text x="898" y="383" text-anchor="end" font-size="13" fill="#22344a" stroke="none">数据</text>
 <rect x="63" y="437" width="143" height="28" fill="#fff"/>

@@ -1,6 +1,38 @@
 """Verify every physical source cell against the consolidated web table."""
 import re
 from repair_myst import merge_axes
+from prepare_corpus_audit import cell_lines
+
+
+def separate_row_glyphs(cells):
+    """Recover assignments and list markers that straddle a PDF table rule."""
+    by_edge = {(cell['bbox'][1], cell['bbox'][2]): cell for cell in cells}
+    for right in cells:
+        x, y, _, bottom = right['bbox']
+        left = by_edge.get((y, x))
+        if not left or left['bbox'][3] != bottom:
+            continue
+        label = ''.join(left['lines'])
+        assignment = re.fullmatch(r'(?:初始化|步骤\d+)([ijkm])|([ijkm])步骤\d+', label)
+        if assignment and right['lines'] and right['lines'][0].startswith('='):
+            characters = assignment[1] or assignment[2]
+            following = '='
+        elif any(line.startswith(')') for line in right['lines']):
+            characters = ''.join(line for line in left['lines'] if re.fullmatch('[a-z]', line))
+            following = ')'
+        else:
+            continue
+        edges = [g for g in right['glyphs'] if g['c'] == following and x <= g['x'] <= x + 8]
+        move = [
+            g for g in left['glyphs']
+            if g['c'] in characters and x - 2 <= g['x'] < x
+            and any(abs(g['y'] - edge['y']) < 2 for edge in edges)
+        ]
+        if move:
+            left['glyphs'] = [g for g in left['glyphs'] if g not in move]
+            right['glyphs'].extend(move)
+            for cell in (left, right):
+                cell['lines'] = cell_lines(cell['glyphs'])
 
 
 def audit_tables(source,chapter,actual,doc,local,proof,compare,check_scripts,digest,source_scripts):
@@ -14,6 +46,8 @@ def audit_tables(source,chapter,actual,doc,local,proof,compare,check_scripts,dig
         actual_cells={(c['r'],c['c']):c for c in table['cells']};assigned=set();rendered_cells+=len(actual_cells)
         for source_id in logical_info['parts']:
             info=by_id[source_id];boxes=[c['bbox'] for c in info['source_cells']]
+            if doc['code']=='GBT-48336.202-2026':
+                separate_row_glyphs(info['source_cells'])
             xs=merge_axes([v for c in boxes for v in (c[0],c[2])]);ys=merge_axes([v for c in boxes for v in (c[1],c[3])]);mapping=info['web_row_map']
             for original in info['source_cells']:
                 box=original['bbox'];r=min(range(len(ys)),key=lambda i:abs(ys[i]-box[1]));c=min(range(len(xs)),key=lambda i:abs(xs[i]-box[0]));end_r=min(range(len(ys)),key=lambda i:abs(ys[i]-box[3]));end_c=min(range(len(xs)),key=lambda i:abs(xs[i]-box[2]));web_r=mapping[r]

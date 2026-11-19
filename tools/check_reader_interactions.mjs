@@ -58,6 +58,42 @@ try {
   assert.equal(await page.locator('article img.source-code').count(),0);
   results.push({check:'ASN.1 作为可选取的原生代码显示',passed:true,chapter:codeChapter});
 
+  await page.goto(origin+'/gbt-48336-201-2026-clause-7-5-2-2/');
+  const queryCode=page.locator('article pre').filter({hasText:'GlinkChannelStatusRequest'});
+  assert.equal(await queryCode.count(),1);
+  assert.match(await queryCode.textContent(),/^\s*-- ASN1START[\s\S]*GlinkChannelStatusRequest ::= SEQUENCE \{[\s\S]*-- ASN1STOP\s*$/);
+
+  await page.goto(origin+'/gbt-48336-303-2026-clause-8/');
+  for (const [message,continuedType] of [['DomainResourceReport','SLEDedicatedReport'],['DomainResourceConfiguration','SLBDedicatedConfig']]) {
+    const definition=page.locator('article pre').filter({hasText:new RegExp('^\\s*'+message+' ::=')});
+    assert.equal(await definition.count(),1);
+    assert.match(await definition.textContent(),new RegExp('\\n}\\n\\s*'+continuedType+' ::= SEQUENCE'));
+  }
+  results.push({check:'跨页 ASN.1 定义、分隔符和注释完整保留在代码块内',passed:true});
+
+  await page.goto(origin+'/gbt-48336-202-2026-clause-8-1-3-4/');
+  const stepFive=page.locator('article table tr').filter({has:page.getByRole('cell',{name:'步骤5',exact:true})});
+  assert.equal(await stepFive.count(),1);
+  assert.equal(await stepFive.locator('td').nth(1).locator('.katex annotation').first().textContent(),'k=k+1');
+  results.push({check:'测试表的步骤编号与赋值公式各自对齐',passed:true});
+
+  for (const width of [1440,390]) {
+    await page.setViewportSize({width,height:900});
+    await page.goto(origin+'/gbt-48336-201-2026-clause-9-3-7/');
+    const table=page.locator('article table.figure-table.source-bit-table');
+    const headers=table.getByRole('columnheader');
+    assert.deepEqual(await headers.allTextContents(),['0–3','4–7','8–11','12–15','16–19','20–23']);
+    assert.ok(await table.evaluate(node=>[...node.rows[0].cells].every((header,i)=>{
+      const label=header.getBoundingClientRect();
+      const field=node.rows[1].cells[i].getBoundingClientRect();
+      return Math.abs(label.left-field.left)<1 && Math.abs(label.width-field.width)<1;
+    })));
+    const bytes=page.locator('article .source-bit-table:not(.figure-table)').getByRole('rowheader');
+    assert.deepEqual(await bytes.allTextContents(),['字节 1','字节 2','字节 3','字节 4']);
+  }
+  await page.setViewportSize({width:1440,height:1080});
+  results.push({check:'位域范围与字段在桌面和手机上逐列对齐',passed:true});
+
   const vectorChapter='gbt-46803-1-2025-appendix-b';
   await page.goto(origin+'/'+vectorChapter+'/',{waitUntil:'networkidle'});
   const vector=page.locator('article img.standard-vector-figure').first();
