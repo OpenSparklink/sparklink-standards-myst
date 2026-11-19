@@ -2,7 +2,7 @@
 
 星闪国家标准的 MyST 在线文档工程。包含 GB/T 48336 系列 15 份、GB/T 46803 系列 2 份标准，按条款和附录组织为 819 个页面，支持全文搜索、技术引用、原生公式、连续表格和手机阅读。
 
-[在线阅读](https://github.sanchuanhehe.com/sparklink-standards-myst/) · [验收记录](metadata/html-quality.md) · [维护工具](tools/README.md)
+[在线阅读](https://docs.opensparklink.com/sparklink-standards-myst/) · [验收记录](metadata/html-quality.md) · [维护工具](tools/README.md)
 
 ## 本地预览
 
