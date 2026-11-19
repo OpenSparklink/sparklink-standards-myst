@@ -4,8 +4,18 @@ from repair_myst import merge_axes
 from prepare_corpus_audit import cell_lines
 
 
+WRAPPED_FIELDS = (
+    ('newSecurityContext-', 'D信元', 'I'),
+    ('xrcRecon-', 'igurationComplete', 'f'),
+    ('xrcReconfigura-', 'ionComplete', 't'),
+    ('sens-', 'ngCapabilityResponse', 'i'),
+    ('sensingCapabili-', 'yResponse', 't'),
+    ('newSecurityCon-', 'extID', 't'),
+)
+
+
 def separate_row_glyphs(cells):
-    """Recover assignments and list markers that straddle a PDF table rule."""
+    """Recover assignments, list markers and field names that straddle a rule."""
     by_edge = {(cell['bbox'][1], cell['bbox'][2]): cell for cell in cells}
     for right in cells:
         x, y, _, bottom = right['bbox']
@@ -13,20 +23,24 @@ def separate_row_glyphs(cells):
         if not left or left['bbox'][3] != bottom:
             continue
         label = ''.join(left['lines'])
+        glyph_pairs = {
+            (missing, suffix[0])
+            for prefix, suffix, missing in WRAPPED_FIELDS
+            if any(a.endswith(prefix) and b.startswith(suffix)
+                   for a,b in zip(right['lines'],right['lines'][1:]))
+        }
         assignment = re.fullmatch(r'(?:初始化|步骤\d+)([ijkm])|([ijkm])步骤\d+', label)
         if assignment and right['lines'] and right['lines'][0].startswith('='):
-            characters = assignment[1] or assignment[2]
-            following = '='
+            glyph_pairs.add((assignment[1] or assignment[2], '='))
         elif any(line.startswith(')') for line in right['lines']):
-            characters = ''.join(line for line in left['lines'] if re.fullmatch('[a-z]', line))
-            following = ')'
-        else:
+            glyph_pairs.update((line, ')') for line in left['lines'] if re.fullmatch('[a-z]', line))
+        if not glyph_pairs:
             continue
-        edges = [g for g in right['glyphs'] if g['c'] == following and x <= g['x'] <= x + 8]
+        edges = [g for g in right['glyphs'] if x <= g['x'] <= x + 8]
         move = [
             g for g in left['glyphs']
-            if g['c'] in characters and x - 2 <= g['x'] < x
-            and any(abs(g['y'] - edge['y']) < 2 for edge in edges)
+            if x - 2 <= g['x'] < x
+            and any((g['c'], edge['c']) in glyph_pairs and abs(g['y'] - edge['y']) < 2 for edge in edges)
         ]
         if move:
             left['glyphs'] = [g for g in left['glyphs'] if g not in move]
@@ -57,7 +71,15 @@ def audit_tables(source,chapter,actual,doc,local,proof,compare,check_scripts,dig
                 if (cell['rowspan'],cell['colspan'])!=source_span:local.append({'table':source_id,'source_r':r,'web_r':web_r,'c':c,'source_span':source_span,'html_span':[cell['rowspan'],cell['colspan']],'type':'cell_structure'})
                 if mapping[r:end_r]!=list(range(web_r,web_r+end_r-r)):local.append({'table':source_id,'r':r,'c':c,'source_rows':mapping[r:end_r],'type':'discontinuous_cell_span'})
                 text='\n'.join(original['lines']);strict=not cell['math'] and not cell['scripts'];strict_count+=strict
-                diff=compare(text,cell.get('semantic_text',cell['text']),strict=strict)
+                # The source PDF paints the period before "in", while the
+                # glyph origins put it between the overlapping "i" and "n".
+                reading_text=text.replace('ConnectionStatusi.n-\ndication','ConnectionStatus.in-\ndication')
+                # The printed space separates two fields on the same baseline.
+                reading_text=reading_text.replace(
+                    'dedicatedACK-ResourceSetConftim-\ningAdvanceInfo',
+                    'dedicatedACK-ResourceSetConf timingAdvanceInfo',
+                )
+                diff=compare(reading_text,cell.get('semantic_text',cell['text']),strict=strict)
                 if diff:local.append({'file':chapter['path'],'page':info['page'],'table':source_id,'r':r,'web_r':web_r,'c':c,'bbox':box,'source':text,'actual':cell['text'],'math':cell['math'],'scripts':cell['scripts'],'diff':diff,'type':'table_cell'})
                 script_issues=check_scripts(original['glyphs'],cell,doc['code'],info['page'])
                 if script_issues:local.append({'file':chapter['path'],'page':info['page'],'table':source_id,'r':r,'web_r':web_r,'c':c,'bbox':box,'source':text,'actual':cell['text'],'native_tex':cell['math'],'expected_scripts':script_issues,'actual_scripts':cell.get('script_atoms',[]),'type':'table_scripts'})

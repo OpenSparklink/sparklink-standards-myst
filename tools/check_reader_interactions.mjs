@@ -77,6 +77,50 @@ try {
   assert.equal(await stepFive.locator('td').nth(1).locator('.katex annotation').first().textContent(),'k=k+1');
   results.push({check:'测试表的步骤编号与赋值公式各自对齐',passed:true});
 
+  const syncChapter='gbt-46803-1-2025-clause-6-1';
+  for (const width of [1440,390]) {
+    await page.setViewportSize({width,height:900});
+    await page.goto(origin+'/'+syncChapter+'/');
+    const sequence=page.locator('article .standard-literal code');
+    const expected=[
+      BigInt('0x5A2BDA62').toString(2).padStart(32,'0').split('').reverse().join(''),
+      BigInt('0x7DE7585C6D226540').toString(2).padStart(64,'0').split('').reverse().join(''),
+    ];
+    assert.deepEqual(await sequence.allTextContents(),expected);
+    for (const [index,bits] of expected.entries()) {
+      const layout=await sequence.nth(index).evaluate(element=>{
+        const range=document.createRange();
+        range.selectNodeContents(element);
+        const selection=window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        const result={
+          selected:selection.toString(),
+          lines:range.getClientRects().length,
+          valueWidth:range.getBoundingClientRect().width,
+          wrapperWidth:element.parentElement.clientWidth,
+          paragraphWidth:element.closest('p').clientWidth,
+          documentWidth:document.documentElement.scrollWidth,
+          viewport:innerWidth,
+        };
+        selection.removeAllRanges();
+        return result;
+      });
+      assert.equal(layout.selected,bits);
+      assert.equal(layout.lines,1);
+      assert.ok(layout.wrapperWidth<=layout.paragraphWidth);
+      assert.ok(layout.documentWidth<=layout.viewport+2);
+      if (width===390 && index===1) assert.ok(layout.valueWidth>layout.wrapperWidth);
+    }
+  }
+  results.push({check:'固定同步序列在桌面和手机均可整段复制，长序列只在段内横向滚动',passed:true,chapter:syncChapter});
+
+  await page.goto(origin+'/gbt-48336-202-2026-clause-6-1-3/');
+  const scheduling=page.locator('article table tr').filter({has:page.getByRole('cell',{name:'6.1.3.3-47',exact:true})});
+  const requirements=await scheduling.locator('td').nth(2).innerText();
+  assert.match(requirements,/\ne\).*minGlinkDataDelay.*minTlinkDataDelay.*\nf\)/);
+  results.push({check:'表格内的长字段完整，测试子项边界保留',passed:true});
+
   for (const width of [1440,390]) {
     await page.setViewportSize({width,height:900});
     await page.goto(origin+'/gbt-48336-201-2026-clause-9-3-7/');

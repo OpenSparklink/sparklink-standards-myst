@@ -46,6 +46,38 @@ def letters(s):return ''.join(c for c in canonical(s) if c.isalnum() or c=='_')
 def chinese(s):return ''.join(re.findall(r'[\u3400-\u9fff]',s))
 def compact(s):return re.sub(r'\s+|[\u200b\u2061-\u2064]','',canonical(s))
 
+IDENTIFIER = r'[A-Za-z][A-Za-z0-9_]*(?:[-⁃‐‑][A-Za-z0-9_]+)*'
+WRAPPED_IDENTIFIER = re.compile(
+    rf'({IDENTIFIER})[-⁃‐‑][ \t]*\n[ \t]*({IDENTIFIER})'
+)
+
+
+def remove_discretionary_hyphens(source, actual):
+    """Account for a PDF line-end hyphen only when it rejoins a whole word."""
+    if not WRAPPED_IDENTIFIER.search(source):
+        return source
+    tokens = lambda text: Counter(re.findall(IDENTIFIER, canonical(text)))
+    additions = tokens(actual) - tokens(source)
+
+    def rejoin(match):
+        left, right = map(canonical, match.groups())
+        joined = left + right
+        if not additions[joined]:
+            # Table glyph extraction drops inter-word spaces. Still require
+            # a complete English word in the HTML across this exact break.
+            joined = next((
+                word for word, count in additions.items()
+                if count and word.isalpha() and len(word) >= 6
+                and any(left.endswith(word[:i]) and right.startswith(word[i:])
+                        for i in range(2, len(word) - 1))
+            ), '')
+        if not joined:
+            return match[0]
+        additions[joined] -= 1
+        return match[1] + match[2]
+
+    return WRAPPED_IDENTIFIER.sub(rejoin, source)
+
 
 def source_scripts(glyphs):
     """Find reduced glyphs beside a larger source baseline, independently
@@ -114,7 +146,7 @@ def compare(source,actual,strict=False):
     if not han:result['chinese_order']=False
     if strict and letters(source)!=letters(actual):result['character_order']=False
     operators=lambda s:Counter(c for c in canonical(s) if c in '+-×÷≤≥≠±∈∉∪∩∖⊕⊗')
-    oa,ob=operators(source),operators(actual)
+    oa,ob=operators(remove_discretionary_hyphens(source,actual)),operators(actual)
     if oa-ob:result['missing_operators']=dict(oa-ob)
     if ob-oa:result['extra_operators']=dict(ob-oa)
     return result

@@ -16,6 +16,14 @@ html.dark {
 }
 article { line-height: 1.85; }
 article p { overflow-wrap: anywhere; }
+article .standard-literal {
+  display: inline-block;
+  max-inline-size: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
 article .katex { position: relative; display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; }
 .source-code, .source-figure {
   display: block;
