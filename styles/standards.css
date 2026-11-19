@@ -117,6 +117,7 @@ ol.decimal-list > li::marker { content: counter(list-item) ") "; }
   font-size: 0.9rem;
   font-weight: 600;
 }
+.figure-table-label > p { margin: 0; }
 .standard-vector-figure {
   display: block;
   width: 100%;

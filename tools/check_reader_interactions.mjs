@@ -95,6 +95,16 @@ try {
   await page.waitForFunction(()=>document.activeElement?.matches('.standard-diagram') && document.activeElement.scrollLeft>0);
   results.push({check:'手机长时序图保留可读字号，支持键盘横向滚动',passed:true,chapter:diagramChapter});
 
+  const tableChapter='gbt-48336-201-2026-clause-9-4';
+  await page.goto(origin+'/'+tableChapter+'/');
+  for(const name of ['S1 的字节展开（MSB 至 LSB）','Octet 0 的位域']){
+    const region=page.getByRole('region',{name,exact:true});
+    await region.waitFor();
+    assert.equal(await region.locator('.figure-table-label').innerText(),name);
+    assert.equal(await region.locator('table.figure-table').getAttribute('aria-label'),name);
+  }
+  results.push({check:'组合位域表保留独立标题和可访问名称',passed:true,chapter:tableChapter});
+
   const glossaryTerms = {
     '101': ['COT', 'CP-OFDM', 'SSAP', 'S-AODV', 'S-RPL', 'TCID'],
     '304': ['EAP', 'EAP-5G', 'GPRS', 'GTP-U', 'NAS', 'NAS-PDU', 'NG-RAN', 'SLB', 'SLB-CMTC', 'SLB-SMTC'],
