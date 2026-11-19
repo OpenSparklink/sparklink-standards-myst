@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 625 171" role="img" aria-labelledby="title description">
+<title id="title">图 1　阵列示意</title>
+<desc id="description">从左到右是线阵、平面阵列与圆阵，分别保留点位及扫描方向。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="625" height="171" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="21" y1="80" x2="213" y2="80"/>
+<line x1="30" y1="47" x2="137" y2="47" marker-end="url(#arrow)"/>
+<circle cx="21" cy="80" r="3" fill="#22344a"/>
+<circle cx="58" cy="80" r="3" fill="#22344a"/>
+<circle cx="96" cy="80" r="3" fill="#22344a"/>
+<circle cx="136" cy="80" r="3" fill="#22344a"/>
+<circle cx="175" cy="80" r="3" fill="#22344a"/>
+<circle cx="213" cy="80" r="3" fill="#22344a"/>
+<rect x="270" y="52" width="153" height="78" fill="#fff"/>
+<line x1="270" y1="20" x2="369" y2="20" marker-end="url(#arrow)"/>
+<line x1="245" y1="44" x2="245" y2="110" marker-end="url(#arrow)"/>
+<circle cx="270" cy="52" r="3" fill="#22344a"/>
+<circle cx="270" cy="91" r="3" fill="#22344a"/>
+<circle cx="270" cy="130" r="3" fill="#22344a"/>
+<circle cx="308" cy="52" r="3" fill="#22344a"/>
+<circle cx="308" cy="91" r="3" fill="#22344a"/>
+<circle cx="308" cy="130" r="3" fill="#22344a"/>
+<circle cx="346" cy="52" r="3" fill="#22344a"/>
+<circle cx="346" cy="91" r="3" fill="#22344a"/>
+<circle cx="346" cy="130" r="3" fill="#22344a"/>
+<circle cx="385" cy="52" r="3" fill="#22344a"/>
+<circle cx="385" cy="91" r="3" fill="#22344a"/>
+<circle cx="385" cy="130" r="3" fill="#22344a"/>
+<circle cx="423" cy="52" r="3" fill="#22344a"/>
+<circle cx="423" cy="91" r="3" fill="#22344a"/>
+<circle cx="423" cy="130" r="3" fill="#22344a"/>
+<circle cx="546" cy="90" r="55" fill="#fff"/>
+<path d="M546 21Q589 19 610 58" marker-end="url(#arrow)"/>
+<circle cx="491" cy="90" r="3" fill="#22344a"/>
+<circle cx="546" cy="35" r="3" fill="#22344a"/>
+<circle cx="601" cy="90" r="3" fill="#22344a"/>
+<circle cx="546" cy="145" r="3" fill="#22344a"/>
+</g>
+</svg>

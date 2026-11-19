@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 347 295" role="img" aria-labelledby="title description">
+<title id="title">图 17　到达角估计示意图</title>
+<desc id="description">两根天线相距 d₁，图中标出角 a、角 b、正交辅助线及信号方向。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="347" height="295" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="40" y="238" width="218" height="43" fill="#f2f6fb"/>
+<text x="149" y="264" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">节点</text>
+<text x="61" y="187" text-anchor="end" font-size="15" fill="#22344a" stroke="none">天线1</text>
+<text x="239" y="187" text-anchor="start" font-size="15" fill="#22344a" stroke="none">天线2</text>
+<line x1="72" y1="148" x2="72" y2="238"/>
+<line x1="225" y1="148" x2="225" y2="238"/>
+<path d="M64 150H80L72 165Z"/>
+<path d="M217 150H233L225 165Z"/>
+<line x1="72" y1="148" x2="225" y2="148" stroke-dasharray="5 4"/>
+<line x1="225" y1="148" x2="134" y2="66" stroke-dasharray="5 4"/>
+<line x1="72" y1="148" x2="172" y2="17" marker-start="url(#arrow)"/>
+<line x1="225" y1="148" x2="325" y2="17" marker-start="url(#arrow)"/>
+<path d="M132 70l6 5 5-7"/>
+<path d="M89 147Q95 136 83 130"/>
+<path d="M207 148Q204 135 216 141"/>
+<path d="M85 154q1 9 11 9h38q14 0 14 8q0-8 14-8h39q10 0 12-9"/>
+<text x="149" y="187" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">d₁</text>
+<text x="96" y="138" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">b</text>
+<text x="202" y="136" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">a</text>
+</g>
+</svg>

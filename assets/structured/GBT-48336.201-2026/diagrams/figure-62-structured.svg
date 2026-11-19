@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 294" role="img" aria-labelledby="title description">
+<title id="title">图 62　组密钥更新流程</title>
+<desc id="description">G 节点与 T 节点之间的消息。0. 组密钥请求 (newSecurityContextID)（MIC 下标）。1. 组密钥更新 (GKc/GK, COUNTERg, Gactivation)（MIC 下标）。2. 组密钥更新确认（MIC 下标）。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="840" height="294" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="90" y1="49" x2="90" y2="280"/>
+<line x1="750" y1="49" x2="750" y2="280"/>
+<rect x="27" y="9" width="126" height="40" fill="#f2f6fb"/>
+<text x="90" y="35" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G 节点</text>
+<rect x="687" y="9" width="126" height="40" fill="#f2f6fb"/>
+<text x="750" y="35" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T 节点</text>
+<text x="420" y="94" text-anchor="middle" fill="#22344a" stroke="none">0. 组密钥请求 (newSecurityContextID)<tspan baseline-shift="sub" font-size="10">MIC</tspan></text>
+<line x1="750" y1="112" x2="90" y2="112" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<text x="420" y="160" text-anchor="middle" fill="#22344a" stroke="none">1. 组密钥更新 (GKc/GK, COUNTERg, Gactivation)<tspan baseline-shift="sub" font-size="10">MIC</tspan></text>
+<line x1="90" y1="178" x2="750" y2="178" marker-end="url(#arrow)"/>
+<text x="420" y="226" text-anchor="middle" fill="#22344a" stroke="none">2. 组密钥更新确认<tspan baseline-shift="sub" font-size="10">MIC</tspan></text>
+<line x1="750" y1="244" x2="90" y2="244" marker-end="url(#arrow)"/>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 462" role="img" aria-labelledby="title description">
+<title id="title">图 4　调制和上变频</title>
+<desc id="description">输入信号分出实部与虚部，分别乘以 cos(2πf₀t) 和 −sin(2πf₀t)，求和后滤波输出。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1000" height="462" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="112" y="89" width="139" height="282" fill="#fff"/>
+<text x="181.5" y="236.6" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">Split</text>
+<rect x="743" y="187" width="179" height="73" fill="#fff"/>
+<text x="832.5" y="230.1" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">Filtering</text>
+<circle cx="461" cy="118" r="34" fill="#fff"/>
+<circle cx="461" cy="336" r="34" fill="#fff"/>
+<circle cx="617" cy="223" r="34" fill="#fff"/>
+<text x="461" y="125" text-anchor="middle" font-size="27" fill="#22344a" stroke="none">×</text>
+<text x="461" y="343" text-anchor="middle" font-size="27" fill="#22344a" stroke="none">×</text>
+<text x="617" y="231" text-anchor="middle" font-size="27" fill="#22344a" stroke="none">+</text>
+<line x1="15" y1="223" x2="112" y2="223" marker-end="url(#arrow)"/>
+<line x1="251" y1="118" x2="428" y2="118" marker-end="url(#arrow)"/>
+<line x1="251" y1="336" x2="428" y2="336" marker-end="url(#arrow)"/>
+<path d="M495 118H617V189"/>
+<path d="M495 336H617V257"/>
+<line x1="651" y1="223" x2="743" y2="223" marker-end="url(#arrow)"/>
+<line x1="922" y1="223" x2="990" y2="223" marker-end="url(#arrow)"/>
+<line x1="461" y1="35" x2="461" y2="84" marker-end="url(#arrow)"/>
+<line x1="461" y1="414" x2="461" y2="370" marker-end="url(#arrow)"/>
+<text x="461" y="25" text-anchor="middle" font-size="21" fill="#22344a" stroke="none">cos(2πf<tspan baseline-shift="sub" font-size="14.7">0</tspan>t)</text>
+<text x="461" y="439" text-anchor="middle" font-size="21" fill="#22344a" stroke="none">−sin(2πf<tspan baseline-shift="sub" font-size="14.7">0</tspan>t)</text>
+<text x="40" y="207" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">s<tspan baseline-shift="sub" font-size="14.0">l</tspan><tspan baseline-shift="super" font-size="14.0">(P)</tspan>(t)</text>
+<text x="338" y="106" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">Re{s<tspan baseline-shift="sub" font-size="14.0">l</tspan><tspan baseline-shift="super" font-size="14.0">(P)</tspan>(t)}</text>
+<text x="338" y="319" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">Im{s<tspan baseline-shift="sub" font-size="14.0">l</tspan><tspan baseline-shift="super" font-size="14.0">(P)</tspan>(t)}</text>
+</g>
+</svg>

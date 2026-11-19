@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 357" role="img" aria-labelledby="title description">
+<title id="title">图 20　广播传输时间资源配置示意图</title>
+<desc id="description">广播传输的两个事件组，用广播数据块和连线标出事件间、事件组间约束。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1140" height="357" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="14" y1="128" x2="1130" y2="128" marker-end="url(#arrow)"/>
+<line x1="30" y1="53" x2="530" y2="53" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="236.5" y="38" width="87" height="19" fill="#fff" stroke="none"/>
+<text x="280.0" y="57.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组#1</text>
+<rect x="30" y="73" width="115" height="55" fill="#455870"/>
+<text x="87.5" y="105.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">广播数据</text>
+<line x1="30" y1="63" x2="145" y2="63" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="42.5" y="50" width="90" height="17" fill="#fff" stroke="none"/>
+<text x="87.5" y="66.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">组1事件#1</text>
+<line x1="145" y1="128" x2="203" y2="153"/>
+<line x1="415" y1="128" x2="342" y2="153"/>
+<text x="275" y="158" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">组1事件间间隔</text>
+<text x="275" y="175" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">（约束值）</text>
+<rect x="415" y="73" width="115" height="55" fill="#455870"/>
+<text x="472.5" y="105.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">广播数据</text>
+<line x1="415" y1="63" x2="530" y2="63" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="427.5" y="50" width="90" height="17" fill="#fff" stroke="none"/>
+<text x="472.5" y="66.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">组1事件#2</text>
+<line x1="530" y1="128" x2="588" y2="153"/>
+<line x1="800" y1="128" x2="727" y2="153"/>
+<text x="660" y="158" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">组1事件组间间隔</text>
+<text x="660" y="175" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">（约束值）</text>
+<rect x="800" y="73" width="115" height="55" fill="#455870"/>
+<text x="857.5" y="105.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">广播数据</text>
+<text x="1088" y="150" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">时间轴</text>
+<line x1="14" y1="300" x2="1130" y2="300" marker-end="url(#arrow)"/>
+<line x1="181" y1="225" x2="681" y2="225" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="387.5" y="210" width="87" height="19" fill="#fff" stroke="none"/>
+<text x="431.0" y="229.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组#2</text>
+<rect x="181" y="245" width="115" height="55" fill="#455870"/>
+<text x="238.5" y="277.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">广播数据</text>
+<line x1="181" y1="235" x2="296" y2="235" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="193.5" y="222" width="90" height="17" fill="#fff" stroke="none"/>
+<text x="238.5" y="238.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">组2事件#1</text>
+<line x1="296" y1="300" x2="354" y2="325"/>
+<line x1="566" y1="300" x2="493" y2="325"/>
+<text x="426" y="330" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">组2事件间间隔</text>
+<text x="426" y="347" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">（约束值）</text>
+<rect x="566" y="245" width="115" height="55" fill="#455870"/>
+<text x="623.5" y="277.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">广播数据</text>
+<line x1="566" y1="235" x2="681" y2="235" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="578.5" y="222" width="90" height="17" fill="#fff" stroke="none"/>
+<text x="623.5" y="238.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">组2事件#2</text>
+<line x1="681" y1="300" x2="739" y2="325"/>
+<line x1="951" y1="300" x2="878" y2="325"/>
+<text x="811" y="330" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">组2事件组间间隔</text>
+<text x="811" y="347" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">（约束值）</text>
+<text x="1088" y="322" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">时间轴</text>
+</g>
+</svg>

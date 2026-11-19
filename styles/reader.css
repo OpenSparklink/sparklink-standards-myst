@@ -98,6 +98,35 @@ ol.decimal-list > li::marker { content: counter(list-item) ") "; }
 }
 .standard-table th { background-color: #e2e8f040; font-weight: 600; }
 .standard-table .katex { white-space: nowrap; }
+.standard-table.figure-table { min-width: 0; }
+.standard-table.figure-table th,
+.standard-table.figure-table td { text-align: center; }
+.standard-table.figure-table :is(th,td).figure-table-dashed {
+  outline: 1px dashed var(--standard-rule);
+  outline-offset: -3px;
+}
+.standard-table.figure-table td.figure-table-shaded { background: #94a3b849; }
+.standard-table.figure-table th.figure-table-scope-row { white-space: nowrap; }
+.standard-diagram, .figure-code { max-width: 100%; overflow-x: auto; }
+.standard-diagram figure svg[data-reader-layout] {
+  display: block;
+  width: var(--standard-diagram-width);
+  max-width: none !important;
+  height: auto;
+  margin-inline: auto;
+}
+.figure-table-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.standard-vector-figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-inline: auto;
+  cursor: zoom-in;
+}
 .standard-table.bit-table { min-width: 70rem; table-layout: fixed; }
 .standard-table.bit-table th, .standard-table.bit-table td {
   text-align: center;

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 531 258" role="img" aria-labelledby="title description">
+<title id="title">图 36　测试信号幅度上升和稳定的要求及调制信号到来时刻</title>
+<desc id="description">从噪声电平起的上升时间为 2 μs，稳定时间为 4 μs，图示包含 ±3 dB 与 ±1 dB 误差带。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="531" height="258" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<path d="M10 245H101L224 91H509"/>
+<text x="48" y="237" text-anchor="middle" font-size="12" fill="#22344a" stroke="none">噪声</text>
+<line x1="101" y1="16" x2="101" y2="245" stroke-dasharray="5 4"/>
+<line x1="224" y1="16" x2="224" y2="101" stroke-dasharray="5 4"/>
+<line x1="327" y1="16" x2="327" y2="101" stroke-dasharray="5 4"/>
+<line x1="101" y1="25" x2="224" y2="25" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="5 4"/>
+<text x="162.5" y="19" text-anchor="middle" font-size="12" fill="#22344a" stroke="none">上升时间 2 μs</text>
+<line x1="101" y1="52" x2="327" y2="52" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="5 4"/>
+<text x="214.0" y="46" text-anchor="middle" font-size="12" fill="#22344a" stroke="none">稳定时间 4 μs</text>
+<line x1="224" y1="61" x2="327" y2="61" stroke-dasharray="5 4"/>
+<line x1="224" y1="121" x2="327" y2="121" stroke-dasharray="5 4"/>
+<line x1="253" y1="61" x2="253" y2="121" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="5 4"/>
+<text x="262" y="75" text-anchor="start" font-size="12" fill="#22344a" stroke="none">±3 dB</text>
+<line x1="327" y1="75" x2="511" y2="75" stroke-dasharray="5 4"/>
+<line x1="327" y1="107" x2="511" y2="107" stroke-dasharray="5 4"/>
+<line x1="384" y1="75" x2="384" y2="107" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="5 4"/>
+<text x="393" y="89" text-anchor="start" font-size="12" fill="#22344a" stroke="none">±1 dB</text>
+<line x1="389" y1="29" x2="329" y2="34" marker-end="url(#arrow)"/>
+<text x="390" y="25" text-anchor="start" font-size="11" fill="#22344a" stroke="none">调试信号到来时刻</text>
+<text x="390" y="42" text-anchor="start" font-size="11" fill="#22344a" stroke="none">（第一个前导码符号）</text>
+</g>
+</svg>

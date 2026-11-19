@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 793 142" role="img" aria-labelledby="title desc">
+<title id="title">图 35　17阶线性反馈移位寄存器,产生伪随机序列PRBS17</title><desc id="desc">17 个寄存器按 0 到 16 排列。第 2 级和最后一级的输出反馈到加法节点，再进入第 0 级。</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9.4" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="793" height="142" fill="#fff"/>
+<rect x="30" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="73" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="116" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="159" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="202" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="245" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="288" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="331" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="374" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="417" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="460" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="503" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="546" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="589" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="632" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="675" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="718" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<text x="43" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">0</text>
+<text x="86" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">1</text>
+<text x="129" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">2</text>
+<text x="172" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">3</text>
+<text x="215" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">4</text>
+<text x="258" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">5</text>
+<text x="301" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">6</text>
+<text x="344" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">7</text>
+<text x="387" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">8</text>
+<text x="430" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">9</text>
+<text x="473" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">10</text>
+<text x="516" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">11</text>
+<text x="559" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">12</text>
+<text x="602" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">13</text>
+<text x="645" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">14</text>
+<text x="688" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">15</text>
+<text x="731" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">16</text>
+<line x1="56" y1="102" x2="73" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="99" y1="102" x2="116" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="142" y1="102" x2="159" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="185" y1="102" x2="202" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="228" y1="102" x2="245" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="271" y1="102" x2="288" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="314" y1="102" x2="331" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="357" y1="102" x2="374" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="400" y1="102" x2="417" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="443" y1="102" x2="460" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="486" y1="102" x2="503" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="529" y1="102" x2="546" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="572" y1="102" x2="589" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="615" y1="102" x2="632" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="658" y1="102" x2="675" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="701" y1="102" x2="718" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="744" y1="102" x2="780" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="753" y1="102" x2="753" y2="31" stroke="#22344a" stroke-width="1.4"/>
+<line x1="753" y1="31" x2="158" y2="31" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="144" y1="102" x2="144" y2="45" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="130" y1="31" x2="12" y2="31" stroke="#22344a" stroke-width="1.4"/>
+<line x1="12" y1="31" x2="12" y2="102" stroke="#22344a" stroke-width="1.4"/>
+<line x1="12" y1="102" x2="30" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<circle cx="144" cy="31" r="14" fill="#fff" stroke="#22344a" stroke-width="1.4"/>
+<text x="144" y="36" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">＋</text>
+</svg>

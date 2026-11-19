@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1110 597" role="img" aria-labelledby="title description">
+<title id="title">图 31　连接管理功能单元与接入层、基础服务层其他功能单元关系图</title>
+<desc id="description">按基础应用层、基础服务层、接入层组织数据路径和连接管理原语，保留端口、处理模块与 SLB/SLE 原语。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1110" height="597" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="131" y1="118" x2="1104" y2="118" stroke-dasharray="5 4"/>
+<line x1="131" y1="421" x2="1104" y2="421" stroke-dasharray="5 4"/>
+<text x="63" y="89" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础应用层</text>
+<text x="62" y="296" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础服务层</text>
+<text x="64" y="485" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">接入层</text>
+<rect x="399" y="10" width="105" height="48" fill="#fff"/>
+<text x="451.5" y="38.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">数据2</text>
+<rect x="326" y="37" width="111" height="51" fill="#fff"/>
+<text x="381.5" y="67.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">数据1</text>
+<rect x="710" y="37" width="114" height="51" fill="#fff"/>
+<text x="767.0" y="67.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">控制</text>
+<rect x="168" y="148" width="428" height="249" fill="#fff"/>
+<text x="180" y="172" text-anchor="start" font-size="16" fill="#22344a" stroke="none">数据传输与适配</text>
+<rect x="167" y="448" width="661" height="136" fill="#fff"/>
+<rect x="668" y="146" width="193" height="102" fill="#fff"/>
+<text x="764.5" y="201.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">QoS管理</text>
+<rect x="668" y="299" width="193" height="83" fill="#fff"/>
+<text x="764.5" y="345.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">连接管理</text>
+<line x1="597" y1="348" x2="668" y2="348" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="767" y1="87" x2="767" y2="146" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="767" y1="248" x2="767" y2="299" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="767" y1="383" x2="767" y2="448" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="379" y1="87" x2="379" y2="148" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="463" y1="58" x2="463" y2="148" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="379" y1="397" x2="379" y2="448" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<ellipse cx="379" cy="117" rx="25" ry="7" fill="#fff"/>
+<ellipse cx="463" cy="93" rx="25" ry="7" fill="#fff"/>
+<ellipse cx="767" cy="118" rx="25" ry="7" fill="#fff"/>
+<ellipse cx="767" cy="274" rx="25" ry="7" fill="#fff"/>
+<ellipse cx="767" cy="421" rx="25" ry="7" fill="#fff"/>
+<ellipse cx="379" cy="421" rx="25" ry="7" fill="#fff"/>
+<text x="326" y="109" text-anchor="end" font-size="15" fill="#22344a" stroke="none">port1</text>
+<text x="496" y="87" text-anchor="start" font-size="15" fill="#22344a" stroke="none">port2</text>
+<text x="798" y="112" text-anchor="start" font-size="15" fill="#22344a" stroke="none">连接管理与基础应用层原语</text>
+<text x="799" y="279" text-anchor="start" font-size="15" fill="#22344a" stroke="none">连接管理与QoS管理原语</text>
+<text x="798" y="409" text-anchor="start" font-size="15" fill="#22344a" stroke="none">连接管理与星闪接入层原语</text>
+<path d="M303 190v170a16 5 0 0 0 32 0v-170"/>
+<ellipse cx="319" cy="190" rx="16" ry="5" fill="#fff"/>
+<path d="M428 190v170a16 5 0 0 0 32 0v-170"/>
+<ellipse cx="444" cy="190" rx="16" ry="5" fill="#fff"/>
+<path d="M364 457v106a15 5 0 0 0 30 0v-106"/>
+<ellipse cx="379" cy="457" rx="15" ry="5" fill="#fff"/>
+<path d="M648 457v106a15 5 0 0 0 30 0v-106"/>
+<ellipse cx="663" cy="457" rx="15" ry="5" fill="#fff"/>
+<rect x="261" y="201" width="240" height="39" fill="#fff"/>
+<text x="381.0" y="225.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">分片和聚合</text>
+<rect x="261" y="253" width="240" height="39" fill="#fff"/>
+<text x="381.0" y="277.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">封装和解析</text>
+<rect x="261" y="305" width="240" height="39" fill="#fff"/>
+<text x="381.0" y="329.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">重传和流控</text>
+<rect x="276" y="488" width="206" height="43" fill="#fff"/>
+<text x="379.0" y="514.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">SLB</text>
+<text x="379" y="578" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">逻辑链路</text>
+<rect x="560" y="488" width="206" height="43" fill="#fff"/>
+<text x="663.0" y="514.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">SLE</text>
+<text x="663" y="578" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">逻辑链路</text>
+<text x="319" y="388" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">传输通道</text>
+<text x="444" y="388" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">传输通道</text>
+</g>
+</svg>

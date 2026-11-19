@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 642" role="img" aria-labelledby="title description">
+<title id="title">图 21　周期适配方法的时间同步</title>
+<desc id="description">发送端、空口事件组与接收端的时间轴，保留业务数据周期、分组时延、时间同步参考点、锚点以及重传时延。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1360" height="642" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<text x="47" y="32" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">发送端</text>
+<rect x="90" y="61" width="15" height="30" fill="#fff"/>
+<rect x="123" y="61" width="15" height="30" fill="#fff"/>
+<rect x="156" y="61" width="15" height="30" fill="#fff"/>
+<rect x="189" y="61" width="15" height="30" fill="#fff"/>
+<rect x="222" y="61" width="15" height="30" fill="#fff"/>
+<rect x="255" y="61" width="15" height="30" fill="#fff"/>
+<rect x="288" y="61" width="15" height="30" fill="#fff"/>
+<rect x="321" y="61" width="15" height="30" fill="#fff"/>
+<rect x="354" y="61" width="15" height="30" fill="#fff"/>
+<rect x="387" y="61" width="15" height="30" fill="#fff"/>
+<rect x="420" y="61" width="15" height="30" fill="#fff"/>
+<rect x="453" y="61" width="15" height="30" fill="#fff"/>
+<rect x="486" y="61" width="15" height="30" fill="#fff"/>
+<rect x="519" y="61" width="15" height="30" fill="#fff"/>
+<rect x="552" y="61" width="15" height="30" fill="#fff"/>
+<rect x="585" y="61" width="15" height="30" fill="#fff"/>
+<rect x="618" y="61" width="15" height="30" fill="#fff"/>
+<rect x="651" y="61" width="15" height="30" fill="#fff"/>
+<rect x="684" y="61" width="15" height="30" fill="#fff"/>
+<rect x="717" y="61" width="15" height="30" fill="#fff"/>
+<rect x="750" y="61" width="15" height="30" fill="#fff"/>
+<rect x="783" y="61" width="15" height="30" fill="#fff"/>
+<rect x="816" y="61" width="15" height="30" fill="#fff"/>
+<rect x="849" y="61" width="15" height="30" fill="#fff"/>
+<rect x="882" y="61" width="15" height="30" fill="#fff"/>
+<rect x="915" y="61" width="15" height="30" fill="#fff"/>
+<rect x="948" y="61" width="15" height="30" fill="#fff"/>
+<rect x="981" y="61" width="15" height="30" fill="#fff"/>
+<rect x="1014" y="61" width="15" height="30" fill="#fff"/>
+<rect x="1047" y="61" width="15" height="30" fill="#fff"/>
+<line x1="90" y1="51" x2="123" y2="51" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="106.5" y="46" text-anchor="middle" font-size="13" fill="#22344a" stroke="none"></text>
+<text x="127" y="39" text-anchor="start" font-size="16" fill="#22344a" stroke="none">20 ms业务数据周期</text>
+<path d="M219 92q14 15 55 15q19 0 29 13q15-13 34-13q39 0 52-15"/>
+<text x="304" y="134" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">20 ms×5包＝100 ms</text>
+<path d="M291 148V186H357" marker-end="url(#arrow)"/>
+<text x="460" y="153" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">5业务包使用空口1个事件组</text>
+<text x="460" y="172" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">共10个数据包进行传输</text>
+<text x="460" y="191" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">事件组周期100 ms</text>
+<line x1="397" y1="137" x2="521" y2="137" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="540" y1="137" x2="675" y2="137" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="467" y1="139" x2="563" y2="226" marker-end="url(#arrow)"/>
+<line x1="601" y1="139" x2="729" y2="226" marker-end="url(#arrow)"/>
+<line x1="219" y1="93" x2="219" y2="344"/>
+<line x1="219" y1="288" x2="347" y2="288" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="222" y="275" text-anchor="start" font-size="15" fill="#22344a" stroke="none">最大分组时延</text>
+<text x="310" y="311" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组周期100 ms－</text>
+<text x="310" y="329" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">业务数据周期20 ms</text>
+<text x="310" y="347" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">＝80 ms</text>
+<rect x="197" y="227" width="7" height="29" fill="#fff"/>
+<rect x="209" y="227" width="7" height="29" fill="#fff"/>
+<rect x="221" y="227" width="7" height="29" fill="#fff"/>
+<rect x="233" y="227" width="7" height="29" fill="#fff"/>
+<rect x="245" y="227" width="7" height="29" fill="#fff"/>
+<rect x="257" y="227" width="7" height="29" fill="#fff"/>
+<rect x="269" y="227" width="7" height="29" fill="#fff"/>
+<rect x="281" y="227" width="7" height="29" fill="#fff"/>
+<rect x="293" y="227" width="7" height="29" fill="#fff"/>
+<rect x="305" y="227" width="7" height="29" fill="#fff"/>
+<rect x="362" y="227" width="7" height="29" fill="#fff"/>
+<rect x="374" y="227" width="7" height="29" fill="#fff"/>
+<rect x="386" y="227" width="7" height="29" fill="#fff"/>
+<rect x="398" y="227" width="7" height="29" fill="#fff"/>
+<rect x="410" y="227" width="7" height="29" fill="#fff"/>
+<rect x="422" y="227" width="7" height="29" fill="#fff"/>
+<rect x="434" y="227" width="7" height="29" fill="#fff"/>
+<rect x="446" y="227" width="7" height="29" fill="#fff"/>
+<rect x="458" y="227" width="7" height="29" fill="#fff"/>
+<rect x="470" y="227" width="7" height="29" fill="#fff"/>
+<rect x="527" y="227" width="7" height="29" fill="#fff"/>
+<rect x="539" y="227" width="7" height="29" fill="#fff"/>
+<rect x="551" y="227" width="7" height="29" fill="#fff"/>
+<rect x="563" y="227" width="7" height="29" fill="#fff"/>
+<rect x="575" y="227" width="7" height="29" fill="#fff"/>
+<rect x="587" y="227" width="7" height="29" fill="#fff"/>
+<rect x="599" y="227" width="7" height="29" fill="#fff"/>
+<rect x="611" y="227" width="7" height="29" fill="#fff"/>
+<rect x="623" y="227" width="7" height="29" fill="#fff"/>
+<rect x="635" y="227" width="7" height="29" fill="#fff"/>
+<rect x="692" y="227" width="7" height="29" fill="#fff"/>
+<rect x="704" y="227" width="7" height="29" fill="#fff"/>
+<rect x="716" y="227" width="7" height="29" fill="#fff"/>
+<rect x="728" y="227" width="7" height="29" fill="#fff"/>
+<rect x="740" y="227" width="7" height="29" fill="#fff"/>
+<rect x="752" y="227" width="7" height="29" fill="#fff"/>
+<rect x="764" y="227" width="7" height="29" fill="#fff"/>
+<rect x="776" y="227" width="7" height="29" fill="#fff"/>
+<rect x="788" y="227" width="7" height="29" fill="#fff"/>
+<rect x="800" y="227" width="7" height="29" fill="#fff"/>
+<rect x="857" y="227" width="7" height="29" fill="#fff"/>
+<rect x="869" y="227" width="7" height="29" fill="#fff"/>
+<rect x="881" y="227" width="7" height="29" fill="#fff"/>
+<rect x="893" y="227" width="7" height="29" fill="#fff"/>
+<rect x="905" y="227" width="7" height="29" fill="#fff"/>
+<rect x="917" y="227" width="7" height="29" fill="#fff"/>
+<rect x="929" y="227" width="7" height="29" fill="#fff"/>
+<rect x="941" y="227" width="7" height="29" fill="#fff"/>
+<rect x="953" y="227" width="7" height="29" fill="#fff"/>
+<rect x="965" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1022" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1034" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1046" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1058" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1070" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1082" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1094" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1106" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1118" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1130" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1187" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1199" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1211" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1223" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1235" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1247" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1259" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1271" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1283" y="227" width="7" height="29" fill="#fff"/>
+<rect x="1295" y="227" width="7" height="29" fill="#fff"/>
+<line x1="362" y1="289" x2="993" y2="289" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="677.5" y="281" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">4个事件组资源用于初传和重传</text>
+<text x="677.5" y="308" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">初传和重传不保证100%正确率交付</text>
+<line x1="347" y1="259" x2="347" y2="341"/>
+<text x="347" y="368" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组集合</text>
+<text x="347" y="386" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间同步参考点</text>
+<line x1="482" y1="259" x2="482" y2="318"/>
+<text x="482" y="345" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组集合</text>
+<text x="482" y="363" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间同步锚点</text>
+<line x1="851" y1="259" x2="851" y2="321"/>
+<text x="851" y="348" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组集合</text>
+<text x="851" y="366" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间同步参考点</text>
+<line x1="993" y1="259" x2="993" y2="318"/>
+<text x="993" y="345" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组集合</text>
+<text x="993" y="363" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间同步锚点</text>
+<line x1="501" y1="400" x2="993" y2="400" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="581.0" y="384" width="332" height="20" fill="#fff" stroke="none"/>
+<text x="747.0" y="404.8" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">最大空口重传时延：（4－1）倍事件组周期</text>
+<line x1="219" y1="476" x2="219" y2="618"/>
+<line x1="347" y1="476" x2="347" y2="618"/>
+<line x1="362" y1="476" x2="362" y2="618"/>
+<line x1="482" y1="476" x2="482" y2="618"/>
+<line x1="501" y1="476" x2="501" y2="618"/>
+<line x1="993" y1="476" x2="993" y2="618"/>
+<line x1="219" y1="600" x2="347" y2="600" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="283.0" y="584" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">①</text>
+<line x1="347" y1="600" x2="362" y2="600" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="354.5" y="584" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">②</text>
+<line x1="362" y1="600" x2="482" y2="600" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="422.0" y="584" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">③</text>
+<line x1="482" y1="600" x2="501" y2="600" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="491.5" y="584" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">④</text>
+<line x1="501" y1="600" x2="993" y2="600" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="747.0" y="584" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">⑤</text>
+<rect x="910" y="556" width="15" height="30" fill="#fff"/>
+<rect x="943" y="556" width="15" height="30" fill="#fff"/>
+<rect x="976" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1009" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1042" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1075" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1108" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1141" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1174" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1207" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1240" y="556" width="15" height="30" fill="#fff"/>
+<rect x="1273" y="556" width="15" height="30" fill="#fff"/>
+<text x="902" y="577" text-anchor="end" font-size="17" fill="#22344a" stroke="none">接收端</text>
+<line x1="910" y1="546" x2="943" y2="546" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="926.5" y="541" text-anchor="middle" font-size="13" fill="#22344a" stroke="none"></text>
+<text x="901" y="535" text-anchor="end" font-size="16" fill="#22344a" stroke="none">20 ms业务数据周期</text>
+</g>
+</svg>

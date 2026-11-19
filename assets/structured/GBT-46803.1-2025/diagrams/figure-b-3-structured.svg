@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 287" role="img" aria-labelledby="title description">
+<title id="title">图 B.3　混合方式的传输</title>
+<desc id="description">连续两个事件组，保留两条链路的起始调度点、事件间隔、事件组周期间隔及各传输方向。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1150" height="287" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="13" y1="156" x2="1138" y2="156" marker-end="url(#arrow)"/>
+<line x1="66" y1="21" x2="66" y2="156"/>
+<line x1="190" y1="21" x2="190" y2="156"/>
+<line x1="314" y1="21" x2="314" y2="156"/>
+<line x1="562" y1="21" x2="562" y2="156"/>
+<line x1="66" y1="21" x2="562" y2="21" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="278.0" y="6" width="72" height="19" fill="#fff" stroke="none"/>
+<text x="314.0" y="25.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组x</text>
+<line x1="66" y1="50" x2="314" y2="50" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="156.0" y="36" width="68" height="18" fill="#fff" stroke="none"/>
+<text x="190.0" y="54.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">传输阶段</text>
+<line x1="314" y1="50" x2="562" y2="50" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="404.0" y="36" width="68" height="18" fill="#fff" stroke="none"/>
+<text x="438.0" y="54.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">重传阶段</text>
+<line x1="66" y1="106" x2="190" y2="106" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="87.0" y="92" width="82" height="18" fill="#fff" stroke="none"/>
+<text x="128.0" y="110.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">事件间隔1</text>
+<line x1="190" y1="106" x2="314" y2="106" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="211.0" y="92" width="82" height="18" fill="#fff" stroke="none"/>
+<text x="252.0" y="110.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">事件间隔2</text>
+<rect x="66" y="123" width="46" height="33" fill="#fff"/>
+<text x="89.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T1</text>
+<rect x="128" y="123" width="46" height="33" fill="#fff"/>
+<text x="151.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T1→G</text>
+<rect x="190" y="123" width="46" height="33" fill="#fff"/>
+<text x="213.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T2</text>
+<rect x="252" y="123" width="46" height="33" fill="#fff"/>
+<text x="275.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T2→G</text>
+<rect x="314" y="123" width="46" height="33" fill="#fff"/>
+<text x="337.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T</text>
+<rect x="376" y="123" width="46" height="33" fill="#fff"/>
+<text x="399.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T→G</text>
+<rect x="438" y="123" width="46" height="33" fill="#fff"/>
+<text x="461.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T</text>
+<rect x="500" y="123" width="46" height="33" fill="#fff"/>
+<text x="523.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T→G</text>
+<line x1="66" y1="156" x2="66" y2="237"/>
+<line x1="190" y1="156" x2="190" y2="180"/>
+<text x="66" y="259" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">第一条链路事件</text>
+<text x="66" y="276" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">起始调度点</text>
+<text x="190" y="194" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">第二条链路事件</text>
+<text x="190" y="211" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">起始调度点</text>
+<line x1="617" y1="21" x2="617" y2="156"/>
+<line x1="741" y1="21" x2="741" y2="156"/>
+<line x1="865" y1="21" x2="865" y2="156"/>
+<line x1="1113" y1="21" x2="1113" y2="156"/>
+<line x1="617" y1="21" x2="1113" y2="21" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="814.0" y="6" width="102" height="19" fill="#fff" stroke="none"/>
+<text x="865.0" y="25.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组x+1</text>
+<line x1="617" y1="50" x2="865" y2="50" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="707.0" y="36" width="68" height="18" fill="#fff" stroke="none"/>
+<text x="741.0" y="54.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">传输阶段</text>
+<line x1="865" y1="50" x2="1113" y2="50" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="955.0" y="36" width="68" height="18" fill="#fff" stroke="none"/>
+<text x="989.0" y="54.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">重传阶段</text>
+<line x1="617" y1="106" x2="741" y2="106" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="638.0" y="92" width="82" height="18" fill="#fff" stroke="none"/>
+<text x="679.0" y="110.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">事件间隔1</text>
+<line x1="741" y1="106" x2="865" y2="106" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="762.0" y="92" width="82" height="18" fill="#fff" stroke="none"/>
+<text x="803.0" y="110.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">事件间隔2</text>
+<rect x="617" y="123" width="46" height="33" fill="#fff"/>
+<text x="640.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T1</text>
+<rect x="679" y="123" width="46" height="33" fill="#fff"/>
+<text x="702.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T1→G</text>
+<rect x="741" y="123" width="46" height="33" fill="#fff"/>
+<text x="764.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T2</text>
+<rect x="803" y="123" width="46" height="33" fill="#fff"/>
+<text x="826.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T2→G</text>
+<rect x="865" y="123" width="46" height="33" fill="#fff"/>
+<text x="888.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T</text>
+<rect x="927" y="123" width="46" height="33" fill="#fff"/>
+<text x="950.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T→G</text>
+<rect x="989" y="123" width="46" height="33" fill="#fff"/>
+<text x="1012.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G→T</text>
+<rect x="1051" y="123" width="46" height="33" fill="#fff"/>
+<text x="1074.0" y="143.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T→G</text>
+<line x1="617" y1="156" x2="617" y2="237"/>
+<line x1="741" y1="156" x2="741" y2="180"/>
+<text x="617" y="259" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">第一条链路事件</text>
+<text x="617" y="276" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">起始调度点</text>
+<text x="741" y="194" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">第二条链路事件</text>
+<text x="741" y="211" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">起始调度点</text>
+<line x1="66" y1="238" x2="617" y2="238" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="279.5" y="222" width="124" height="20" fill="#fff" stroke="none"/>
+<text x="341.5" y="242.8" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">事件组周期间隔</text>
+<line x1="190" y1="173" x2="741" y2="173" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+</g>
+</svg>

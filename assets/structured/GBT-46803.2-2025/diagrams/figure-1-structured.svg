@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1327 196" role="img" aria-labelledby="title description">
+<title id="title">图 1　基础广播帧和扩展广播帧的发送流程示意图</title>
+<desc id="description">两轮基础广播帧发送，辅助指针指向扩展广播帧。保留接收窗口、响应帧和广播周期间隔。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1327" height="196" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<text x="77" y="32" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播信道A</text>
+<rect x="43" y="43" width="73" height="32" fill="#fff"/>
+<text x="79.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M43 75V120H388" marker-end="url(#arrow)"/>
+<text x="215.5" y="116" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针1</text>
+<text x="187" y="32" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播信道B</text>
+<rect x="153" y="43" width="73" height="32" fill="#fff"/>
+<text x="189.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M153 75V103H388" marker-end="url(#arrow)"/>
+<text x="270.5" y="99" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针2</text>
+<text x="297" y="32" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播信道C</text>
+<rect x="263" y="43" width="73" height="32" fill="#fff"/>
+<text x="299.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M263 75V86H388" marker-end="url(#arrow)"/>
+<text x="325.5" y="82" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针3</text>
+<rect x="716" y="43" width="73" height="32" fill="#fff"/>
+<text x="752.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M716 75V120H1048" marker-end="url(#arrow)"/>
+<text x="882.0" y="116" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针4</text>
+<rect x="826" y="43" width="73" height="32" fill="#fff"/>
+<text x="862.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M826 75V103H1048" marker-end="url(#arrow)"/>
+<text x="937.0" y="99" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针5</text>
+<rect x="936" y="43" width="73" height="32" fill="#fff"/>
+<text x="972.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M936 75V86H1048" marker-end="url(#arrow)"/>
+<text x="992.0" y="82" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针6</text>
+<rect x="8" y="43" width="21" height="135" fill="#fff"/>
+<text x="18.5" y="99.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">广</text>
+<text x="18.5" y="115.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">播</text>
+<text x="18.5" y="131.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">端</text>
+<line x1="43" y1="91" x2="153" y2="91" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="98.0" y="86" text-anchor="middle" font-size="12" fill="#22344a" stroke="none">基础广播帧间隔</text>
+<text x="423" y="88" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">数据信道D</text>
+<rect x="388" y="103" width="73" height="32" fill="#fff"/>
+<text x="424.5" y="123.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">扩展广播帧</text>
+<rect x="480" y="103" width="113" height="32" fill="#fff" stroke-dasharray="5 4"/>
+<text x="536.5" y="123.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接收窗口</text>
+<rect x="610" y="103" width="88" height="32" fill="#fff" stroke-dasharray="5 4"/>
+<text x="654.0" y="123.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">响应帧</text>
+<rect x="1048" y="103" width="74" height="32" fill="#fff"/>
+<text x="1085.0" y="123.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">扩展广播帧</text>
+<rect x="1218" y="103" width="74" height="32" fill="#fff" stroke-dasharray="5 4"/>
+<text x="1255.0" y="123.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">扩展广播帧</text>
+<line x1="43" y1="167" x2="716" y2="167" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="288.5" y="150" width="182" height="21" fill="#fff" stroke="none"/>
+<text x="379.5" y="172.1" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">广播周期间隔＋随机数</text>
+<text x="1155" y="89" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">扩展广播帧后可继续携带扩展广播帧</text>
+<line x1="43" y1="120" x2="43" y2="183"/>
+<line x1="716" y1="120" x2="716" y2="181"/>
+<line x1="534" y1="183" x2="534" y2="135" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<line x1="655" y1="135" x2="655" y2="184" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<line x1="1122" y1="120" x2="1218" y2="120" marker-end="url(#arrow)"/>
+<text x="1169" y="116" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">辅助指针7</text>
+<line x1="1292" y1="120" x2="1318" y2="120" marker-end="url(#arrow)"/>
+</g>
+</svg>

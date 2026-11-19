@@ -1,4 +1,4 @@
-import {browserOptions,reviewOrigin,basePath,sourcePath} from './site_config.mjs';
+import {browserOptions,reviewOrigin,basePath} from './site_config.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -41,20 +41,34 @@ try {
   const crossHref=await cross.getAttribute('href');await cross.click();
   await page.waitForFunction(()=>!!document.getElementById(decodeURIComponent(location.hash.slice(1))))
   results.push({check:'正文交叉引用跳转到图表或条款',passed:true,target:crossHref});
-  let chapter;
-  for(const doc of manifest.documents) {
-    for(const c of doc.chapters)if((await fs.readFile(c.path,'utf8')).includes(':class: source-code')){chapter=c;break;}
-    if(chapter)break;
-  }
-  assert.ok(chapter,'Missing original raster code sample');
-  await page.goto(origin+'/'+chapter.slug+'/',{waitUntil:'networkidle'});
-  await page.locator('article img.source-code').first().click();
+  const codeChapter='gbt-48336-201-2026-clause-7-5-1';
+  await page.goto(origin+'/'+codeChapter+'/',{waitUntil:'networkidle'});
+  const code=page.locator('article .figure-code code').filter({hasText:'Glink-CommonControl-Message'}).first();
+  const selected=await code.evaluate(element=>{
+    const range=document.createRange();
+    range.selectNodeContents(element);
+    const selection=window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    const result=selection.toString().replace(/\s+/g,' ');
+    selection.removeAllRanges();
+    return result;
+  });
+  assert.match(selected,/-- ASN1START Glink-CommonControl-Message ::= CHOICE \{/);
+  assert.equal(await page.locator('article img.source-code').count(),0);
+  results.push({check:'ASN.1 作为可选取的原生代码显示',passed:true,chapter:codeChapter});
+
+  const vectorChapter='gbt-46803-1-2025-appendix-b';
+  await page.goto(origin+'/'+vectorChapter+'/',{waitUntil:'networkidle'});
+  const vector=page.locator('article img.standard-vector-figure').first();
+  await vector.focus();
+  await vector.press('Enter');
   const zoom=page.locator('dialog[open]');await zoom.waitFor();
   await zoom.locator('img').evaluate(e=>e.decode());
   await zoom.getByRole('button',{name:'适应宽度 / 原尺寸'}).click();
   assert.equal(await zoom.locator('.reader-dialog-scroll').evaluate(e=>e.classList.contains('fit')),false);
   await zoom.getByRole('button',{name:'关闭',exact:true}).click();
-  results.push({check:'原始栅格代码图放大与原尺寸查看',passed:true,chapter:chapter.slug});
+  results.push({check:'键盘打开矢量图并切换放大尺寸',passed:true,chapter:vectorChapter});
 
   await page.setViewportSize({width:390,height:844});
   await page.getByRole('button',{name:/搜索标准正文|Search/}).first().click();
@@ -62,6 +76,24 @@ try {
   await page.getByRole('dialog').locator('a').first().waitFor();
   assert.ok(await page.getByRole('dialog').locator('a').count());
   results.push({check:'390 px 手机宽度中文搜索',passed:true});
+
+  const diagramChapter='gbt-48336-301-2026-clause-9-4';
+  await page.goto(origin+'/'+diagramChapter+'/');
+  const wideDiagram=page.locator('article .standard-diagram').filter({hasText:'SLB切换SLE完成'}).first();
+  await wideDiagram.locator('svg[data-reader-layout]').waitFor();
+  const diagramLayout=await wideDiagram.evaluate(element=>({
+    viewport:innerWidth,
+    document:document.documentElement.scrollWidth,
+    width:element.clientWidth,
+    content:element.scrollWidth,
+    inset:element.querySelector('svg').getBoundingClientRect().width,
+  }));
+  assert.ok(diagramLayout.document<=diagramLayout.viewport+2);
+  assert.ok(diagramLayout.content>diagramLayout.width && diagramLayout.inset>diagramLayout.viewport*2);
+  await wideDiagram.focus();
+  await wideDiagram.press('ArrowRight');
+  await page.waitForFunction(()=>document.activeElement?.matches('.standard-diagram') && document.activeElement.scrollLeft>0);
+  results.push({check:'手机长时序图保留可读字号，支持键盘横向滚动',passed:true,chapter:diagramChapter});
 
   const glossaryTerms = {
     '101': ['COT', 'CP-OFDM', 'SSAP', 'S-AODV', 'S-RPL', 'TCID'],

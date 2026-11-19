@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 382" role="img" aria-labelledby="title description">
+<title id="title">图 1　GFSK 调制波形示意图</title>
+<desc id="description">GFSK 两种波形在 Fc 两侧的频率偏差 fd，标出理想过零点与过零误差。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="760" height="382" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="83" y1="356" x2="83" y2="18" marker-end="url(#arrow)"/>
+<line x1="83" y1="184" x2="750" y2="184" marker-end="url(#arrow)"/>
+<line x1="83" y1="55" x2="732" y2="55"/>
+<line x1="83" y1="313" x2="732" y2="313"/>
+<path d="M83 184C140 105 195 55 242 55S347 113 407 184S518 313 568 313S678 254 730 184"/>
+<path d="M83 184C140 263 195 313 242 313S347 255 407 184S518 55 568 55S678 114 730 184"/>
+<line x1="407" y1="34" x2="407" y2="341"/>
+<line x1="373" y1="151" x2="373" y2="341"/>
+<line x1="442" y1="151" x2="442" y2="341"/>
+<line x1="373" y1="291" x2="407" y2="291" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="390.0" y="286" text-anchor="middle" font-size="12" fill="#22344a" stroke="none"></text>
+<line x1="407" y1="259" x2="442" y2="259" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="424.5" y="254" text-anchor="middle" font-size="12" fill="#22344a" stroke="none"></text>
+<text x="407" y="27" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">理想过零点</text>
+<text x="407" y="365" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">过零误差</text>
+<text x="74" y="61" text-anchor="end" font-size="15" fill="#22344a" stroke="none">Fc＋fd</text>
+<text x="74" y="190" text-anchor="end" font-size="15" fill="#22344a" stroke="none">Fc</text>
+<text x="74" y="319" text-anchor="end" font-size="15" fill="#22344a" stroke="none">Fc－fd</text>
+<text x="740" y="203" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">t</text>
+<line x1="242" y1="184" x2="242" y2="55" marker-end="url(#arrow)"/>
+<line x1="568" y1="184" x2="568" y2="313" marker-end="url(#arrow)"/>
+<rect x="173" y="139" width="138" height="20" fill="#fff" stroke="none"/>
+<rect x="499" y="232" width="138" height="20" fill="#fff" stroke="none"/>
+<text x="242" y="155" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">频率偏差fd</text>
+<text x="568" y="248" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">频率偏差fd</text>
+</g>
+</svg>

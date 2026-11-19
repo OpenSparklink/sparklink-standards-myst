@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 271" role="img" aria-labelledby="title description">
+<title id="title">图 27　接入过程中系统管理帧的配置和发送</title>
+<desc id="description">广播、接入与三次系统管理帧。保留系统管理帧偏移量、调度时刻点、周期间隔及超帧信令资源。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1180" height="271" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="8" y1="135" x2="1170" y2="135" marker-end="url(#arrow)"/>
+<rect x="43" y="104" width="94" height="31" fill="#fff"/>
+<text x="90.0" y="124.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">扩展广播帧</text>
+<text x="90" y="156" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接收</text>
+<rect x="155" y="104" width="94" height="31" fill="#fff"/>
+<text x="202.0" y="124.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接入请求帧</text>
+<text x="202" y="156" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">发送</text>
+<rect x="268" y="104" width="94" height="31" fill="#fff"/>
+<text x="315.0" y="124.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接入响应帧</text>
+<text x="315" y="156" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接收</text>
+<text x="89" y="21" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">携带接入基本信息</text>
+<text x="295" y="34" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接入端成为G角色</text>
+<line x1="155" y1="66" x2="430" y2="66" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="219.0" y="51" width="147" height="19" fill="#fff" stroke="none"/>
+<text x="292.5" y="70.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">系统管理帧的偏移量</text>
+<text x="273" y="178" text-anchor="start" font-size="14" fill="#22344a" stroke="none">接入端成为T角色</text>
+<line x1="268" y1="198" x2="430" y2="198" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="284.5" y="185" width="129" height="17" fill="#fff" stroke="none"/>
+<text x="349.0" y="201.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">系统管理帧的偏移量</text>
+<text x="187" y="245" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">携带接入基本信息</text>
+<line x1="155" y1="66" x2="155" y2="103"/>
+<line x1="268" y1="135" x2="268" y2="223"/>
+<rect x="430" y="101" width="88" height="34" fill="#fff"/>
+<text x="474.0" y="122.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">系统管理帧</text>
+<rect x="373" y="225" width="152" height="37" fill="#fff"/>
+<text x="449.0" y="248.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">分配超帧信令资源</text>
+<line x1="430" y1="74" x2="430" y2="101" marker-end="url(#arrow)"/>
+<line x1="430" y1="135" x2="430" y2="225"/>
+<text x="430" y="64" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">启动时刻点</text>
+<line x1="430" y1="170" x2="745" y2="170" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="516.5" y="157" width="142" height="17" fill="#fff" stroke="none"/>
+<text x="587.5" y="173.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">系统管理帧的周期间隔</text>
+<rect x="745" y="101" width="88" height="34" fill="#fff"/>
+<text x="789.0" y="122.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">系统管理帧</text>
+<rect x="688" y="225" width="152" height="37" fill="#fff"/>
+<text x="764.0" y="248.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">超帧信令资源</text>
+<line x1="745" y1="74" x2="745" y2="101" marker-end="url(#arrow)"/>
+<line x1="745" y1="135" x2="745" y2="225"/>
+<text x="745" y="64" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">调度时刻点</text>
+<line x1="745" y1="170" x2="1060" y2="170" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="831.5" y="157" width="142" height="17" fill="#fff" stroke="none"/>
+<text x="902.5" y="173.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">系统管理帧的周期间隔</text>
+<rect x="1060" y="101" width="88" height="34" fill="#fff"/>
+<text x="1104.0" y="122.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">系统管理帧</text>
+<rect x="1003" y="225" width="152" height="37" fill="#fff"/>
+<text x="1079.0" y="248.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">超帧信令资源</text>
+<line x1="1060" y1="74" x2="1060" y2="101" marker-end="url(#arrow)"/>
+<line x1="1060" y1="135" x2="1060" y2="225"/>
+<text x="1060" y="64" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">调度时刻点</text>
+</g>
+</svg>

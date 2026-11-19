@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 128" role="img" aria-labelledby="title description">
+<title id="title">图 40　设备工作信道结构(多个信道)</title>
+<desc id="description">信道1由两个基础信道构成，信道2由三个基础信道构成，保留信道号与信道的对应关系。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1150" height="128" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="20" y1="39" x2="352" y2="39" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="186.0" y="34" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">信道1 ↔ 信道1信道号</text>
+<line x1="20" y1="29" x2="20" y2="119"/>
+<line x1="352" y1="29" x2="352" y2="119"/>
+<rect x="20" y="50" width="166" height="23" fill="#fff"/>
+<text x="103.0" y="66.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="186" y="50" width="166" height="23" fill="#fff"/>
+<text x="269.0" y="66.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<line x1="186" y1="110" x2="352" y2="110" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="269.0" y="105" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">基础信道</text>
+<line x1="186" y1="73" x2="186" y2="119"/>
+<text x="427" y="58" text-anchor="middle" font-size="23" fill="#22344a" stroke="none">…</text>
+<line x1="547" y1="39" x2="1045" y2="39" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="796.0" y="34" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">信道2 ↔ 信道2信道号</text>
+<line x1="547" y1="29" x2="547" y2="119"/>
+<line x1="1045" y1="29" x2="1045" y2="119"/>
+<rect x="547" y="50" width="166" height="23" fill="#fff"/>
+<text x="630.0" y="66.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="713" y="50" width="166" height="23" fill="#fff"/>
+<text x="796.0" y="66.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="879" y="50" width="166" height="23" fill="#fff"/>
+<text x="962.0" y="66.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<text x="1120" y="58" text-anchor="middle" font-size="23" fill="#22344a" stroke="none">…</text>
+</g>
+</svg>

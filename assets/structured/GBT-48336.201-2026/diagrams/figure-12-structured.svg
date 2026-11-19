@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 419" role="img" aria-labelledby="title description">
+<title id="title">图 12　多锚点与多标签的 RTT测距流程</title>
+<desc id="description">保留 G 节点、多锚点、标签及连接、配置、测量和反馈的方向。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1120" height="419" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="9" y="11" width="166" height="38" fill="#fff"/>
+<text x="92.0" y="35.61" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">G 节点</text>
+<line x1="92" y1="49" x2="92" y2="410"/>
+<rect x="253" y="11" width="166" height="38" fill="#fff"/>
+<text x="336.0" y="35.61" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">锚点 1</text>
+<line x1="336" y1="49" x2="336" y2="410"/>
+<rect x="469" y="11" width="166" height="38" fill="#fff"/>
+<text x="552.0" y="35.61" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">锚点 M</text>
+<line x1="552" y1="49" x2="552" y2="410"/>
+<rect x="699" y="11" width="166" height="38" fill="#fff"/>
+<text x="782.0" y="35.61" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">Tag 1</text>
+<line x1="782" y1="49" x2="782" y2="410"/>
+<rect x="945" y="11" width="166" height="38" fill="#fff"/>
+<text x="1028.0" y="35.61" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">Tag N</text>
+<line x1="1028" y1="49" x2="1028" y2="410"/>
+<text x="448" y="36" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">…</text>
+<text x="903" y="36" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">…</text>
+<polygon points="92,79 109,64 109,69 319,69 319,64 336,79 319,94 319,89 109,89 109,94" fill="#fff"/>
+<polygon points="92,149 319,149 319,144 336,159 319,174 319,169 92,169" fill="#fff"/>
+<polygon points="336,69 535,69 535,64 552,79 535,94 535,89 336,89" fill="#fff"/>
+<polygon points="336,149 535,149 535,144 552,159 535,174 535,169 336,169" fill="#fff"/>
+<polygon points="552,69 765,69 765,64 782,79 765,94 765,89 552,89" fill="#fff"/>
+<polygon points="552,149 765,149 765,144 782,159 765,174 765,169 552,169" fill="#fff"/>
+<polygon points="782,69 1011,69 1011,64 1028,79 1011,94 1011,89 782,89" fill="#fff"/>
+<polygon points="782,149 1011,149 1011,144 1028,159 1011,174 1011,169 782,169" fill="#fff"/>
+<text x="212" y="84" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">1. 建立连接</text>
+<text x="212" y="164" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">2. 测量配置</text>
+<polygon points="336,251 353,236 353,241 765,241 765,236 782,251 765,266 765,261 353,261 353,266" fill="#fff"/>
+<polygon points="552,251 569,236 569,241 1011,241 1011,236 1028,251 1011,266 1011,261 569,261 569,266" fill="#fff"/>
+<text x="552" y="256" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">3. 双向测量</text>
+<polygon points="92,307 109,292 109,297 1028,297 1028,317 109,317 109,322" fill="#fff" stroke-dasharray="6 4"/>
+<text x="323" y="312" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">4. 时间差反馈（类型1）</text>
+<polygon points="336,355 765,355 765,350 782,365 765,380 765,375 336,375" fill="#fff" stroke-dasharray="6 4"/>
+<polygon points="782,355 1011,355 1011,350 1028,365 1011,380 1011,375 782,375" fill="#fff" stroke-dasharray="6 4"/>
+<text x="546" y="370" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">4. 时间差反馈（类型2）</text>
+</g>
+</svg>

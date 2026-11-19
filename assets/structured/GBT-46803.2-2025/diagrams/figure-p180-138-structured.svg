@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1210 307" role="img" aria-labelledby="title description">
+<title id="title">图 101　图100中输入0在异步单播/组播/TT链路、同步单播/组播链路上的组成</title>
+<desc id="description">保留每个输入、会话密钥、SM4/AES-128 模块、异或连接及原图输出标号。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1210" height="307" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<text x="174" y="23" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">输入0</text>
+<rect x="109" y="109" width="130" height="39" fill="#fff"/>
+<text x="174.0" y="134.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">SM4/AES-128</text>
+<text x="65" y="124" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">会话密钥</text>
+<line x1="23" y1="130" x2="108" y2="130" marker-end="url(#arrow)"/>
+<line x1="174" y1="31" x2="174" y2="109" marker-end="url(#arrow)"/>
+<line x1="174" y1="148" x2="174" y2="247" marker-end="url(#arrow)"/>
+<text x="174" y="273" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">输出0</text>
+<text x="488" y="23" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">输入1</text>
+<rect x="423" y="109" width="130" height="39" fill="#fff"/>
+<text x="488.0" y="134.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">SM4/AES-128</text>
+<text x="379" y="124" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">会话密钥</text>
+<line x1="337" y1="130" x2="422" y2="130" marker-end="url(#arrow)"/>
+<line x1="488" y1="31" x2="488" y2="55" marker-end="url(#arrow)"/>
+<line x1="488" y1="81" x2="488" y2="109" marker-end="url(#arrow)"/>
+<circle cx="488" cy="68" r="13" fill="#fff"/>
+<line x1="475" y1="68" x2="501" y2="68"/>
+<line x1="488" y1="55" x2="488" y2="81"/>
+<line x1="488" y1="148" x2="488" y2="247" marker-end="url(#arrow)"/>
+<path d="M175 199h112V68H475" marker-end="url(#arrow)"/>
+<text x="488" y="273" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">输出1</text>
+<text x="801" y="23" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">有效载荷的第1个16字节</text>
+<rect x="736" y="109" width="130" height="39" fill="#fff"/>
+<text x="801.0" y="134.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">SM4/AES-128</text>
+<text x="692" y="124" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">会话密钥</text>
+<line x1="650" y1="130" x2="735" y2="130" marker-end="url(#arrow)"/>
+<line x1="801" y1="31" x2="801" y2="55" marker-end="url(#arrow)"/>
+<line x1="801" y1="81" x2="801" y2="109" marker-end="url(#arrow)"/>
+<circle cx="801" cy="68" r="13" fill="#fff"/>
+<line x1="788" y1="68" x2="814" y2="68"/>
+<line x1="801" y1="55" x2="801" y2="81"/>
+<line x1="801" y1="148" x2="801" y2="247" marker-end="url(#arrow)"/>
+<path d="M488 199h112V68H788" marker-end="url(#arrow)"/>
+<text x="801" y="273" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">输出0</text>
+<text x="1111" y="23" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">有效载荷的剩余字节</text>
+<rect x="1046" y="109" width="130" height="39" fill="#fff"/>
+<text x="1111.0" y="134.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">SM4/AES-128</text>
+<text x="1002" y="124" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">会话密钥</text>
+<line x1="960" y1="130" x2="1045" y2="130" marker-end="url(#arrow)"/>
+<line x1="1111" y1="31" x2="1111" y2="55" marker-end="url(#arrow)"/>
+<line x1="1111" y1="81" x2="1111" y2="109" marker-end="url(#arrow)"/>
+<circle cx="1111" cy="68" r="13" fill="#fff"/>
+<line x1="1098" y1="68" x2="1124" y2="68"/>
+<line x1="1111" y1="55" x2="1111" y2="81"/>
+<line x1="1111" y1="148" x2="1111" y2="247" marker-end="url(#arrow)"/>
+<path d="M798 199h112V68H1098" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<text x="1111" y="273" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">输出N（低位4个字节</text>
+<text x="1111" y="293" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">为消息完整性检查）</text>
+</g>
+</svg>

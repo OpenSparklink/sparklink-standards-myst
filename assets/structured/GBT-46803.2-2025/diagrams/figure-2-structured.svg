@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1310 462" role="img" aria-labelledby="title description">
+<title id="title">图 2　发现流程示意图</title>
+<desc id="description">广播端与发现端的查询流程，保留各信道、辅助指针、偏移量、接收窗口和请求/响应帧。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1310" height="462" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<text x="79" y="32" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播信道A</text>
+<rect x="45" y="43" width="73" height="32" fill="#fff"/>
+<text x="81.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M45 75V120H399" marker-end="url(#arrow)"/>
+<text x="222.0" y="116" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针1</text>
+<text x="192" y="32" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播信道B</text>
+<rect x="158" y="43" width="73" height="32" fill="#fff"/>
+<text x="194.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M158 75V103H399" marker-end="url(#arrow)"/>
+<text x="278.5" y="99" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针2</text>
+<text x="305" y="32" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播信道C</text>
+<rect x="271" y="43" width="73" height="32" fill="#fff"/>
+<text x="307.5" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M271 75V86H399" marker-end="url(#arrow)"/>
+<text x="335.0" y="82" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">辅助指针3</text>
+<rect x="8" y="45" width="20" height="129" fill="#fff"/>
+<text x="18.0" y="98.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">广</text>
+<text x="18.0" y="114.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">播</text>
+<text x="18.0" y="130.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">端</text>
+<rect x="8" y="224" width="20" height="123" fill="#fff"/>
+<text x="18.0" y="274.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">发</text>
+<text x="18.0" y="290.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">现</text>
+<text x="18.0" y="306.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">端</text>
+<line x1="45" y1="88" x2="158" y2="88" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="101.5" y="83" text-anchor="middle" font-size="12" fill="#22344a" stroke="none">基础广播帧间隔</text>
+<text x="433" y="85" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">数据信道D</text>
+<rect x="399" y="102" width="87" height="37" fill="#fff"/>
+<text x="442.5" y="125.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">扩展广播帧</text>
+<text x="499" y="158" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">可查询</text>
+<rect x="531" y="102" width="359" height="37" fill="#fff"/>
+<text x="710.5" y="126.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">接收窗口</text>
+<text x="711" y="91" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">开启查询请求窗口总数个查询请求最大长度的接收窗口</text>
+<rect x="926" y="102" width="86" height="37" fill="#fff"/>
+<text x="969.0" y="125.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">查询响应帧</text>
+<text x="974" y="85" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">响应一个或多</text>
+<text x="974" y="101" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">个查询请求帧</text>
+<line x1="399" y1="14" x2="399" y2="102"/>
+<line x1="926" y1="14" x2="926" y2="102"/>
+<line x1="531" y1="49" x2="531" y2="102"/>
+<line x1="399" y1="25" x2="926" y2="25" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="596.5" y="10" width="132" height="19" fill="#fff" stroke="none"/>
+<text x="662.5" y="29.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">查询响应的偏移量</text>
+<line x1="399" y1="60" x2="531" y2="60" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="411.0" y="48" width="108" height="16" fill="#fff" stroke="none"/>
+<text x="465.0" y="63.6" text-anchor="middle" font-size="12" fill="#22344a" stroke="none">查询请求的偏移量</text>
+<rect x="45" y="223" width="304" height="38" fill="#fff"/>
+<text x="197.0" y="247.61" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">开启发现窗口接收</text>
+<rect x="400" y="323" width="86" height="39" fill="#fff"/>
+<text x="443.0" y="347.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接收</text>
+<rect x="926" y="323" width="86" height="39" fill="#fff"/>
+<text x="969.0" y="347.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">接收</text>
+<line x1="442" y1="139" x2="442" y2="323" marker-end="url(#arrow)"/>
+<line x1="969" y1="139" x2="969" y2="323" marker-end="url(#arrow)"/>
+<rect x="532" y="323" width="84" height="39" fill="#fff"/>
+<text x="574.0" y="347.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">查询请求帧</text>
+<line x1="574" y1="323" x2="574" y2="139" marker-end="url(#arrow)"/>
+<line x1="716" y1="409" x2="574" y2="362" marker-end="url(#arrow)"/>
+<rect x="624" y="323" width="84" height="39" fill="#fff" stroke-dasharray="5 4"/>
+<text x="666.0" y="347.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">查询请求帧</text>
+<line x1="666" y1="323" x2="666" y2="139" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<line x1="716" y1="409" x2="666" y2="362" marker-end="url(#arrow)"/>
+<rect x="716" y="323" width="84" height="39" fill="#fff" stroke-dasharray="5 4"/>
+<text x="758.0" y="347.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">……</text>
+<line x1="758" y1="323" x2="758" y2="139" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<line x1="716" y1="409" x2="758" y2="362" marker-end="url(#arrow)"/>
+<rect x="808" y="323" width="84" height="39" fill="#fff" stroke-dasharray="5 4"/>
+<text x="850.0" y="347.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">查询请求帧</text>
+<line x1="850" y1="323" x2="850" y2="139" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<line x1="716" y1="409" x2="850" y2="362" marker-end="url(#arrow)"/>
+<rect x="548" y="409" width="336" height="41" fill="#fff"/>
+<text x="716.0" y="434.78" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">查询请求帧携带的信息</text>
+<line x1="45" y1="181" x2="1038" y2="181" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="460.5" y="166" width="162" height="19" fill="#fff" stroke="none"/>
+<text x="541.5" y="185.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">广播周期间隔＋随机数</text>
+<rect x="1038" y="43" width="76" height="32" fill="#fff"/>
+<text x="1076.0" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<rect x="1130" y="43" width="76" height="32" fill="#fff"/>
+<text x="1168.0" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+<rect x="1222" y="43" width="76" height="32" fill="#fff"/>
+<text x="1260.0" y="63.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础广播帧</text>
+</g>
+</svg>

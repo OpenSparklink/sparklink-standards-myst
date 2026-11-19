@@ -10,6 +10,7 @@ const build = path.resolve(root, '_build/html');
 const reportDir = path.resolve(root, 'tmp/html-review');
 await fs.mkdir(reportDir, { recursive: true });
 const manifest = JSON.parse(await fs.readFile('metadata/reading-manifest.json', 'utf8'));
+const figureTables = JSON.parse(await fs.readFile('metadata/figure-tables.json', 'utf8'));
 if (process.env.CHECK_DOCUMENT) manifest.documents = manifest.documents.filter(d => d.code === process.env.CHECK_DOCUMENT);
 const sourceAssets=new Set(manifest.documents.flatMap(d=>d.page_assets.map(a=>a.asset)));
 const verifySourceSamples=process.env.SOURCE_PDF_REVIEW==='1';
@@ -44,6 +45,8 @@ const results = [];
 const samples = [];
 const expectedBlocks = new Map();
 const expectedMath = new Map();
+const expectedDiagrams = new Map();
+const expectedFigureCode = new Map();
 const internalLinks=new Set();
 async function collectLinks(page){
   for(const url of await page.locator('a[href]').evaluateAll(nodes=>nodes.map(a=>a.href))) {
@@ -61,6 +64,8 @@ for (const doc of manifest.documents) {
   for (const chapter of doc.chapters) {
     const source=await fs.readFile(chapter.path,'utf8');
     expectedMath.set(chapter.path,(source.match(/\$[^$\n]+\$/g) || []).length+(source.match(/^```\{math\}/gm) || []).length);
+    expectedDiagrams.set(chapter.path,(source.match(/^```\{mermaid\}/gm)||[]).length);
+    expectedFigureCode.set(chapter.path,[...source.matchAll(/:class: figure-code\n\n```asn1\n([\s\S]*?)\n```$/gm)].map(match=>match[1].trim()));
   }
 }
 const chapters = manifest.documents.flatMap(doc => doc.chapters.map(chapter => ({ doc, chapter })));
@@ -105,7 +110,7 @@ async function worker() {
       const missingStructured = await imageCheck(page);
       if (missingStructured.length) found.issues.push({ missingStructured });
       const expected=expectedBlocks.get(chapter.path) || {};
-      found.paragraphs=await page.locator('article .standard-paragraph > p').count();
+      found.paragraphs=await page.locator('article .standard-paragraph > p, article .figure-table-bit-boundaries').count();
       found.definitions=await page.locator('article .standard-definitions dl').count();
       found.references=await page.locator('article .standard-reference > p').count();
       found.listItems=await page.locator('article .standard-list-block li').count();
@@ -144,6 +149,41 @@ async function worker() {
         return [];
       }));
       if (badTables.length) found.issues.push({ badTables });
+      const convertedFigures = await page.locator('article table.figure-table').evaluateAll(tables => tables.map(table => ({
+        rows:table.rows.length,
+        columns:[...(table.rows[0]?.cells||[])].reduce((sum,cell)=>sum+cell.colSpan,0),
+        anchor:table.getAttribute('aria-labelledby')||'',
+        unscoped:table.querySelectorAll('th:not([scope])').length,
+      })));
+      const expectedFigures = (figureTables[chapter.slug] || []).map(({rows,columns,anchor=''}) => ({
+        rows,columns,anchor,unscoped:0,
+      }));
+      if(JSON.stringify(convertedFigures)!==JSON.stringify(expectedFigures)){
+        found.issues.push({figureTables:{expected:expectedFigures,actual:convertedFigures}});
+      }
+      const retiredTableAssets=new Set((figureTables[chapter.slug]||[]).map(({asset})=>path.basename(asset)));
+      if(retiredTableAssets.size){
+        const remaining=await page.locator('article img').evaluateAll(images=>images.map(image=>new URL(image.src).pathname.split('/').pop()));
+        const rasterTables=remaining.filter(name=>retiredTableAssets.has(name));
+        if(rasterTables.length)found.issues.push({rasterTables});
+      }
+      const diagramCount=expectedDiagrams.get(chapter.path)||0;
+      if(diagramCount){
+        try{
+          await page.waitForFunction(count=>[...document.querySelectorAll('article .standard-diagram')].filter(diagram=>
+            diagram.querySelector('figure svg') && !/Syntax error|UnknownDiagramError/i.test(diagram.textContent)).length===count,
+            diagramCount,{timeout:12000});
+        }catch{
+          const diagrams=await page.locator('article .standard-diagram').evaluateAll(nodes=>nodes.map(diagram=>({
+            svg:!!diagram.querySelector('figure svg'),text:diagram.textContent.trim().slice(0,160),
+          })));
+          found.issues.push({diagramRendering:{expected:diagramCount,diagrams}});
+        }
+      }
+      const figureCode=(await page.locator('article .figure-code pre code').allTextContents()).map(text=>text.trim());
+      if(JSON.stringify(figureCode)!==JSON.stringify(expectedFigureCode.get(chapter.path)||[])){
+        found.issues.push({figureCode:{expected:expectedFigureCode.get(chapter.path)?.length||0,actual:figureCode.length}});
+      }
       const codeText = await page.locator('article pre').allTextContents();
       if (codeText.some(t => /::::|tab-item|tab-set|^\s*[\u3400-\u9fff]{10}/m.test(t))) found.issues.push('body/directive misparsed as code');
       await page.setViewportSize({ width:390, height:844 });

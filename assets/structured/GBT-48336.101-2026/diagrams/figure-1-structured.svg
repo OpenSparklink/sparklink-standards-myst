@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1227 625" role="img" aria-labelledby="title description">
+<title id="title">图 1　星闪无线通信系统架构</title>
+<desc id="description">包含星闪原生及第三方应用、基础服务功能、DLI 和 SLB/SLE/SLP 三种接入模式。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1227" height="625" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="6" y="5" width="1215" height="191" fill="#fff"/>
+<rect x="63" y="18" width="772" height="148" fill="#f3f7fc"/>
+<text x="31" y="54" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">应用</text>
+<text x="31" y="72" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">协议</text>
+<text x="31" y="115" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">原子</text>
+<text x="31" y="133" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">能力</text>
+<text x="31" y="151" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">协议</text>
+<text x="818" y="45" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">星</text>
+<text x="818" y="61" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">闪</text>
+<text x="818" y="77" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">原</text>
+<text x="818" y="93" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">生</text>
+<text x="818" y="109" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">应</text>
+<text x="818" y="125" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">用</text>
+<text x="1192" y="69" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">星闪</text>
+<text x="1192" y="85" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">三方</text>
+<text x="1192" y="101" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">应用</text>
+<text x="1192" y="117" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">对接</text>
+<text x="611" y="185" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">基础应用层</text>
+<rect x="6" y="208" width="1215" height="260" fill="#fff"/>
+<rect x="86" y="230" width="1077" height="29" fill="#fff"/>
+<text x="624.5" y="250.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">传输功能</text>
+<rect x="86" y="272" width="1077" height="29" fill="#fff"/>
+<text x="624.5" y="292.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">网络功能</text>
+<rect x="86" y="398" width="1077" height="29" fill="#fff"/>
+<text x="624.5" y="418.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">数据传输与适配</text>
+<text x="611" y="451" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">基础服务层</text>
+<rect x="6" y="485" width="1215" height="134" fill="#fff"/>
+<rect x="61" y="497" width="1106" height="31" fill="#fff"/>
+<text x="614.0" y="518.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">数据连接接口（DLI）</text>
+<text x="611" y="602" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">接入层</text>
+<rect x="70" y="31" width="84" height="44" fill="#fff"/>
+<text x="112.0" y="57.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">人机交互</text>
+<rect x="162" y="31" width="84" height="44" fill="#fff"/>
+<text x="204.0" y="57.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">全景环视</text>
+<rect x="254" y="31" width="84" height="44" fill="#fff"/>
+<text x="296.0" y="57.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">智能锁止</text>
+<rect x="346" y="31" width="84" height="44" fill="#fff"/>
+<text x="388.0" y="49.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">流媒体</text>
+<text x="388.0" y="64.78999999999999" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">后视镜</text>
+<rect x="438" y="31" width="84" height="44" fill="#fff"/>
+<text x="480.0" y="57.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">家庭影院</text>
+<rect x="530" y="31" width="84" height="44" fill="#fff"/>
+<text x="572.0" y="57.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">耳机</text>
+<rect x="622" y="31" width="84" height="44" fill="#fff"/>
+<text x="664.0" y="57.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">视频投屏</text>
+<rect x="714" y="31" width="84" height="44" fill="#fff"/>
+<text x="756.0" y="57.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">……</text>
+<rect x="70" y="100" width="84" height="44" fill="#fff"/>
+<text x="112.0" y="118.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">视频配置</text>
+<text x="112.0" y="133.79000000000002" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">与传输</text>
+<rect x="162" y="100" width="84" height="44" fill="#fff"/>
+<text x="204.0" y="118.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">音频流配置</text>
+<text x="204.0" y="133.79000000000002" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">与传输</text>
+<rect x="254" y="100" width="84" height="44" fill="#fff"/>
+<text x="296.0" y="118.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">合作设备</text>
+<text x="296.0" y="133.79000000000002" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">集合</text>
+<rect x="346" y="100" width="84" height="44" fill="#fff"/>
+<text x="388.0" y="126.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">设备信息</text>
+<rect x="438" y="100" width="84" height="44" fill="#fff"/>
+<text x="480.0" y="126.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">电量信息</text>
+<rect x="530" y="100" width="84" height="44" fill="#fff"/>
+<text x="572.0" y="118.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">人机数据</text>
+<text x="572.0" y="133.79000000000002" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">交互</text>
+<rect x="622" y="100" width="84" height="44" fill="#fff"/>
+<text x="664.0" y="126.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">位置信息</text>
+<rect x="714" y="100" width="84" height="44" fill="#fff"/>
+<text x="756.0" y="126.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">……</text>
+<rect x="842" y="25" width="135" height="62" fill="#fff"/>
+<text x="909.5" y="52.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">数字车钥匙应</text>
+<text x="909.5" y="67.78999999999999" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">用配置与管理</text>
+<rect x="842" y="96" width="135" height="63" fill="#fff"/>
+<text x="909.5" y="116.78999999999999" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">用于数字车钥匙</text>
+<text x="909.5" y="131.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">应用的数据</text>
+<text x="909.5" y="146.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">交互管理</text>
+<rect x="982" y="25" width="151" height="62" fill="#fff"/>
+<text x="1057.5" y="45.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基于IP的第三方</text>
+<text x="1057.5" y="60.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">应用层协议对接</text>
+<text x="1057.5" y="75.28999999999999" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">配置与管理</text>
+<rect x="982" y="96" width="151" height="63" fill="#fff"/>
+<text x="1057.5" y="116.78999999999999" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基于IP第三方</text>
+<text x="1057.5" y="131.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">应用层协议</text>
+<text x="1057.5" y="146.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">对接数据交互</text>
+<rect x="1144" y="25" width="33" height="62" fill="#fff"/>
+<text x="1160.5" y="60.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">…</text>
+<rect x="1144" y="96" width="33" height="63" fill="#fff"/>
+<text x="1160.5" y="131.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">…</text>
+<rect x="91" y="318" width="103" height="60" fill="#fff"/>
+<text x="142.5" y="352.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">设备发现</text>
+<rect x="210" y="318" width="103" height="60" fill="#fff"/>
+<text x="261.5" y="352.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">服务管理</text>
+<rect x="329" y="318" width="103" height="60" fill="#fff"/>
+<text x="380.5" y="352.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">连接管理</text>
+<rect x="448" y="318" width="103" height="60" fill="#fff"/>
+<text x="499.5" y="352.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">QoS管理</text>
+<rect x="567" y="318" width="103" height="60" fill="#fff"/>
+<text x="618.5" y="352.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">测量管理</text>
+<rect x="686" y="318" width="103" height="60" fill="#fff"/>
+<text x="737.5" y="352.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">安全管理</text>
+<rect x="805" y="318" width="103" height="60" fill="#fff"/>
+<text x="856.5" y="344.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">多域协调</text>
+<text x="856.5" y="361.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">与管理</text>
+<rect x="924" y="318" width="103" height="60" fill="#fff"/>
+<text x="975.5" y="344.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">5G蜂窝</text>
+<text x="975.5" y="361.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">网络融合</text>
+<rect x="1043" y="318" width="103" height="60" fill="#fff"/>
+<text x="1094.5" y="352.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">……</text>
+<rect x="61" y="541" width="349" height="41" fill="#fff"/>
+<text x="235.5" y="557.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">星闪同步低时延带宽模式</text>
+<text x="235.5" y="574.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">（SLB）</text>
+<rect x="433" y="541" width="349" height="41" fill="#fff"/>
+<text x="607.5" y="557.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">星闪同步低功耗模式</text>
+<text x="607.5" y="574.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">（SLE）</text>
+<rect x="805" y="541" width="349" height="41" fill="#fff"/>
+<text x="979.5" y="557.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">星闪同步高精定位模式</text>
+<text x="979.5" y="574.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">（SLP）</text>
+</g>
+</svg>

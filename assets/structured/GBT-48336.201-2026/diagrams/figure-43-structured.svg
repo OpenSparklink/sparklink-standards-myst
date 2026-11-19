@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 564" role="img" aria-labelledby="title description">
+<title id="title">图 43　认证和安全上下文协商(初始接入)</title>
+<desc id="description">G 节点与 T 节点之间的消息。0. 通信域系统消息（密钥协商算法）。1. 关联请求 (indication, [PSK ID], KE alg, KEt, [Rt], Sec Capabilities, NONCEt)。2. 安全上下文请求消息 (KEg, [Rg], NONCEg, algorithm, MIC length, AUTHg)（MIC 下标）。3. 安全上下文响应消息 (AUTHt, T节点L2ID)（MIC 下标）。4. 关联建立消息 (identityConfig, G节点L2ID, Kgt expiration, derivedkey expiration, Dalgorithm, SIGK, [SGK], [GKc/GK], [GK ID], [Galgorithm], [GK expiration])（MIC 下标）。5. 关联完成消息（MIC 下标）。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="840" height="564" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="90" y1="49" x2="90" y2="550"/>
+<line x1="750" y1="49" x2="750" y2="550"/>
+<rect x="27" y="9" width="126" height="40" fill="#f2f6fb"/>
+<text x="90" y="35" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G 节点</text>
+<rect x="687" y="9" width="126" height="40" fill="#f2f6fb"/>
+<text x="750" y="35" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T 节点</text>
+<text x="420" y="94" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">0. 通信域系统消息（密钥协商算法）</text>
+<line x1="90" y1="112" x2="750" y2="112" marker-end="url(#arrow)"/>
+<text x="420" y="160" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">1. 关联请求 (indication, [PSK ID], KE alg, KEt, [Rt],</text>
+<text x="420" y="178" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">Sec Capabilities, NONCEt)</text>
+<line x1="750" y1="196" x2="90" y2="196" marker-end="url(#arrow)"/>
+<text x="420" y="244" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">2. 安全上下文请求消息 (KEg, [Rg], NONCEg, algorithm,</text>
+<text x="420" y="262" text-anchor="middle" fill="#22344a" stroke="none">MIC length, AUTHg)<tspan baseline-shift="sub" font-size="10">MIC</tspan></text>
+<line x1="90" y1="280" x2="750" y2="280" marker-end="url(#arrow)"/>
+<text x="420" y="328" text-anchor="middle" fill="#22344a" stroke="none">3. 安全上下文响应消息 (AUTHt, T节点L2ID)<tspan baseline-shift="sub" font-size="10">MIC</tspan></text>
+<line x1="750" y1="346" x2="90" y2="346" marker-end="url(#arrow)"/>
+<text x="420" y="394" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">4. 关联建立消息 (identityConfig, G节点L2ID, Kgt expiration,</text>
+<text x="420" y="412" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">derivedkey expiration, Dalgorithm, SIGK, [SGK], [GKc/GK], [GK ID],</text>
+<text x="420" y="430" text-anchor="middle" fill="#22344a" stroke="none">[Galgorithm], [GK expiration])<tspan baseline-shift="sub" font-size="10">MIC</tspan></text>
+<line x1="90" y1="448" x2="750" y2="448" marker-end="url(#arrow)"/>
+<text x="420" y="496" text-anchor="middle" fill="#22344a" stroke="none">5. 关联完成消息<tspan baseline-shift="sub" font-size="10">MIC</tspan></text>
+<line x1="750" y1="514" x2="90" y2="514" marker-end="url(#arrow)"/>
+</g>
+</svg>

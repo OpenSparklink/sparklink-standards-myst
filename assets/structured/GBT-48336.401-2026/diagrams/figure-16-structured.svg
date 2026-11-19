@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 924 457" role="img" aria-labelledby="title description">
+<title id="title">图 16　广播音频流与广播链路的映射关系</title>
+<desc id="description">保留三类标识、事件组集合，以及音频流序号到各子集合的多对多关系。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="924" height="457" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="13" y1="242" x2="906" y2="242"/>
+<text x="410" y="24" text-anchor="middle" font-size="18" fill="#22344a" stroke="none">基础逻辑链路标识</text>
+<text x="215" y="64" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">事件组集合#1</text>
+<text x="654" y="64" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">事件组集合#N</text>
+<line x1="474" y1="83" x2="474" y2="292" stroke-dasharray="5 4"/>
+<line x1="568" y1="68" x2="568" y2="292" stroke-dasharray="5 4"/>
+<line x1="738" y1="68" x2="738" y2="292" stroke-dasharray="5 4"/>
+<text x="653" y="201" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">……</text>
+<line x1="22" y1="109" x2="22" y2="291" stroke-dasharray="5 4"/>
+<text x="77" y="102" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">逻辑链路#1</text>
+<text x="77" y="139" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组#1</text>
+<rect x="22" y="165" width="28" height="77" fill="#fff"/>
+<text x="36.0" y="208.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="70" y="165" width="28" height="77" fill="#fff"/>
+<text x="84.0" y="208.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<line x1="73" y1="294" x2="73" y2="264" marker-end="url(#arrow)"/>
+<text x="73" y="326" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">音频流序号#1</text>
+<line x1="137" y1="109" x2="137" y2="291" stroke-dasharray="5 4"/>
+<text x="192" y="102" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">逻辑链路#2</text>
+<text x="192" y="139" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组#2</text>
+<rect x="137" y="165" width="28" height="77" fill="#fff"/>
+<text x="151.0" y="208.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="185" y="165" width="28" height="77" fill="#fff"/>
+<text x="199.0" y="208.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<line x1="188" y1="294" x2="188" y2="264" marker-end="url(#arrow)"/>
+<text x="188" y="326" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">音频流序号#2</text>
+<line x1="252" y1="109" x2="252" y2="291" stroke-dasharray="5 4"/>
+<text x="307" y="102" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">逻辑链路#3</text>
+<text x="307" y="139" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组#3</text>
+<rect x="252" y="165" width="28" height="77" fill="#fff"/>
+<text x="266.0" y="208.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="300" y="165" width="28" height="77" fill="#fff"/>
+<text x="314.0" y="208.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<line x1="303" y1="294" x2="303" y2="264" marker-end="url(#arrow)"/>
+<text x="303" y="326" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">音频流序号#3</text>
+<line x1="367" y1="109" x2="367" y2="291" stroke-dasharray="5 4"/>
+<text x="422" y="102" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">逻辑链路#N</text>
+<text x="422" y="139" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组#N</text>
+<text x="416" y="207" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">……</text>
+<line x1="418" y1="294" x2="418" y2="264" marker-end="url(#arrow)"/>
+<text x="418" y="326" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">音频流序号#N</text>
+<line x1="73" y1="332" x2="154" y2="416" marker-end="url(#arrow)"/>
+<line x1="303" y1="332" x2="176" y2="416" marker-end="url(#arrow)"/>
+<line x1="188" y1="332" x2="290" y2="416" marker-end="url(#arrow)"/>
+<line x1="418" y1="332" x2="313" y2="416" marker-end="url(#arrow)"/>
+<line x1="418" y1="332" x2="508" y2="416" marker-end="url(#arrow)"/>
+<text x="166" y="441" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">子集合#1</text>
+<text x="303" y="441" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">子集合#2</text>
+<text x="508" y="441" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">子集合#N</text>
+</g>
+</svg>

@@ -37,12 +37,12 @@ try{
      }
      return {text:clone.textContent,semantic_text:semantic.textContent,math,scripts,script_atoms};
     }
-    const selectors={paragraph:'.standard-paragraph > p',list_item:'.standard-list-block li > p',definition:'.standard-definitions dl',reference:'.standard-reference > p',equation:'.standard-equation-row',caption:'.standard-caption > p',pseudocode:'.algorithm-line > p,.standard-algorithm,pre'};
+    const selectors={paragraph:'.standard-paragraph > p,.figure-table-bit-boundaries',list_item:'.standard-list-block li > p',definition:'.standard-definitions dl',reference:'.standard-reference > p',equation:'.standard-equation-row',caption:'.standard-caption > p',pseudocode:'.algorithm-line > p,.standard-algorithm,pre:not(.figure-code pre)'};
     const blocks=Object.fromEntries(Object.entries(selectors).map(([kind,selector])=>[kind,[...article.querySelectorAll(selector)].filter(e=>kind!=='pseudocode'||!/^\s*--\s*ASN1(?:START|STOP)/.test(e.textContent)).map(snapshot)]));
     for(const kind of ['note','example'])blocks[kind]=[...article.querySelectorAll('aside.myst-admonition')].filter(e=>new RegExp(kind==='note'?'^注':'^示例').test(e.querySelector('.myst-admonition-header-text')?.textContent||'')).map(snapshot);
     const headings=[...article.querySelectorAll('h1,h2,h3,h4,h5,h6')].map(e=>({level:Number(e.tagName[1]),...snapshot(e)}));
     const captions=[...article.querySelectorAll('.standard-table-caption > p')].map(snapshot);
-    const tables=[...article.querySelectorAll('table.standard-table')].map(table=>{
+    const tables=[...article.querySelectorAll('table.standard-table:not(.figure-table)')].map(table=>{
      const occupied=[];const cells=[];
      [...table.rows].forEach((row,r)=>{occupied[r]||=[];let c=0;
       for(const cell of row.cells){while(occupied[r][c])c++;const rs=cell.rowSpan,cs=cell.colSpan;
@@ -51,7 +51,7 @@ try{
       }
      });return {cells};
     });
-    const paragraph_list_flow=[...article.querySelectorAll('.standard-paragraph > p,.standard-list-block li > p')].map(snapshot);
+    const paragraph_list_flow=[...article.querySelectorAll('.standard-paragraph > p,.standard-list-block li > p,.figure-table-bit-boundaries')].map(snapshot);
     const ids=[...article.querySelectorAll('[id]')].map(e=>e.id);
     const references=[...article.querySelectorAll('a.spec-reference')].map(e=>e.getAttribute('href'));
     return {blocks,headings,captions,tables,paragraph_list_flow,ids,references};

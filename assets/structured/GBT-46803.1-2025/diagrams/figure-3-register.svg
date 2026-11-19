@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277 142" role="img" aria-labelledby="title desc">
+<title id="title">图 3　32位同步序列的 m 序列生成器</title><desc id="desc">5 个寄存器按 0 到 4 排列。第 1 级和最后一级的输出反馈到加法节点，再进入第 0 级。</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9.4" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="277" height="142" fill="#fff"/>
+<rect x="30" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="73" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="116" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="159" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<rect x="202" y="88" width="26" height="29" fill="#f2f6fb" stroke="#22344a" stroke-width="1.4"/>
+<text x="43" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">0</text>
+<text x="86" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">1</text>
+<text x="129" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">2</text>
+<text x="172" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">3</text>
+<text x="215" y="107" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">4</text>
+<line x1="56" y1="102" x2="73" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="99" y1="102" x2="116" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="142" y1="102" x2="159" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="185" y1="102" x2="202" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="228" y1="102" x2="264" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="237" y1="102" x2="237" y2="31" stroke="#22344a" stroke-width="1.4"/>
+<line x1="237" y1="31" x2="115" y2="31" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="101" y1="102" x2="101" y2="45" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="87" y1="31" x2="12" y2="31" stroke="#22344a" stroke-width="1.4"/>
+<line x1="12" y1="31" x2="12" y2="102" stroke="#22344a" stroke-width="1.4"/>
+<line x1="12" y1="102" x2="30" y2="102" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<circle cx="101" cy="31" r="14" fill="#fff" stroke="#22344a" stroke-width="1.4"/>
+<text x="101" y="36" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">＋</text>
+</svg>

@@ -1,12 +1,12 @@
 {
   "manifest_sha256": "263625d524618382d2f5e018a30599ade52820289c03a0360ee3f11249ed4ecf",
-  "time": "2026-11-18T07:38:55.298Z",
+  "time": "2026-11-18T19:16:00.293Z",
   "results": [
     {
       "check": "中文全文搜索及结果锚点跳转",
       "passed": true,
       "query": "循环前缀",
-      "target": "/sparklink-standards-myst/gbt-48336-201-2026-clause-6-2-2#gbt-48336-201-2026-clause-6-2-2-1"
+      "target": "/sparklink-standards-myst/gbt-48336-201-2026-clause-6-4#gbt-48336-201-2026-clause-6-4-2-2"
     },
     {
       "check": "直接阅读正文，无纸版切换或原页图像",
@@ -22,13 +22,23 @@
       "target": "/sparklink-standards-myst/gbt-48336-101-2026-clause-6/#gbt-48336-101-2026-figure-1"
     },
     {
-      "check": "原始栅格代码图放大与原尺寸查看",
+      "check": "ASN.1 作为可选取的原生代码显示",
       "passed": true,
       "chapter": "gbt-48336-201-2026-clause-7-5-1"
     },
     {
+      "check": "键盘打开矢量图并切换放大尺寸",
+      "passed": true,
+      "chapter": "gbt-46803-1-2025-appendix-b"
+    },
+    {
       "check": "390 px 手机宽度中文搜索",
       "passed": true
+    },
+    {
+      "check": "手机长时序图保留可读字号，支持键盘横向滚动",
+      "passed": true,
+      "chapter": "gbt-48336-301-2026-clause-9-4"
     },
     {
       "check": "带连字符的缩略语独立成条，保留原有顺序",

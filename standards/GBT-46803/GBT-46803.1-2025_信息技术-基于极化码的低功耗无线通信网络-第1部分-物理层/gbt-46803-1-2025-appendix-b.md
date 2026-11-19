@@ -26,10 +26,9 @@ numbering:
 
 :::
 
-```{image} ../../../assets/structured/GBT-46803.1-2025/regions/p0116-figure-01-233.png
-:alt: 图 B.1　串行方式的传输
-:class: source-figure
-:width: 878px
+```{image} ../../../assets/structured/GBT-46803.1-2025/diagrams/figure-b-1-structured.svg
+:alt: 图 B.1　串行方式的传输。连续两个事件组，保留两条链路的起始调度点、事件间隔、事件组周期间隔及各传输方向。
+:class: standard-vector-figure
 ```
 
 (gbt-46803-1-2025-figure-b-1)=
@@ -47,10 +46,9 @@ numbering:
 
 :::
 
-```{image} ../../../assets/structured/GBT-46803.1-2025/regions/p0116-figure-02-399.png
-:alt: 图 B.2　交织方式传输
-:class: source-figure
-:width: 880px
+```{image} ../../../assets/structured/GBT-46803.1-2025/diagrams/figure-b-2-structured.svg
+:alt: 图 B.2　交织方式传输。连续两个事件组，保留两条链路的起始调度点、事件间隔、事件组周期间隔及各传输方向。
+:class: standard-vector-figure
 ```
 
 (gbt-46803-1-2025-figure-b-2)=
@@ -68,10 +66,9 @@ numbering:
 
 :::
 
-```{image} ../../../assets/structured/GBT-46803.1-2025/regions/p0116-figure-03-577.png
-:alt: 图 B.3　混合方式的传输
-:class: source-figure
-:width: 878px
+```{image} ../../../assets/structured/GBT-46803.1-2025/diagrams/figure-b-3-structured.svg
+:alt: 图 B.3　混合方式的传输。连续两个事件组，保留两条链路的起始调度点、事件间隔、事件组周期间隔及各传输方向。
+:class: standard-vector-figure
 ```
 
 (gbt-46803-1-2025-figure-b-3)=

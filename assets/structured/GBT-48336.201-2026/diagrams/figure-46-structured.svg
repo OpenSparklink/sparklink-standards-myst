@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 374" role="img" aria-labelledby="title description">
+<title id="title">图 46　组播密钥架构</title>
+<desc id="description">保留分支上的算法标识和密钥名称。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1140" height="374" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="386" y="18" width="105" height="39" fill="#fff"/>
+<text x="438.5" y="42.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">RAND</text>
+<rect x="585" y="18" width="105" height="39" fill="#fff"/>
+<text x="637.5" y="42.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">组ID</text>
+<rect x="459" y="119" width="177" height="42" fill="#fff"/>
+<text x="547.5" y="144.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">GK</text>
+<line x1="439" y1="57" x2="543" y2="119" marker-end="url(#arrow)"/>
+<line x1="637" y1="57" x2="543" y2="119" marker-end="url(#arrow)"/>
+<line x1="543" y1="161" x2="543" y2="202"/>
+<line x1="115" y1="202" x2="955" y2="202"/>
+<line x1="115" y1="202" x2="115" y2="324" marker-end="url(#arrow)"/>
+<rect x="66" y="324" width="98" height="40" fill="#fff"/>
+<text x="115.0" y="350.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">GKu.ac</text>
+<text x="108" y="228" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="108" y="244" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘Group</text>
+<text x="108" y="260" text-anchor="end" font-size="13" fill="#22344a" stroke="none">signalling auth</text>
+<text x="108" y="276" text-anchor="end" font-size="13" fill="#22344a" stroke="none">enc’</text>
+<line x1="283" y1="202" x2="283" y2="324" marker-end="url(#arrow)"/>
+<rect x="234" y="324" width="98" height="40" fill="#fff"/>
+<text x="283.0" y="350.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">GKu.ac</text>
+<text x="276" y="228" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="276" y="244" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘Group</text>
+<text x="276" y="260" text-anchor="end" font-size="13" fill="#22344a" stroke="none">user auth enc’</text>
+<line x1="451" y1="202" x2="451" y2="324" marker-end="url(#arrow)"/>
+<rect x="402" y="324" width="98" height="40" fill="#fff"/>
+<text x="451.0" y="350.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">GKs.enc</text>
+<text x="444" y="228" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="444" y="244" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘Group</text>
+<text x="444" y="260" text-anchor="end" font-size="13" fill="#22344a" stroke="none">signalling enc’</text>
+<line x1="619" y1="202" x2="619" y2="324" marker-end="url(#arrow)"/>
+<rect x="570" y="324" width="98" height="40" fill="#fff"/>
+<text x="619.0" y="350.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">GKs.int</text>
+<text x="612" y="228" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="612" y="244" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘Group</text>
+<text x="612" y="260" text-anchor="end" font-size="13" fill="#22344a" stroke="none">signalling int’</text>
+<line x1="787" y1="202" x2="787" y2="324" marker-end="url(#arrow)"/>
+<rect x="738" y="324" width="98" height="40" fill="#fff"/>
+<text x="787.0" y="350.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">GKu.enc</text>
+<text x="780" y="228" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="780" y="244" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘Group</text>
+<text x="780" y="260" text-anchor="end" font-size="13" fill="#22344a" stroke="none">user enc’</text>
+<line x1="955" y1="202" x2="955" y2="324" marker-end="url(#arrow)"/>
+<rect x="906" y="324" width="98" height="40" fill="#fff"/>
+<text x="955.0" y="350.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">GKu.int</text>
+<text x="948" y="228" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="948" y="244" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘Group</text>
+<text x="948" y="260" text-anchor="end" font-size="13" fill="#22344a" stroke="none">user int’</text>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 796 337" role="img" aria-labelledby="title description">
+<title id="title">图 9　双向两信号位置测量信号时间差信息示意图</title>
+<desc id="description">两位置节点间的2次测距信号，保留每次信号的发送和到达时刻标记。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="796" height="337" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="145" y1="39" x2="145" y2="328"/>
+<line x1="651" y1="39" x2="651" y2="328"/>
+<text x="145" y="22" text-anchor="middle" font-size="18" fill="#22344a" stroke="none">第一位置节点</text>
+<text x="651" y="22" text-anchor="middle" font-size="18" fill="#22344a" stroke="none">第二位置节点</text>
+<line x1="78" y1="73" x2="78" y2="234" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="58" y="155" transform="rotate(-90 58 155)" text-anchor="middle" fill="#22344a" stroke="none" font-size="16">测距交互</text>
+<line x1="145" y1="73" x2="651" y2="111" marker-end="url(#arrow)"/>
+<text x="398" y="78.0" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">第一位置测量信号</text>
+<line x1="170" y1="57" x2="145" y2="73" marker-end="url(#arrow)"/>
+<text x="174" y="55" text-anchor="start" font-size="15" fill="#22344a" stroke="none">t1(TOD)</text>
+<line x1="676" y1="95" x2="651" y2="111" marker-end="url(#arrow)"/>
+<text x="680" y="93" text-anchor="start" font-size="15" fill="#22344a" stroke="none">t2(TOA)</text>
+<line x1="651" y1="196" x2="145" y2="234" marker-end="url(#arrow)"/>
+<text x="398" y="201.0" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">第二位置测量信号</text>
+<line x1="676" y1="180" x2="651" y2="196" marker-end="url(#arrow)"/>
+<text x="680" y="178" text-anchor="start" font-size="15" fill="#22344a" stroke="none">t3(TOD)</text>
+<line x1="120" y1="218" x2="145" y2="234" marker-end="url(#arrow)"/>
+<text x="116" y="216" text-anchor="end" font-size="15" fill="#22344a" stroke="none">t4(TOA)</text>
+</g>
+</svg>

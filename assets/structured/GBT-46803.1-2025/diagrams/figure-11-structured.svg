@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1125 243" role="img" aria-labelledby="title description">
+<title id="title">图 11　单播传输时间资源配置示意图</title>
+<desc id="description">单播传输的两个事件组，标出 G/T 事件偏移、持续长度、事件内、事件间、事件组间和事件组周期间隔。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1125" height="243" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="10" y1="100" x2="1112" y2="100" marker-end="url(#arrow)"/>
+<rect x="44" y="66" width="63" height="34" fill="#fff"/>
+<text x="75.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G→T</text>
+<rect x="151" y="66" width="63" height="34" fill="#fff"/>
+<text x="182.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T→G</text>
+<rect x="279" y="66" width="63" height="34" fill="#fff"/>
+<text x="310.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G→T</text>
+<rect x="388" y="66" width="63" height="34" fill="#fff"/>
+<text x="419.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T→G</text>
+<line x1="44" y1="38" x2="44" y2="238"/>
+<line x1="107" y1="100" x2="107" y2="145"/>
+<line x1="151" y1="38" x2="151" y2="145"/>
+<line x1="214" y1="100" x2="214" y2="204"/>
+<line x1="279" y1="38" x2="279" y2="145"/>
+<line x1="451" y1="100" x2="451" y2="145"/>
+<line x1="559" y1="100" x2="559" y2="239"/>
+<line x1="44" y1="35" x2="151" y2="35" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="55.5" y="22" width="84" height="17" fill="#fff" stroke="none"/>
+<text x="97.5" y="38.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G事件偏移量</text>
+<line x1="151" y1="35" x2="279" y2="35" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="170.0" y="22" width="90" height="17" fill="#fff" stroke="none"/>
+<text x="215.0" y="38.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T事件偏移量</text>
+<line x1="107" y1="125" x2="151" y2="125" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="129.0" y="120" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<text x="129" y="154" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">事件内间隔</text>
+<line x1="214" y1="125" x2="279" y2="125" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="246.5" y="120" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<text x="246" y="152" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">事件间间隔</text>
+<line x1="451" y1="125" x2="559" y2="125" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="505.0" y="120" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<text x="505" y="150" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">事件组间间隔</text>
+<line x1="44" y1="188" x2="214" y2="188" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="95.0" y="174" width="68" height="18" fill="#fff" stroke="none"/>
+<text x="129.0" y="192.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">持续长度</text>
+<line x1="44" y1="221" x2="559" y2="221" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="243.0" y="206" width="117" height="19" fill="#fff" stroke="none"/>
+<text x="301.5" y="225.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组周期间隔</text>
+<rect x="559" y="66" width="63" height="34" fill="#fff"/>
+<text x="590.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G→T</text>
+<rect x="666" y="66" width="63" height="34" fill="#fff"/>
+<text x="697.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T→G</text>
+<rect x="794" y="66" width="63" height="34" fill="#fff"/>
+<text x="825.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G→T</text>
+<rect x="903" y="66" width="63" height="34" fill="#fff"/>
+<text x="934.5" y="87.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T→G</text>
+<line x1="559" y1="38" x2="559" y2="238"/>
+<line x1="622" y1="100" x2="622" y2="145"/>
+<line x1="666" y1="38" x2="666" y2="145"/>
+<line x1="729" y1="100" x2="729" y2="204"/>
+<line x1="794" y1="38" x2="794" y2="145"/>
+<line x1="966" y1="100" x2="966" y2="145"/>
+<line x1="1074" y1="100" x2="1074" y2="239"/>
+<line x1="559" y1="35" x2="666" y2="35" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="570.5" y="22" width="84" height="17" fill="#fff" stroke="none"/>
+<text x="612.5" y="38.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">G事件偏移量</text>
+<line x1="666" y1="35" x2="794" y2="35" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="685.0" y="22" width="90" height="17" fill="#fff" stroke="none"/>
+<text x="730.0" y="38.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">T事件偏移量</text>
+<line x1="622" y1="125" x2="666" y2="125" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="644.0" y="120" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<text x="644" y="154" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">事件内间隔</text>
+<line x1="729" y1="125" x2="794" y2="125" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="761.5" y="120" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<text x="761" y="152" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">事件间间隔</text>
+<line x1="966" y1="125" x2="1074" y2="125" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="1020.0" y="120" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<text x="1020" y="150" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">事件组间间隔</text>
+<line x1="559" y1="188" x2="729" y2="188" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="610.0" y="174" width="68" height="18" fill="#fff" stroke="none"/>
+<text x="644.0" y="192.2" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">持续长度</text>
+<line x1="559" y1="221" x2="1074" y2="221" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="758.0" y="206" width="117" height="19" fill="#fff" stroke="none"/>
+<text x="816.5" y="225.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">事件组周期间隔</text>
+</g>
+</svg>

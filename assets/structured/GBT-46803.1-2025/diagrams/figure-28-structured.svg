@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 271" role="img" aria-labelledby="title description">
+<title id="title">图 28　扩展广播帧对系统管理帧的配置和发送</title>
+<desc id="description">广播、接入与三次系统管理帧。保留系统管理帧偏移量、调度时刻点、周期间隔及超帧信令资源。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1180" height="271" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="8" y1="135" x2="1170" y2="135" marker-end="url(#arrow)"/>
+<rect x="17" y="4" width="102" height="33" fill="#fff"/>
+<text x="68.0" y="25.78" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M17 37V87H435" marker-end="url(#arrow)"/>
+<text x="353" y="83" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">辅助指针</text>
+<rect x="135" y="4" width="102" height="33" fill="#fff"/>
+<text x="186.0" y="25.78" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M135 37V70H435" marker-end="url(#arrow)"/>
+<text x="353" y="66" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">辅助指针</text>
+<rect x="253" y="4" width="102" height="33" fill="#fff"/>
+<text x="304.0" y="25.78" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础广播帧</text>
+<path d="M253 37V53H435" marker-end="url(#arrow)"/>
+<text x="353" y="49" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">辅助指针</text>
+<rect x="435" y="54" width="111" height="47" fill="#fff"/>
+<text x="490.5" y="83.11" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">扩展广播帧</text>
+<text x="508" y="26" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">携带启动系统管理帧信息</text>
+<path d="M435 101V119H623" marker-end="url(#arrow)"/>
+<text x="500" y="115" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">启动系统管理帧的偏移量</text>
+<rect x="625" y="101" width="88" height="34" fill="#fff"/>
+<text x="669.0" y="122.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">系统管理帧</text>
+<rect x="568" y="225" width="152" height="37" fill="#fff"/>
+<text x="644.0" y="248.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">分配超帧信令资源</text>
+<line x1="625" y1="74" x2="625" y2="101" marker-end="url(#arrow)"/>
+<line x1="625" y1="135" x2="625" y2="225"/>
+<text x="625" y="64" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">启动时刻点</text>
+<line x1="625" y1="170" x2="846" y2="170" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="664.5" y="157" width="142" height="17" fill="#fff" stroke="none"/>
+<text x="735.5" y="173.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">系统管理帧的周期间隔</text>
+<rect x="846" y="101" width="88" height="34" fill="#fff"/>
+<text x="890.0" y="122.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">系统管理帧</text>
+<rect x="789" y="225" width="152" height="37" fill="#fff"/>
+<text x="865.0" y="248.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">超帧信令资源</text>
+<line x1="846" y1="74" x2="846" y2="101" marker-end="url(#arrow)"/>
+<line x1="846" y1="135" x2="846" y2="225"/>
+<text x="846" y="64" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">调度时刻点</text>
+<line x1="846" y1="170" x2="1067" y2="170" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="885.5" y="157" width="142" height="17" fill="#fff" stroke="none"/>
+<text x="956.5" y="173.9" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">系统管理帧的周期间隔</text>
+<rect x="1067" y="101" width="88" height="34" fill="#fff"/>
+<text x="1111.0" y="122.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">系统管理帧</text>
+<rect x="1010" y="225" width="152" height="37" fill="#fff"/>
+<text x="1086.0" y="248.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">超帧信令资源</text>
+<line x1="1067" y1="74" x2="1067" y2="101" marker-end="url(#arrow)"/>
+<line x1="1067" y1="135" x2="1067" y2="225"/>
+<text x="1067" y="64" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">调度时刻点</text>
+</g>
+</svg>

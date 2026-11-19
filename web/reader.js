@@ -96,13 +96,36 @@
       if(node.parentElement.closest('article,script,style,textarea,code,pre')||!hydrated(node.parentElement))continue;
       const value=node.nodeValue.trim();if(translations.has(value))node.nodeValue=node.nodeValue.replace(value,translations.get(value));
     }
-    for(const image of document.querySelectorAll('article img.source-code,article img.source-figure')){
+    for(const image of document.querySelectorAll('article img.source-code,article img.source-figure,article img.standard-vector-figure')){
       image.decoding='async';if(image.dataset.readerBound)continue;
       image.dataset.readerBound='true';image.tabIndex=0;image.setAttribute('role','button');image.setAttribute('aria-label','放大：'+image.alt);
       image.addEventListener('click',()=>zoom(image));image.addEventListener('keydown',event=>{if(['Enter',' '].includes(event.key)){event.preventDefault();zoom(image);}});
     }
-    for(const table of document.querySelectorAll('.table-scroll')){
-      table.tabIndex=0;table.setAttribute('role','region');table.setAttribute('aria-label',table.querySelector('.standard-table-caption')?.textContent||'标准表格，可横向滚动');
+    for(const diagram of document.querySelectorAll('article .standard-diagram')){
+      const svg=diagram.querySelector('figure svg');
+      const width=svg?.viewBox.baseVal.width;
+      if(!width||svg.dataset.readerLayout)continue;
+      svg.dataset.readerLayout='true';
+      svg.style.setProperty('--standard-diagram-width',Math.ceil(width)+'px');
+      const caption=diagram.nextElementSibling?.matches('.standard-caption') ? diagram.nextElementSibling : null;
+      diagram.tabIndex=0;
+      diagram.setAttribute('role','region');
+      diagram.setAttribute('aria-label',caption?.textContent.trim()||'标准流程图，可横向滚动');
+    }
+    for(const scroller of document.querySelectorAll('.table-scroll')){
+      const figure=scroller.querySelector('table.figure-table');
+      const caption=figure && scroller.nextElementSibling?.matches('.standard-caption') ? scroller.nextElementSibling : null;
+      const figureTableLabel=scroller.querySelector('.figure-table-label')?.textContent.trim();
+      scroller.tabIndex=0;
+      scroller.setAttribute('role','region');
+      scroller.setAttribute('aria-label',figureTableLabel||scroller.querySelector('.standard-table-caption')?.textContent||caption?.textContent||'标准表格，可横向滚动');
+      if(figure){
+        if(caption?.id)figure.setAttribute('aria-labelledby',caption.id);
+        if(figureTableLabel)figure.setAttribute('aria-label',figureTableLabel);
+        for(const scope of ['row','col','colgroup']){
+          for(const cell of figure.querySelectorAll('th.figure-table-scope-'+scope))cell.setAttribute('scope',scope);
+        }
+      }
     }
     references();
     // Hash navigation can precede hydration after a search/cross-reference.

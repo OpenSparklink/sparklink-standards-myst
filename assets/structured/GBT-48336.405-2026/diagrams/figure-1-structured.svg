@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 995 749" role="img" aria-labelledby="title description">
+<title id="title">图 1　视频应用协议体系架构</title>
+<desc id="description">保留应用、原子能力、控制面与用户面之间的接口、数据路径、传输模式及 SLB/SLE 接入。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="995" height="749" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="8" y="8" width="980" height="379" fill="#f4f7fa"/>
+<rect x="8" y="399" width="980" height="267" fill="#f4f7fa"/>
+<rect x="8" y="675" width="980" height="66" fill="#f4f7fa"/>
+<text x="498" y="371" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础应用层</text>
+<text x="498" y="650" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">基础服务层</text>
+<text x="498" y="718" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">接入层</text>
+<rect x="84" y="691" width="236" height="30" fill="#fff"/>
+<text x="202.0" y="710.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">SLB</text>
+<rect x="677" y="691" width="235" height="30" fill="#fff"/>
+<text x="794.5" y="710.95" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">SLE</text>
+<rect x="47" y="409" width="398" height="166" fill="#fff"/>
+<rect x="475" y="468" width="478" height="107" fill="#fff"/>
+<text x="422" y="506" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">控制面</text>
+<text x="929" y="516" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">用户面</text>
+<rect x="20" y="596" width="956" height="32" fill="#fff"/>
+<text x="468" y="618" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">数据传输与适配</text>
+<line x1="292" y1="628" x2="292" y2="675" marker-end="url(#arrow)"/>
+<line x1="772" y1="628" x2="772" y2="675" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="772" y1="575" x2="772" y2="596" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="544" y="416" width="146" height="20" fill="#fff"/>
+<text x="617.0" y="430.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">TCP/UDP</text>
+<rect x="544" y="439" width="146" height="20" fill="#fff"/>
+<text x="617.0" y="453.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">IP</text>
+<rect x="47" y="18" width="906" height="75" fill="#fff"/>
+<text x="499" y="39" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">视频应用</text>
+<rect x="47" y="103" width="906" height="218" fill="#fff"/>
+<text x="499" y="125" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">原子能力</text>
+<rect x="211" y="140" width="343" height="169" fill="#fff"/>
+<text x="382" y="162" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">视频配置与传输管理相关服务</text>
+<rect x="578" y="139" width="349" height="171" fill="#fff"/>
+<text x="752" y="163" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">视频编码封装与传输</text>
+<rect x="595" y="180" width="135" height="30" fill="#fff"/>
+<text x="662.5" y="199.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">音频编码</text>
+<rect x="775" y="180" width="135" height="30" fill="#fff"/>
+<text x="842.5" y="199.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">视频编码</text>
+<rect x="595" y="221" width="315" height="29" fill="#fff"/>
+<text x="752.5" y="240.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">音视频流封装格式</text>
+<rect x="595" y="264" width="315" height="30" fill="#fff"/>
+<text x="752.5" y="283.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">媒体传输协议（RTP）</text>
+<rect x="74" y="188" width="60" height="100" fill="#fff"/>
+<text x="104.0" y="219.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">合作设</text>
+<text x="104.0" y="234.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">备集合</text>
+<text x="104.0" y="249.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">管理与</text>
+<text x="104.0" y="264.78999999999996" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">同步</text>
+<rect x="143" y="188" width="60" height="100" fill="#fff"/>
+<text x="173.0" y="234.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">媒体播</text>
+<text x="173.0" y="249.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">放控制</text>
+<rect x="704" y="417" width="228" height="19" fill="#fff"/>
+<text x="818.0" y="430.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">传输功能</text>
+<rect x="694" y="441" width="245" height="18" fill="#fff"/>
+<text x="816.5" y="454.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">网络功能</text>
+<line x1="257" y1="387" x2="257" y2="409" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="496" y1="387" x2="496" y2="467" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="247" y="369" text-anchor="end" font-size="13" fill="#22344a" stroke="none">控制面层间原语与</text>
+<text x="247" y="385" text-anchor="end" font-size="13" fill="#22344a" stroke="none">信令</text>
+<text x="482" y="369" text-anchor="end" font-size="13" fill="#22344a" stroke="none">视频配置与管理</text>
+<text x="482" y="385" text-anchor="end" font-size="13" fill="#22344a" stroke="none">信令（SSAP）</text>
+<rect x="59" y="49" width="138" height="35" fill="#fff"/>
+<text x="128.0" y="71.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">全景环视</text>
+<rect x="206" y="49" width="138" height="35" fill="#fff"/>
+<text x="275.0" y="71.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">视频投屏</text>
+<rect x="353" y="49" width="138" height="35" fill="#fff"/>
+<text x="422.0" y="63.120000000000005" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">无线摄像头</text>
+<text x="422.0" y="79.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">监控</text>
+<rect x="500" y="49" width="138" height="35" fill="#fff"/>
+<text x="569.0" y="71.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">扩展桌面</text>
+<rect x="647" y="49" width="138" height="35" fill="#fff"/>
+<text x="716.0" y="71.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">桌面协同</text>
+<rect x="794" y="49" width="138" height="35" fill="#fff"/>
+<text x="863.0" y="63.120000000000005" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">VR游戏/影院/</text>
+<text x="863.0" y="79.12" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">展馆</text>
+<rect x="233" y="188" width="58" height="100" fill="#fff"/>
+<text x="262.0" y="227.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">配置</text>
+<text x="262.0" y="242.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">管理</text>
+<text x="262.0" y="257.28999999999996" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">服务</text>
+<rect x="312" y="188" width="58" height="100" fill="#fff"/>
+<text x="341.0" y="219.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">视频</text>
+<text x="341.0" y="234.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">属性</text>
+<text x="341.0" y="249.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">公开</text>
+<text x="341.0" y="264.78999999999996" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">服务</text>
+<rect x="391" y="188" width="58" height="100" fill="#fff"/>
+<text x="420.0" y="219.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">组播</text>
+<text x="420.0" y="234.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">成员</text>
+<text x="420.0" y="249.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">管理</text>
+<text x="420.0" y="264.78999999999996" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">服务</text>
+<rect x="470" y="188" width="58" height="100" fill="#fff"/>
+<text x="499.0" y="219.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">传输</text>
+<text x="499.0" y="234.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">性能</text>
+<text x="499.0" y="249.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">反馈</text>
+<text x="499.0" y="264.78999999999996" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">服务</text>
+<line x1="652" y1="387" x2="652" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="646" y="367" text-anchor="end" font-size="13" fill="#22344a" stroke="none">IP媒体</text>
+<text x="646" y="383" text-anchor="end" font-size="13" fill="#22344a" stroke="none">数据</text>
+<line x1="748" y1="387" x2="748" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="742" y="367" text-anchor="end" font-size="13" fill="#22344a" stroke="none">IP媒体</text>
+<text x="742" y="383" text-anchor="end" font-size="13" fill="#22344a" stroke="none">数据</text>
+<line x1="904" y1="387" x2="904" y2="468" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="898" y="367" text-anchor="end" font-size="13" fill="#22344a" stroke="none">非IP媒体</text>
+<text x="898" y="383" text-anchor="end" font-size="13" fill="#22344a" stroke="none">数据</text>
+<rect x="63" y="437" width="143" height="28" fill="#fff"/>
+<text x="134.5" y="455.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">设备发现</text>
+<rect x="63" y="476" width="143" height="28" fill="#fff"/>
+<text x="134.5" y="494.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">服务管理</text>
+<rect x="63" y="515" width="143" height="28" fill="#fff"/>
+<text x="134.5" y="533.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">测量管理</text>
+<rect x="221" y="437" width="143" height="28" fill="#fff"/>
+<text x="292.5" y="455.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">QoS管理</text>
+<rect x="221" y="476" width="143" height="28" fill="#fff"/>
+<text x="292.5" y="494.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">连接管理</text>
+<rect x="221" y="515" width="143" height="28" fill="#fff"/>
+<text x="292.5" y="533.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">……</text>
+<rect x="497" y="481" width="119" height="32" fill="#fff"/>
+<text x="556.5" y="501.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">透传模式</text>
+<rect x="629" y="481" width="119" height="32" fill="#fff"/>
+<text x="688.5" y="493.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">基础传输</text>
+<text x="688.5" y="508.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">模式</text>
+<rect x="761" y="481" width="119" height="32" fill="#fff"/>
+<text x="820.5" y="493.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">流传输</text>
+<text x="820.5" y="508.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">模式</text>
+<rect x="497" y="523" width="119" height="32" fill="#fff"/>
+<text x="556.5" y="535.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">可靠传输</text>
+<text x="556.5" y="550.79" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">模式</text>
+<rect x="629" y="523" width="119" height="32" fill="#fff"/>
+<text x="688.5" y="543.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">融合模式</text>
+<rect x="761" y="523" width="119" height="32" fill="#fff"/>
+<text x="820.5" y="543.29" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">分片与聚合</text>
+</g>
+</svg>

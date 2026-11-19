@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 224" role="img" aria-labelledby="title desc">
+<title id="title">图 19　信道冲击响应测量量示意图</title><desc id="desc">参考径到窗口起点为 CIR offset，窗口起点到终点为 CIR length。</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9.4" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="690" height="224" fill="#fff"/>
+<rect x="290" y="18" width="224" height="155" fill="#edf2f7"/>
+<line x1="20" y1="174" x2="665" y2="174" stroke="#22344a" stroke-width="1.4"/>
+<line x1="20" y1="115" x2="665" y2="115" stroke="#22344a" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="669" y="110" fill="#182232" text-anchor="end" font-size="15" font-family="system-ui, sans-serif">噪声阈值</text>
+<line x1="94" y1="173" x2="94" y2="120" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="160" y1="173" x2="160" y2="63" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="226" y1="173" x2="226" y2="87" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="292" y1="173" x2="292" y2="37" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="358" y1="173" x2="358" y2="63" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="422" y1="173" x2="422" y2="97" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="488" y1="173" x2="488" y2="95" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="554" y1="173" x2="554" y2="130" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="620" y1="173" x2="620" y2="130" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<text x="160" y="55" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">参考径</text>
+<line x1="160" y1="174" x2="160" y2="211" stroke="#22344a" stroke-width="1.4"/>
+<line x1="292" y1="174" x2="292" y2="211" stroke="#22344a" stroke-width="1.4"/>
+<line x1="488" y1="174" x2="488" y2="211" stroke="#22344a" stroke-width="1.4"/>
+<line x1="160" y1="207" x2="292" y2="207" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)" marker-start="url(#tip)" stroke-dasharray="5 4"/>
+<text x="226.0" y="201" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">CIR<tspan baseline-shift="sub" font-size="10">offset</tspan></text>
+<line x1="292" y1="207" x2="488" y2="207" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)" marker-start="url(#tip)" stroke-dasharray="5 4"/>
+<text x="390.0" y="201" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">CIR<tspan baseline-shift="sub" font-size="10">length</tspan></text>
+</svg>

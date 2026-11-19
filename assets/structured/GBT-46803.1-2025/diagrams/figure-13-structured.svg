@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 586" role="img" aria-labelledby="title description">
+<title id="title">图 13　双向组播传输时间资源配置</title>
+<desc id="description">节点 1、2、3 对应三行，两个事件和下一事件组。保留组播数据、反馈、配置的事件内间隔以及事件间和事件组间约束。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1155" height="586" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="22" y1="12" x2="22" y2="572"/>
+<line x1="960" y1="12" x2="960" y2="572"/>
+<line x1="22" y1="26" x2="630" y2="26" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="277.5" y="9" width="97" height="21" fill="#fff" stroke="none"/>
+<text x="326.0" y="31.1" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">事件组#1</text>
+<line x1="960" y1="26" x2="1141" y2="26" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="1002.0" y="9" width="97" height="21" fill="#fff" stroke="none"/>
+<text x="1050.5" y="31.1" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">事件组#2</text>
+<text x="1124" y="162" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">时间轴</text>
+<line x1="5" y1="141" x2="1147" y2="141" marker-end="url(#arrow)"/>
+<line x1="22" y1="39" x2="161" y2="39" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="33.5" y="24" width="116" height="19" fill="#fff" stroke="none"/>
+<text x="91.5" y="43.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">节点1事件#1</text>
+<rect x="22" y="55" width="52" height="86" fill="#42566f"/>
+<text x="48.0" y="85.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="48.0" y="102.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="48.0" y="119.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<rect x="127" y="55" width="52" height="86" fill="#42566f"/>
+<text x="153.0" y="77.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="153.0" y="94.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">接收</text>
+<text x="153.0" y="111.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">节点</text>
+<text x="153.0" y="128.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">1反馈</text>
+<line x1="74" y1="141" x2="33.5" y2="171"/>
+<line x1="127" y1="141" x2="167.5" y2="171"/>
+<text x="100.5" y="185" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点1事件内</text>
+<text x="100.5" y="202" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（配置值）</text>
+<line x1="179" y1="141" x2="270.0" y2="171"/>
+<line x1="491" y1="141" x2="400.0" y2="171"/>
+<text x="335.0" y="184" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点1事件间</text>
+<text x="335.0" y="201" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（约束值）</text>
+<line x1="491" y1="39" x2="630" y2="39" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="502.5" y="24" width="116" height="19" fill="#fff" stroke="none"/>
+<text x="560.5" y="43.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">节点1事件#2</text>
+<rect x="491" y="55" width="52" height="86" fill="#42566f"/>
+<text x="517.0" y="85.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="517.0" y="102.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="517.0" y="119.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<rect x="596" y="55" width="52" height="86" fill="#42566f"/>
+<text x="622.0" y="77.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="622.0" y="94.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">接收</text>
+<text x="622.0" y="111.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">节点</text>
+<text x="622.0" y="128.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">1反馈</text>
+<line x1="543" y1="141" x2="502.5" y2="171"/>
+<line x1="596" y1="141" x2="636.5" y2="171"/>
+<text x="569.5" y="185" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点1事件内</text>
+<text x="569.5" y="202" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（配置值）</text>
+<line x1="648" y1="141" x2="739.0" y2="171"/>
+<line x1="960" y1="141" x2="869.0" y2="171"/>
+<text x="804.0" y="184" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点1事件组间</text>
+<text x="804.0" y="201" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（约束值）</text>
+<rect x="960" y="55" width="52" height="86" fill="#42566f"/>
+<text x="986.0" y="85.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="986.0" y="102.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="986.0" y="119.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<rect x="1065" y="55" width="52" height="86" fill="#42566f"/>
+<text x="1091.0" y="77.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="1091.0" y="94.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">接收</text>
+<text x="1091.0" y="111.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">节点</text>
+<text x="1091.0" y="128.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">1反馈</text>
+<line x1="5" y1="329" x2="1147" y2="329" marker-end="url(#arrow)"/>
+<line x1="22" y1="227" x2="260" y2="227" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="82.5" y="212" width="117" height="19" fill="#fff" stroke="none"/>
+<text x="141.0" y="231.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">节点2事件#1</text>
+<rect x="22" y="243" width="52" height="86" fill="#78899c" stroke-dasharray="5 4"/>
+<text x="48.0" y="273.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="48.0" y="290.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="48.0" y="307.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<rect x="226" y="243" width="52" height="86" fill="#42566f"/>
+<text x="252.0" y="265.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="252.0" y="282.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">接收</text>
+<text x="252.0" y="299.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">节点</text>
+<text x="252.0" y="316.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">2反馈</text>
+<line x1="74" y1="329" x2="65.0" y2="359"/>
+<line x1="226" y1="329" x2="235.0" y2="359"/>
+<text x="150.0" y="373" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点2事件内</text>
+<text x="150.0" y="390" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（配置值）</text>
+<line x1="278" y1="329" x2="319.5" y2="359"/>
+<line x1="491" y1="329" x2="449.5" y2="359"/>
+<text x="384.5" y="372" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点2事件间</text>
+<text x="384.5" y="389" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（约束值）</text>
+<line x1="491" y1="227" x2="729" y2="227" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="551.5" y="212" width="117" height="19" fill="#fff" stroke="none"/>
+<text x="610.0" y="231.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">节点2事件#2</text>
+<rect x="491" y="243" width="52" height="86" fill="#78899c" stroke-dasharray="5 4"/>
+<text x="517.0" y="273.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="517.0" y="290.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="517.0" y="307.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<rect x="695" y="243" width="52" height="86" fill="#42566f"/>
+<text x="721.0" y="265.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="721.0" y="282.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">接收</text>
+<text x="721.0" y="299.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">节点</text>
+<text x="721.0" y="316.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">2反馈</text>
+<line x1="543" y1="329" x2="534.0" y2="359"/>
+<line x1="695" y1="329" x2="704.0" y2="359"/>
+<text x="619.0" y="373" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点2事件内</text>
+<text x="619.0" y="390" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（配置值）</text>
+<line x1="747" y1="329" x2="788.5" y2="359"/>
+<line x1="960" y1="329" x2="918.5" y2="359"/>
+<text x="853.5" y="372" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点2事件组间</text>
+<text x="853.5" y="389" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（约束值）</text>
+<rect x="960" y="243" width="52" height="86" fill="#78899c" stroke-dasharray="5 4"/>
+<text x="986.0" y="273.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="986.0" y="290.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="986.0" y="307.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<line x1="5" y1="509" x2="1147" y2="509" marker-end="url(#arrow)"/>
+<line x1="22" y1="407" x2="373" y2="407" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="139.0" y="392" width="117" height="19" fill="#fff" stroke="none"/>
+<text x="197.5" y="411.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">节点3事件#1</text>
+<rect x="22" y="423" width="52" height="86" fill="#78899c" stroke-dasharray="5 4"/>
+<text x="48.0" y="453.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="48.0" y="470.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="48.0" y="487.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<rect x="339" y="423" width="52" height="86" fill="#42566f"/>
+<text x="365.0" y="445.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="365.0" y="462.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">接收</text>
+<text x="365.0" y="479.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">节点</text>
+<text x="365.0" y="496.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">3反馈</text>
+<line x1="74" y1="509" x2="139.5" y2="539"/>
+<line x1="339" y1="509" x2="273.5" y2="539"/>
+<text x="206.5" y="553" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点3事件内</text>
+<text x="206.5" y="570" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（配置值）</text>
+<line x1="391" y1="509" x2="376.0" y2="539"/>
+<line x1="491" y1="509" x2="506.0" y2="539"/>
+<text x="441.0" y="552" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点3事件间</text>
+<text x="441.0" y="569" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（约束值）</text>
+<line x1="491" y1="407" x2="842" y2="407" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="608.0" y="392" width="117" height="19" fill="#fff" stroke="none"/>
+<text x="666.5" y="411.5" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">节点3事件#2</text>
+<rect x="491" y="423" width="52" height="86" fill="#78899c" stroke-dasharray="5 4"/>
+<text x="517.0" y="453.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="517.0" y="470.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="517.0" y="487.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+<rect x="808" y="423" width="52" height="86" fill="#42566f"/>
+<text x="834.0" y="445.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="834.0" y="462.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">接收</text>
+<text x="834.0" y="479.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">节点</text>
+<text x="834.0" y="496.45" text-anchor="middle" font-size="15" fill="#fff" stroke="none">3反馈</text>
+<line x1="543" y1="509" x2="608.5" y2="539"/>
+<line x1="808" y1="509" x2="742.5" y2="539"/>
+<text x="675.5" y="553" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点3事件内</text>
+<text x="675.5" y="570" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（配置值）</text>
+<line x1="860" y1="509" x2="845.0" y2="539"/>
+<line x1="960" y1="509" x2="975.0" y2="539"/>
+<text x="910.0" y="552" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">节点3事件组间</text>
+<text x="910.0" y="569" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">间隔（约束值）</text>
+<rect x="960" y="423" width="52" height="86" fill="#78899c" stroke-dasharray="5 4"/>
+<text x="986.0" y="453.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">组播</text>
+<text x="986.0" y="470.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">数据</text>
+<text x="986.0" y="487.95" text-anchor="middle" font-size="15" fill="#fff" stroke="none">和 ACK</text>
+</g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 636 326" role="img" aria-labelledby="title desc">
+<title id="title">图 20　距离多普勒测量量示意图</title><desc id="desc">各 CIR 片段的脉冲位置与末尾的 CIR 长度为示意。</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9.4" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="636" height="326" fill="#fff"/>
+<line x1="36" y1="17" x2="36" y2="289" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<text x="26" y="150" fill="#182232" text-anchor="end" font-size="15" font-family="system-ui, sans-serif">FFT</text>
+<line x1="98" y1="88" x2="619" y2="88" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<text x="82" y="51" fill="#182232" text-anchor="end" font-size="15" font-family="system-ui, sans-serif">CIR<tspan x="82" dy="17">Seg<tspan baseline-shift="sub" font-size="10">1</tspan></tspan></text>
+<line x1="139" y1="88" x2="139" y2="52" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="209" y1="88" x2="209" y2="22" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="279" y1="88" x2="279" y2="53" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="349" y1="88" x2="349" y2="54" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="419" y1="88" x2="419" y2="62" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="489" y1="88" x2="489" y2="62" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="559" y1="88" x2="559" y2="64" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="98" y1="172" x2="619" y2="172" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<text x="82" y="135" fill="#182232" text-anchor="end" font-size="15" font-family="system-ui, sans-serif">CIR<tspan x="82" dy="17">Seg<tspan baseline-shift="sub" font-size="10">2</tspan></tspan></text>
+<line x1="139" y1="172" x2="139" y2="123" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="209" y1="172" x2="209" y2="120" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="279" y1="172" x2="279" y2="100" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="349" y1="172" x2="349" y2="123" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="419" y1="172" x2="419" y2="132" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="489" y1="172" x2="489" y2="131" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="559" y1="172" x2="559" y2="132" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="98" y1="280" x2="619" y2="280" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<text x="82" y="243" fill="#182232" text-anchor="end" font-size="15" font-family="system-ui, sans-serif">CIR<tspan x="82" dy="17">Seg<tspan baseline-shift="sub" font-size="10">N</tspan></tspan></text>
+<line x1="139" y1="280" x2="139" y2="220" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="209" y1="280" x2="209" y2="202" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="279" y1="280" x2="279" y2="238" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="349" y1="280" x2="349" y2="232" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="419" y1="280" x2="419" y2="195" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="489" y1="280" x2="489" y2="231" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<line x1="559" y1="280" x2="559" y2="240" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)"/>
+<text x="344" y="203" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">……</text>
+<line x1="139" y1="294" x2="559" y2="294" stroke="#22344a" stroke-width="1.4" marker-end="url(#tip)" marker-start="url(#tip)"/>
+<text x="350" y="317" fill="#182232" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif">CIR 长度</text>
+</svg>

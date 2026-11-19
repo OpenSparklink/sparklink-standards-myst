@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1158 272" role="img" aria-labelledby="title description">
+<title id="title">图 7　测量字段格式</title>
+<desc id="description">测量子片段0、1至最后一个子片段，标出相邻子片段间隔 Tgap、CTS 索引和 CTS(i) 的构成。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1158" height="272" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="116" y="16" width="171" height="38" fill="#f2f6fb"/>
+<line x1="116" y1="54" x2="17" y2="119" stroke-dasharray="5 4"/>
+<line x1="287" y1="54" x2="362" y2="119" stroke-dasharray="5 4"/>
+<text x="201" y="40" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">测量子片段0</text>
+<rect x="493" y="16" width="171" height="38" fill="#f2f6fb"/>
+<line x1="493" y1="54" x2="392" y2="119" stroke-dasharray="5 4"/>
+<line x1="664" y1="54" x2="742" y2="119" stroke-dasharray="5 4"/>
+<text x="578" y="40" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">测量子片段1</text>
+<rect x="898" y="16" width="171" height="38" fill="#f2f6fb"/>
+<line x1="898" y1="54" x2="800" y2="119" stroke-dasharray="5 4"/>
+<line x1="1069" y1="54" x2="1140" y2="119" stroke-dasharray="5 4"/>
+<text x="983" y="40" text-anchor="middle" font-size="17" fill="#22344a" stroke="none">测量子片段M<tspan baseline-shift="sub" font-size="11.899999999999999">seg</tspan>−1</text>
+<line x1="287" y1="35" x2="493" y2="35" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="390" y="26" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">T<tspan baseline-shift="sub" font-size="11.2">gap</tspan></text>
+<text x="777" y="39" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">……</text>
+<rect x="17" y="119" width="85" height="40" fill="#fff"/>
+<text x="59.5" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">CTS(0)</text>
+<rect x="102" y="119" width="85" height="40" fill="#fff"/>
+<text x="144.5" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">CTS(1)</text>
+<rect x="260" y="119" width="102" height="40" fill="#fff"/>
+<text x="311.0" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">CTS(N<tspan baseline-shift="sub" font-size="10.5">seg</tspan>−1)</text>
+<rect x="392" y="119" width="85" height="40" fill="#fff"/>
+<text x="434.5" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">CTS(N<tspan baseline-shift="sub" font-size="10.5">seg</tspan>)</text>
+<rect x="477" y="119" width="85" height="40" fill="#fff"/>
+<text x="519.5" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">CTS(i)</text>
+<rect x="640" y="119" width="102" height="40" fill="#fff"/>
+<text x="691.0" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">CTS(2N<tspan baseline-shift="sub" font-size="10.5">seg</tspan>−1)</text>
+<rect x="800" y="119" width="85" height="40" fill="#fff"/>
+<text x="842.5" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="885" y="119" width="85" height="40" fill="#fff"/>
+<text x="927.5" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="1038" y="119" width="102" height="40" fill="#fff"/>
+<text x="1089.0" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">CTS(N<tspan baseline-shift="sub" font-size="10.5">cts</tspan>−1)</text>
+<text x="221" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">…</text>
+<text x="599" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">…</text>
+<text x="1003" y="144" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">…</text>
+<line x1="477" y1="159" x2="308" y2="222" stroke-dasharray="5 4"/>
+<line x1="562" y1="159" x2="769" y2="222" stroke-dasharray="5 4"/>
+<rect x="308" y="222" width="110" height="38" fill="#fff"/>
+<text x="363.0" y="245.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">C(i, 0) × SC(i)</text>
+<rect x="418" y="222" width="110" height="38" fill="#fff"/>
+<text x="473.0" y="245.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">C(i, 1) × SC(i)</text>
+<rect x="528" y="222" width="89" height="38" fill="#fff" stroke-dasharray="5 4"/>
+<text x="572.5" y="245.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">……</text>
+<rect x="617" y="222" width="152" height="38" fill="#fff"/>
+<text x="693.0" y="245.62" text-anchor="middle" font-size="14" fill="#22344a" stroke="none"></text>
+<text x="693" y="246" text-anchor="middle" font-size="14" fill="#22344a" stroke="none">C(i, N<tspan baseline-shift="sub" font-size="9.799999999999999">P</tspan>−1) × SC(i)</text>
+</g>
+</svg>

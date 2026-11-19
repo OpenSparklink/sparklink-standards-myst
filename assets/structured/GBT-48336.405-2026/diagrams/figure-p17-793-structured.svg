@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806 536" role="img" aria-labelledby="title description">
+<title id="title">图示：5 通则</title>
+<desc id="description">整车全景环视的组成示意，包括车辆、主机与四个摄像头。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="806" height="536" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<path d="M40 160H398V311H435V247H469V190Q469 184 477 182H569Q584 190 591 240L600 264V335Q595 353 579 355H42Z" fill="#22344a"/>
+<path d="M488 199H552Q571 214 577 252L488 248Z" fill="#fff" stroke="none"/>
+<path d="M545 197H557V226H545Z" fill="#22344a"/>
+<path d="M40 310H433V271" stroke="#fff" stroke-width="4"/>
+<path d="M479 260H592" stroke="#fff" stroke-width="3"/>
+<rect x="591" y="39" width="176" height="151" rx="29" fill="none" stroke-width="12"/>
+<rect x="612" y="65" width="26" height="98" rx="13" fill="#22344a"/>
+<rect x="653" y="65" width="91" height="67" rx="15" fill="#22344a"/>
+<rect x="653" y="146" width="91" height="17" rx="9" fill="#22344a"/>
+<line x1="91" y1="173" x2="91" y2="287" stroke="#fff" stroke-width="5"/>
+<line x1="142" y1="173" x2="142" y2="287" stroke="#fff" stroke-width="5"/>
+<line x1="193" y1="173" x2="193" y2="287" stroke="#fff" stroke-width="5"/>
+<line x1="244" y1="173" x2="244" y2="287" stroke="#fff" stroke-width="5"/>
+<line x1="295" y1="173" x2="295" y2="287" stroke="#fff" stroke-width="5"/>
+<line x1="346" y1="173" x2="346" y2="287" stroke="#fff" stroke-width="5"/>
+<circle cx="107" cy="352" r="46" fill="#22344a" stroke="#fff" stroke-width="5"/>
+<circle cx="217" cy="352" r="46" fill="#22344a" stroke="#fff" stroke-width="5"/>
+<circle cx="502" cy="352" r="46" fill="#22344a" stroke="#fff" stroke-width="5"/>
+<line x1="551" y1="302" x2="584" y2="302" stroke="#fff" stroke-width="4"/>
+<line x1="551" y1="318" x2="584" y2="318" stroke="#fff" stroke-width="4"/>
+<line x1="551" y1="335" x2="584" y2="335" stroke="#fff" stroke-width="4"/>
+<g transform="translate(80 470) rotate(90)" stroke-width="5">
+<path d="M-46 -17q46-25 92 0v18h-92Z" fill="#fff"/>
+<path d="M-37 2q1 37 37 37t37-37Z" fill="#fff"/>
+<path d="M-17 2v31m34-31v31"/>
+<circle cx="0" cy="21" r="9" fill="#22344a"/>
+</g>
+<g transform="translate(220 470) rotate(0)" stroke-width="5">
+<path d="M-46 -17q46-25 92 0v18h-92Z" fill="#fff"/>
+<path d="M-37 2q1 37 37 37t37-37Z" fill="#fff"/>
+<path d="M-17 2v31m34-31v31"/>
+<circle cx="0" cy="21" r="9" fill="#22344a"/>
+</g>
+<g transform="translate(382 470) rotate(0)" stroke-width="5">
+<path d="M-46 -17q46-25 92 0v18h-92Z" fill="#fff"/>
+<path d="M-37 2q1 37 37 37t37-37Z" fill="#fff"/>
+<path d="M-17 2v31m34-31v31"/>
+<circle cx="0" cy="21" r="9" fill="#22344a"/>
+</g>
+<g transform="translate(546 470) rotate(-90)" stroke-width="5">
+<path d="M-46 -17q46-25 92 0v18h-92Z" fill="#fff"/>
+<path d="M-37 2q1 37 37 37t37-37Z" fill="#fff"/>
+<path d="M-17 2v31m34-31v31"/>
+<circle cx="0" cy="21" r="9" fill="#22344a"/>
+</g>
+</g>
+</svg>

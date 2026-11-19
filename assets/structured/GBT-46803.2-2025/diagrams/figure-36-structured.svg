@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710 569" role="img" aria-labelledby="title description">
+<title id="title">图 36　信道质量上报流程示意图</title>
+<desc id="description">G 节点打开信道质量上报，T 节点前后两次发送信道状态指示的间隔不低于最小间隔，信道质量变化后至第二次指示的时延不超过最大时延。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="710" height="569" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="198" y1="60" x2="198" y2="555" marker-end="url(#arrow)"/>
+<line x1="555" y1="60" x2="555" y2="555" marker-end="url(#arrow)"/>
+<rect x="139" y="12" width="118" height="48" fill="#f2f6fb"/>
+<text x="198" y="42" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G 节点</text>
+<rect x="496" y="12" width="118" height="48" fill="#f2f6fb"/>
+<text x="555" y="42" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T 节点</text>
+<rect x="104" y="82" width="545" height="39" fill="#f2f6fb"/>
+<text x="376" y="107" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">G 节点打开信道质量上报</text>
+<rect x="104" y="220" width="545" height="39" fill="#f2f6fb"/>
+<text x="376" y="245" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">T 节点上报信道质量</text>
+<rect x="475" y="372" width="160" height="51" fill="#f2f6fb"/>
+<text x="555" y="403" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">信道质量变化</text>
+<line x1="133" y1="304" x2="133" y2="472" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="65" y="393" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">≥最小间隔</text>
+<line x1="589" y1="425" x2="589" y2="472" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="652" y="453" text-anchor="middle" font-size="13" fill="#22344a" stroke="none">≤最大时延</text>
+<line x1="198" y1="156" x2="555" y2="156" marker-end="url(#arrow)"/>
+<text x="376" y="148" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">信道上报指示</text>
+<line x1="555" y1="181" x2="198" y2="181" marker-end="url(#arrow)"/>
+<text x="376" y="173" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">ACK</text>
+<line x1="555" y1="304" x2="198" y2="304" marker-end="url(#arrow)"/>
+<text x="376" y="296" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">信道状态指示</text>
+<line x1="198" y1="341" x2="555" y2="341" marker-end="url(#arrow)"/>
+<text x="376" y="333" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">ACK</text>
+<line x1="555" y1="472" x2="198" y2="472" marker-end="url(#arrow)"/>
+<text x="376" y="464" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">信道状态指示</text>
+<line x1="198" y1="512" x2="555" y2="512" marker-end="url(#arrow)"/>
+<text x="376" y="504" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">ACK</text>
+</g>
+</svg>

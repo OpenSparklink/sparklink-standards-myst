@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 505" role="img" aria-labelledby="title description">
+<title id="title">图 45　单播密钥架构</title>
+<desc id="description">保留分支上的算法标识和密钥名称。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="1140" height="505" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<rect x="458" y="10" width="176" height="39" fill="#fff"/>
+<text x="546.0" y="34.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">KEt, KEg</text>
+<rect x="458" y="98" width="176" height="39" fill="#fff"/>
+<text x="546.0" y="122.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none"></text>
+<rect x="458" y="187" width="176" height="39" fill="#fff"/>
+<text x="546.0" y="211.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">Kgt</text>
+<rect x="458" y="278" width="176" height="39" fill="#fff"/>
+<text x="546.0" y="302.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">Kmid</text>
+<rect x="216" y="98" width="164" height="39" fill="#fff"/>
+<text x="298.0" y="122.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">NONCEt</text>
+<rect x="714" y="98" width="164" height="39" fill="#fff"/>
+<text x="796.0" y="122.45" text-anchor="middle" font-size="15" fill="#22344a" stroke="none">NONCEg</text>
+<text x="546" y="124" text-anchor="middle" font-size="20" fill="#22344a" stroke="none">K<tspan baseline-shift="sub" font-size="14.0">KE</tspan></text>
+<line x1="546" y1="49" x2="546" y2="98" marker-end="url(#arrow)"/>
+<line x1="546" y1="137" x2="546" y2="187" marker-end="url(#arrow)"/>
+<line x1="298" y1="137" x2="546" y2="187" marker-end="url(#arrow)"/>
+<line x1="795" y1="137" x2="546" y2="187" marker-end="url(#arrow)"/>
+<line x1="546" y1="226" x2="546" y2="278" marker-end="url(#arrow)"/>
+<text x="560" y="253" text-anchor="start" font-size="15" fill="#22344a" stroke="none">counter</text>
+<line x1="546" y1="317" x2="546" y2="344"/>
+<line x1="115" y1="344" x2="1011" y2="344"/>
+<line x1="115" y1="344" x2="115" y2="455" marker-end="url(#arrow)"/>
+<rect x="66" y="455" width="98" height="40" fill="#fff"/>
+<text x="115.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Ks.ac</text>
+<text x="108" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="108" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘signalling auth</text>
+<text x="108" y="402" text-anchor="end" font-size="13" fill="#22344a" stroke="none">enc’</text>
+<line x1="243" y1="344" x2="243" y2="455" marker-end="url(#arrow)"/>
+<rect x="194" y="455" width="98" height="40" fill="#fff"/>
+<text x="243.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Ku.ac</text>
+<text x="236" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="236" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘user auth enc’</text>
+<line x1="371" y1="344" x2="371" y2="455" marker-end="url(#arrow)"/>
+<rect x="322" y="455" width="98" height="40" fill="#fff"/>
+<text x="371.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Kc.ac</text>
+<text x="364" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="364" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘control auth enc’</text>
+<line x1="499" y1="344" x2="499" y2="455" marker-end="url(#arrow)"/>
+<rect x="450" y="455" width="98" height="40" fill="#fff"/>
+<text x="499.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Ks.enc</text>
+<text x="492" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="492" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘signalling enc’</text>
+<line x1="627" y1="344" x2="627" y2="455" marker-end="url(#arrow)"/>
+<rect x="578" y="455" width="98" height="40" fill="#fff"/>
+<text x="627.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Ks.int</text>
+<text x="620" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="620" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘signalling int’</text>
+<line x1="755" y1="344" x2="755" y2="455" marker-end="url(#arrow)"/>
+<rect x="706" y="455" width="98" height="40" fill="#fff"/>
+<text x="755.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Ku.enc</text>
+<text x="748" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="748" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘user enc’</text>
+<line x1="883" y1="344" x2="883" y2="455" marker-end="url(#arrow)"/>
+<rect x="834" y="455" width="98" height="40" fill="#fff"/>
+<text x="883.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Ku.int</text>
+<text x="876" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="876" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘user int’</text>
+<line x1="1011" y1="344" x2="1011" y2="455" marker-end="url(#arrow)"/>
+<rect x="962" y="455" width="98" height="40" fill="#fff"/>
+<text x="1011.0" y="481.27" text-anchor="middle" font-size="19" fill="#22344a" stroke="none">Kc.int</text>
+<text x="1004" y="370" text-anchor="end" font-size="13" fill="#22344a" stroke="none">算法标识，</text>
+<text x="1004" y="386" text-anchor="end" font-size="13" fill="#22344a" stroke="none">‘control int’</text>
+</g>
+</svg>

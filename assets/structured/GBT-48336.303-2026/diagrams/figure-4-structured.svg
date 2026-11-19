@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 901 587" role="img" aria-labelledby="title description">
+<title id="title">图 4　多域设备发现流程示意图</title>
+<desc id="description">两 G 节点的发现方、扫描冲突解决及转为被发现方的状态，保留两种扫描时长和两次广播。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#22344a"/></marker></defs>
+<rect width="901" height="587" fill="#fff"/>
+<g fill="none" stroke="#22344a" stroke-width="1.35" font-family="system-ui, sans-serif">
+<line x1="215" y1="65" x2="215" y2="568"/>
+<line x1="745" y1="65" x2="745" y2="555"/>
+<rect x="147" y="15" width="136" height="50" fill="#fff"/>
+<text x="215.0" y="45.94" text-anchor="middle" font-size="18" fill="#22344a" stroke="none">G1节点</text>
+<rect x="677" y="15" width="136" height="50" fill="#fff"/>
+<text x="745.0" y="45.94" text-anchor="middle" font-size="18" fill="#22344a" stroke="none">G2节点</text>
+<rect x="79" y="106" width="272" height="48" fill="#fff"/>
+<text x="215.0" y="126.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">发现方</text>
+<text x="215.0" y="144.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">（Scan_CA_Mode=False）</text>
+<rect x="609" y="128" width="272" height="48" fill="#fff"/>
+<text x="745.0" y="148.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">发现方</text>
+<text x="745.0" y="166.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">（Scan_CA_Mode=False）</text>
+<rect x="79" y="239" width="272" height="48" fill="#fff"/>
+<text x="215.0" y="259.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">启动扫描冲突解决模式</text>
+<text x="215.0" y="277.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">（Scan_CA_Mode=TRUE）</text>
+<rect x="609" y="261" width="272" height="48" fill="#fff"/>
+<text x="745.0" y="281.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">触发多域设备发现</text>
+<text x="745.0" y="299.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">（Scan_CA_Mode=TRUE）</text>
+<rect x="609" y="378" width="272" height="48" fill="#fff"/>
+<text x="745.0" y="398.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">改为被发现方</text>
+<text x="745.0" y="416.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">（Scan_CA_Mode=False）</text>
+<rect x="79" y="526" width="272" height="48" fill="#fff"/>
+<text x="215.0" y="546.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">多域设备发现成功</text>
+<text x="215.0" y="564.28" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">（Scan_CA_Mode=False）</text>
+<line x1="177" y1="154" x2="177" y2="239" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="791" y1="176" x2="791" y2="261" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="177" y1="287" x2="177" y2="526" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="706" y1="309" x2="706" y2="378" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="165" y="198" text-anchor="end" font-size="16" fill="#22344a" stroke="none">初次扫描</text>
+<text x="804" y="222" text-anchor="start" font-size="16" fill="#22344a" stroke="none">初次扫描</text>
+<text x="94" y="385" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">扫描</text>
+<text x="620" y="341" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">扫描</text>
+<text x="87" y="410" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">(T<tspan baseline-shift="sub" font-size="11.2">random</tspan>=10×T<tspan baseline-shift="sub" font-size="11.2">F</tspan>)</text>
+<text x="619" y="367" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">(T<tspan baseline-shift="sub" font-size="11.2">random</tspan>=4×T<tspan baseline-shift="sub" font-size="11.2">F</tspan>)</text>
+<line x1="745" y1="455" x2="248" y2="455" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<text x="572" y="448" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播</text>
+<line x1="745" y1="494" x2="248" y2="494" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<text x="572" y="487" text-anchor="middle" font-size="16" fill="#22344a" stroke="none">广播</text>
+</g>
+</svg>
