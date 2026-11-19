@@ -1184,4 +1184,15 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="136.309" y="25.672" font-size="9.030" textLength="36.449" lengthAdjust="spacingAndGlyphs">基础应用层</text>
+<text class="vector-label" x="184.242" y="77.664" font-size="8.466" textLength="16.976" lengthAdjust="spacingAndGlyphs">5G蜂</text>
+<text class="vector-label" x="185.241" y="87.104" font-size="9.030" textLength="14.480" lengthAdjust="spacingAndGlyphs">窝网</text>
+<text class="vector-label" x="185.241" y="95.595" font-size="9.030" textLength="14.979" lengthAdjust="spacingAndGlyphs">络融</text>
+<text class="vector-label" x="188.237" y="104.085" font-size="9.030" textLength="8.488" lengthAdjust="spacingAndGlyphs">合</text>
+<text class="vector-label" x="88.857" y="129.826" font-size="11.642" textLength="52.799" lengthAdjust="spacingAndGlyphs">数据传输与适配</text>
+<text class="vector-label" x="264.630" y="128.758" font-size="6.773" textLength="30.457" lengthAdjust="spacingAndGlyphs">TCP/UDP</text>
+<text class="vector-label" x="97.872" y="146.680" font-size="10.259" textLength="37.346" lengthAdjust="spacingAndGlyphs">基础服务层</text>
+<text class="vector-label" x="275.115" y="143.742" font-size="6.773" textLength="8.488" lengthAdjust="spacingAndGlyphs">IP</text>
+</g>
 </svg>

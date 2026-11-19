@@ -1,6 +1,6 @@
 {
   "manifest_sha256": "01064f2b329a652499d683e645f8b7e833cdad80464dfa56562757ec5068ce08",
-  "time": "2026-11-19T04:37:33.735Z",
+  "time": "2026-11-19T05:38:15.004Z",
   "results": [
     {
       "check": "中文全文搜索及结果锚点跳转",
@@ -42,6 +42,14 @@
       "check": "键盘打开矢量图并切换放大尺寸",
       "passed": true,
       "chapter": "gbt-46803-1-2025-appendix-b"
+    },
+    {
+      "check": "PDF 轮廓图的标签可在正文中选取复制",
+      "passed": true
+    },
+    {
+      "check": "时序图跟随明暗主题，步骤内三项条件同级对齐",
+      "passed": true
     },
     {
       "check": "390 px 手机宽度中文搜索",

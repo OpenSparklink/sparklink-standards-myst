@@ -1458,4 +1458,20 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="7.220" y="10.766" font-size="8.308" textLength="22.967" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="115.792" y="11.844" font-size="10.502" textLength="26.034" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="212.972" y="11.750" font-size="10.995" textLength="20.513" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="309.264" y="10.933" font-size="8.699" textLength="17.435" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="387.935" y="10.750" font-size="8.206" textLength="18.100" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="111.614" y="56.223" font-size="10.883" textLength="194.873" lengthAdjust="spacingAndGlyphs">1.基于注册流程中步骤9a,9b和9d配置星闪5G融合系统QoS策略</text>
+<text class="vector-label" x="34.389" y="85.897" font-size="8.867" textLength="78.432" lengthAdjust="spacingAndGlyphs">2.应用实例参数协商请求</text>
+<text class="vector-label" x="39.048" y="95.944" font-size="12.607" textLength="66.717" lengthAdjust="spacingAndGlyphs">-确认（AID，源port，</text>
+<text class="vector-label" x="43.439" y="103.874" font-size="10.249" textLength="58.522" lengthAdjust="spacingAndGlyphs">目标port,QoS参数）</text>
+<text class="vector-label" x="18.589" y="132.226" font-size="13.487" textLength="108.820" lengthAdjust="spacingAndGlyphs">-—3.传输QoS协商请求/确认--</text>
+<text class="vector-label" x="4.215" y="158.760" font-size="8.911" textLength="28.976" lengthAdjust="spacingAndGlyphs">传输通道</text>
+<text class="vector-label" x="4.223" y="167.164" font-size="8.843" textLength="29.563" lengthAdjust="spacingAndGlyphs">建立判决</text>
+<text class="vector-label" x="30.769" y="191.248" font-size="9.606" textLength="81.448" lengthAdjust="spacingAndGlyphs">4.传输通道连接建立请求</text>
+<text class="vector-label" x="62.745" y="199.609" font-size="9.523" textLength="18.703" lengthAdjust="spacingAndGlyphs">/响应</text>
+</g>
 </svg>

@@ -1386,4 +1386,24 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="8.764" y="11.114" font-size="7.397" textLength="22.267" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="124.067" y="11.042" font-size="7.979" textLength="24.579" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="208.924" y="10.592" font-size="7.414" textLength="16.386" lengthAdjust="spacingAndGlyphs">RAN</text>
+<text class="vector-label" x="293.782" y="10.592" font-size="7.414" textLength="16.971" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="374.506" y="10.568" font-size="7.507" textLength="17.629" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="184.345" y="60.644" font-size="9.932" textLength="153.328" lengthAdjust="spacingAndGlyphs">0.基于注册接受消息配置星闪SG融合系统QoS策略</text>
+<text class="vector-label" x="33.943" y="89.999" font-size="9.269" textLength="90.124" lengthAdjust="spacingAndGlyphs">la.QoS策略配置请求（XQI与</text>
+<text class="vector-label" x="58.972" y="98.762" font-size="9.789" textLength="41.215" lengthAdjust="spacingAndGlyphs">星闪短距QoS</text>
+<text class="vector-label" x="50.914" y="106.460" font-size="8.756" textLength="53.255" lengthAdjust="spacingAndGlyphs">参数映射关系）</text>
+<text class="vector-label" x="46.818" y="132.772" font-size="9.269" textLength="68.471" lengthAdjust="spacingAndGlyphs">1b.QoS策略配置确认-</text>
+<text class="vector-label" x="40.966" y="163.299" font-size="8.607" textLength="76.079" lengthAdjust="spacingAndGlyphs">2.应用实例参数协商请求</text>
+<text class="vector-label" x="47.403" y="172.593" font-size="9.977" textLength="60.278" lengthAdjust="spacingAndGlyphs">确认（AID，源port，</text>
+<text class="vector-label" x="49.744" y="180.825" font-size="10.169" textLength="56.767" lengthAdjust="spacingAndGlyphs">目标port,QoS参数）</text>
+<text class="vector-label" x="21.068" y="210.089" font-size="9.972" textLength="115.289" lengthAdjust="spacingAndGlyphs">3.传输QoS协商请求/确认</text>
+<text class="vector-label" x="5.267" y="240.692" font-size="8.756" textLength="28.676" lengthAdjust="spacingAndGlyphs">传输通道</text>
+<text class="vector-label" x="5.777" y="249.590" font-size="9.884" textLength="28.827" lengthAdjust="spacingAndGlyphs">建立判决</text>
+<text class="vector-label" x="45.503" y="278.427" font-size="14.785" textLength="90.567" lengthAdjust="spacingAndGlyphs">4.传输通道连接建立</text>
+<text class="vector-label" x="64.335" y="284.129" font-size="8.970" textLength="30.510" lengthAdjust="spacingAndGlyphs">请求/响应</text>
+</g>
 </svg>

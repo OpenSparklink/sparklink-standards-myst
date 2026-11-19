@@ -3330,4 +3330,64 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="137.296" y="12.988" font-size="5.726" textLength="18.531" lengthAdjust="spacingAndGlyphs">Irusted</text>
+<text class="vector-label" x="11.779" y="16.390" font-size="5.832" textLength="19.400" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="204.655" y="17.077" font-size="7.772" textLength="17.740" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="320.920" y="17.064" font-size="7.670" textLength="15.162" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="401.687" y="17.217" font-size="8.169" textLength="17.035" lengthAdjust="spacingAndGlyphs">AUSF</text>
+<text class="vector-label" x="136.454" y="19.642" font-size="6.777" textLength="20.215" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="46.327" y="40.533" font-size="8.570" textLength="70.754" lengthAdjust="spacingAndGlyphs">0.可信G节点及接入网选择</text>
+<text class="vector-label" x="50.539" y="70.946" font-size="8.754" textLength="62.331" lengthAdjust="spacingAndGlyphs">1.建立连接（默认PSK）</text>
+<text class="vector-label" x="62.310" y="93.716" font-size="8.836" textLength="42.157" lengthAdjust="spacingAndGlyphs">2.EAP身份请求</text>
+<text class="vector-label" x="62.318" y="113.059" font-size="8.729" textLength="42.141" lengthAdjust="spacingAndGlyphs">3.EAP身份响应</text>
+<text class="vector-label" x="165.935" y="116.427" font-size="8.754" textLength="27.796" lengthAdjust="spacingAndGlyphs">-AAA请求</text>
+<text class="vector-label" x="52.223" y="119.101" font-size="6.777" textLength="63.173" lengthAdjust="spacingAndGlyphs">（NAl-username@realm）</text>
+<text class="vector-label" x="91.812" y="134.170" font-size="8.754" textLength="50.539" lengthAdjust="spacingAndGlyphs">4.EAP请求/5G开始</text>
+<text class="vector-label" x="47.169" y="155.979" font-size="8.570" textLength="133.927" lengthAdjust="spacingAndGlyphs">5.EAP响应/5G NAS（UE标识，选择的PLMN标识，</text>
+<text class="vector-label" x="64.858" y="163.658" font-size="8.754" textLength="100.235" lengthAdjust="spacingAndGlyphs">请求的NSSAI，建立原因，注册请求）</text>
+<text class="vector-label" x="197.075" y="174.704" font-size="7.905" textLength="33.742" lengthAdjust="spacingAndGlyphs">6a.AMF选择</text>
+<text class="vector-label" x="256.864" y="187.283" font-size="8.922" textLength="28.719" lengthAdjust="spacingAndGlyphs">6b.N2消息</text>
+<text class="vector-label" x="255.220" y="193.910" font-size="8.583" textLength="32.008" lengthAdjust="spacingAndGlyphs">（注册请求）</text>
+<text class="vector-label" x="344.504" y="205.697" font-size="8.570" textLength="47.169" lengthAdjust="spacingAndGlyphs">7a.AAA鉴权请求</text>
+<text class="vector-label" x="349.535" y="213.385" font-size="8.864" textLength="42.161" lengthAdjust="spacingAndGlyphs">（公钥加密后</text>
+<text class="vector-label" x="352.928" y="220.107" font-size="7.618" textLength="31.165" lengthAdjust="spacingAndGlyphs">T节点标识）</text>
+<text class="vector-label" x="193.731" y="221.708" font-size="8.570" textLength="50.539" lengthAdjust="spacingAndGlyphs">7b.鉴权和密钥协商</text>
+<text class="vector-label" x="10.950" y="245.374" font-size="8.754" textLength="46.327" lengthAdjust="spacingAndGlyphs">生成TNGF或接入</text>
+<text class="vector-label" x="347.031" y="244.461" font-size="8.570" textLength="45.485" lengthAdjust="spacingAndGlyphs">7C.AAA鉴权响应</text>
+<text class="vector-label" x="329.343" y="252.044" font-size="9.627" textLength="74.966" lengthAdjust="spacingAndGlyphs">4（TNGF密钥，T节点标识，</text>
+<text class="vector-label" x="25.269" y="252.213" font-size="7.723" textLength="18.531" lengthAdjust="spacingAndGlyphs">网密钥</text>
+<text class="vector-label" x="347.874" y="258.869" font-size="8.754" textLength="43.800" lengthAdjust="spacingAndGlyphs">EAP成功消息）</text>
+<text class="vector-label" x="257.736" y="273.143" font-size="8.660" textLength="27.818" lengthAdjust="spacingAndGlyphs">8a.N2消息</text>
+<text class="vector-label" x="245.112" y="279.874" font-size="8.596" textLength="54.750" lengthAdjust="spacingAndGlyphs">（安全模式命令请求•</text>
+<text class="vector-label" x="21.900" y="283.222" font-size="8.583" textLength="171.831" lengthAdjust="spacingAndGlyphs">8b.EAP请求/5G NAS安全模式命令请求［EAP成功消息］）</text>
+<text class="vector-label" x="248.481" y="287.437" font-size="8.570" textLength="43.800" lengthAdjust="spacingAndGlyphs">［EAP成功消息］）</text>
+<text class="vector-label" x="60.646" y="301.941" font-size="7.736" textLength="112.027" lengthAdjust="spacingAndGlyphs">8c.EAP啊应/5G NAS（安全模式命令完成）</text>
+<text class="vector-label" x="256.062" y="303.523" font-size="7.716" textLength="28.639" lengthAdjust="spacingAndGlyphs">8d.N2消息</text>
+<text class="vector-label" x="242.585" y="311.097" font-size="8.754" textLength="56.435" lengthAdjust="spacingAndGlyphs">（安全模式命令完成）</text>
+<text class="vector-label" x="235.847" y="326.200" font-size="8.577" textLength="70.754" lengthAdjust="spacingAndGlyphs">9a.N2初始上下文建立请求</text>
+<text class="vector-label" x="64.015" y="331.339" font-size="8.754" textLength="102.762" lengthAdjust="spacingAndGlyphs">9b.EAP请求/5G通知（TNGFIP地址）</text>
+<text class="vector-label" x="253.535" y="332.942" font-size="8.570" textLength="35.377" lengthAdjust="spacingAndGlyphs">（TNGF密钥）</text>
+<text class="vector-label" x="91.812" y="348.951" font-size="8.590" textLength="52.223" lengthAdjust="spacingAndGlyphs">9c.EAP响应/5G通知</text>
+<text class="vector-label" x="162.566" y="360.827" font-size="8.754" textLength="35.377" lengthAdjust="spacingAndGlyphs">9d. AAA消息</text>
+<text class="vector-label" x="157.388" y="366.871" font-size="7.501" textLength="36.507" lengthAdjust="spacingAndGlyphs">一（可信PSK，</text>
+<text class="vector-label" x="61.489" y="369.177" font-size="8.570" textLength="43.800" lengthAdjust="spacingAndGlyphs">9e.EAP成功消息</text>
+<text class="vector-label" x="160.881" y="374.495" font-size="6.784" textLength="39.589" lengthAdjust="spacingAndGlyphs">EAP成功消息）</text>
+<text class="vector-label" x="37.904" y="392.813" font-size="8.754" textLength="95.181" lengthAdjust="spacingAndGlyphs">10a.连接释放（释放原因：PSK更新）</text>
+<text class="vector-label" x="94.339" y="413.839" font-size="8.570" textLength="64.015" lengthAdjust="spacingAndGlyphs">10b.挂起对应T节点传输</text>
+<text class="vector-label" x="9.265" y="417.393" font-size="7.743" textLength="58.119" lengthAdjust="spacingAndGlyphs">10b.存储可信PSK，用</text>
+<text class="vector-label" x="93.496" y="421.421" font-size="8.590" textLength="65.700" lengthAdjust="spacingAndGlyphs">的回传链路，启动PSK有</text>
+<text class="vector-label" x="14.319" y="424.814" font-size="8.596" textLength="48.854" lengthAdjust="spacingAndGlyphs">于后续安全关联</text>
+<text class="vector-label" x="111.172" y="428.205" font-size="8.687" textLength="31.190" lengthAdjust="spacingAndGlyphs">效期定时器</text>
+<text class="vector-label" x="34.535" y="447.466" font-size="9.601" textLength="98.550" lengthAdjust="spacingAndGlyphs">10c.连接建立、安全关联（可信PSK）</text>
+<text class="vector-label" x="94.339" y="468.690" font-size="7.697" textLength="64.015" lengthAdjust="spacingAndGlyphs">10d.唤醒对应T节点传输</text>
+<text class="vector-label" x="93.496" y="476.279" font-size="8.754" textLength="65.700" lengthAdjust="spacingAndGlyphs">的回传链路，停止PSK有</text>
+<text class="vector-label" x="111.185" y="483.026" font-size="8.754" textLength="31.165" lengthAdjust="spacingAndGlyphs">效期定时</text>
+<text class="vector-label" x="64.832" y="503.268" font-size="8.869" textLength="37.956" lengthAdjust="spacingAndGlyphs">11.配置本地IP</text>
+<text class="vector-label" x="227.423" y="514.117" font-size="8.570" textLength="101.077" lengthAdjust="spacingAndGlyphs">12.N2初始上下文建立响应</text>
+<text class="vector-label" x="256.062" y="531.813" font-size="8.570" textLength="32.008" lengthAdjust="spacingAndGlyphs">13a.N2消息</text>
+<text class="vector-label" x="100.235" y="535.347" font-size="7.716" textLength="36.219" lengthAdjust="spacingAndGlyphs">13b.注册接受</text>
+<text class="vector-label" x="256.062" y="539.503" font-size="8.754" textLength="32.850" lengthAdjust="spacingAndGlyphs">（注册接受）</text>
+<text class="vector-label" x="75.777" y="551.955" font-size="10.040" textLength="205.580" lengthAdjust="spacingAndGlyphs">后续T节点与TNGF之间的所有NAS消息均承载在基于GTP-U协议的NWt接口上</text>
+</g>
 </svg>

@@ -109,6 +109,14 @@ async function worker() {
       if(/[\u0590-\u08ff\u0e00-\u0e7f\ue000-\uf8ff\u{f0000}-\u{10fffd}]/u.test(editorialText))found.issues.push('unconverted cover glyphs remain');
       const missingStructured = await imageCheck(page);
       if (missingStructured.length) found.issues.push({ missingStructured });
+      const vectorCount=await page.locator('article img.standard-vector-figure[src$=".svg"]').count();
+      if(vectorCount){
+        try{
+          await page.locator('article .reader-vector > svg').nth(vectorCount-1).waitFor({timeout:5000});
+        }catch{
+          found.issues.push({inlineVectors:{expected:vectorCount,actual:await page.locator('article .reader-vector > svg').count()}});
+        }
+      }
       const expected=expectedBlocks.get(chapter.path) || {};
       found.paragraphs=await page.locator('article .standard-paragraph > p, article .figure-table-bit-boundaries').count();
       found.definitions=await page.locator('article .standard-definitions dl').count();

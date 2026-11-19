@@ -1519,4 +1519,35 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="3.023" y="9.509" font-size="8.874" textLength="23.506" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="77.413" y="9.511" font-size="8.288" textLength="49.661" lengthAdjust="spacingAndGlyphs">Trusted G-Node</text>
+<text class="vector-label" x="192.543" y="8.775" font-size="7.518" textLength="28.644" lengthAdjust="spacingAndGlyphs">NG-RAN</text>
+<text class="vector-label" x="300.616" y="8.620" font-size="7.059" textLength="16.305" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="15.286" y="30.210" font-size="9.786" textLength="24.457" lengthAdjust="spacingAndGlyphs">5G融合</text>
+<text class="vector-label" x="90.130" y="30.397" font-size="9.596" textLength="25.076" lengthAdjust="spacingAndGlyphs">5G融合</text>
+<text class="vector-label" x="137.570" y="28.427" font-size="6.908" textLength="15.286" lengthAdjust="spacingAndGlyphs">NAS</text>
+<text class="vector-label" x="318.959" y="28.427" font-size="6.908" textLength="15.795" lengthAdjust="spacingAndGlyphs">NAS</text>
+<text class="vector-label" x="230.148" y="43.348" font-size="7.323" textLength="18.142" lengthAdjust="spacingAndGlyphs">Relay</text>
+<text class="vector-label" x="137.061" y="48.848" font-size="7.059" textLength="15.795" lengthAdjust="spacingAndGlyphs">RRC</text>
+<text class="vector-label" x="210.431" y="49.348" font-size="7.059" textLength="15.795" lengthAdjust="spacingAndGlyphs">RRC</text>
+<text class="vector-label" x="17.773" y="57.949" font-size="8.994" textLength="19.991" lengthAdjust="spacingAndGlyphs">DTAP</text>
+<text class="vector-label" x="93.136" y="58.049" font-size="9.275" textLength="20.082" lengthAdjust="spacingAndGlyphs">DTAP</text>
+<text class="vector-label" x="135.532" y="66.126" font-size="6.908" textLength="19.362" lengthAdjust="spacingAndGlyphs">PDCP</text>
+<text class="vector-label" x="208.865" y="66.220" font-size="7.173" textLength="18.927" lengthAdjust="spacingAndGlyphs">PDCP</text>
+<text class="vector-label" x="245.079" y="79.830" font-size="7.484" textLength="10.700" lengthAdjust="spacingAndGlyphs">N2</text>
+<text class="vector-label" x="322.016" y="79.372" font-size="6.908" textLength="10.190" lengthAdjust="spacingAndGlyphs">N2</text>
+<text class="vector-label" x="137.570" y="83.957" font-size="6.908" textLength="15.286" lengthAdjust="spacingAndGlyphs">RLC</text>
+<text class="vector-label" x="210.431" y="84.415" font-size="7.484" textLength="15.286" lengthAdjust="spacingAndGlyphs">RLC</text>
+<text class="vector-label" x="242.531" y="88.526" font-size="7.623" textLength="16.305" lengthAdjust="spacingAndGlyphs">stack</text>
+<text class="vector-label" x="318.685" y="89.019" font-size="7.224" textLength="16.356" lengthAdjust="spacingAndGlyphs">stack</text>
+<text class="vector-label" x="11.662" y="100.178" font-size="10.278" textLength="32.214" lengthAdjust="spacingAndGlyphs">SparkLink</text>
+<text class="vector-label" x="87.094" y="100.107" font-size="10.077" textLength="32.168" lengthAdjust="spacingAndGlyphs">SparkLink</text>
+<text class="vector-label" x="136.551" y="101.319" font-size="7.059" textLength="17.324" lengthAdjust="spacingAndGlyphs">MAC</text>
+<text class="vector-label" x="209.922" y="101.819" font-size="7.059" textLength="17.324" lengthAdjust="spacingAndGlyphs">MAC</text>
+<text class="vector-label" x="97.828" y="107.697" font-size="9.211" textLength="10.190" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="22.928" y="107.748" font-size="8.635" textLength="10.190" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="137.570" y="118.599" font-size="6.908" textLength="15.286" lengthAdjust="spacingAndGlyphs">PHY</text>
+<text class="vector-label" x="210.941" y="118.599" font-size="6.908" textLength="14.776" lengthAdjust="spacingAndGlyphs">PHY</text>
+</g>
 </svg>

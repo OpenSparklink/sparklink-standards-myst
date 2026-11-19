@@ -1699,4 +1699,35 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="360.014" y="8.677" font-size="9.327" textLength="72.890" lengthAdjust="spacingAndGlyphs">其他控制面和用户面功</text>
+<text class="vector-label" x="3.803" y="12.670" font-size="7.158" textLength="22.818" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="89.299" y="12.893" font-size="7.790" textLength="24.227" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="185.078" y="12.670" font-size="7.158" textLength="19.649" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="295.364" y="12.670" font-size="7.158" textLength="16.480" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="354.944" y="17.772" font-size="7.997" textLength="80.496" lengthAdjust="spacingAndGlyphs">能（如：SMF/UPF/MDF）</text>
+<text class="vector-label" x="62.115" y="42.315" font-size="8.606" textLength="86.201" lengthAdjust="spacingAndGlyphs">基于GTP-U的NAS信令传输</text>
+<text class="vector-label" x="54.509" y="72.596" font-size="10.022" textLength="211.065" lengthAdjust="spacingAndGlyphs">1.PDU会话建立请求（PDU会话标识，SSC模式，会话类型，……）</text>
+<text class="vector-label" x="297.899" y="95.559" font-size="9.423" textLength="110.286" lengthAdjust="spacingAndGlyphs">2a.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="313.652" y="104.574" font-size="11.118" textLength="78.166" lengthAdjust="spacingAndGlyphs">4.3.2.2.1-1中的步骤2~11</text>
+<text class="vector-label" x="290.293" y="113.224" font-size="10.159" textLength="125.498" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.2.2.2-1</text>
+<text class="vector-label" x="331.492" y="120.867" font-size="8.590" textLength="44.368" lengthAdjust="spacingAndGlyphs">中的步骤2~14</text>
+<text class="vector-label" x="219.211" y="138.598" font-size="9.980" textLength="61.685" lengthAdjust="spacingAndGlyphs">2.N2 PDU会话请求</text>
+<text class="vector-label" x="212.007" y="149.832" font-size="16.759" textLength="82.498" lengthAdjust="spacingAndGlyphs">（QoS策略和关联QFI，一</text>
+<text class="vector-label" x="217.265" y="155.988" font-size="11.566" textLength="67.440" lengthAdjust="spacingAndGlyphs">PDU会话标识，PDU</text>
+<text class="vector-label" x="29.127" y="163.733" font-size="11.185" textLength="160.423" lengthAdjust="spacingAndGlyphs">3.PDU会话建立请求（PDU会话建立接受（IP地址，</text>
+<text class="vector-label" x="206.574" y="164.731" font-size="11.277" textLength="86.310" lengthAdjust="spacingAndGlyphs">会话建立接受，MDF信息）</text>
+<text class="vector-label" x="34.227" y="172.222" font-size="9.439" textLength="150.217" lengthAdjust="spacingAndGlyphs">SSC模式，授权的QoS rules,MDF信息，……），</text>
+<text class="vector-label" x="53.242" y="180.462" font-size="9.445" textLength="112.821" lengthAdjust="spacingAndGlyphs">PDU会话标识，TNGF隧道：F-TEID，</text>
+<text class="vector-label" x="81.000" y="189.833" font-size="10.560" textLength="56.695" lengthAdjust="spacingAndGlyphs">DSCP, QoS信息）</text>
+<text class="vector-label" x="31.023" y="223.985" font-size="10.916" textLength="142.059" lengthAdjust="spacingAndGlyphs">4.PDU会话建立响应（T节点隧道：T-TEID）</text>
+<text class="vector-label" x="221.840" y="238.783" font-size="7.907" textLength="65.284" lengthAdjust="spacingAndGlyphs">6.N2 PDU会话响应-</text>
+<text class="vector-label" x="299.167" y="264.555" font-size="10.159" textLength="107.751" lengthAdjust="spacingAndGlyphs">7.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="296.632" y="273.409" font-size="10.022" textLength="112.188" lengthAdjust="spacingAndGlyphs">4.3.2.2.1-1中步骤14之后所有步骤</text>
+<text class="vector-label" x="290.293" y="282.285" font-size="10.159" textLength="126.132" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.2.2.2-1</text>
+<text class="vector-label" x="313.745" y="290.526" font-size="10.159" textLength="79.862" lengthAdjust="spacingAndGlyphs">中步骤18之后的所有步骤</text>
+<text class="vector-label" x="158.457" y="326.621" font-size="10.022" textLength="93.807" lengthAdjust="spacingAndGlyphs">8.终端节点与MDF建立IP连接</text>
+<text class="vector-label" x="115.357" y="363.930" font-size="10.767" textLength="180.007" lengthAdjust="spacingAndGlyphs">9.ITU-TG.9980消息（节点状态信息、链路状态信息）一</text>
+<text class="vector-label" x="74.763" y="393.819" font-size="12.831" textLength="263.732" lengthAdjust="spacingAndGlyphs">10.ITU-TG.9980消息（节点参数更新、链路状态检测上报策略、节点状态上报策略）</text>
+</g>
 </svg>

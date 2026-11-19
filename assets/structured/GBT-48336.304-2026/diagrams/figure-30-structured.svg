@@ -964,4 +964,25 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="1.899" y="10.231" font-size="7.318" textLength="22.367" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="97.592" y="10.339" font-size="7.622" textLength="24.347" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="183.156" y="10.188" font-size="7.195" textLength="15.954" lengthAdjust="spacingAndGlyphs">RAN</text>
+<text class="vector-label" x="268.671" y="10.117" font-size="8.001" textLength="17.231" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="344.614" y="10.188" font-size="7.195" textLength="15.316" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="416.727" y="10.117" font-size="8.001" textLength="14.678" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="220.742" y="55.029" font-size="10.936" textLength="90.739" lengthAdjust="spacingAndGlyphs">0.注册请求/接受（QoS参数）</text>
+<text class="vector-label" x="24.195" y="92.058" font-size="10.825" textLength="95.196" lengthAdjust="spacingAndGlyphs">1.T节点与G节点处于连接状态</text>
+<text class="vector-label" x="6.382" y="126.457" font-size="10.073" textLength="63.817" lengthAdjust="spacingAndGlyphs">2.根据业务需求确定</text>
+<text class="vector-label" x="14.678" y="134.793" font-size="9.416" textLength="47.863" lengthAdjust="spacingAndGlyphs">是否执行步骤3</text>
+<text class="vector-label" x="28.718" y="158.804" font-size="11.512" textLength="65.732" lengthAdjust="spacingAndGlyphs">3.PDU会话关联释放</text>
+<text class="vector-label" x="47.197" y="166.647" font-size="10.286" textLength="30.050" lengthAdjust="spacingAndGlyphs">请求消息</text>
+<text class="vector-label" x="160.182" y="187.648" font-size="9.354" textLength="68.285" lengthAdjust="spacingAndGlyphs">4a.PDU会话释放请求</text>
+<text class="vector-label" x="318.449" y="200.309" font-size="10.196" textLength="67.646" lengthAdjust="spacingAndGlyphs">46.会话策略关联终止</text>
+<text class="vector-label" x="160.112" y="219.484" font-size="10.767" textLength="68.420" lengthAdjust="spacingAndGlyphs">4c.PDU会话释放命令</text>
+<text class="vector-label" x="29.356" y="236.712" font-size="10.196" textLength="65.732" lengthAdjust="spacingAndGlyphs">5.PDU会话关联释放</text>
+<text class="vector-label" x="47.829" y="245.052" font-size="9.628" textLength="29.424" lengthAdjust="spacingAndGlyphs">响应消息</text>
+<text class="vector-label" x="278.074" y="252.588" font-size="12.374" textLength="73.177" lengthAdjust="spacingAndGlyphs">6.PDU会话上下文更新</text>
+<text class="vector-label" x="299.942" y="260.976" font-size="9.589" textLength="31.909" lengthAdjust="spacingAndGlyphs">请求/响应</text>
+</g>
 </svg>

@@ -1500,4 +1500,24 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="172.825" y="16.586" font-size="9.929" textLength="50.330" lengthAdjust="spacingAndGlyphs">EAP流程结束前</text>
+<text class="vector-label" x="279.532" y="16.458" font-size="9.104" textLength="50.143" lengthAdjust="spacingAndGlyphs">EAP流程结束后</text>
+<text class="vector-label" x="31.114" y="36.681" font-size="8.519" textLength="24.225" lengthAdjust="spacingAndGlyphs">5G融合</text>
+<text class="vector-label" x="297.382" y="59.901" font-size="6.650" textLength="21.360" lengthAdjust="spacingAndGlyphs">GTP-U</text>
+<text class="vector-label" x="76.655" y="78.609" font-size="9.104" textLength="28.818" lengthAdjust="spacingAndGlyphs">服务管理</text>
+<text class="vector-label" x="183.253" y="77.210" font-size="6.776" textLength="24.839" lengthAdjust="spacingAndGlyphs">EAP-5G</text>
+<text class="vector-label" x="302.010" y="78.237" font-size="7.334" textLength="15.562" lengthAdjust="spacingAndGlyphs">UDP</text>
+<text class="vector-label" x="306.621" y="97.223" font-size="7.186" textLength="8.069" lengthAdjust="spacingAndGlyphs">IP</text>
+<text class="vector-label" x="110.013" y="140.398" font-size="9.707" textLength="29.536" lengthAdjust="spacingAndGlyphs">服务管理</text>
+<text class="vector-label" x="263.971" y="140.703" font-size="9.754" textLength="43.227" lengthAdjust="spacingAndGlyphs">5G融合传输</text>
+<text class="vector-label" x="110.084" y="148.815" font-size="9.127" textLength="29.394" lengthAdjust="spacingAndGlyphs">传输通道</text>
+<text class="vector-label" x="280.109" y="149.409" font-size="9.873" textLength="15.562" lengthAdjust="spacingAndGlyphs">信道</text>
+<text class="vector-label" x="312.385" y="170.130" font-size="9.873" textLength="51.872" lengthAdjust="spacingAndGlyphs">数据传输与适配</text>
+<text class="vector-label" x="348.643" y="210.649" font-size="10.020" textLength="37.004" lengthAdjust="spacingAndGlyphs">基础服务层</text>
+<text class="vector-label" x="189.013" y="245.126" font-size="8.871" textLength="43.289" lengthAdjust="spacingAndGlyphs">默认空口承载</text>
+<text class="vector-label" x="97.980" y="285.388" font-size="7.899" textLength="14.409" lengthAdjust="spacingAndGlyphs">SLB</text>
+<text class="vector-label" x="270.311" y="286.297" font-size="9.754" textLength="14.985" lengthAdjust="spacingAndGlyphs">SLE</text>
+<text class="vector-label" x="187.315" y="313.989" font-size="9.119" textLength="21.902" lengthAdjust="spacingAndGlyphs">接入层</text>
+</g>
 </svg>

@@ -96,7 +96,7 @@ try {
 
   const vectorChapter='gbt-46803-1-2025-appendix-b';
   await page.goto(origin+'/'+vectorChapter+'/',{waitUntil:'networkidle'});
-  const vector=page.locator('article img.standard-vector-figure').first();
+  const vector=page.locator('article .reader-vector-zoom').first();
   await vector.focus();
   await vector.press('Enter');
   const zoom=page.locator('dialog[open]');await zoom.waitFor();
@@ -105,6 +105,33 @@ try {
   assert.equal(await zoom.locator('.reader-dialog-scroll').evaluate(e=>e.classList.contains('fit')),false);
   await zoom.getByRole('button',{name:'关闭',exact:true}).click();
   results.push({check:'键盘打开矢量图并切换放大尺寸',passed:true,chapter:vectorChapter});
+
+  await page.goto(origin+'/gbt-48336-304-2026-clause-6-4/');
+  const label=page.locator('article .reader-vector svg text.vector-label').getByText('3.PDU会话上下文建立请求',{exact:true});
+  assert.equal(await label.evaluate(text=>{
+    const range=document.createRange();range.selectNodeContents(text);
+    const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);
+    const selected=selection.toString();selection.removeAllRanges();return selected;
+  }),'3.PDU会话上下文建立请求');
+  results.push({check:'PDF 轮廓图的标签可在正文中选取复制',passed:true});
+
+  await page.goto(origin+'/gbt-48336-304-2026-clause-6-1/');
+  const diagram=page.locator('article .standard-diagram').filter({hasText:'释放与可信G节点之间的5G融合资源'}).locator('rect.actor-top').first();
+  await diagram.waitFor();
+  const lightFill=await diagram.evaluate(rect=>getComputedStyle(rect).fill);
+  assert.equal(lightFill,'rgb(255, 255, 255)');
+  assert.ok(await diagram.evaluate(rect=>{
+    const viewport=rect.closest('.standard-diagram');
+    return viewport.scrollWidth<=viewport.clientWidth+1;
+  }));
+  await page.locator('html').evaluate(node=>node.classList.add('dark'));
+  assert.equal(await diagram.evaluate(rect=>getComputedStyle(rect).fill),'rgb(25, 29, 35)');
+  await page.locator('html').evaluate(node=>node.classList.remove('dark'));
+  const conditions=page.locator('article .standard-list-block > ol > li').filter({hasText:'如果该定时器未配置'}).locator(':scope > ol > li');
+  assert.equal(await conditions.count(),3);
+  assert.match(await conditions.first().textContent(),/1）/);
+  assert.match(await conditions.last().textContent(),/3）/);
+  results.push({check:'时序图跟随明暗主题，步骤内三项条件同级对齐',passed:true});
 
   await page.setViewportSize({width:390,height:844});
   await page.getByRole('button',{name:/搜索标准正文|Search/}).first().click();

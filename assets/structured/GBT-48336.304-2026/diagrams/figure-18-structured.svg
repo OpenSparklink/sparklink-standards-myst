@@ -1410,4 +1410,51 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="10.183" y="6.920" font-size="6.493" textLength="7.405" lengthAdjust="spacingAndGlyphs">G-</text>
+<text class="vector-label" x="118.487" y="6.920" font-size="6.493" textLength="12.034" lengthAdjust="spacingAndGlyphs">New</text>
+<text class="vector-label" x="174.954" y="6.920" font-size="6.493" textLength="10.183" lengthAdjust="spacingAndGlyphs">Old</text>
+<text class="vector-label" x="62.021" y="10.667" font-size="6.493" textLength="13.885" lengthAdjust="spacingAndGlyphs">RAN</text>
+<text class="vector-label" x="231.421" y="10.667" font-size="6.493" textLength="12.960" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="286.962" y="10.667" font-size="6.493" textLength="13.885" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="337.875" y="11.305" font-size="8.377" textLength="17.588" lengthAdjust="spacingAndGlyphs">AUSF</text>
+<text class="vector-label" x="386.010" y="11.392" font-size="7.402" textLength="16.662" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="6.480" y="13.515" font-size="5.364" textLength="14.811" lengthAdjust="spacingAndGlyphs">Node</text>
+<text class="vector-label" x="117.562" y="13.416" font-size="6.493" textLength="13.885" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="173.103" y="13.416" font-size="6.493" textLength="14.811" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="24.019" y="33.712" font-size="8.848" textLength="30.646" lengthAdjust="spacingAndGlyphs">1.注册请求</text>
+<text class="vector-label" x="52.746" y="50.286" font-size="8.549" textLength="31.509" lengthAdjust="spacingAndGlyphs">2.AMF选择</text>
+<text class="vector-label" x="78.645" y="63.324" font-size="8.732" textLength="29.699" lengthAdjust="spacingAndGlyphs">3.注册请求</text>
+<text class="vector-label" x="134.212" y="74.358" font-size="8.487" textLength="29.646" lengthAdjust="spacingAndGlyphs">4.节点通信</text>
+<text class="vector-label" x="135.063" y="80.907" font-size="8.009" textLength="29.813" lengthAdjust="spacingAndGlyphs">上下文传输</text>
+<text class="vector-label" x="134.213" y="95.669" font-size="8.482" textLength="29.645" lengthAdjust="spacingAndGlyphs">5.节点通信</text>
+<text class="vector-label" x="128.670" y="103.046" font-size="8.377" textLength="42.581" lengthAdjust="spacingAndGlyphs">上下文传输响应</text>
+<text class="vector-label" x="47.210" y="120.763" font-size="7.353" textLength="41.656" lengthAdjust="spacingAndGlyphs">6.终端标识请求</text>
+<text class="vector-label" x="45.305" y="139.317" font-size="10.057" textLength="42.688" lengthAdjust="spacingAndGlyphs">7.终端标识响应</text>
+<text class="vector-label" x="106.396" y="155.042" font-size="9.976" textLength="34.366" lengthAdjust="spacingAndGlyphs">8.AUSF选择</text>
+<text class="vector-label" x="200.873" y="154.093" font-size="7.468" textLength="11.108" lengthAdjust="spacingAndGlyphs">EIR</text>
+<text class="vector-label" x="71.269" y="177.208" font-size="8.458" textLength="32.415" lengthAdjust="spacingAndGlyphs">9.鉴权/安全</text>
+<text class="vector-label" x="125.893" y="210.601" font-size="8.469" textLength="44.433" lengthAdjust="spacingAndGlyphs">10.注册状态更新</text>
+<text class="vector-label" x="36.102" y="221.660" font-size="8.377" textLength="58.318" lengthAdjust="spacingAndGlyphs">11.终端标识请求/响应</text>
+<text class="vector-label" x="134.224" y="231.844" font-size="8.479" textLength="58.318" lengthAdjust="spacingAndGlyphs">12.设备标识检査/获取</text>
+<text class="vector-label" x="107.379" y="257.916" font-size="7.360" textLength="34.250" lengthAdjust="spacingAndGlyphs">13.UDM选择</text>
+<text class="vector-label" x="242.484" y="271.866" font-size="8.848" textLength="33.415" lengthAdjust="spacingAndGlyphs">14a.CM注册</text>
+<text class="vector-label" x="241.603" y="291.241" font-size="7.461" textLength="37.027" lengthAdjust="spacingAndGlyphs">14b.SDM获取</text>
+<text class="vector-label" x="241.593" y="313.538" font-size="7.458" textLength="36.122" lengthAdjust="spacingAndGlyphs">14c.SDM订阅</text>
+<text class="vector-label" x="264.632" y="334.711" font-size="9.466" textLength="50.230" lengthAdjust="spacingAndGlyphs">14d.CM去注册通知</text>
+<text class="vector-label" x="109.092" y="341.700" font-size="8.856" textLength="30.848" lengthAdjust="spacingAndGlyphs">15.PCF选择</text>
+<text class="vector-label" x="265.671" y="353.250" font-size="8.469" textLength="49.061" lengthAdjust="spacingAndGlyphs">14e.SDM取消订阅</text>
+<text class="vector-label" x="149.035" y="375.399" font-size="9.431" textLength="68.501" lengthAdjust="spacingAndGlyphs">16.AM策略关联建立/修改</text>
+<text class="vector-label" x="174.029" y="404.214" font-size="8.469" textLength="74.980" lengthAdjust="spacingAndGlyphs">17.PDU会话管理上下文更新</text>
+<text class="vector-label" x="248.992" y="429.294" font-size="8.548" textLength="33.358" lengthAdjust="spacingAndGlyphs">18a.CM注册</text>
+<text class="vector-label" x="265.671" y="450.628" font-size="7.461" textLength="50.913" lengthAdjust="spacingAndGlyphs">18b.CM去注册通知</text>
+<text class="vector-label" x="266.597" y="467.227" font-size="8.377" textLength="48.136" lengthAdjust="spacingAndGlyphs">18c.SDM订阅取消</text>
+<text class="vector-label" x="49.015" y="488.710" font-size="8.856" textLength="33.416" lengthAdjust="spacingAndGlyphs">20.注册接受</text>
+<text class="vector-label" x="155.515" y="507.042" font-size="9.598" textLength="57.392" lengthAdjust="spacingAndGlyphs">21.节点策略关联建立</text>
+<text class="vector-label" x="47.189" y="533.097" font-size="8.592" textLength="33.366" lengthAdjust="spacingAndGlyphs">22.注册完成</text>
+<text class="vector-label" x="243.455" y="549.785" font-size="7.432" textLength="33.325" lengthAdjust="spacingAndGlyphs">23.SDM信息</text>
+<text class="vector-label" x="77.757" y="565.636" font-size="6.319" textLength="30.548" lengthAdjust="spacingAndGlyphs">23a.N2消息</text>
+<text class="vector-label" x="244.380" y="577.590" font-size="8.489" textLength="30.548" lengthAdjust="spacingAndGlyphs">24.CM更新</text>
+<text class="vector-label" x="35.176" y="605.322" font-size="8.469" textLength="63.872" lengthAdjust="spacingAndGlyphs">25.网络切片认证和授权</text>
+</g>
 </svg>

@@ -1867,4 +1867,33 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="1.945" y="9.827" font-size="7.459" textLength="22.693" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="113.424" y="9.838" font-size="7.665" textLength="24.717" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="197.750" y="9.827" font-size="7.459" textLength="16.209" lengthAdjust="spacingAndGlyphs">RAN</text>
+<text class="vector-label" x="280.740" y="9.762" font-size="8.191" textLength="16.857" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="354.005" y="9.153" font-size="6.613" textLength="14.912" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="424.028" y="9.762" font-size="8.191" textLength="14.912" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="197.677" y="47.000" font-size="11.402" textLength="90.921" lengthAdjust="spacingAndGlyphs">0.注册请求/接受（QoS参数）</text>
+<text class="vector-label" x="5.835" y="87.891" font-size="9.514" textLength="64.188" lengthAdjust="spacingAndGlyphs">1.根据业务需求确定</text>
+<text class="vector-label" x="14.252" y="96.363" font-size="9.663" textLength="48.002" lengthAdjust="spacingAndGlyphs">是否执行步骤2</text>
+<text class="vector-label" x="27.880" y="122.320" font-size="8.830" textLength="80.397" lengthAdjust="spacingAndGlyphs">2.PDU会话关联请求消息</text>
+<text class="vector-label" x="17.460" y="131.672" font-size="10.900" textLength="101.892" lengthAdjust="spacingAndGlyphs">（QoS参数、应用类型、DNN等）</text>
+<text class="vector-label" x="59.596" y="170.008" font-size="11.780" textLength="111.605" lengthAdjust="spacingAndGlyphs">3a.检查T节点是否在白名单列表里；</text>
+<text class="vector-label" x="61.594" y="178.437" font-size="10.978" textLength="110.870" lengthAdjust="spacingAndGlyphs">3b.确定复用、修改或新建PDU会话</text>
+<text class="vector-label" x="176.354" y="195.414" font-size="9.593" textLength="67.430" lengthAdjust="spacingAndGlyphs">4a.PDU会话修改请求</text>
+<text class="vector-label" x="166.629" y="205.152" font-size="9.593" textLength="87.529" lengthAdjust="spacingAndGlyphs">（packetfilter （s），QoS信息）</text>
+<text class="vector-label" x="328.071" y="218.007" font-size="11.056" textLength="68.726" lengthAdjust="spacingAndGlyphs">46.会话策略关联修改</text>
+<text class="vector-label" x="174.409" y="229.124" font-size="9.593" textLength="68.078" lengthAdjust="spacingAndGlyphs">4c.PDU会话修改命令</text>
+<text class="vector-label" x="178.204" y="238.137" font-size="10.987" textLength="61.140" lengthAdjust="spacingAndGlyphs">（QFI与SQI的映射）</text>
+<text class="vector-label" x="289.169" y="249.099" font-size="10.246" textLength="71.968" lengthAdjust="spacingAndGlyphs">S.PDU会话上下文更新</text>
+<text class="vector-label" x="309.883" y="257.687" font-size="9.808" textLength="31.838" lengthAdjust="spacingAndGlyphs">请求/响应</text>
+<text class="vector-label" x="57.673" y="279.482" font-size="11.110" textLength="138.174" lengthAdjust="spacingAndGlyphs">6a.G节点维护T节点与PDU会话的映射关系；</text>
+<text class="vector-label" x="57.704" y="288.543" font-size="10.978" textLength="142.639" lengthAdjust="spacingAndGlyphs">66.维护QFI与DSCP映射、DSCP与XQI的映</text>
+<text class="vector-label" x="57.704" y="296.956" font-size="11.053" textLength="127.727" lengthAdjust="spacingAndGlyphs">射，以及XQI与星闪QoS参数的映射关系</text>
+<text class="vector-label" x="19.451" y="320.509" font-size="9.641" textLength="101.144" lengthAdjust="spacingAndGlyphs">7.PDU会话关联响应消息（PDU</text>
+<text class="vector-label" x="18.154" y="329.441" font-size="10.284" textLength="105.035" lengthAdjust="spacingAndGlyphs">会话标识，短距流描述与DSCP</text>
+<text class="vector-label" x="18.154" y="338.407" font-size="11.055" textLength="103.738" lengthAdjust="spacingAndGlyphs">映射、DSCP与XQI的映射，以及</text>
+<text class="vector-label" x="16.857" y="346.921" font-size="10.274" textLength="103.089" lengthAdjust="spacingAndGlyphs">XQI与星闪QoS参数的映射关系）</text>
+</g>
 </svg>

@@ -958,4 +958,21 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="3.903" y="11.631" font-size="6.917" textLength="22.305" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="126.580" y="11.631" font-size="6.917" textLength="47.398" lengthAdjust="spacingAndGlyphs">Trusted G-Node</text>
+<text class="vector-label" x="321.189" y="11.567" font-size="7.640" textLength="15.056" lengthAdjust="spacingAndGlyphs">5GC</text>
+<text class="vector-label" x="289.926" y="65.038" font-size="8.438" textLength="23.491" lengthAdjust="spacingAndGlyphs">QoS流1</text>
+<text class="vector-label" x="141.003" y="68.704" font-size="9.479" textLength="50.887" lengthAdjust="spacingAndGlyphs">源：IP+port （x）</text>
+<text class="vector-label" x="347.813" y="67.243" font-size="8.897" textLength="38.160" lengthAdjust="spacingAndGlyphs">源：IP+port</text>
+<text class="vector-label" x="26.708" y="68.185" font-size="7.667" textLength="37.445" lengthAdjust="spacingAndGlyphs">源：IP+port</text>
+<text class="vector-label" x="27.725" y="77.034" font-size="9.165" textLength="43.737" lengthAdjust="spacingAndGlyphs">目标：IP+port</text>
+<text class="vector-label" x="147.056" y="77.023" font-size="9.095" textLength="43.755" lengthAdjust="spacingAndGlyphs">目标：IP+port</text>
+<text class="vector-label" x="241.974" y="76.184" font-size="8.483" textLength="29.620" lengthAdjust="spacingAndGlyphs">PDU会话</text>
+<text class="vector-label" x="336.723" y="75.692" font-size="9.982" textLength="57.590" lengthAdjust="spacingAndGlyphs">目标：IP+port （x）</text>
+<text class="vector-label" x="289.780" y="87.314" font-size="8.900" textLength="24.908" lengthAdjust="spacingAndGlyphs">QoS流2</text>
+<text class="vector-label" x="31.599" y="123.025" font-size="8.275" textLength="34.320" lengthAdjust="spacingAndGlyphs">PDU Layer</text>
+<text class="vector-label" x="151.066" y="122.553" font-size="7.353" textLength="34.165" lengthAdjust="spacingAndGlyphs">PDU Layer</text>
+<text class="vector-label" x="350.040" y="122.892" font-size="8.765" textLength="34.882" lengthAdjust="spacingAndGlyphs">PDU Layer</text>
+</g>
 </svg>

@@ -1,4 +1,19 @@
-:root { --standard-rule: #94a3b8; }
+:root {
+  --standard-rule: #a6aeb6;
+  --diagram-ink: #20252b;
+  --diagram-line: #525b64;
+  --diagram-surface: #fff;
+  --diagram-tint: #f1f3f5;
+  --diagram-shade: #e1e5e9;
+}
+html.dark {
+  --standard-rule: #66717d;
+  --diagram-ink: #e7ecf0;
+  --diagram-line: #b2bac3;
+  --diagram-surface: #191d23;
+  --diagram-tint: #252c34;
+  --diagram-shade: #343e49;
+}
 article { line-height: 1.85; }
 article p { overflow-wrap: anywhere; }
 article .katex { position: relative; display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; }
@@ -70,6 +85,8 @@ ol.decimal-list > li::marker { content: counter(list-item) ") "; }
 .standard-list li p, .alpha-list li p, .decimal-list li p { margin: 0.25rem 0; }
 .standard-list-block ul, .standard-list-block ol { list-style: none; padding-left: 1.7rem; margin: 0.6rem 0; }
 .standard-list-block li > p { padding-left: 1.8rem; text-indent: -1.8rem; margin: 0.35rem 0; }
+.standard-list-block li > .standard-paragraph { margin-inline-start: 1.8rem; }
+.standard-list-block li > :is(ol,ul) { padding-inline-start: 1.8rem; }
 .standard-list-block li::marker { content: ''; }
 .standard-table img { max-width: 100%; height: auto; background: white; }
 .source-code, .source-figure { cursor: zoom-in; }
@@ -93,7 +110,6 @@ ol.decimal-list > li::marker { content: counter(list-item) ") "; }
   word-break: normal;
   text-align: left;
 }
-.standard-table th { background-color: #e2e8f040; font-weight: 600; }
 .standard-table .katex { white-space: nowrap; }
 .standard-table.figure-table { min-width: 0; }
 .standard-table.source-bit-table th { white-space: nowrap; }
@@ -104,16 +120,50 @@ ol.decimal-list > li::marker { content: counter(list-item) ") "; }
   outline: 1px dashed var(--standard-rule);
   outline-offset: -3px;
 }
-.standard-table.figure-table td.figure-table-shaded { background: #94a3b849; }
+.standard-table.figure-table td.figure-table-shaded { background: var(--diagram-shade); }
 .standard-table.figure-table th.figure-table-scope-row { white-space: nowrap; }
 .standard-diagram, .figure-code { max-width: 100%; overflow-x: auto; }
 .standard-diagram figure svg[data-reader-layout] {
   display: block;
-  width: var(--standard-diagram-width);
+  width: clamp(calc(var(--standard-diagram-width) * .82), 100%, var(--standard-diagram-width));
   max-width: none !important;
   height: auto;
   margin-inline: auto;
 }
+.standard-diagram svg {
+  background: var(--diagram-surface);
+  user-select: text;
+}
+.standard-diagram svg :is(rect.actor, .labelBox, .node :is(rect,circle,ellipse,polygon,path), .cluster > rect) {
+  fill: var(--diagram-surface) !important;
+  stroke: var(--diagram-line) !important;
+}
+.standard-diagram svg rect.actor { rx: 0; ry: 0; }
+.standard-diagram svg :is(.note, .cluster > rect) { fill: var(--diagram-tint) !important; stroke: var(--diagram-line) !important; }
+.standard-diagram svg :is(.actor-line,.loopLine) {
+  stroke: var(--diagram-line) !important;
+  stroke-width: 1px !important;
+}
+.standard-diagram svg :is(.messageLine0,.messageLine1,.flowchart-link) {
+  stroke: var(--diagram-ink) !important;
+}
+.standard-diagram svg :is(.messageLine0,.messageLine1,.flowchart-link.edge-thickness-normal:not(.edge-thickness-thick)) {
+  stroke-width: 1.15px !important;
+}
+.standard-diagram svg .messageLine1 { stroke-dasharray: 4 3 !important; }
+.standard-diagram svg :is(marker path,marker polygon):not([fill="none"]) {
+  fill: var(--diagram-ink) !important;
+  stroke: var(--diagram-ink) !important;
+}
+.standard-diagram svg :is(text,tspan,foreignObject span,foreignObject p) {
+  color: var(--diagram-ink) !important;
+  fill: var(--diagram-ink) !important;
+  user-select: text;
+}
+.standard-diagram svg :is(.edgeLabel p,.labelBkg) { background: var(--diagram-surface) !important; }
+.standard-diagram svg text.sequenceNumber { fill: var(--diagram-surface) !important; }
+.standard-diagram svg marker[id$="-sequencenumber"] { fill: var(--diagram-ink) !important; }
+.standard-diagram svg [class^="activation"] { fill: var(--diagram-shade) !important; stroke: var(--diagram-line) !important; }
 .figure-table-label {
   margin: 0 0 0.5rem;
   font-size: 0.9rem;
@@ -126,6 +176,29 @@ ol.decimal-list > li::marker { content: counter(list-item) ") "; }
   height: auto;
   margin-inline: auto;
   cursor: zoom-in;
+}
+.standard-vector-figure[hidden] { display: none; }
+.reader-vector { position: relative; }
+.reader-vector > svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: white;
+  filter: grayscale(1);
+  user-select: text;
+}
+html.dark .reader-vector > svg { filter: grayscale(1) invert(.92); }
+.reader-vector text, .reader-vector tspan { user-select: text; }
+.reader-vector .vector-label { fill: transparent; pointer-events: all; cursor: text; }
+.reader-vector .vector-label::selection { fill: #16324d; background: #bddcff; }
+.reader-vector-zoom {
+  display: block;
+  margin: 0 0 .4rem auto;
+  padding: .15rem .55rem;
+  border: 1px solid var(--standard-rule);
+  background: var(--diagram-surface);
+  color: var(--diagram-ink);
+  font-size: .8rem;
 }
 .standard-table.bit-table { min-width: 70rem; table-layout: fixed; }
 .standard-table.bit-table th, .standard-table.bit-table td {
@@ -155,7 +228,8 @@ article p { overflow-wrap: break-word; }
 article a { text-underline-offset: .2em; }
 .standard-table { font-size: .875rem; line-height: 1.65; min-width: 34rem; }
 .standard-table:has(tr:only-child > th:only-child:not([colspan])) { min-width: 0; }
-.standard-table th { background: #f2f6fb; font-weight: 650; }
+.standard-table { color: var(--diagram-ink); background: var(--diagram-surface); }
+.standard-table th { background: var(--diagram-tint); font-weight: 650; }
 .standard-table td, .standard-table th { padding: .6rem .75rem !important; }
 .standard-table-caption { text-align: left; line-height: 1.6; margin-bottom: .85rem; font-size: .9rem; }
 .standard-caption { color: #475569; font-size: .9rem; line-height: 1.65; }
@@ -192,7 +266,6 @@ article pre { border-radius: .55rem; line-height: 1.7; }
   html.dark .spec-card a { color: #8fbbff; }
   html.dark .spec-card p + p, html.dark .spec-dates { color: #a1aec3; }
   html.dark .spec-lead { color: #ccd6e6; }
-  html.dark .standard-table th { background: #1e293b; }
   html.dark .standard-caption { color: #b5c3d8; }
   html.dark .standard-definitions > dl { border-color: #334155; }
   html.dark .spec-version { color: #8fbbff; }

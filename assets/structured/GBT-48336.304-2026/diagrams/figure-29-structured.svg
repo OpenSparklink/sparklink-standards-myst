@@ -2342,4 +2342,49 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="11.140" y="6.920" font-size="6.492" textLength="9.284" lengthAdjust="spacingAndGlyphs">G-</text>
+<text class="vector-label" x="62.182" y="12.323" font-size="8.553" textLength="26.959" lengthAdjust="spacingAndGlyphs">（R）AN</text>
+<text class="vector-label" x="129.042" y="12.261" font-size="8.495" textLength="16.710" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="191.241" y="11.425" font-size="7.444" textLength="15.782" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="255.256" y="12.337" font-size="8.594" textLength="14.938" lengthAdjust="spacingAndGlyphs">UPF</text>
+<text class="vector-label" x="315.641" y="12.261" font-size="8.495" textLength="15.782" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="372.271" y="12.261" font-size="8.495" textLength="19.495" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="427.972" y="12.261" font-size="8.495" textLength="16.710" lengthAdjust="spacingAndGlyphs">UDR</text>
+<text class="vector-label" x="7.427" y="15.244" font-size="6.302" textLength="16.710" lengthAdjust="spacingAndGlyphs">Node</text>
+<text class="vector-label" x="47.346" y="36.372" font-size="9.598" textLength="67.770" lengthAdjust="spacingAndGlyphs">1a.PDU会话释放请求</text>
+<text class="vector-label" x="133.683" y="50.261" font-size="10.727" textLength="75.197" lengthAdjust="spacingAndGlyphs">1a.PDU会话上下文更新</text>
+<text class="vector-label" x="231.161" y="61.441" font-size="9.453" textLength="64.057" lengthAdjust="spacingAndGlyphs">1b.SM策略关联终止</text>
+<text class="vector-label" x="133.683" y="92.993" font-size="10.556" textLength="90.051" lengthAdjust="spacingAndGlyphs">IC.PDU会话上下文释放请求</text>
+<text class="vector-label" x="69.627" y="110.814" font-size="9.598" textLength="76.125" lengthAdjust="spacingAndGlyphs">1d.N2消息（PDU会话标</text>
+<text class="vector-label" x="75.197" y="120.057" font-size="9.598" textLength="62.200" lengthAdjust="spacingAndGlyphs">识，会话管理信息）</text>
+<text class="vector-label" x="139.253" y="134.046" font-size="9.598" textLength="90.051" lengthAdjust="spacingAndGlyphs">1d.PDU会话上下文更新请求</text>
+<text class="vector-label" x="163.391" y="160.898" font-size="9.453" textLength="68.698" lengthAdjust="spacingAndGlyphs">1e.触发PDU会话释放</text>
+<text class="vector-label" x="139.179" y="183.089" font-size="11.626" textLength="88.364" lengthAdjust="spacingAndGlyphs">1f.PDU会话上下文更新请求</text>
+<text class="vector-label" x="202.382" y="200.867" font-size="9.453" textLength="67.770" lengthAdjust="spacingAndGlyphs">2a.PDU会话释放请求</text>
+<text class="vector-label" x="202.236" y="220.111" font-size="11.944" textLength="68.071" lengthAdjust="spacingAndGlyphs">2b.PDU会话释放响应</text>
+<text class="vector-label" x="141.110" y="239.876" font-size="10.582" textLength="89.122" lengthAdjust="spacingAndGlyphs">3a.PDU会话上下文更新响应</text>
+<text class="vector-label" x="141.916" y="260.284" font-size="11.651" textLength="56.907" lengthAdjust="spacingAndGlyphs">3b.N1N2消息传输</text>
+<text class="vector-label" x="138.325" y="284.523" font-size="9.453" textLength="89.122" lengthAdjust="spacingAndGlyphs">3c.PDU会话上下文释放响应</text>
+<text class="vector-label" x="138.325" y="303.164" font-size="9.598" textLength="90.051" lengthAdjust="spacingAndGlyphs">3d.PDU会话上下文更新响应</text>
+<text class="vector-label" x="80.767" y="327.280" font-size="9.453" textLength="59.415" lengthAdjust="spacingAndGlyphs">4.N2资源释放请求</text>
+<text class="vector-label" x="17.639" y="344.941" font-size="9.453" textLength="57.558" lengthAdjust="spacingAndGlyphs">5.接入网资源修改</text>
+<text class="vector-label" x="76.125" y="344.941" font-size="9.453" textLength="81.695" lengthAdjust="spacingAndGlyphs">（包含PDU会话释放命令）</text>
+<text class="vector-label" x="81.695" y="364.461" font-size="9.453" textLength="58.486" lengthAdjust="spacingAndGlyphs">6.N2资源释放确认</text>
+<text class="vector-label" x="139.253" y="375.608" font-size="9.598" textLength="138.325" lengthAdjust="spacingAndGlyphs">7a.PDU会话上下文更新（N2会话管理信息）</text>
+<text class="vector-label" x="140.182" y="394.205" font-size="9.453" textLength="89.122" lengthAdjust="spacingAndGlyphs">7b.PDU会话上下文更新响应</text>
+<text class="vector-label" x="19.495" y="412.829" font-size="9.598" textLength="64.057" lengthAdjust="spacingAndGlyphs">8.PDU会话释放确认</text>
+<text class="vector-label" x="81.695" y="430.565" font-size="9.598" textLength="58.486" lengthAdjust="spacingAndGlyphs">9.N2上行NAS传输</text>
+<text class="vector-label" x="137.397" y="448.024" font-size="10.503" textLength="141.110" lengthAdjust="spacingAndGlyphs">10a.PDU会话上下文更新（N1会话管理信息）</text>
+<text class="vector-label" x="137.397" y="466.687" font-size="10.727" textLength="92.836" lengthAdjust="spacingAndGlyphs">10b.PDU会话上下文更新响应</text>
+<text class="vector-label" x="137.397" y="485.204" font-size="10.503" textLength="117.901" lengthAdjust="spacingAndGlyphs">11a.PDU会话上下文状态通知（释放）</text>
+<text class="vector-label" x="229.180" y="503.879" font-size="11.571" textLength="65.223" lengthAdjust="spacingAndGlyphs">12.SM策略关联终止</text>
+<text class="vector-label" x="163.391" y="528.989" font-size="9.598" textLength="68.698" lengthAdjust="spacingAndGlyphs">13.通知相关实体PDU</text>
+<text class="vector-label" x="168.961" y="539.147" font-size="10.543" textLength="58.486" lengthAdjust="spacingAndGlyphs">会话签约信息改变</text>
+<text class="vector-label" x="249.728" y="545.643" font-size="10.530" textLength="70.555" lengthAdjust="spacingAndGlyphs">14.UDM取消签约信息</text>
+<text class="vector-label" x="376.913" y="544.786" font-size="9.453" textLength="60.343" lengthAdjust="spacingAndGlyphs">UDR取消签约信息</text>
+<text class="vector-label" x="419.617" y="561.517" font-size="9.453" textLength="12.069" lengthAdjust="spacingAndGlyphs">-Lー</text>
+<text class="vector-label" x="386.172" y="584.758" font-size="10.776" textLength="45.538" lengthAdjust="spacingAndGlyphs">UDR数据更新</text>
+<text class="vector-label" x="217.227" y="587.578" font-size="9.551" textLength="42.721" lengthAdjust="spacingAndGlyphs">15.CM去注册</text>
+</g>
 </svg>

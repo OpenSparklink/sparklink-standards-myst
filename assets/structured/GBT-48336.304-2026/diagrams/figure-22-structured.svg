@@ -1435,4 +1435,35 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="375.766" y="10.589" font-size="10.372" textLength="51.051" lengthAdjust="spacingAndGlyphs">其他控制面和用</text>
+<text class="vector-label" x="4.386" y="13.265" font-size="7.274" textLength="22.702" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="91.870" y="13.311" font-size="7.405" textLength="23.988" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="190.102" y="13.200" font-size="7.169" textLength="19.514" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="301.520" y="13.143" font-size="7.816" textLength="17.625" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="386.468" y="18.769" font-size="9.498" textLength="30.277" lengthAdjust="spacingAndGlyphs">户面功能</text>
+<text class="vector-label" x="64.836" y="43.870" font-size="9.311" textLength="87.497" lengthAdjust="spacingAndGlyphs">基于GTP-U的NAS信令传输</text>
+<text class="vector-label" x="59.171" y="75.901" font-size="9.238" textLength="216.540" lengthAdjust="spacingAndGlyphs">1.PDU会话建立请求（PDU会话标识，SSC模式，会话类型，…⋯•）一</text>
+<text class="vector-label" x="304.667" y="99.100" font-size="10.000" textLength="110.788" lengthAdjust="spacingAndGlyphs">2a.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="321.591" y="108.126" font-size="10.866" textLength="76.944" lengthAdjust="spacingAndGlyphs">4.3.2.2.1-1中的步骤2~11</text>
+<text class="vector-label" x="297.743" y="116.721" font-size="9.959" textLength="125.266" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.2.2.2-1</text>
+<text class="vector-label" x="338.643" y="125.020" font-size="9.435" textLength="44.725" lengthAdjust="spacingAndGlyphs">中的步骤2~14</text>
+<text class="vector-label" x="224.723" y="141.995" font-size="9.321" textLength="60.430" lengthAdjust="spacingAndGlyphs">2.N2 PDU会话请求</text>
+<text class="vector-label" x="216.477" y="151.214" font-size="11.232" textLength="76.944" lengthAdjust="spacingAndGlyphs">（QoS策略和关联QFI，</text>
+<text class="vector-label" x="222.100" y="159.768" font-size="11.067" textLength="66.309" lengthAdjust="spacingAndGlyphs">PDU会话标识，PDU</text>
+<text class="vector-label" x="38.398" y="168.271" font-size="10.011" textLength="136.597" lengthAdjust="spacingAndGlyphs">3.接入侧会话建立请求（PDU会话建立接受</text>
+<text class="vector-label" x="229.759" y="167.714" font-size="9.311" textLength="48.470" lengthAdjust="spacingAndGlyphs">会话建立接受）</text>
+<text class="vector-label" x="39.028" y="176.452" font-size="9.948" textLength="139.744" lengthAdjust="spacingAndGlyphs">（IP地址，SSC模式，授权的QoS rules，…….</text>
+<text class="vector-label" x="48.407" y="185.774" font-size="11.601" textLength="112.821" lengthAdjust="spacingAndGlyphs">PDU会话标识，TNGF隧道：F-TEID，</text>
+<text class="vector-label" x="76.705" y="194.524" font-size="10.073" textLength="56.849" lengthAdjust="spacingAndGlyphs">DSCP, QoS信息）</text>
+<text class="vector-label" x="17.598" y="230.661" font-size="10.923" textLength="181.975" lengthAdjust="spacingAndGlyphs">4.接入侧会话建立请求与响应（T节点隧道：F-TEID）-</text>
+<text class="vector-label" x="225.982" y="246.881" font-size="9.959" textLength="84.350" lengthAdjust="spacingAndGlyphs">6.N2 PDU会话响应</text>
+<text class="vector-label" x="306.555" y="273.347" font-size="9.332" textLength="107.641" lengthAdjust="spacingAndGlyphs">7.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="304.038" y="282.095" font-size="9.969" textLength="112.047" lengthAdjust="spacingAndGlyphs">4.3.2.2.1-1中步骤14之后的所有步骤</text>
+<text class="vector-label" x="297.743" y="290.984" font-size="10.157" textLength="125.895" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.2.2.2-1</text>
+<text class="vector-label" x="321.033" y="299.138" font-size="9.238" textLength="79.944" lengthAdjust="spacingAndGlyphs">中步骤18之后的所有步骤</text>
+<text class="vector-label" x="166.730" y="311.027" font-size="10.751" textLength="66.238" lengthAdjust="spacingAndGlyphs">8.基于F-TEID隧道进</text>
+<text class="vector-label" x="188.214" y="319.273" font-size="9.311" textLength="22.661" lengthAdjust="spacingAndGlyphs">行映射</text>
+<text class="vector-label" x="65.466" y="354.421" font-size="9.959" textLength="86.868" lengthAdjust="spacingAndGlyphs">9.基于GTP-UQoS流传输</text>
+</g>
 </svg>

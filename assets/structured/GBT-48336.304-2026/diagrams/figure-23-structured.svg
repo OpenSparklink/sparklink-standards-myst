@@ -3275,4 +3275,44 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="9.462" y="7.148" font-size="6.813" textLength="9.462" lengthAdjust="spacingAndGlyphs">G-</text>
+<text class="vector-label" x="59.351" y="10.634" font-size="6.863" textLength="25.805" lengthAdjust="spacingAndGlyphs">（R）AN</text>
+<text class="vector-label" x="122.142" y="11.369" font-size="7.786" textLength="16.343" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="180.633" y="12.208" font-size="8.839" textLength="14.623" lengthAdjust="spacingAndGlyphs">UPF</text>
+<text class="vector-label" x="240.843" y="11.369" font-size="7.786" textLength="16.343" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="300.194" y="11.369" font-size="7.786" textLength="13.762" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="352.664" y="11.451" font-size="6.850" textLength="18.923" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="408.574" y="12.208" font-size="8.839" textLength="12.042" lengthAdjust="spacingAndGlyphs">DN</text>
+<text class="vector-label" x="6.021" y="15.786" font-size="7.925" textLength="17.203" lengthAdjust="spacingAndGlyphs">Node</text>
+<text class="vector-label" x="45.588" y="35.348" font-size="9.880" textLength="63.651" lengthAdjust="spacingAndGlyphs">1.PDU会话建立请求</text>
+<text class="vector-label" x="111.803" y="52.687" font-size="8.939" textLength="36.160" lengthAdjust="spacingAndGlyphs">2.SMF选择</text>
+<text class="vector-label" x="152.132" y="64.982" font-size="12.002" textLength="86.245" lengthAdjust="spacingAndGlyphs">3.PDU会话上下文建立请求</text>
+<text class="vector-label" x="272.669" y="74.166" font-size="8.774" textLength="72.253" lengthAdjust="spacingAndGlyphs">4.签约信息获取或更新</text>
+<text class="vector-label" x="153.108" y="95.600" font-size="9.732" textLength="86.876" lengthAdjust="spacingAndGlyphs">5.PDU会话上下文建立响应</text>
+<text class="vector-label" x="177.192" y="116.286" font-size="9.880" textLength="72.253" lengthAdjust="spacingAndGlyphs">6.PDU会话认证和授权</text>
+<text class="vector-label" x="228.775" y="138.853" font-size="9.051" textLength="37.040" lengthAdjust="spacingAndGlyphs">7a.PCF选择</text>
+<text class="vector-label" x="196.976" y="162.779" font-size="9.732" textLength="160.849" lengthAdjust="spacingAndGlyphs">7b.SM策略关联建立或SMF发起的SM策略关联修改</text>
+<text class="vector-label" x="229.633" y="197.421" font-size="9.058" textLength="35.324" lengthAdjust="spacingAndGlyphs">8.UPF选择</text>
+<text class="vector-label" x="230.522" y="219.708" font-size="9.880" textLength="96.337" lengthAdjust="spacingAndGlyphs">9.SMF发起的SM策略关联修改</text>
+<text class="vector-label" x="180.633" y="254.931" font-size="9.880" textLength="78.274" lengthAdjust="spacingAndGlyphs">10a.会话建立或修改请求</text>
+<text class="vector-label" x="180.526" y="278.715" font-size="11.805" textLength="78.480" lengthAdjust="spacingAndGlyphs">10b.会话建立或修改响应</text>
+<text class="vector-label" x="166.010" y="295.413" font-size="9.732" textLength="55.910" lengthAdjust="spacingAndGlyphs">11.N1N2消息传输</text>
+<text class="vector-label" x="75.694" y="313.499" font-size="9.732" textLength="52.469" lengthAdjust="spacingAndGlyphs">12.PDU会话请求</text>
+<text class="vector-label" x="15.483" y="323.052" font-size="8.843" textLength="53.330" lengthAdjust="spacingAndGlyphs">13.接入资源建立</text>
+<text class="vector-label" x="16.343" y="331.717" font-size="8.815" textLength="55.050" lengthAdjust="spacingAndGlyphs">（PDU会话建立接</text>
+<text class="vector-label" x="34.406" y="340.279" font-size="8.830" textLength="12.902" lengthAdjust="spacingAndGlyphs">受）</text>
+<text class="vector-label" x="75.694" y="351.479" font-size="8.779" textLength="52.469" lengthAdjust="spacingAndGlyphs">14.PDU会话响应</text>
+<text class="vector-label" x="75.694" y="375.679" font-size="8.862" textLength="50.749" lengthAdjust="spacingAndGlyphs">第一包上行数据</text>
+<text class="vector-label" x="147.874" y="392.659" font-size="11.212" textLength="89.606" lengthAdjust="spacingAndGlyphs">15.PDU会话上下文更新请求</text>
+<text class="vector-label" x="190.094" y="410.825" font-size="9.736" textLength="56.770" lengthAdjust="spacingAndGlyphs">16a.会话修改请求</text>
+<text class="vector-label" x="190.094" y="434.076" font-size="9.732" textLength="56.770" lengthAdjust="spacingAndGlyphs">16b.会话修改响应</text>
+<text class="vector-label" x="294.173" y="444.487" font-size="8.877" textLength="27.525" lengthAdjust="spacingAndGlyphs">16c.注册</text>
+<text class="vector-label" x="75.694" y="465.082" font-size="9.732" textLength="50.749" lengthAdjust="spacingAndGlyphs">第一包下行数据</text>
+<text class="vector-label" x="152.247" y="484.890" font-size="9.736" textLength="89.456" lengthAdjust="spacingAndGlyphs">17.PDU会话上下文更新响应</text>
+<text class="vector-label" x="152.247" y="502.992" font-size="9.880" textLength="89.456" lengthAdjust="spacingAndGlyphs">18.PDU会话上下文状态通知</text>
+<text class="vector-label" x="102.358" y="522.868" font-size="8.803" textLength="54.190" lengthAdjust="spacingAndGlyphs">19.IPV6地址配置</text>
+<text class="vector-label" x="227.941" y="543.461" font-size="9.880" textLength="100.638" lengthAdjust="spacingAndGlyphs">20.SMF发起的SM策略关联修改</text>
+<text class="vector-label" x="284.711" y="577.935" font-size="9.880" textLength="53.330" lengthAdjust="spacingAndGlyphs">21.取消订阅信息</text>
+</g>
 </svg>

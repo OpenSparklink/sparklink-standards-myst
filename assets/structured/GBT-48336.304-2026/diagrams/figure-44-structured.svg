@@ -1417,4 +1417,31 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="12.898" y="16.021" font-size="7.078" textLength="23.398" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="109.455" y="15.903" font-size="7.738" textLength="11.683" lengthAdjust="spacingAndGlyphs">AN</text>
+<text class="vector-label" x="201.692" y="15.903" font-size="7.738" textLength="17.218" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="296.389" y="16.956" font-size="9.719" textLength="19.677" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="389.241" y="16.357" font-size="9.877" textLength="17.833" lengthAdjust="spacingAndGlyphs">MDF</text>
+<text class="vector-label" x="93.467" y="55.189" font-size="8.466" textLength="54.727" lengthAdjust="spacingAndGlyphs">1.NAS请求（）-</text>
+<text class="vector-label" x="240.934" y="70.750" font-size="8.419" textLength="34.620" lengthAdjust="spacingAndGlyphs">2.（SUPI）</text>
+<text class="vector-label" x="212.760" y="91.353" font-size="9.035" textLength="84.243" lengthAdjust="spacingAndGlyphs">3.（SUPI,MDF标识）-</text>
+<text class="vector-label" x="307.457" y="109.108" font-size="9.719" textLength="92.237" lengthAdjust="spacingAndGlyphs">4.请求/回复—ー</text>
+<text class="vector-label" x="191.205" y="114.140" font-size="10.050" textLength="36.962" lengthAdjust="spacingAndGlyphs">5.存储MDF</text>
+<text class="vector-label" x="202.307" y="122.070" font-size="9.037" textLength="15.373" lengthAdjust="spacingAndGlyphs">标识</text>
+<text class="vector-label" x="95.312" y="147.812" font-size="9.719" textLength="53.498" lengthAdjust="spacingAndGlyphs">6.NAS回复（）-</text>
+<text class="vector-label" x="379.937" y="164.674" font-size="10.494" textLength="35.824" lengthAdjust="spacingAndGlyphs">7.产生下行</text>
+<text class="vector-label" x="390.471" y="172.503" font-size="9.094" textLength="15.373" lengthAdjust="spacingAndGlyphs">数据</text>
+<text class="vector-label" x="245.351" y="196.352" font-size="10.498" textLength="114.374" lengthAdjust="spacingAndGlyphs">8.请求消息（软件更新小包，用户面</text>
+<text class="vector-label" x="241.661" y="204.879" font-size="10.481" textLength="119.908" lengthAdjust="spacingAndGlyphs">连接建立请求指示，配置和监测信息）</text>
+<text class="vector-label" x="59.601" y="211.186" font-size="11.123" textLength="115.082" lengthAdjust="spacingAndGlyphs">9.NAS消息（软件更新小包，用户面</text>
+<text class="vector-label" x="55.888" y="220.659" font-size="12.275" textLength="120.041" lengthAdjust="spacingAndGlyphs">连接建立请求指示，配置和监测信息）</text>
+<text class="vector-label" x="403.384" y="228.965" font-size="9.054" textLength="14.143" lengthAdjust="spacingAndGlyphs">（A）</text>
+<text class="vector-label" x="52.268" y="247.423" font-size="9.056" textLength="130.977" lengthAdjust="spacingAndGlyphs">10.NAS回复（参数更新成功或失败原因）</text>
+<text class="vector-label" x="255.804" y="268.527" font-size="13.263" textLength="106.380" lengthAdjust="spacingAndGlyphs">11.回复消息（成功或失败原因），</text>
+<text class="vector-label" x="72.560" y="321.059" font-size="9.719" textLength="91.007" lengthAdjust="spacingAndGlyphs">7.NAS请求消息（状态信息）</text>
+<text class="vector-label" x="403.384" y="333.005" font-size="7.055" textLength="12.913" lengthAdjust="spacingAndGlyphs">（B）</text>
+<text class="vector-label" x="247.196" y="348.017" font-size="10.540" textLength="111.914" lengthAdjust="spacingAndGlyphs">8.请求消息（UE标识，状态信息）</text>
+<text class="vector-label" x="191.823" y="383.834" font-size="10.035" textLength="39.415" lengthAdjust="spacingAndGlyphs">16.PDU会话</text>
+</g>
 </svg>

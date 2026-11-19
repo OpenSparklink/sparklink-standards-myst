@@ -1392,4 +1392,49 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="69.560" y="13.672" font-size="9.022" textLength="19.189" lengthAdjust="spacingAndGlyphs">NSSF</text>
+<text class="vector-label" x="119.331" y="13.672" font-size="9.022" textLength="15.591" lengthAdjust="spacingAndGlyphs">NEF</text>
+<text class="vector-label" x="170.302" y="13.095" font-size="7.433" textLength="14.991" lengthAdjust="spacingAndGlyphs">NRF</text>
+<text class="vector-label" x="323.814" y="13.095" font-size="7.433" textLength="10.794" lengthAdjust="spacingAndGlyphs">AF</text>
+<text class="vector-label" x="221.273" y="13.151" font-size="6.801" textLength="13.192" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="267.446" y="13.151" font-size="6.801" textLength="19.789" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="371.786" y="13.151" font-size="6.801" textLength="16.191" lengthAdjust="spacingAndGlyphs">MDF</text>
+<text class="vector-label" x="58.766" y="30.460" font-size="8.214" textLength="18.589" lengthAdjust="spacingAndGlyphs">Nnssf</text>
+<text class="vector-label" x="112.735" y="30.460" font-size="8.214" textLength="16.790" lengthAdjust="spacingAndGlyphs">Nnef</text>
+<text class="vector-label" x="161.907" y="30.580" font-size="6.862" textLength="15.591" lengthAdjust="spacingAndGlyphs">Nnrf</text>
+<text class="vector-label" x="209.594" y="31.816" font-size="10.128" textLength="16.830" lengthAdjust="spacingAndGlyphs">Npcf</text>
+<text class="vector-label" x="260.850" y="30.580" font-size="6.862" textLength="19.189" lengthAdjust="spacingAndGlyphs">Nudm</text>
+<text class="vector-label" x="315.419" y="30.460" font-size="8.214" textLength="13.192" lengthAdjust="spacingAndGlyphs">Naf</text>
+<text class="vector-label" x="358.559" y="30.579" font-size="6.993" textLength="18.058" lengthAdjust="spacingAndGlyphs">Nmdf</text>
+<text class="vector-label" x="78.530" y="87.189" font-size="8.972" textLength="25.835" lengthAdjust="spacingAndGlyphs">Nnssaaf</text>
+<text class="vector-label" x="129.525" y="87.118" font-size="8.826" textLength="19.789" lengthAdjust="spacingAndGlyphs">Nausf</text>
+<text class="vector-label" x="185.893" y="87.242" font-size="7.433" textLength="18.589" lengthAdjust="spacingAndGlyphs">Namf</text>
+<text class="vector-label" x="237.992" y="87.396" font-size="7.868" textLength="17.533" lengthAdjust="spacingAndGlyphs">Nsmf</text>
+<text class="vector-label" x="332.743" y="87.347" font-size="8.575" textLength="22.318" lengthAdjust="spacingAndGlyphs">Nnsacf</text>
+<text class="vector-label" x="92.335" y="104.499" font-size="8.887" textLength="29.407" lengthAdjust="spacingAndGlyphs">NSSAAF</text>
+<text class="vector-label" x="344.162" y="104.566" font-size="9.076" textLength="24.667" lengthAdjust="spacingAndGlyphs">NSACF</text>
+<text class="vector-label" x="143.298" y="104.031" font-size="7.563" textLength="19.229" lengthAdjust="spacingAndGlyphs">AUSF</text>
+<text class="vector-label" x="197.886" y="103.983" font-size="7.447" textLength="17.390" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="248.847" y="104.003" font-size="7.485" textLength="16.210" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="300.427" y="103.983" font-size="7.447" textLength="14.392" lengthAdjust="spacingAndGlyphs">SCP</text>
+<text class="vector-label" x="140.319" y="129.694" font-size="7.463" textLength="10.794" lengthAdjust="spacingAndGlyphs">N1</text>
+<text class="vector-label" x="178.098" y="147.386" font-size="10.253" textLength="10.194" lengthAdjust="spacingAndGlyphs">N2</text>
+<text class="vector-label" x="64.163" y="173.924" font-size="8.176" textLength="16.191" lengthAdjust="spacingAndGlyphs">NWt</text>
+<text class="vector-label" x="209.879" y="176.336" font-size="7.445" textLength="9.594" lengthAdjust="spacingAndGlyphs">N3</text>
+<text class="vector-label" x="296.230" y="176.918" font-size="8.176" textLength="10.194" lengthAdjust="spacingAndGlyphs">N6</text>
+<text class="vector-label" x="15.569" y="180.651" font-size="6.951" textLength="22.832" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="250.056" y="180.032" font-size="6.817" textLength="14.392" lengthAdjust="spacingAndGlyphs">UPF</text>
+<text class="vector-label" x="161.907" y="184.203" font-size="7.612" textLength="19.789" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="341.204" y="183.513" font-size="7.433" textLength="11.393" lengthAdjust="spacingAndGlyphs">DN</text>
+<text class="vector-label" x="104.921" y="184.226" font-size="6.913" textLength="22.224" lengthAdjust="spacingAndGlyphs">Trusted</text>
+<text class="vector-label" x="4.797" y="188.944" font-size="7.612" textLength="43.775" lengthAdjust="spacingAndGlyphs">（TR069/PMF）</text>
+<text class="vector-label" x="245.859" y="188.944" font-size="7.612" textLength="22.187" lengthAdjust="spacingAndGlyphs">（PMF）</text>
+<text class="vector-label" x="104.205" y="193.089" font-size="7.501" textLength="24.228" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="138.520" y="196.692" font-size="7.463" textLength="8.995" lengthAdjust="spacingAndGlyphs">Ta</text>
+<text class="vector-label" x="47.972" y="205.037" font-size="7.456" textLength="40.777" lengthAdjust="spacingAndGlyphs">SparkLink L2</text>
+<text class="vector-label" x="250.656" y="202.097" font-size="6.897" textLength="11.393" lengthAdjust="spacingAndGlyphs">-N9</text>
+<text class="vector-label" x="124.092" y="206.861" font-size="9.201" textLength="39.050" lengthAdjust="spacingAndGlyphs">（支持AAA）</text>
+<text class="vector-label" x="56.330" y="212.996" font-size="7.108" textLength="24.062" lengthAdjust="spacingAndGlyphs">（SLAI）</text>
+</g>
 </svg>

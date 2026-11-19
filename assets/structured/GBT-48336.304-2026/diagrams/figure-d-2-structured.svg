@@ -1042,4 +1042,16 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="167.648" y="35.123" font-size="9.309" textLength="24.638" lengthAdjust="spacingAndGlyphs">5G融合</text>
+<text class="vector-label" x="163.339" y="74.117" font-size="9.862" textLength="29.507" lengthAdjust="spacingAndGlyphs">服务管理</text>
+<text class="vector-label" x="193.893" y="130.765" font-size="9.674" textLength="29.459" lengthAdjust="spacingAndGlyphs">服务管理</text>
+<text class="vector-label" x="194.420" y="138.923" font-size="8.537" textLength="28.940" lengthAdjust="spacingAndGlyphs">传输信道</text>
+<text class="vector-label" x="284.948" y="158.588" font-size="10.437" textLength="51.419" lengthAdjust="spacingAndGlyphs">数据传输与适配</text>
+<text class="vector-label" x="318.146" y="196.076" font-size="9.777" textLength="36.979" lengthAdjust="spacingAndGlyphs">基础服务层</text>
+<text class="vector-label" x="194.376" y="228.969" font-size="9.740" textLength="43.491" lengthAdjust="spacingAndGlyphs">默认空口承载</text>
+<text class="vector-label" x="250.133" y="265.756" font-size="7.860" textLength="14.997" lengthAdjust="spacingAndGlyphs">SLE</text>
+<text class="vector-label" x="91.590" y="265.328" font-size="6.651" textLength="13.926" lengthAdjust="spacingAndGlyphs">SLB</text>
+<text class="vector-label" x="171.397" y="293.055" font-size="8.546" textLength="21.425" lengthAdjust="spacingAndGlyphs">接入层</text>
+</g>
 </svg>

@@ -1793,4 +1793,34 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="190.313" y="7.176" font-size="7.486" textLength="19.818" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="299.704" y="6.939" font-size="6.836" textLength="16.622" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="4.018" y="8.432" font-size="7.482" textLength="22.690" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="76.529" y="9.266" font-size="8.194" textLength="49.094" lengthAdjust="spacingAndGlyphs">Trusted G-Node</text>
+<text class="vector-label" x="16.119" y="33.446" font-size="8.528" textLength="23.674" lengthAdjust="spacingAndGlyphs">5G融合</text>
+<text class="vector-label" x="315.319" y="34.600" font-size="6.849" textLength="15.111" lengthAdjust="spacingAndGlyphs">NAS</text>
+<text class="vector-label" x="20.148" y="41.725" font-size="7.037" textLength="15.615" lengthAdjust="spacingAndGlyphs">NAS</text>
+<text class="vector-label" x="227.941" y="50.526" font-size="7.531" textLength="18.122" lengthAdjust="spacingAndGlyphs">Relay</text>
+<text class="vector-label" x="16.622" y="52.206" font-size="6.820" textLength="22.163" lengthAdjust="spacingAndGlyphs">GTP-U</text>
+<text class="vector-label" x="199.447" y="53.267" font-size="6.974" textLength="21.194" lengthAdjust="spacingAndGlyphs">GTP-U</text>
+<text class="vector-label" x="16.610" y="66.828" font-size="6.922" textLength="23.194" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="91.666" y="66.765" font-size="7.454" textLength="23.690" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="132.452" y="66.861" font-size="7.017" textLength="23.215" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="202.993" y="66.884" font-size="7.037" textLength="23.674" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="243.289" y="70.820" font-size="7.600" textLength="10.074" lengthAdjust="spacingAndGlyphs">N2</text>
+<text class="vector-label" x="317.837" y="70.371" font-size="7.037" textLength="10.074" lengthAdjust="spacingAndGlyphs">N2</text>
+<text class="vector-label" x="18.637" y="79.365" font-size="6.820" textLength="19.141" lengthAdjust="spacingAndGlyphs">DTAP</text>
+<text class="vector-label" x="94.184" y="79.387" font-size="6.882" textLength="19.158" lengthAdjust="spacingAndGlyphs">DTAP</text>
+<text class="vector-label" x="139.022" y="79.416" font-size="6.252" textLength="9.067" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="211.556" y="79.365" font-size="6.820" textLength="8.563" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="240.242" y="79.417" font-size="6.967" textLength="16.167" lengthAdjust="spacingAndGlyphs">stack</text>
+<text class="vector-label" x="314.738" y="79.595" font-size="6.758" textLength="15.769" lengthAdjust="spacingAndGlyphs">stack</text>
+<text class="vector-label" x="12.074" y="92.341" font-size="8.666" textLength="31.763" lengthAdjust="spacingAndGlyphs">SparkLink</text>
+<text class="vector-label" x="87.631" y="92.337" font-size="8.656" textLength="31.761" lengthAdjust="spacingAndGlyphs">SparkLink</text>
+<text class="vector-label" x="139.022" y="95.531" font-size="7.037" textLength="8.563" lengthAdjust="spacingAndGlyphs">L1</text>
+<text class="vector-label" x="211.556" y="95.531" font-size="7.037" textLength="8.059" lengthAdjust="spacingAndGlyphs">L1</text>
+<text class="vector-label" x="23.674" y="99.581" font-size="6.311" textLength="8.563" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="98.726" y="99.581" font-size="6.311" textLength="9.067" lengthAdjust="spacingAndGlyphs">L2</text>
+</g>
 </svg>

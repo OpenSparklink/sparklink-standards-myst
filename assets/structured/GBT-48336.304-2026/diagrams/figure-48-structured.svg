@@ -3500,4 +3500,44 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="337.508" y="8.990" font-size="8.487" textLength="72.111" lengthAdjust="spacingAndGlyphs">其他控制面和用户面功</text>
+<text class="vector-label" x="3.664" y="12.959" font-size="7.202" textLength="23.152" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="83.247" y="12.838" font-size="6.860" textLength="24.562" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="173.215" y="12.808" font-size="7.680" textLength="20.072" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="277.292" y="12.883" font-size="6.840" textLength="16.355" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="332.304" y="17.845" font-size="8.402" textLength="80.288" lengthAdjust="spacingAndGlyphs">能（如：SMF/UPF/MDF）</text>
+<text class="vector-label" x="57.243" y="40.962" font-size="8.487" textLength="85.492" lengthAdjust="spacingAndGlyphs">基于CTP-U的NAS信令传输</text>
+<text class="vector-label" x="44.605" y="70.612" font-size="9.314" textLength="188.083" lengthAdjust="spacingAndGlyphs">1.PDU会话建立请求（PDU会话标识，SSC模式，会话类型，</text>
+<text class="vector-label" x="275.062" y="90.626" font-size="9.354" textLength="110.025" lengthAdjust="spacingAndGlyphs">2a.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="292.160" y="98.912" font-size="8.467" textLength="75.828" lengthAdjust="spacingAndGlyphs">4.3.2.2.1-1中步骤2~11</text>
+<text class="vector-label" x="268.371" y="107.826" font-size="9.354" textLength="124.893" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.2.2.2-1</text>
+<text class="vector-label" x="308.515" y="115.990" font-size="8.402" textLength="44.605" lengthAdjust="spacingAndGlyphs">中的步骤2~14</text>
+<text class="vector-label" x="205.181" y="129.385" font-size="8.467" textLength="60.216" lengthAdjust="spacingAndGlyphs">2.N2 PDU会话请求</text>
+<text class="vector-label" x="196.937" y="138.943" font-size="10.054" textLength="75.984" lengthAdjust="spacingAndGlyphs">（QoS策略和关联的QFL，</text>
+<text class="vector-label" x="201.464" y="147.144" font-size="9.242" textLength="66.907" lengthAdjust="spacingAndGlyphs">PDU会话标识，PDU</text>
+<text class="vector-label" x="30.480" y="153.825" font-size="9.360" textLength="131.584" lengthAdjust="spacingAndGlyphs">3.请求消息（PDU会话建立接受（IP地址，</text>
+<text class="vector-label" x="192.543" y="156.057" font-size="9.340" textLength="83.262" lengthAdjust="spacingAndGlyphs">会话建立接受，PMF信息）</text>
+<text class="vector-label" x="28.250" y="162.780" font-size="9.314" textLength="129.353" lengthAdjust="spacingAndGlyphs">SSC模式，授权的QoSrules,PMF信息⋯••</text>
+<text class="vector-label" x="40.144" y="171.020" font-size="9.347" textLength="112.998" lengthAdjust="spacingAndGlyphs">PDU会话标识，TNGF遂道：F-TEID，</text>
+<text class="vector-label" x="67.562" y="180.382" font-size="10.366" textLength="58.212" lengthAdjust="spacingAndGlyphs">DSCP，QoS信息）</text>
+<text class="vector-label" x="40.888" y="211.905" font-size="8.402" textLength="112.255" lengthAdjust="spacingAndGlyphs">4.响应消息（T节点隧道：T-TEID）</text>
+<text class="vector-label" x="203.694" y="226.798" font-size="8.467" textLength="81.775" lengthAdjust="spacingAndGlyphs">6.N2 PDU会话响应</text>
+<text class="vector-label" x="278.035" y="251.078" font-size="11.041" textLength="107.794" lengthAdjust="spacingAndGlyphs">7.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="275.805" y="259.370" font-size="10.161" textLength="112.998" lengthAdjust="spacingAndGlyphs">4.3.2.2.1-1中步骤14之后的所有步骤</text>
+<text class="vector-label" x="269.114" y="268.358" font-size="10.200" textLength="126.380" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.2.2.2-1</text>
+<text class="vector-label" x="292.160" y="276.517" font-size="9.242" textLength="81.032" lengthAdjust="spacingAndGlyphs">中步骤18之后的所有步骤</text>
+<text class="vector-label" x="143.432" y="298.847" font-size="10.097" textLength="95.254" lengthAdjust="spacingAndGlyphs">8.PMFP RTT请求（时间间隔）</text>
+<text class="vector-label" x="164.943" y="326.440" font-size="9.494" textLength="55.944" lengthAdjust="spacingAndGlyphs">9.PMFP RTT响应</text>
+<text class="vector-label" x="152.399" y="353.186" font-size="8.467" textLength="81.775" lengthAdjust="spacingAndGlyphs">10a.PMFP丢包率计数请求</text>
+<text class="vector-label" x="341.908" y="363.603" font-size="10.557" textLength="30.600" lengthAdjust="spacingAndGlyphs">开始计数</text>
+<text class="vector-label" x="16.294" y="363.696" font-size="9.769" textLength="30.602" lengthAdjust="spacingAndGlyphs">开始计数</text>
+<text class="vector-label" x="154.629" y="376.882" font-size="9.367" textLength="82.518" lengthAdjust="spacingAndGlyphs">10b.PMFP丢包率计数响应</text>
+<text class="vector-label" x="152.399" y="403.734" font-size="8.402" textLength="81.775" lengthAdjust="spacingAndGlyphs">11a.PMFP丢包率上报请求</text>
+<text class="vector-label" x="16.340" y="416.424" font-size="8.543" textLength="29.767" lengthAdjust="spacingAndGlyphs">停止计数</text>
+<text class="vector-label" x="341.935" y="416.479" font-size="8.698" textLength="29.059" lengthAdjust="spacingAndGlyphs">停止计数</text>
+<text class="vector-label" x="153.142" y="429.113" font-size="8.527" textLength="81.775" lengthAdjust="spacingAndGlyphs">11b.PMFP去包率上报响应</text>
+<text class="vector-label" x="104.821" y="458.690" font-size="10.187" textLength="176.188" lengthAdjust="spacingAndGlyphs">12.PMFP状态信息上报（节点状态信息、链路状态信息）</text>
+<text class="vector-label" x="37.170" y="485.494" font-size="9.314" textLength="312.232" lengthAdjust="spacingAndGlyphs">13.PMFP配置和监测信息（节点参数更新、QoS调整、链路状态检测上报策略、节点状态上报策略）</text>
+</g>
 </svg>

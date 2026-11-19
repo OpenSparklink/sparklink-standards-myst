@@ -1357,4 +1357,32 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="380.976" y="10.008" font-size="9.430" textLength="51.052" lengthAdjust="spacingAndGlyphs">其他控制面和用</text>
+<text class="vector-label" x="4.430" y="13.431" font-size="8.214" textLength="23.686" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="93.122" y="13.474" font-size="8.335" textLength="25.623" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="192.083" y="13.899" font-size="9.443" textLength="20.421" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="305.674" y="13.394" font-size="7.207" textLength="17.230" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="392.463" y="18.943" font-size="9.369" textLength="29.355" lengthAdjust="spacingAndGlyphs">户面功能</text>
+<text class="vector-label" x="98.243" y="50.741" font-size="10.814" textLength="134.076" lengthAdjust="spacingAndGlyphs">1.已经为T节点建立了一个或多个PDU会话</text>
+<text class="vector-label" x="114.229" y="86.508" font-size="10.159" textLength="107.209" lengthAdjust="spacingAndGlyphs">2.NAS消息（PDU会话释放请求）-</text>
+<text class="vector-label" x="311.345" y="111.329" font-size="11.273" textLength="107.351" lengthAdjust="spacingAndGlyphs">3.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="329.850" y="119.732" font-size="10.778" textLength="70.987" lengthAdjust="spacingAndGlyphs">4.3.4.2-1中的歩骤1a～3</text>
+<text class="vector-label" x="301.845" y="128.581" font-size="10.090" textLength="126.992" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.4.3-1中</text>
+<text class="vector-label" x="347.133" y="136.946" font-size="10.298" textLength="37.694" lengthAdjust="spacingAndGlyphs">的步骤1a~5</text>
+<text class="vector-label" x="216.971" y="167.550" font-size="9.380" textLength="77.216" lengthAdjust="spacingAndGlyphs">4.N2资源释放请求-</text>
+<text class="vector-label" x="59.348" y="190.384" font-size="10.811" textLength="100.828" lengthAdjust="spacingAndGlyphs">5.会话和隧道资源释放请求消息</text>
+<text class="vector-label" x="72.111" y="199.887" font-size="11.531" textLength="75.940" lengthAdjust="spacingAndGlyphs">（释放GTP-U,PDU会话）</text>
+<text class="vector-label" x="57.434" y="227.440" font-size="10.090" textLength="105.295" lengthAdjust="spacingAndGlyphs">6.会话和隧道资源释放响应消息-</text>
+<text class="vector-label" x="229.096" y="246.655" font-size="9.390" textLength="65.091" lengthAdjust="spacingAndGlyphs">7.N2资源释放响应-</text>
+<text class="vector-label" x="310.743" y="293.050" font-size="11.597" textLength="107.934" lengthAdjust="spacingAndGlyphs">8.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="335.029" y="301.523" font-size="10.213" textLength="60.624" lengthAdjust="spacingAndGlyphs">4.3.4.2-1中的步骤7</text>
+<text class="vector-label" x="301.845" y="309.833" font-size="9.435" textLength="126.992" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.4.3-1中</text>
+<text class="vector-label" x="321.628" y="318.079" font-size="9.378" textLength="88.065" lengthAdjust="spacingAndGlyphs">的步骤9～10之后的所有步骤</text>
+<text class="vector-label" x="220.100" y="356.404" font-size="11.072" textLength="77.367" lengthAdjust="spacingAndGlyphs">9.N2上行NAS传输</text>
+<text class="vector-label" x="310.141" y="378.691" font-size="10.205" textLength="110.400" lengthAdjust="spacingAndGlyphs">10.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="311.418" y="387.001" font-size="9.428" textLength="106.571" lengthAdjust="spacingAndGlyphs">4.3.4.2-1中步骤10之后的所有步骤</text>
+<text class="vector-label" x="301.845" y="395.922" font-size="10.218" textLength="126.992" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.4.3-1中</text>
+<text class="vector-label" x="325.457" y="403.602" font-size="8.649" textLength="79.769" lengthAdjust="spacingAndGlyphs">的步骤12之后的所有步骤</text>
+</g>
 </svg>

@@ -1509,4 +1509,23 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="1.778" y="10.016" font-size="8.185" textLength="22.521" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="114.305" y="10.181" font-size="8.679" textLength="25.049" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="185.504" y="10.016" font-size="8.185" textLength="16.002" lengthAdjust="spacingAndGlyphs">RAN</text>
+<text class="vector-label" x="254.845" y="10.016" font-size="8.185" textLength="16.595" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="323.002" y="10.016" font-size="8.185" textLength="16.002" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="384.046" y="10.016" font-size="8.185" textLength="17.780" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="165.946" y="49.605" font-size="9.596" textLength="182.540" lengthAdjust="spacingAndGlyphs">1.基于注册流程中的注册接受配置星闪5G融合系统QoS策略</text>
+<text class="vector-label" x="30.226" y="94.010" font-size="8.702" textLength="77.639" lengthAdjust="spacingAndGlyphs">2.PDU会话关联请求消息</text>
+<text class="vector-label" x="19.558" y="103.370" font-size="10.041" textLength="100.160" lengthAdjust="spacingAndGlyphs">（QoS参数、应用类型、DNN等）</text>
+<text class="vector-label" x="162.390" y="158.457" font-size="10.161" textLength="190.245" lengthAdjust="spacingAndGlyphs">3.基于PDU会话建立或修改流程配置星闪SG融合系统QoS策略</text>
+<text class="vector-label" x="58.081" y="205.858" font-size="10.793" textLength="109.643" lengthAdjust="spacingAndGlyphs">4.维护QFI与DSCP映射、DSCP与</text>
+<text class="vector-label" x="58.674" y="214.157" font-size="10.161" textLength="123.274" lengthAdjust="spacingAndGlyphs">XQI的映射，以及XQI与星闪QoS参数</text>
+<text class="vector-label" x="59.259" y="221.926" font-size="9.432" textLength="28.464" lengthAdjust="spacingAndGlyphs">映射关系</text>
+<text class="vector-label" x="14.224" y="250.374" font-size="10.161" textLength="112.013" lengthAdjust="spacingAndGlyphs">5.PDU会话关联响应消息 （PDU会话</text>
+<text class="vector-label" x="14.224" y="259.165" font-size="10.041" textLength="107.272" lengthAdjust="spacingAndGlyphs">标识，短距流描述与DSCP映射、</text>
+<text class="vector-label" x="14.817" y="268.108" font-size="10.161" textLength="106.679" lengthAdjust="spacingAndGlyphs">DSCP与XQI的隐射，以及XQI与星</text>
+<text class="vector-label" x="14.744" y="276.400" font-size="10.815" textLength="74.217" lengthAdjust="spacingAndGlyphs">闪QoS参数的映射关系）</text>
+</g>
 </svg>

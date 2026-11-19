@@ -1733,4 +1733,33 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="102.575" y="14.652" font-size="9.813" textLength="20.122" lengthAdjust="spacingAndGlyphs">T节点</text>
+<text class="vector-label" x="209.319" y="14.469" font-size="9.087" textLength="20.197" lengthAdjust="spacingAndGlyphs">G节点</text>
+<text class="vector-label" x="266.821" y="14.568" font-size="9.227" textLength="30.049" lengthAdjust="spacingAndGlyphs">网关/CPE</text>
+<text class="vector-label" x="335.399" y="14.089" font-size="7.044" textLength="13.465" lengthAdjust="spacingAndGlyphs">UPF</text>
+<text class="vector-label" x="3.660" y="28.565" font-size="9.071" textLength="28.790" lengthAdjust="spacingAndGlyphs">基础应用</text>
+<text class="vector-label" x="42.831" y="32.231" font-size="9.074" textLength="29.402" lengthAdjust="spacingAndGlyphs">智能汽车</text>
+<text class="vector-label" x="80.776" y="32.784" font-size="9.774" textLength="29.406" lengthAdjust="spacingAndGlyphs">家具应用</text>
+<text class="vector-label" x="115.666" y="32.225" font-size="9.058" textLength="30.010" lengthAdjust="spacingAndGlyphs">终端应用</text>
+<text class="vector-label" x="154.847" y="32.185" font-size="9.101" textLength="28.154" lengthAdjust="spacingAndGlyphs">工业应用</text>
+<text class="vector-label" x="211.767" y="32.185" font-size="9.101" textLength="14.689" lengthAdjust="spacingAndGlyphs">应用</text>
+<text class="vector-label" x="334.787" y="32.863" font-size="9.045" textLength="14.689" lengthAdjust="spacingAndGlyphs">应用</text>
+<text class="vector-label" x="14.689" y="37.694" font-size="8.974" textLength="7.345" lengthAdjust="spacingAndGlyphs">层</text>
+<text class="vector-label" x="47.127" y="74.350" font-size="8.974" textLength="29.378" lengthAdjust="spacingAndGlyphs">服务发现</text>
+<text class="vector-label" x="3.624" y="75.106" font-size="9.385" textLength="29.475" lengthAdjust="spacingAndGlyphs">基础服务</text>
+<text class="vector-label" x="148.114" y="73.362" font-size="6.326" textLength="29.990" lengthAdjust="spacingAndGlyphs">TCP/UDP</text>
+<text class="vector-label" x="342.084" y="74.752" font-size="6.661" textLength="22.129" lengthAdjust="spacingAndGlyphs">TCP/IP</text>
+<text class="vector-label" x="213.597" y="77.604" font-size="6.950" textLength="22.657" lengthAdjust="spacingAndGlyphs">TCP/IP</text>
+<text class="vector-label" x="94.813" y="81.880" font-size="9.538" textLength="36.217" lengthAdjust="spacingAndGlyphs">协议适配层</text>
+<text class="vector-label" x="14.689" y="84.124" font-size="8.974" textLength="7.345" lengthAdjust="spacingAndGlyphs">层</text>
+<text class="vector-label" x="159.131" y="86.805" font-size="6.298" textLength="7.345" lengthAdjust="spacingAndGlyphs">IP</text>
+<text class="vector-label" x="203.095" y="116.023" font-size="9.584" textLength="28.330" lengthAdjust="spacingAndGlyphs">链路层</text>
+<text class="vector-label" x="336.623" y="116.503" font-size="8.974" textLength="22.034" lengthAdjust="spacingAndGlyphs">链路层</text>
+<text class="vector-label" x="76.505" y="118.392" font-size="9.045" textLength="74.057" lengthAdjust="spacingAndGlyphs">链路控制层/媒体接入层</text>
+<text class="vector-label" x="7.345" y="126.368" font-size="9.087" textLength="22.034" lengthAdjust="spacingAndGlyphs">接入层</text>
+<text class="vector-label" x="102.211" y="134.220" font-size="8.974" textLength="22.646" lengthAdjust="spacingAndGlyphs">物理层</text>
+<text class="vector-label" x="209.319" y="131.227" font-size="8.284" textLength="22.034" lengthAdjust="spacingAndGlyphs">物理层</text>
+<text class="vector-label" x="336.623" y="133.099" font-size="9.101" textLength="22.034" lengthAdjust="spacingAndGlyphs">物理层</text>
+</g>
 </svg>

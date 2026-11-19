@@ -1301,4 +1301,18 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="257.843" y="6.510" font-size="8.235" textLength="29.361" lengthAdjust="spacingAndGlyphs">PDU会话</text>
+<text class="vector-label" x="31.718" y="25.374" font-size="8.832" textLength="21.460" lengthAdjust="spacingAndGlyphs">XQI=1</text>
+<text class="vector-label" x="31.870" y="48.377" font-size="6.819" textLength="26.329" lengthAdjust="spacingAndGlyphs">DSCP=1</text>
+<text class="vector-label" x="179.083" y="48.321" font-size="6.661" textLength="25.787" lengthAdjust="spacingAndGlyphs">DSCP=1</text>
+<text class="vector-label" x="101.804" y="83.275" font-size="8.327" textLength="26.558" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="265.529" y="84.754" font-size="7.304" textLength="19.651" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="179.085" y="91.334" font-size="7.758" textLength="26.297" lengthAdjust="spacingAndGlyphs">DSCP=3</text>
+<text class="vector-label" x="313.956" y="91.714" font-size="8.196" textLength="20.073" lengthAdjust="spacingAndGlyphs">QFI=x</text>
+<text class="vector-label" x="31.895" y="90.905" font-size="6.546" textLength="26.279" lengthAdjust="spacingAndGlyphs">DSCP=3</text>
+<text class="vector-label" x="31.875" y="133.542" font-size="7.306" textLength="26.318" lengthAdjust="spacingAndGlyphs">DSCP=9</text>
+<text class="vector-label" x="179.109" y="133.522" font-size="7.091" textLength="25.734" lengthAdjust="spacingAndGlyphs">DSCP=9</text>
+<text class="vector-label" x="31.910" y="144.716" font-size="7.622" textLength="21.617" lengthAdjust="spacingAndGlyphs">XQI=2</text>
+</g>
 </svg>

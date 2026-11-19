@@ -1643,4 +1643,30 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label"><tspan x="12.152" y="7.367" font-size="7.054" textLength="8.506" lengthAdjust="spacingAndGlyphs">G-</tspan><tspan x="7.803" y="16.616" font-size="7.474" textLength="16.598" lengthAdjust="spacingAndGlyphs">Node</tspan></text>
+<text class="vector-label" x="66.217" y="12.063" font-size="8.339" textLength="27.973" lengthAdjust="spacingAndGlyphs">（R） AN</text>
+<text class="vector-label" x="134.888" y="12.027" font-size="8.236" textLength="18.228" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="202.333" y="11.954" font-size="9.052" textLength="14.583" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="268.562" y="11.954" font-size="9.052" textLength="15.798" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="332.968" y="12.610" font-size="9.876" textLength="15.798" lengthAdjust="spacingAndGlyphs">UPF</text>
+<text class="vector-label" x="393.121" y="11.954" font-size="9.052" textLength="18.228" lengthAdjust="spacingAndGlyphs">UDM</text>
+<text class="vector-label" x="62.570" y="45.432" font-size="9.090" textLength="41.952" lengthAdjust="spacingAndGlyphs">1.去注册请求</text>
+<text class="vector-label" x="170.130" y="70.824" font-size="9.609" textLength="86.280" lengthAdjust="spacingAndGlyphs">2.PDU会话上下文释放请求</text>
+<text class="vector-label" x="282.537" y="92.080" font-size="9.640" textLength="52.254" lengthAdjust="spacingAndGlyphs">3a.请求UPF释放</text>
+<text class="vector-label" x="286.790" y="100.583" font-size="9.655" textLength="44.355" lengthAdjust="spacingAndGlyphs">PDU会话资源</text>
+<text class="vector-label" x="281.929" y="123.057" font-size="9.655" textLength="54.077" lengthAdjust="spacingAndGlyphs">3b.释放PDU会话</text>
+<text class="vector-label" x="294.662" y="132.247" font-size="9.822" textLength="29.826" lengthAdjust="spacingAndGlyphs">资源确认</text>
+<text class="vector-label" x="171.952" y="152.275" font-size="9.030" textLength="85.672" lengthAdjust="spacingAndGlyphs">4.PDU会话上下文释放响应</text>
+<text class="vector-label" x="224.669" y="174.788" font-size="9.994" textLength="36.121" lengthAdjust="spacingAndGlyphs">5a. SM策略</text>
+<text class="vector-label" x="227.852" y="182.739" font-size="9.037" textLength="29.773" lengthAdjust="spacingAndGlyphs">关联终止</text>
+<text class="vector-label" x="313.433" y="213.086" font-size="9.866" textLength="56.075" lengthAdjust="spacingAndGlyphs">5b. SDM订阅取消</text>
+<text class="vector-label" x="317.644" y="246.503" font-size="10.280" textLength="43.999" lengthAdjust="spacingAndGlyphs">5c. CM去注册</text>
+<text class="vector-label" x="160.219" y="262.927" font-size="10.334" textLength="34.397" lengthAdjust="spacingAndGlyphs">6. AM策略</text>
+<text class="vector-label" x="162.838" y="270.722" font-size="8.923" textLength="29.773" lengthAdjust="spacingAndGlyphs">关联终止</text>
+<text class="vector-label" x="157.314" y="307.577" font-size="9.736" textLength="40.218" lengthAdjust="spacingAndGlyphs">6a. 节点策略</text>
+<text class="vector-label" x="162.137" y="316.859" font-size="10.667" textLength="37.330" lengthAdjust="spacingAndGlyphs">关联终止</text>
+<text class="vector-label" x="62.530" y="349.423" font-size="9.706" textLength="45.062" lengthAdjust="spacingAndGlyphs">7. 去注册接受</text>
+<text class="vector-label" x="22.988" y="376.375" font-size="10.392" textLength="51.234" lengthAdjust="spacingAndGlyphs">8.信令连接释放</text>
+</g>
 </svg>

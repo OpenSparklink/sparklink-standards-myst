@@ -2132,4 +2132,42 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="3.485" y="8.389" font-size="7.491" textLength="22.576" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="73.213" y="9.297" font-size="8.228" textLength="50.244" lengthAdjust="spacingAndGlyphs">Trusted G-Node</text>
+<text class="vector-label" x="187.790" y="7.883" font-size="6.765" textLength="19.530" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="295.456" y="7.883" font-size="6.765" textLength="14.022" lengthAdjust="spacingAndGlyphs">UPF</text>
+<text class="vector-label" x="18.529" y="26.842" font-size="6.765" textLength="16.525" lengthAdjust="spacingAndGlyphs">RMF</text>
+<text class="vector-label" x="312.983" y="26.842" font-size="6.765" textLength="15.524" lengthAdjust="spacingAndGlyphs">PMF</text>
+<text class="vector-label" x="19.029" y="39.814" font-size="6.765" textLength="15.023" lengthAdjust="spacingAndGlyphs">PDU</text>
+<text class="vector-label" x="313.483" y="39.814" font-size="6.765" textLength="15.023" lengthAdjust="spacingAndGlyphs">PDU</text>
+<text class="vector-label" x="312.206" y="49.770" font-size="7.928" textLength="18.459" lengthAdjust="spacingAndGlyphs">Layer</text>
+<text class="vector-label" x="17.859" y="50.245" font-size="8.215" textLength="18.297" lengthAdjust="spacingAndGlyphs">Layer</text>
+<text class="vector-label" x="15.995" y="60.798" font-size="7.552" textLength="21.592" lengthAdjust="spacingAndGlyphs">GTP-U</text>
+<text class="vector-label" x="201.310" y="59.721" font-size="7.329" textLength="21.533" lengthAdjust="spacingAndGlyphs">GTP-U</text>
+<text class="vector-label" x="241.857" y="59.817" font-size="6.896" textLength="21.565" lengthAdjust="spacingAndGlyphs">GTP-U</text>
+<text class="vector-label" x="309.936" y="60.835" font-size="7.658" textLength="22.118" lengthAdjust="spacingAndGlyphs">GTP-U</text>
+<text class="vector-label" x="200.803" y="72.712" font-size="7.383" textLength="23.549" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="241.345" y="72.774" font-size="7.558" textLength="23.592" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="15.515" y="73.768" font-size="6.841" textLength="23.553" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="89.125" y="73.280" font-size="6.874" textLength="23.561" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="129.157" y="73.382" font-size="7.160" textLength="24.122" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="309.464" y="73.782" font-size="6.882" textLength="24.063" lengthAdjust="spacingAndGlyphs">UDP/IP</text>
+<text class="vector-label" x="18.028" y="86.214" font-size="6.765" textLength="19.029" lengthAdjust="spacingAndGlyphs">DTAP</text>
+<text class="vector-label" x="91.101" y="86.318" font-size="7.059" textLength="19.609" lengthAdjust="spacingAndGlyphs">DTAP</text>
+<text class="vector-label" x="136.210" y="85.715" font-size="6.765" textLength="9.515" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="207.820" y="85.715" font-size="6.765" textLength="9.014" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="248.383" y="85.715" font-size="6.765" textLength="8.513" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="316.488" y="86.214" font-size="6.765" textLength="9.014" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="10.971" y="98.761" font-size="8.382" textLength="32.142" lengthAdjust="spacingAndGlyphs">SparkLink</text>
+<text class="vector-label" x="85.082" y="98.770" font-size="8.409" textLength="31.647" lengthAdjust="spacingAndGlyphs">SparkLink</text>
+<text class="vector-label" x="136.210" y="101.681" font-size="6.765" textLength="9.014" lengthAdjust="spacingAndGlyphs">L1</text>
+<text class="vector-label" x="207.820" y="100.683" font-size="6.765" textLength="8.513" lengthAdjust="spacingAndGlyphs">L1</text>
+<text class="vector-label" x="248.383" y="100.683" font-size="6.765" textLength="8.513" lengthAdjust="spacingAndGlyphs">L1</text>
+<text class="vector-label" x="316.488" y="100.683" font-size="6.765" textLength="9.014" lengthAdjust="spacingAndGlyphs">L1</text>
+<text class="vector-label" x="22.535" y="106.171" font-size="6.765" textLength="9.014" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="96.148" y="106.171" font-size="6.765" textLength="9.014" lengthAdjust="spacingAndGlyphs">L2</text>
+<text class="vector-label" x="169.762" y="120.690" font-size="6.202" textLength="15.524" lengthAdjust="spacingAndGlyphs">NWt</text>
+<text class="vector-label" x="283.437" y="120.690" font-size="6.202" textLength="9.014" lengthAdjust="spacingAndGlyphs">N3</text>
+</g>
 </svg>

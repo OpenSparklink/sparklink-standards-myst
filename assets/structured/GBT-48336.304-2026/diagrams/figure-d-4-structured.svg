@@ -575,4 +575,18 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="162.240" y="23.966" font-size="9.714" textLength="37.073" lengthAdjust="spacingAndGlyphs">基础应用层</text>
+<text class="vector-label" x="93.391" y="72.096" font-size="15.190" textLength="81.913" lengthAdjust="spacingAndGlyphs">关联一个或多个PDU会话</text>
+<text class="vector-label" x="19.275" y="73.284" font-size="6.740" textLength="31.081" lengthAdjust="spacingAndGlyphs">TCP/UDP</text>
+<text class="vector-label" x="33.208" y="93.051" font-size="6.651" textLength="7.499" lengthAdjust="spacingAndGlyphs">IP</text>
+<text class="vector-label" x="206.187" y="140.539" font-size="9.296" textLength="31.117" lengthAdjust="spacingAndGlyphs">传输信道</text>
+<text class="vector-label" x="292.982" y="155.388" font-size="9.674" textLength="50.884" lengthAdjust="spacingAndGlyphs">数据传输与适配</text>
+<text class="vector-label" x="16.516" y="179.355" font-size="10.070" textLength="35.526" lengthAdjust="spacingAndGlyphs">PDU Layer</text>
+<text class="vector-label" x="321.896" y="182.711" font-size="9.770" textLength="36.977" lengthAdjust="spacingAndGlyphs">基础服务层</text>
+<text class="vector-label" x="197.055" y="210.773" font-size="8.930" textLength="29.027" lengthAdjust="spacingAndGlyphs">空口承载</text>
+<text class="vector-label" x="277.985" y="237.202" font-size="10.279" textLength="14.997" lengthAdjust="spacingAndGlyphs">SLE</text>
+<text class="vector-label" x="81.414" y="236.774" font-size="9.070" textLength="14.997" lengthAdjust="spacingAndGlyphs">SLB</text>
+<text class="vector-label" x="170.326" y="255.553" font-size="8.497" textLength="21.960" lengthAdjust="spacingAndGlyphs">接入层</text>
+</g>
 </svg>

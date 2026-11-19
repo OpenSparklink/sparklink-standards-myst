@@ -1892,4 +1892,21 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="4.187" y="11.774" font-size="6.720" textLength="23.147" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="67.287" y="12.123" font-size="6.850" textLength="24.247" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="133.361" y="12.055" font-size="7.615" textLength="20.004" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="201.254" y="12.002" font-size="8.219" textLength="13.942" lengthAdjust="spacingAndGlyphs">PCF</text>
+<text class="vector-label" x="266.722" y="12.055" font-size="7.615" textLength="16.973" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="330.977" y="12.055" font-size="7.615" textLength="15.761" lengthAdjust="spacingAndGlyphs">SMF</text>
+<text class="vector-label" x="393.957" y="11.706" font-size="6.527" textLength="13.464" lengthAdjust="spacingAndGlyphs">UPF</text>
+<text class="vector-label" x="107.865" y="49.700" font-size="11.172" textLength="186.172" lengthAdjust="spacingAndGlyphs">1a.T节点发起的去注册过程，参考图4.2.2.3.2-1中步骤1~7</text>
+<text class="vector-label" x="110.296" y="99.026" font-size="11.156" textLength="181.918" lengthAdjust="spacingAndGlyphs">16.网络发起的去注册过程，参考图4.2.2.3.3-1中的步骤1～6</text>
+<text class="vector-label" x="155.752" y="139.109" font-size="10.762" textLength="109.786" lengthAdjust="spacingAndGlyphs">2.N2消息（T节点上下文释放命令）</text>
+<text class="vector-label" x="34.553" y="181.030" font-size="10.436" textLength="101.233" lengthAdjust="spacingAndGlyphs">3.会话和隧道资源释放请求消息</text>
+<text class="vector-label" x="33.340" y="188.875" font-size="9.630" textLength="103.658" lengthAdjust="spacingAndGlyphs">（释放控制面和用户面隧道资源）</text>
+<text class="vector-label" x="32.670" y="212.446" font-size="11.026" textLength="86.788" lengthAdjust="spacingAndGlyphs">.4.会话和隧道资源释放</text>
+<text class="vector-label" x="64.852" y="220.426" font-size="9.666" textLength="29.723" lengthAdjust="spacingAndGlyphs">响应消息</text>
+<text class="vector-label" x="156.396" y="251.490" font-size="15.230" textLength="116.994" lengthAdjust="spacingAndGlyphs">S.N2消息（T节点上下文释放完成）</text>
+</g>
 </svg>

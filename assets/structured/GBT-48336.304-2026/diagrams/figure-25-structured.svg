@@ -1400,4 +1400,34 @@
 </g>
 </g>
 </g>
+<g fill="none" aria-label="图中文字">
+<text class="vector-label" x="342.954" y="8.961" font-size="8.806" textLength="51.216" lengthAdjust="spacingAndGlyphs">其他控制面和用</text>
+<text class="vector-label" x="2.571" y="12.467" font-size="6.801" textLength="22.736" lengthAdjust="spacingAndGlyphs">T-Node</text>
+<text class="vector-label" x="82.319" y="12.450" font-size="6.751" textLength="24.667" lengthAdjust="spacingAndGlyphs">G-Node</text>
+<text class="vector-label" x="171.801" y="12.402" font-size="6.607" textLength="19.449" lengthAdjust="spacingAndGlyphs">TNGF</text>
+<text class="vector-label" x="273.585" y="12.262" font-size="8.184" textLength="17.504" lengthAdjust="spacingAndGlyphs">AMF</text>
+<text class="vector-label" x="353.958" y="17.446" font-size="8.947" textLength="29.208" lengthAdjust="spacingAndGlyphs">户面功能</text>
+<text class="vector-label" x="54.458" y="40.756" font-size="8.840" textLength="86.873" lengthAdjust="spacingAndGlyphs">基于GTP-U的NAS信令传输</text>
+<text class="vector-label" x="117.263" y="69.276" font-size="10.190" textLength="64.330" lengthAdjust="spacingAndGlyphs">1.PDU会话修改请求</text>
+<text class="vector-label" x="256.081" y="85.486" font-size="10.442" textLength="136.793" lengthAdjust="spacingAndGlyphs">2a.非漫游和LBO场景：采用流程图4.3.3.2-1</text>
+<text class="vector-label" x="284.607" y="93.849" font-size="10.281" textLength="81.038" lengthAdjust="spacingAndGlyphs">中的步骤1a～1d和步骤2~3</text>
+<text class="vector-label" x="257.378" y="102.287" font-size="10.268" textLength="134.199" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图43.3.3-1中</text>
+<text class="vector-label" x="266.454" y="110.784" font-size="9.595" textLength="115.399" lengthAdjust="spacingAndGlyphs">步骤1a～1d和步骤2～3，步骤1e不采用</text>
+<text class="vector-label" x="183.406" y="155.173" font-size="10.377" textLength="85.705" lengthAdjust="spacingAndGlyphs">3.N2 PDU会话请求一</text>
+<text class="vector-label" x="56.403" y="173.681" font-size="10.268" textLength="86.873" lengthAdjust="spacingAndGlyphs">4.接入侧会话修改请求消息</text>
+<text class="vector-label" x="73.907" y="182.209" font-size="9.595" textLength="52.513" lengthAdjust="spacingAndGlyphs">（PDU会话标识，</text>
+<text class="vector-label" x="52.452" y="191.437" font-size="11.613" textLength="96.087" lengthAdjust="spacingAndGlyphs">PDU会话修改命令，QoS参数）</text>
+<text class="vector-label" x="56.403" y="229.655" font-size="9.651" textLength="86.225" lengthAdjust="spacingAndGlyphs">5.接入侧会话修改响应消息</text>
+<text class="vector-label" x="51.865" y="238.000" font-size="9.534" textLength="96.598" lengthAdjust="spacingAndGlyphs">（NAS/PDU会话修改命令确认）</text>
+<text class="vector-label" x="199.585" y="262.621" font-size="11.732" textLength="83.836" lengthAdjust="spacingAndGlyphs">6.N2 PDU会话响应</text>
+<text class="vector-label" x="270.344" y="300.208" font-size="11.040" textLength="107.619" lengthAdjust="spacingAndGlyphs">7.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="294.331" y="307.446" font-size="9.534" textLength="60.293" lengthAdjust="spacingAndGlyphs">4.3.3.2-1中的步骤7</text>
+<text class="vector-label" x="261.268" y="316.494" font-size="10.442" textLength="126.420" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.3.3-1中</text>
+<text class="vector-label" x="305.990" y="325.009" font-size="9.645" textLength="38.272" lengthAdjust="spacingAndGlyphs">的步骤8~10</text>
+<text class="vector-label" x="197.037" y="366.411" font-size="11.450" textLength="85.700" lengthAdjust="spacingAndGlyphs">8.N2上行NAS传输</text>
+<text class="vector-label" x="270.344" y="394.413" font-size="10.442" textLength="106.971" lengthAdjust="spacingAndGlyphs">9.非漫游和LBO场景：采用流程图</text>
+<text class="vector-label" x="270.992" y="402.229" font-size="9.595" textLength="106.322" lengthAdjust="spacingAndGlyphs">4.3.3.2-1中步骤10之后所有步骤</text>
+<text class="vector-label" x="260.619" y="411.226" font-size="10.268" textLength="127.068" lengthAdjust="spacingAndGlyphs">基于归属地漫游：采用流程图4.3.3.3-1中</text>
+<text class="vector-label" x="287.848" y="419.137" font-size="8.875" textLength="73.259" lengthAdjust="spacingAndGlyphs">步骤13之后的所有步骤</text>
+</g>
 </svg>

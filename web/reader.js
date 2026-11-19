@@ -4,6 +4,9 @@
   const currentRoute=()=>location.pathname.slice(basePath.length).split('/').filter(Boolean)[0];
   let dialog,referenceIndex;
   let processed=new WeakMap(),referenceRoute;
+  let vectorId=0;
+  const vectorElements=new Set(['svg','title','desc','defs','g','path','line','rect','circle','ellipse','polygon','polyline','marker','clipPath','text','tspan']);
+  const vectorAttributes=new Set('id viewBox role aria-label aria-labelledby aria-describedby orient refX refY markerWidth markerHeight d fill width height stroke font-family stroke-width x1 x2 y1 y2 x y dx dy font-size text-anchor textLength lengthAdjust marker-end marker-start baseline-shift stroke-dasharray cx cy r rx ry stroke-opacity transform points version clip-rule clip-path stroke-linecap stroke-linejoin stroke-miterlimit opacity class'.split(' '));
   const translations=new Map([['Search','搜索'],['Contents','本页'],['CONTENTS','本页'],['On this page','本页'],['Next','下一节'],['Previous','上一节']]);
   function hydrated(element) {
     const key=Object.keys(element||{}).find(k=>k.startsWith('__reactFiber$'));
@@ -28,6 +31,40 @@
     }
     const large=dialog.querySelector('img');large.src=image.currentSrc||image.src;large.alt=image.alt;
     dialog.querySelector('a').href=large.src;dialog.setAttribute('aria-label',image.alt||'图示');dialog.showModal();
+  }
+  async function showVector(image) {
+    const url=new URL(image.currentSrc||image.src);
+    if(url.origin!==location.origin||!url.pathname.endsWith('.svg'))return;
+    const response=await fetch(url);
+    if(!response.ok)return;
+    const svg=new DOMParser().parseFromString(await response.text(),'image/svg+xml').documentElement;
+    if(svg.localName!=='svg'||svg.namespaceURI!=='http://www.w3.org/2000/svg'||!image.isConnected)return;
+    const prefix='reader-vector-'+(++vectorId)+'-';
+    for(const element of [svg,...svg.querySelectorAll('*')]){
+      if(!vectorElements.has(element.localName)||element.namespaceURI!==svg.namespaceURI){element.remove();continue;}
+      for(const {name,value} of [...element.attributes]){
+        if(!vectorAttributes.has(name)||(/url\(/i.test(value)&&!/^url\(#[\w.-]+\)$/.test(value))){
+          element.removeAttribute(name);
+        }else if(name==='id'){
+          element.setAttribute(name,prefix+value);
+        }else if(name==='aria-labelledby'||name==='aria-describedby'){
+          element.setAttribute(name,value.trim().split(/\s+/).map(id=>prefix+id).join(' '));
+        }else if(value.startsWith('url(#')){
+          element.setAttribute(name,'url(#'+prefix+value.slice(5));
+        }
+      }
+    }
+    if(!svg.hasAttribute('viewBox'))return;
+    svg.setAttribute('role','img');
+    if(!svg.hasAttribute('aria-labelledby'))svg.setAttribute('aria-label',image.alt);
+    const region=document.createElement('div');region.className='reader-vector';
+    const open=document.createElement('button');open.type='button';open.className='reader-vector-zoom';open.textContent='放大';
+    open.setAttribute('aria-label','放大图示：'+image.alt);
+    open.addEventListener('click',()=>zoom(image));
+    region.append(open,document.importNode(svg,true));
+    image.after(region);
+    image.hidden=true;
+    image.tabIndex=-1;
   }
   function references() {
     if(!referenceIndex)return;
@@ -100,6 +137,9 @@
       image.decoding='async';if(image.dataset.readerBound)continue;
       image.dataset.readerBound='true';image.tabIndex=0;image.setAttribute('role','button');image.setAttribute('aria-label','放大：'+image.alt);
       image.addEventListener('click',()=>zoom(image));image.addEventListener('keydown',event=>{if(['Enter',' '].includes(event.key)){event.preventDefault();zoom(image);}});
+      if(image.classList.contains('standard-vector-figure')) {
+        showVector(image).catch(()=>{ /* The original image remains available. */ });
+      }
     }
     for(const diagram of document.querySelectorAll('article .standard-diagram')){
       const svg=diagram.querySelector('figure svg');
