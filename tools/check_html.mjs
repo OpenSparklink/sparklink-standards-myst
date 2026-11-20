@@ -279,6 +279,21 @@ try {
     }catch{linkIssues.push(url.replace(origin,''));}
   }
   if(linkIssues.length)issues.push({brokenInternalLinks:linkIssues});
+  const indexTargets=new Map();
+  let technicalIndexEntries=0;
+  if(!process.env.CHECK_DOCUMENT&&!process.env.CHECK_CHAPTER){
+    const {entries}=JSON.parse(await fs.readFile(path.join(build,'technical-index.json'),'utf8'));
+    technicalIndexEntries=entries.length;
+    for(const entry of entries){
+      const [route,anchor]=entry.url.split('#');
+      if(!indexTargets.has(route)){
+        const html=await fs.readFile(path.join(build,route,'index.html'),'utf8').catch(()=>null);
+        indexTargets.set(route,html===null?null:new Set([...html.matchAll(/\sid="([^"]+)"/g)].map(match=>match[1])));
+      }
+      const anchors=indexTargets.get(route);
+      if(!anchors||anchor&&!anchors.has(anchor))issues.push({invalidTechnicalIndexTarget:entry.url,title:entry.title});
+    }
+  }
   for (const doc of manifest.documents) {
     const selected=doc.chapters.find(c=>doc.logical_tables.some(t=>t.file===c.path))||doc.chapters[0];
     await page.goto(origin+'/'+selected.slug+'/',{waitUntil:'networkidle'});
@@ -304,9 +319,9 @@ try {
   await context.close();
   const report={manifest_sha256:createHash('sha256').update(await fs.readFile('metadata/reading-manifest.json')).digest('hex'),
     time:new Date().toISOString(),basePath,sourcePixelComparison:verifySourceSamples,documents:manifest.documents.length,chapters:chapters.length,pages:allHtml.length,frontPages,
-    internalLinks:internalLinks.size,legacyRedirects:legacyRoutes.size,issues,retries,results,samples};
+    internalLinks:internalLinks.size,technicalIndexEntries,legacyRedirects:legacyRoutes.size,issues,retries,results,samples};
   await fs.writeFile(process.env.CHECK_DOCUMENT||process.env.CHECK_CHAPTER?'tmp/html-review/browser-smoke.json':'metadata/browser-check.json',JSON.stringify(report,null,2)+'\n');
-  console.log(JSON.stringify({documents:report.documents,chapters:report.chapters,pages:report.pages,internalLinks:report.internalLinks,issues:issues.length,pixelSamples:samples.length}));
+  console.log(JSON.stringify({documents:report.documents,chapters:report.chapters,pages:report.pages,internalLinks:report.internalLinks,technicalIndexEntries,issues:issues.length,pixelSamples:samples.length}));
   if (issues.length) process.exitCode=1;
 } finally {
   await browser.close();

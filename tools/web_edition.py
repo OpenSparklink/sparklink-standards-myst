@@ -250,20 +250,75 @@ def publication_page(path,title,body,short_title=None):
     (ROOT/path).write_text(compact('---\n'+yaml.safe_dump(front,allow_unicode=True,sort_keys=False).strip()+'\n---\n\n# '+title+'\n\n'+body))
 
 
-def write_publication(documents):
-    """Write navigation and product-facing overviews, without paper matter."""
-    from web_references import reference_targets
-    reference_targets(documents)
-    toc=[{'file':'index.md'}]
+def navigation_section(chapter):
+    if chapter['title'].startswith('附录'):
+        return '附录'
+    if re.match(r'^(?:前言|引言|参考文献|[1-4]\s)',chapter['title']):
+        return '关于本标准'
+    return '技术章节'
+
+
+def family_section(doc):
+    return {
+        '1':'通用要求与标识', '2':'接入层', '3':'基础服务层', '4':'基础应用层',
+    }[doc['part'][0]]
+
+
+def standard_navigation(doc):
+    groups={section:[] for section in ('技术章节','附录','关于本标准')}
+    by_path={c['path']:{'file':c['path']} for c in doc['chapters']}
+    by_slug={c['slug']:c for c in doc['chapters']}
+    indexed_parents={'gbt-48336-201-2026-clause-7-5-2','gbt-48336-201-2026-clause-7-5-3'}
+    indexed_paths={by_slug[slug]['path'] for slug in indexed_parents if slug in by_slug}
+    for chapter in doc['chapters']:
+        item=by_path[chapter['path']]
+        parent=chapter['parent']
+        if parent in indexed_paths:
+            item.update(hidden=True,searchable=True)
+        if parent:
+            by_path[parent].setdefault('children',[]).append(item)
+        else:
+            groups[navigation_section(chapter)].append(item)
+    return groups
+
+
+def overview_sections(doc):
+    groups={section:[] for section in ('技术章节','附录','关于本标准')}
+    for chapter in doc['chapters']:
+        if chapter['parent'] is None:
+            groups[navigation_section(chapter)].append(chapter)
+    body=''
+    for section,chapters in groups.items():
+        if chapters:
+            body+='## '+section+'\n\n'
+            body+=''.join(f"- [{chapter['title']}]({Path(chapter['path']).name})\n" for chapter in chapters)+'\n'
+    return body
+
+
+def write_navigation(documents):
+    """Publish the reading entrances and organize the original clause routes."""
+    standard_catalog={'file':'reading/standards-catalog.md','children':[]}
+    toc=[
+        {'file':'index.md'},
+        standard_catalog,
+        {'file':'reading/reading-guides.md','children':[
+            {'file':'reading/architecture-guide.md'},
+            # The included clause text is searchable from its canonical pages.
+            {'file':'reading/slb-link-status.md','searchable':False},
+            {'file':'reading/slb-test-guide.md'},
+            {'file':'reading/integration-guide.md'},
+            {'file':'reading/media-guide.md'},
+            {'file':'reading/low-power-guide.md'},
+        ]},
+        {'file':'reading/technical-index.md'},
+    ]
     for family,(name,description) in FAMILIES.items():
-        family_path=f'standards/{family}/{family}.md';children=[]
-        body=description+'。\n\n::::{div}\n:class: spec-grid\n'
+        family_path=f'standards/{family}/{family}.md'
+        family_groups={}
+        body=description+'。\n\n'
         for doc in [d for d in documents if d['family']==family]:
-            body+=card(doc['part']+' · '+doc['display_title'],Path(doc['index']).relative_to(Path(family_path).parent).as_posix(),doc['standard'])
-            by_path={c['path']:{'file':c['path']} for c in doc['chapters']}
-            for c in doc['chapters']:
-                if c['parent']:by_path[c['parent']].setdefault('children',[]).append(by_path[c['path']])
-            children.append({'file':doc['index'],'children':[by_path[c['path']] for c in doc['chapters'] if not c['parent']]})
+            group=family_section(doc) if family=='GBT-48336' else ''
+            family_groups.setdefault(group,[]).append(doc)
             ledger=json.loads((ROOT/doc['paragraph_ledger']).read_text())
             scope=next((c for c in doc['chapters'] if re.match(r'^1\s*范围',c['title'])),doc['chapters'][0])
             first=next((b['source_text'] for b in ledger['blocks'] if b['file']==scope['path'] and b['kind']=='paragraph' and b.get('rendered',True)),'')
@@ -271,30 +326,46 @@ def write_publication(documents):
             overview=':::{div}\n:class: spec-version\n\n'+doc['standard']+'\n\n:::\n\n'+summary+'\n\n'
             if doc.get('published'):
                 overview+=':::{div}\n:class: spec-dates\n\n发布 '+doc['published']+'　·　实施 '+doc['effective']+'\n\n:::\n\n'
-            overview+=':::{div}\n:class: spec-actions\n\n[开始阅读]('+Path(scope['path']).name+')\n\n'
-            for label in ['前言','引言']:
-                target=next((c for c in doc['chapters'] if c['title'].startswith(label)),None)
-                if target:overview+=' ['+label+']('+Path(target['path']).name+')'
-            overview+='\n\n:::\n\n'
-            topics=[c for c in doc['chapters'] if not c['parent'] and re.match(r'^(?:[5-9]|1\d)\s',c['title'])][:6]
-            if topics:
-                overview+='## 技术主题\n\n::::{div}\n:class: spec-grid\n'
-                for c in topics:overview+=card(c['title'],Path(c['path']).name)
-                overview+='\n::::\n'
+            guide={
+                '1':'low-power-guide', '2':'low-power-guide', '101':'architecture-guide',
+                '201':'slb-link-status', '202':'slb-test-guide', '203':'low-power-guide',
+                '304':'integration-guide', '401':'media-guide', '403':'media-guide', '405':'media-guide',
+            }.get(doc['part'])
+            overview+=':::{div}\n:class: reading-related\n\n'
+            overview+="[检索本标准](../../../reading/technical-index.md)"
+            if guide:
+                overview+=f' · [查看专题指南](../../../reading/{guide}.md)'
+            overview+='\n\n:::\n\n'+overview_sections(doc)
             publication_page(doc['index'],doc['display_title'],overview,doc['part']+' · '+NAV_TITLES.get(doc['part'],doc['display_title']))
-        body+='\n::::\n'
+        family_children=[]
+        for group,docs in family_groups.items():
+            if group:
+                body+='## '+group+'\n\n'
+            body+='::::{div}\n:class: spec-grid\n'
+            standards=[]
+            for doc in docs:
+                relative=Path(doc['index']).relative_to(Path(family_path).parent).as_posix()
+                body+=card(doc['part']+' · '+NAV_TITLES.get(doc['part'],doc['display_title']),relative,doc['standard'])
+                groups=standard_navigation(doc)
+                children=groups.pop('技术章节')
+                children.extend({'title':name,'children':items} for name,items in groups.items() if items)
+                standards.append({'file':doc['index'],'children':children})
+            body+='\n::::\n\n'
+            if group:
+                family_children.append({'title':group,'children':standards})
+            else:
+                family_children.extend(standards)
         publication_page(family_path,name,body)
-        toc.append({'file':family_path,'children':children})
-    home=':::{div}\n:class: spec-lead\n\n架构、协议与应用，按条款查阅。\n\n:::\n\n覆盖星闪无线通信系统及基于极化码的低功耗无线通信网络，共 17 份标准。可直接搜索术语、协议字段和技术条款。\n\n::::{div}\n:class: spec-grid\n'
-    for family,(name,description) in FAMILIES.items():home+=card(name,f'standards/{family}/{family}.md',description)
-    home+='\n::::\n\n## 常用规范\n\n::::{div}\n:class: spec-grid\n'
-    for part in ['101','201','202','301']:
-        d=next(d for d in documents if d['family']=='GBT-48336' and d['part']==part)
-        home+=card(d['display_title'],d['index'])
-    home+='\n::::\n'
-    publication_page('index.md','SparkLink 技术规范',home,'规范首页')
-    config={'version':1,'project':{'title':'SparkLink 技术规范','description':'星闪无线通信系统与低功耗无线通信网络技术规范','plugins':['tools/math_in_html.mjs'],'numbering':{'equation':False,'subequation':False},'toc':toc},'site':{'template':'book-theme','options':{'style':'./styles/reader.css','logo_text':'SparkLink Docs','favicon':'./assets/brand/favicon.ico','hide_footer_links':False,'hide_authors':True,'hide_outline':True,'outline_maxdepth':3}}}
+        standard_catalog['children'].append({'file':family_path,'children':family_children})
+    config={'version':1,'project':{'title':'SparkLink 技术规范','description':'星闪无线通信系统与低功耗无线通信网络技术规范','plugins':['tools/math_in_html.mjs'],'numbering':{'equation':False,'subequation':False},'toc':toc},'site':{'template':'book-theme','options':{'style':'./styles/reader.css','logo_text':'SparkLink Docs','favicon':'./assets/brand/favicon.ico','hide_footer_links':False,'hide_authors':True,'outline_maxdepth':3}}}
     (ROOT/'myst.yml').write_text(yaml.safe_dump(config,allow_unicode=True,sort_keys=False,width=300))
+
+
+def write_publication(documents):
+    """Write stable reference targets, navigation and publication metadata."""
+    from web_references import reference_targets
+    reference_targets(documents)
+    write_navigation(documents)
     totals={'documents':len(documents),'pages':sum(d['pages'] for d in documents),'chapters':sum(len(d['chapters']) for d in documents),'paragraph_kinds':dict(sum((Counter(d['paragraph_kinds']) for d in documents),Counter()))}
     for key in ['native_tables','merged_cells','table_fallbacks','paragraph_blocks','joined_page_paragraphs','native_inline_math','native_display_math','native_math_cells','remaining_math_images','omitted_blocks','source_tables','joined_table_parts','deduplicated_header_rows']:totals[key]=sum(d.get(key,0) for d in documents)
     totals['joined_chunk_paragraphs']=sum(len(d.get('joined_chunk_paragraphs',[])) for d in documents)

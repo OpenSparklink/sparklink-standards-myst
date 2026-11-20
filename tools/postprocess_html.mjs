@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {localizeStyles} from './localize_styles.mjs';
+import {buildTechnicalIndex} from './build_technical_index.mjs';
 const root=process.cwd();
 const out=path.join(root,'_build/html');
 const prefix=(process.env.BASE_URL || '').replace(/\/$/,'');
@@ -21,11 +22,13 @@ async function walk(dir) {
   }
 }
 const scope=await fs.readFile(path.join(root,'web/reference_scope.js'),'utf8');
-await fs.writeFile(path.join(out,'reader.js'),scope+'\n'+await fs.readFile(path.join(root,'web/reader.js'),'utf8'));
+const technicalIndex=await fs.readFile(path.join(root,'web/technical_index.js'),'utf8');
+await fs.writeFile(path.join(out,'reader.js'),[scope,technicalIndex,await fs.readFile(path.join(root,'web/reader.js'),'utf8')].join('\n'));
 await fs.copyFile(path.join(root,'metadata/web-references.json'),path.join(out,'reader-index.json'));
 await fs.writeFile(path.join(out,'.nojekyll'),'');
 await walk(out);
 const manifest=JSON.parse(await fs.readFile(path.join(root,'metadata/reading-manifest.json'),'utf8'));
+await buildTechnicalIndex(root,out,manifest);
 let redirects=0;
 for(const doc of manifest.documents)for(const route of doc.legacy_routes||[]){
   const file=path.join(out,route.from,'index.html');

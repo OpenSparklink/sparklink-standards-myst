@@ -1,6 +1,7 @@
 (() => {
   const scriptUrl=document.currentScript?.src||new URL('reader.js',location.href).href;
-  const basePath=new URL('.',scriptUrl).pathname.replace(/\/$/,'');
+  const siteRoot=new URL('.',scriptUrl);
+  const basePath=siteRoot.pathname.replace(/\/$/,'');
   const currentRoute=()=>location.pathname.slice(basePath.length).split('/').filter(Boolean)[0];
   let dialog,referenceIndex;
   let processed=new WeakMap(),referenceRoute;
@@ -107,12 +108,125 @@
       }
     }
   }
+  function readingLink(label,route,params={}) {
+    const link=document.createElement('a');
+    const url=new URL(route+'/',siteRoot);
+    url.search=new URLSearchParams(params).toString();
+    link.href=url.pathname+url.search;
+    link.textContent=label;
+    return link;
+  }
+  function readingContext(title,route) {
+    if(!referenceIndex||!hydrated(title))return;
+    const doc=referenceIndex.documents.find(item=>item.prefix===route||item.pages.includes(route));
+    if(!doc)return;
+    const article=title.closest('article');
+    const standard=doc.code.replace(/^GBT-/,'GB/T ');
+    if(route===doc.prefix){
+      const link=article.querySelector('.reading-related a');
+      if(link&&!link.dataset.standardFilter){
+        link.href=readingLink('','technical-index',{standard:doc.code}).href;
+        link.dataset.standardFilter='true';
+      }
+      return;
+    }
+    const old=article.querySelector('.reader-context');
+    if(old?.dataset.route===route)return;
+    old?.remove();
+    const nav=document.createElement('nav');
+    nav.dataset.route=route;
+    nav.className='reader-context';
+    nav.setAttribute('aria-label','规范版本和相关阅读');
+    nav.append(readingLink(standard,doc.prefix),readingLink('检索本标准','technical-index',{standard:doc.code}));
+    const configuration=route.match(/^gbt-48336-201-2026-clause-7-5-(2|3)(?:-(\d+))?$/);
+    if(configuration){
+      const messages=configuration[1]==='2';
+      const parent=doc.prefix+'-clause-7-5-'+configuration[1];
+      nav.append(readingLink(messages?'报文索引':'信元索引','technical-index',{standard:doc.code,kind:messages?'message':'element',scope:messages?'7.5.2':'7.5.3'}));
+      if(configuration[2])nav.append(readingLink('上级条款',parent));
+      if(messages&&['2','3'].includes(configuration[2]))nav.append(readingLink('合读查询与反馈','slb-link-status'));
+    }else if(/^gbt-48336-202-2026-clause-8(?:-[12]-|$)/.test(route)){
+      nav.append(readingLink('一致性测试指南','slb-test-guide'));
+    }
+    title.after(nav);
+  }
+  function mobileOutline(title,route) {
+    if(!hydrated(title))return;
+    const article=title.closest('article');
+    const existing=article.querySelector('.reader-mobile-outline');
+    if(existing?.dataset.route===route)return;
+    existing?.remove();
+    const headings=[...article.querySelectorAll('h2[id],h3[id]')];
+    if(headings.length<2)return;
+    const menu=document.createElement('details');
+    menu.className='reader-mobile-outline';
+    menu.dataset.route=route;
+    const summary=document.createElement('summary');
+    summary.textContent='本页目录';
+    const list=document.createElement('ul');
+    for(const heading of headings){
+      const item=document.createElement('li');
+      if(heading.tagName==='H3')item.className='reader-outline-subsection';
+      const link=document.createElement('a');
+      link.href='#'+encodeURIComponent(heading.id);
+      link.textContent=heading.textContent.replace(/^¶\s*|\s*¶$/g,'').trim();
+      link.addEventListener('click',()=>{
+        menu.open=false;
+        heading.tabIndex=-1;
+        heading.focus({preventScroll:true});
+      });
+      item.append(link);list.append(item);
+    }
+    menu.append(summary,list);
+    (article.querySelector('.reader-context')||title).after(menu);
+  }
+  function copyLinks() {
+    if(!navigator.clipboard?.writeText)return;
+    for(const target of document.querySelectorAll('article :is(.standard-caption[id],.standard-table-caption[id],div[id*="-equation-"])')){
+      if(!hydrated(target)||target.querySelector('.reader-copy-link'))continue;
+      const id=target.id;
+      if(!/-(?:figure|table|equation)-/.test(id))continue;
+      const button=document.createElement('button');
+      button.type='button';
+      button.className='reader-copy-link';
+      button.title='复制本处链接';
+      const [,kind,number]=/-(figure|table|equation)-(.+)$/.exec(id);
+      button.setAttribute('aria-label','复制'+{figure:'图',table:'表',equation:'公式'}[kind]+' '+number.replace('-', '.')+' 的链接');
+      button.addEventListener('click',async()=>{
+        const url=new URL(location.href);
+        url.hash=id;
+        try{
+          await navigator.clipboard.writeText(url.href);
+          button.dataset.copied='true';
+          button.title='链接已复制';
+          setTimeout(()=>{delete button.dataset.copied;button.title='复制本处链接';},1800);
+        }catch{
+          button.title='复制失败';
+        }
+      });
+      (target.querySelector('p')||target).append(button);
+    }
+  }
   function install() {
     document.documentElement.lang='zh-CN';
     // The theme renders the frontmatter title separately and drops its MyST
     // label. Preserve a stable title target in both SSR and SPA navigation.
     const route=currentRoute();
     const title=document.querySelector('article h1');if(route&&title)title.id=route;
+    readingContext(title,route);
+    mobileOutline(title,route);
+    const index=document.querySelector('article .technical-index');
+    if(hydrated(index))globalThis.SparkLinkTechnicalIndex.install(index,siteRoot);
+    copyLinks();
+    const outline=document.querySelector('.myst-outline');
+    if(hydrated(outline)){
+      outline.setAttribute('aria-label','本页目录');
+      const outlineHeader=outline.querySelector('.myst-outline-header');
+      for(const node of outlineHeader?.childNodes||[]){
+        if(node.nodeType===Node.TEXT_NODE&&node.nodeValue.trim()==='Contents')node.nodeValue='本页目录';
+      }
+      outline.querySelector('.myst-outline-collapsible')?.setAttribute('aria-label','展开或收起本页目录');
+    }
     for(const button of document.querySelectorAll('button.myst-search-bar'))button.setAttribute('aria-label','搜索标准正文');
     for(const button of document.querySelectorAll('button[aria-label]')){
       const labels={'Open Folder':'展开条款','Close Folder':'收起条款','Toggle theme between light and dark mode':'切换明暗主题'};
@@ -159,6 +273,13 @@
       scroller.tabIndex=0;
       scroller.setAttribute('role','region');
       scroller.setAttribute('aria-label',figureTableLabel||scroller.querySelector('.standard-table-caption')?.textContent||caption?.textContent||'标准表格，可横向滚动');
+      const table=scroller.querySelector('table.standard-table:not(.figure-table)');
+      const header=table?.rows[0];
+      if(table?.rows.length>=25&&header?.cells.length&&[...header.cells].every(cell=>cell.tagName==='TH'&&cell.rowSpan===1)){
+        const scrollHost=table.closest('[aria-label="table content"]')||scroller;
+        scrollHost.classList.add('reader-long-table');
+        header.classList.add('reader-sticky-header');
+      }
       if(figure){
         if(caption?.id)figure.setAttribute('aria-labelledby',caption.id);
         if(figureTableLabel)figure.setAttribute('aria-label',figureTableLabel);

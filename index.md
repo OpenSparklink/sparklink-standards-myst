@@ -10,66 +10,47 @@ numbering:
 :::{div}
 :class: spec-lead
 
-架构、协议与应用，按条款查阅。
+查阅星闪协议、实现要求和一致性测试。
 
 :::
-
-覆盖星闪无线通信系统及基于极化码的低功耗无线通信网络，共 17 份标准。可直接搜索术语、协议字段和技术条款。
 
 ::::{div}
-:class: spec-grid
+:class: spec-grid reading-entry-grid
 
 :::{div}
 :class: spec-card
 
-[星闪无线通信系统](standards/GBT-48336/GBT-48336.md)
+[规范正文](reading/standards-catalog.md)
 
-架构、接入层、基础服务与应用规范
+按标准号、版本和条款查阅 17 份标准。
 
 :::
 
 :::{div}
 :class: spec-card
 
-[低功耗无线通信网络](standards/GBT-46803/GBT-46803.md)
+[专题指南](reading/reading-guides.md)
 
-基于极化码的物理层与数据链路层规范
+按协议流程、实现任务和测试场景阅读。
+
+:::
+
+:::{div}
+:class: spec-card
+
+[技术索引](reading/technical-index.md)
+
+查条款、图表、报文、信元、字段和测试项。
 
 :::
 
 ::::
 
-## 常用规范
+## 从常见任务开始
 
-::::{div}
-:class: spec-grid
-
-:::{div}
-:class: spec-card
-
-[架构和通用要求](standards/GBT-48336/GBT-48336.101-2026_星闪无线通信系统-第101部分-架构和通用要求/GBT-48336.101-2026.md)
-
-:::
-
-:::{div}
-:class: spec-card
-
-[接入层 · 同步低时延宽带（SLB）空中接口技术要求](standards/GBT-48336/GBT-48336.201-2026_星闪无线通信系统-第201部分-接入层-同步低时延宽带（SLB）空中接口技术要求/GBT-48336.201-2026.md)
-
-:::
-
-:::{div}
-:class: spec-card
-
-[接入层 · 同步低时延宽带（SLB）设备技术要求和测试方法](standards/GBT-48336/GBT-48336.202-2026_星闪无线通信系统-第202部分-接入层-同步低时延宽带（SLB）设备技术要求和测试方法/GBT-48336.202-2026.md)
-
-:::
-
-:::{div}
-:class: spec-card
-
-[基础服务层 · 设备发现和传输控制](standards/GBT-48336/GBT-48336.301-2026_星闪无线通信系统-第301部分-基础服务层-设备发现和传输控制/GBT-48336.301-2026.md)
-
-:::
-
-::::
+- [了解系统架构与各部分规范的分工](reading/architecture-guide.md)
+- [合读 G 链路的信道状态查询与反馈](reading/slb-link-status.md)
+- [查找 G 节点或 T 节点的 CSI-RS 测试](reading/slb-test-guide.md)
+- [沿流程查阅星闪与 5G 融合规范](reading/integration-guide.md)
+- [查阅音频、视频配置和媒体控制](reading/media-guide.md)
+- [查阅 SLE 或基于极化码的低功耗网络](reading/low-power-guide.md)

@@ -41,6 +41,21 @@ try {
   const crossHref=await cross.getAttribute('href');await cross.click();
   await page.waitForFunction(()=>!!document.getElementById(decodeURIComponent(location.hash.slice(1))))
   results.push({check:'正文交叉引用跳转到图表或条款',passed:true,target:crossHref});
+
+  const chapterWithContext='gbt-46803-2-2025-clause-6-3-2-11';
+  for (const width of [390,948,1440]) {
+    await page.setViewportSize({width,height:900});
+    await page.goto(origin+'/'+chapterWithContext+'/');
+    const context=page.getByRole('navigation',{name:'规范版本和相关阅读'});
+    await context.waitFor();
+    const gap=await context.evaluate(nav=>{
+      const title=nav.previousElementSibling;
+      return nav.getBoundingClientRect().top-title.getBoundingClientRect().bottom;
+    });
+    assert.ok(gap>=6,`章节标题和导航在 ${width}px 视口下的间距为 ${gap}px`);
+  }
+  results.push({check:'窄屏和桌面章节标题与标准检索导航留有间距',passed:true});
+
   const codeChapter='gbt-48336-201-2026-clause-7-5-1';
   await page.goto(origin+'/'+codeChapter+'/',{waitUntil:'networkidle'});
   const code=page.locator('article .figure-code code').filter({hasText:'Glink-CommonControl-Message'}).first();
@@ -243,6 +258,77 @@ try {
     paragraphGaps[width] = gaps;
   }
   results.push({check:'桌面与手机连续正文段距',passed:true,gaps_px:paragraphGaps});
+
+  await page.goto(origin+'/');
+  const entrances=page.locator('article .reading-entry-grid');
+  assert.deepEqual(await entrances.getByRole('link').allTextContents(),['规范正文','专题指南','技术索引']);
+  await entrances.getByRole('link',{name:'技术索引'}).click();
+  const catalog=page.getByRole('search',{name:'查找技术条目'});
+  const query=catalog.getByRole('searchbox');
+  await query.fill('requestType');
+  await catalog.getByLabel('类别').selectOption('field');
+  const field=page.locator('.technical-index-results li').filter({hasText:'GlinkChannelStatusRequest'});
+  await field.getByRole('link',{name:'requestType',exact:true}).click();
+  await page.waitForFunction(()=>location.hash==='#gbt-48336-201-2026-clause-7-5-2-2'&&!!document.getElementById(location.hash.slice(1)));
+  await page.getByRole('link',{name:'合读查询与反馈',exact:true}).click();
+  const pairedCode=page.locator('article pre');
+  await page.waitForURL('**/slb-link-status/');
+  await pairedCode.last().waitFor();
+  assert.equal(await pairedCode.count(),2);
+  assert.match(await pairedCode.first().textContent(),/GlinkChannelStatusRequest ::= SEQUENCE/);
+  assert.match(await pairedCode.last().textContent(),/GlinkChannelStatusFeedback ::= SEQUENCE/);
+  const outline=page.locator('.reader-mobile-outline');
+  await outline.locator('summary').click();
+  assert.equal(await page.locator('article .myst-outline').isVisible(),false);
+  await outline.getByRole('link',{name:/G 链路信道反馈消息/}).click();
+  await page.waitForFunction(()=>location.hash==='#status-feedback');
+  assert.equal(await outline.getAttribute('open'),null);
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+  results.push({check:'手机首页到字段检索、规范原条款和查询反馈合读',passed:true});
+
+  await page.goto(origin+'/technical-index/?q=CSI-RS4&kind=test&standard=GBT-48336.202-2026&role=T');
+  await catalog.getByLabel('测试角色').waitFor();
+  assert.equal(await catalog.getByLabel('测试角色').inputValue(),'T');
+  const testLinks=page.locator('.technical-index-results a');
+  assert.equal(await testLinks.count(),1);
+  assert.match(await testLinks.first().getAttribute('href'),/8-2-3-4\/#gbt-48336-202-2026-clause-8-2-3-4$/);
+  await catalog.getByLabel('测试角色').selectOption('G');
+  assert.equal(await testLinks.count(),1);
+  assert.match(await testLinks.first().getAttribute('href'),/8-1-3-4\/#gbt-48336-202-2026-clause-8-1-3-4$/);
+  await page.reload();
+  await catalog.getByLabel('测试角色').waitFor();
+  assert.equal(await catalog.getByLabel('测试角色').inputValue(),'G');
+  results.push({check:'同名试验按 G/T 角色区分，筛选链接可分享',passed:true});
+
+  await page.goto(origin+'/gbt-48336-201-2026-clause-7-5-2/');
+  assert.equal(await page.locator('.myst-primary-sidebar a:is([href$="clause-7-5-2-2"],[href$="clause-7-5-2-2/"])').count(),0);
+  await page.getByRole('link',{name:'报文索引',exact:true}).click();
+  assert.equal(await catalog.getByLabel('类别').inputValue(),'message');
+  assert.equal(await catalog.getByLabel('规范版本').inputValue(),'GBT-48336.201-2026');
+  await catalog.getByRole('button',{name:/7\.5\.2.*清除条款范围/}).waitFor();
+  assert.equal(await page.locator('.technical-index-results li').count(),30);
+  results.push({check:'章节到同组报文索引与原文锚点',passed:true});
+
+  await page.setViewportSize({width:1440,height:900});
+  await page.goto(origin+'/slb-link-status/');
+  await page.getByRole('navigation',{name:'本页目录'}).getByRole('link',{name:/7\.5\.2\.3/}).waitFor();
+  await page.context().grantPermissions(['clipboard-read','clipboard-write'],{origin:new URL(origin).origin});
+  await page.goto(origin+'/gbt-48336-101-2026-clause-6/');
+  await page.getByRole('button',{name:'复制图 2 的链接',exact:true}).click();
+  assert.match(await page.evaluate(()=>navigator.clipboard.readText()),/#gbt-48336-101-2026-figure-2$/);
+  results.push({check:'桌面页内目录与图号固定链接复制',passed:true});
+
+  await page.goto(origin+'/gbt-46803-1-2025-appendix-c/');
+  const longTable=page.locator('.reader-long-table').first();
+  await longTable.waitFor();
+  assert.ok(await longTable.evaluate(table=>{
+    const header=table.querySelector('.reader-sticky-header th');
+    table.scrollTop=250;
+    const before=header.getBoundingClientRect().top;
+    table.scrollTop=350;
+    return table.scrollTop>250&&Math.abs(header.getBoundingClientRect().top-before)<1;
+  }));
+  results.push({check:'滚动长表时保留表头',passed:true});
 
   assert.deepEqual(external,[],'Reader unexpectedly requested external resources');
   results.push({check:'正文、数学字体与全文搜索无需外部 CDN',passed:true});

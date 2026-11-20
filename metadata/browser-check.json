@@ -1,12 +1,17 @@
 {
   "manifest_sha256": "c3278af063050fb0107920f2ed1e6bbd458825b0fe8ca1b148752f53ddc7a633",
-  "time": "2026-11-19T12:17:13.074Z",
+  "time": "2026-11-20T19:09:42.299Z",
   "basePath": "/sparklink-standards-myst",
   "sourcePixelComparison": false,
   "documents": 17,
   "chapters": 819,
-  "pages": 839,
+  "pages": 848,
   "frontPages": [
+    {
+      "route": "/architecture-guide/",
+      "issues": [],
+      "title": "架构、接入与服务 - SparkLink 技术规范"
+    },
     {
       "route": "/gbt-46803/",
       "issues": [],
@@ -106,22 +111,63 @@
       "route": "/",
       "issues": [],
       "title": "SparkLink 技术规范"
+    },
+    {
+      "route": "/integration-guide/",
+      "issues": [],
+      "title": "星闪与 5G 融合 - SparkLink 技术规范"
+    },
+    {
+      "route": "/low-power-guide/",
+      "issues": [],
+      "title": "SLE 与低功耗网络 - SparkLink 技术规范"
+    },
+    {
+      "route": "/media-guide/",
+      "issues": [],
+      "title": "音视频配置与传输 - SparkLink 技术规范"
+    },
+    {
+      "route": "/reading-guides/",
+      "issues": [],
+      "title": "专题指南 - SparkLink 技术规范"
+    },
+    {
+      "route": "/slb-link-status/",
+      "issues": [],
+      "title": "G 链路信道状态查询与反馈 - SparkLink 技术规范"
+    },
+    {
+      "route": "/slb-test-guide/",
+      "issues": [],
+      "title": "SLB 一致性测试 - SparkLink 技术规范"
+    },
+    {
+      "route": "/standards-catalog/",
+      "issues": [],
+      "title": "规范正文 - SparkLink 技术规范"
+    },
+    {
+      "route": "/technical-index/",
+      "issues": [],
+      "title": "技术索引 - SparkLink 技术规范"
     }
   ],
-  "internalLinks": 1677,
+  "internalLinks": 1696,
+  "technicalIndexEntries": 7055,
   "legacyRedirects": 398,
   "issues": [],
   "retries": [],
   "results": [
     {
       "code": "GBT-46803.1-2025",
-      "chapter": "前言",
-      "route": "/gbt-46803-1-2025-preface/",
+      "chapter": "1 范围",
+      "route": "/gbt-46803-1-2025-clause-1/",
       "issues": [],
-      "paragraphs": 5,
+      "paragraphs": 2,
       "definitions": 0,
       "references": 0,
-      "listItems": 2,
+      "listItems": 0,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -143,13 +189,13 @@
     },
     {
       "code": "GBT-46803.1-2025",
-      "chapter": "1 范围",
-      "route": "/gbt-46803-1-2025-clause-1/",
+      "chapter": "前言",
+      "route": "/gbt-46803-1-2025-preface/",
       "issues": [],
-      "paragraphs": 2,
+      "paragraphs": 5,
       "definitions": 0,
       "references": 0,
-      "listItems": 0,
+      "listItems": 2,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -269,20 +315,6 @@
     },
     {
       "code": "GBT-46803.1-2025",
-      "chapter": "6.4 物理层数据信息传输",
-      "route": "/gbt-46803-1-2025-clause-6-4/",
-      "issues": [],
-      "paragraphs": 97,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 99,
-      "nativeMath": 17,
-      "tables": 1,
-      "mergedCells": 6,
-      "mobileTables": 1
-    },
-    {
-      "code": "GBT-46803.1-2025",
       "chapter": "6.5 系统管理帧传输",
       "route": "/gbt-46803-1-2025-clause-6-5/",
       "issues": [],
@@ -294,6 +326,20 @@
       "tables": 9,
       "mergedCells": 35,
       "mobileTables": 9
+    },
+    {
+      "code": "GBT-46803.1-2025",
+      "chapter": "6.4 物理层数据信息传输",
+      "route": "/gbt-46803-1-2025-clause-6-4/",
+      "issues": [],
+      "paragraphs": 97,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 99,
+      "nativeMath": 17,
+      "tables": 1,
+      "mergedCells": 6,
+      "mobileTables": 1
     },
     {
       "code": "GBT-46803.1-2025",
@@ -353,20 +399,6 @@
     },
     {
       "code": "GBT-46803.1-2025",
-      "chapter": "6.8.3 接收机",
-      "route": "/gbt-46803-1-2025-clause-6-8-3/",
-      "issues": [],
-      "paragraphs": 26,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 30,
-      "tables": 7,
-      "mergedCells": 9,
-      "mobileTables": 7
-    },
-    {
-      "code": "GBT-46803.1-2025",
       "chapter": "6.8.1 应用频段和信道定义",
       "route": "/gbt-46803-1-2025-clause-6-8-1/",
       "issues": [],
@@ -378,6 +410,20 @@
       "tables": 4,
       "mergedCells": 26,
       "mobileTables": 4
+    },
+    {
+      "code": "GBT-46803.1-2025",
+      "chapter": "6.8.3 接收机",
+      "route": "/gbt-46803-1-2025-clause-6-8-3/",
+      "issues": [],
+      "paragraphs": 26,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 30,
+      "tables": 7,
+      "mergedCells": 9,
+      "mobileTables": 7
     },
     {
       "code": "GBT-46803.1-2025",
@@ -451,20 +497,6 @@
     },
     {
       "code": "GBT-46803.1-2025",
-      "chapter": "7.5 无线帧类型4",
-      "route": "/gbt-46803-1-2025-clause-7-5/",
-      "issues": [],
-      "paragraphs": 62,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 66,
-      "nativeMath": 89,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-46803.1-2025",
       "chapter": "7.6 发射机测试",
       "route": "/gbt-46803-1-2025-clause-7-6/",
       "issues": [],
@@ -473,6 +505,20 @@
       "references": 0,
       "listItems": 111,
       "nativeMath": 19,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-46803.1-2025",
+      "chapter": "7.5 无线帧类型4",
+      "route": "/gbt-46803-1-2025-clause-7-5/",
+      "issues": [],
+      "paragraphs": 62,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 66,
+      "nativeMath": 89,
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
@@ -534,6 +580,20 @@
       "mobileTables": 1
     },
     {
+      "code": "GBT-46803.2-2025",
+      "chapter": "前言",
+      "route": "/gbt-46803-2-2025-preface/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 2,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
       "code": "GBT-46803.1-2025",
       "chapter": "附录 D (资料性) 速率适配第一表格",
       "route": "/gbt-46803-1-2025-appendix-d/",
@@ -560,20 +620,6 @@
       "tables": 1,
       "mergedCells": 19,
       "mobileTables": 1
-    },
-    {
-      "code": "GBT-46803.2-2025",
-      "chapter": "前言",
-      "route": "/gbt-46803-2-2025-preface/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 2,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
     },
     {
       "code": "GBT-46803.2-2025",
@@ -605,10 +651,10 @@
     },
     {
       "code": "GBT-46803.2-2025",
-      "chapter": "2 规范性引用文件",
-      "route": "/gbt-46803-2-2025-clause-2/",
+      "chapter": "3 术语和定义",
+      "route": "/gbt-46803-2-2025-clause-3/",
       "issues": [],
-      "paragraphs": 1,
+      "paragraphs": 4,
       "definitions": 0,
       "references": 1,
       "listItems": 0,
@@ -619,10 +665,10 @@
     },
     {
       "code": "GBT-46803.2-2025",
-      "chapter": "3 术语和定义",
-      "route": "/gbt-46803-2-2025-clause-3/",
+      "chapter": "2 规范性引用文件",
+      "route": "/gbt-46803-2-2025-clause-2/",
       "issues": [],
-      "paragraphs": 4,
+      "paragraphs": 1,
       "definitions": 0,
       "references": 1,
       "listItems": 0,
@@ -731,20 +777,6 @@
     },
     {
       "code": "GBT-46803.2-2025",
-      "chapter": "6.2 控制面流程",
-      "route": "/gbt-46803-2-2025-clause-6-2/",
-      "issues": [],
-      "paragraphs": 38,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 57,
-      "nativeMath": 0,
-      "tables": 1,
-      "mergedCells": 4,
-      "mobileTables": 1
-    },
-    {
-      "code": "GBT-46803.2-2025",
       "chapter": "6.3.2.1 一般描述",
       "route": "/gbt-46803-2-2025-clause-6-3-2-1/",
       "issues": [],
@@ -755,6 +787,20 @@
       "nativeMath": 0,
       "tables": 1,
       "mergedCells": 8,
+      "mobileTables": 1
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "chapter": "6.2 控制面流程",
+      "route": "/gbt-46803-2-2025-clause-6-2/",
+      "issues": [],
+      "paragraphs": 38,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 57,
+      "nativeMath": 0,
+      "tables": 1,
+      "mergedCells": 4,
       "mobileTables": 1
     },
     {
@@ -1767,20 +1813,6 @@
     },
     {
       "code": "GBT-46803.2-2025",
-      "chapter": "7.1 配对和鉴别管理",
-      "route": "/gbt-46803-2-2025-clause-7-1/",
-      "issues": [],
-      "paragraphs": 70,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 13,
-      "nativeMath": 12,
-      "tables": 44,
-      "mergedCells": 3,
-      "mobileTables": 44
-    },
-    {
-      "code": "GBT-46803.2-2025",
       "chapter": "7.2 安全保护",
       "route": "/gbt-46803-2-2025-clause-7-2/",
       "issues": [],
@@ -1795,10 +1827,38 @@
     },
     {
       "code": "GBT-46803.2-2025",
+      "chapter": "7.1 配对和鉴别管理",
+      "route": "/gbt-46803-2-2025-clause-7-1/",
+      "issues": [],
+      "paragraphs": 70,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 13,
+      "nativeMath": 12,
+      "tables": 44,
+      "mergedCells": 3,
+      "mobileTables": 44
+    },
+    {
+      "code": "GBT-46803.2-2025",
       "chapter": "8 测试方法",
       "route": "/gbt-46803-2-2025-clause-8/",
       "issues": [],
       "paragraphs": 0,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-46803.2-2025",
+      "chapter": "8.1 测试用例说明",
+      "route": "/gbt-46803-2-2025-clause-8-1/",
+      "issues": [],
+      "paragraphs": 1,
       "definitions": 0,
       "references": 0,
       "listItems": 0,
@@ -1823,13 +1883,13 @@
     },
     {
       "code": "GBT-46803.2-2025",
-      "chapter": "8.1 测试用例说明",
-      "route": "/gbt-46803-2-2025-clause-8-1/",
+      "chapter": "8.4 数据传输安全测试方法",
+      "route": "/gbt-46803-2-2025-clause-8-4/",
       "issues": [],
-      "paragraphs": 1,
+      "paragraphs": 185,
       "definitions": 0,
       "references": 0,
-      "listItems": 0,
+      "listItems": 304,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -1858,20 +1918,6 @@
       "definitions": 0,
       "references": 6,
       "listItems": 0,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-46803.2-2025",
-      "chapter": "8.4 数据传输安全测试方法",
-      "route": "/gbt-46803-2-2025-clause-8-4/",
-      "issues": [],
-      "paragraphs": 185,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 304,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -2145,20 +2191,6 @@
     },
     {
       "code": "GBT-48336.102-2026",
-      "chapter": "5 媒体接入层标识",
-      "route": "/gbt-48336-102-2026-clause-5/",
-      "issues": [],
-      "paragraphs": 14,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 12,
-      "nativeMath": 0,
-      "tables": 7,
-      "mergedCells": 104,
-      "mobileTables": 7
-    },
-    {
-      "code": "GBT-48336.102-2026",
       "chapter": "附录A（规范性） 可解析随机标识",
       "route": "/gbt-48336-102-2026-appendix-a/",
       "issues": [],
@@ -2170,6 +2202,20 @@
       "tables": 1,
       "mergedCells": 15,
       "mobileTables": 1
+    },
+    {
+      "code": "GBT-48336.102-2026",
+      "chapter": "5 媒体接入层标识",
+      "route": "/gbt-48336-102-2026-clause-5/",
+      "issues": [],
+      "paragraphs": 14,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 12,
+      "nativeMath": 0,
+      "tables": 7,
+      "mergedCells": 104,
+      "mobileTables": 7
     },
     {
       "code": "GBT-48336.102-2026",
@@ -2523,20 +2569,6 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "6.2.5 物理层数据信息",
-      "route": "/gbt-48336-201-2026-clause-6-2-5/",
-      "issues": [],
-      "paragraphs": 47,
-      "definitions": 2,
-      "references": 0,
-      "listItems": 10,
-      "nativeMath": 291,
-      "tables": 4,
-      "mergedCells": 0,
-      "mobileTables": 4
-    },
-    {
-      "code": "GBT-48336.201-2026",
       "chapter": "6.2.9 基带信号生成",
       "route": "/gbt-48336-201-2026-clause-6-2-9/",
       "issues": [],
@@ -2548,6 +2580,20 @@
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapter": "6.2.5 物理层数据信息",
+      "route": "/gbt-48336-201-2026-clause-6-2-5/",
+      "issues": [],
+      "paragraphs": 47,
+      "definitions": 2,
+      "references": 0,
+      "listItems": 10,
+      "nativeMath": 291,
+      "tables": 4,
+      "mergedCells": 0,
+      "mobileTables": 4
     },
     {
       "code": "GBT-48336.201-2026",
@@ -2565,20 +2611,6 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "6.2.6 信道编码",
-      "route": "/gbt-48336-201-2026-clause-6-2-6/",
-      "issues": [],
-      "paragraphs": 54,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 2,
-      "nativeMath": 376,
-      "tables": 2,
-      "mergedCells": 1,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.201-2026",
       "chapter": "6.3 灵活带宽",
       "route": "/gbt-48336-201-2026-clause-6-3/",
       "issues": [],
@@ -2587,6 +2619,20 @@
       "references": 0,
       "listItems": 3,
       "nativeMath": 34,
+      "tables": 2,
+      "mergedCells": 1,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapter": "6.2.6 信道编码",
+      "route": "/gbt-48336-201-2026-clause-6-2-6/",
+      "issues": [],
+      "paragraphs": 54,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 2,
+      "nativeMath": 376,
       "tables": 2,
       "mergedCells": 1,
       "mobileTables": 2
@@ -2604,6 +2650,20 @@
       "tables": 11,
       "mergedCells": 0,
       "mobileTables": 11
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapter": "6.7 感知测量流程",
+      "route": "/gbt-48336-201-2026-clause-6-7/",
+      "issues": [],
+      "paragraphs": 21,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 18,
+      "nativeMath": 11,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.201-2026",
@@ -2635,20 +2695,6 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "6.7 感知测量流程",
-      "route": "/gbt-48336-201-2026-clause-6-7/",
-      "issues": [],
-      "paragraphs": 21,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 18,
-      "nativeMath": 11,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.201-2026",
       "chapter": "6.8 超宽带脉冲测量流程",
       "route": "/gbt-48336-201-2026-clause-6-8/",
       "issues": [],
@@ -2663,20 +2709,6 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "7.1 概述",
-      "route": "/gbt-48336-201-2026-clause-7-1/",
-      "issues": [],
-      "paragraphs": 6,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 2,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.201-2026",
       "chapter": "7 数据链路层",
       "route": "/gbt-48336-201-2026-clause-7/",
       "issues": [],
@@ -2684,6 +2716,20 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapter": "7.1 概述",
+      "route": "/gbt-48336-201-2026-clause-7-1/",
+      "issues": [],
+      "paragraphs": 6,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 2,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -3811,8 +3857,8 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "7.5.3.4 载波信道号配置信息",
-      "route": "/gbt-48336-201-2026-clause-7-5-3-4/",
+      "chapter": "7.5.3.5 循环前缓配置信息",
+      "route": "/gbt-48336-201-2026-clause-7-5-3-5/",
       "issues": [],
       "paragraphs": 1,
       "definitions": 0,
@@ -3825,8 +3871,8 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "7.5.3.5 循环前缓配置信息",
-      "route": "/gbt-48336-201-2026-clause-7-5-3-5/",
+      "chapter": "7.5.3.4 载波信道号配置信息",
+      "route": "/gbt-48336-201-2026-clause-7-5-3-4/",
       "issues": [],
       "paragraphs": 1,
       "definitions": 0,
@@ -4441,20 +4487,6 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "7.5.3.50 信道状态信息集合配置信息",
-      "route": "/gbt-48336-201-2026-clause-7-5-3-50/",
-      "issues": [],
-      "paragraphs": 1,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.201-2026",
       "chapter": "7.5.3.49 信道状态信息配置信息",
       "route": "/gbt-48336-201-2026-clause-7-5-3-49/",
       "issues": [],
@@ -4463,6 +4495,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 3,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapter": "7.5.3.50 信道状态信息集合配置信息",
+      "route": "/gbt-48336-201-2026-clause-7-5-3-50/",
+      "issues": [],
+      "paragraphs": 1,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
@@ -5001,8 +5047,8 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "7.5.3.90 半静态调度配置信息",
-      "route": "/gbt-48336-201-2026-clause-7-5-3-90/",
+      "chapter": "7.5.3.89 DMRS-D资源配置信息",
+      "route": "/gbt-48336-201-2026-clause-7-5-3-89/",
       "issues": [],
       "paragraphs": 1,
       "definitions": 0,
@@ -5015,8 +5061,8 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "7.5.3.89 DMRS-D资源配置信息",
-      "route": "/gbt-48336-201-2026-clause-7-5-3-89/",
+      "chapter": "7.5.3.90 半静态调度配置信息",
+      "route": "/gbt-48336-201-2026-clause-7-5-3-90/",
       "issues": [],
       "paragraphs": 1,
       "definitions": 0,
@@ -5771,20 +5817,6 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "8.6 超宽带脉冲信号射频要求",
-      "route": "/gbt-48336-201-2026-clause-8-6/",
-      "issues": [],
-      "paragraphs": 10,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 3,
-      "nativeMath": 8,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.201-2026",
       "chapter": "8.3 信道号和基础信道中心频率",
       "route": "/gbt-48336-201-2026-clause-8-3/",
       "issues": [],
@@ -5807,6 +5839,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapter": "8.6 超宽带脉冲信号射频要求",
+      "route": "/gbt-48336-201-2026-clause-8-6/",
+      "issues": [],
+      "paragraphs": 10,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 3,
+      "nativeMath": 8,
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
@@ -5869,20 +5915,6 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "9.3.2 认证和安全上下文协商",
-      "route": "/gbt-48336-201-2026-clause-9-3-2/",
-      "issues": [],
-      "paragraphs": 51,
-      "definitions": 1,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 12,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.201-2026",
       "chapter": "9.3.3 密钥架构",
       "route": "/gbt-48336-201-2026-clause-9-3-3/",
       "issues": [],
@@ -5891,6 +5923,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.201-2026",
+      "chapter": "9.3.2 认证和安全上下文协商",
+      "route": "/gbt-48336-201-2026-clause-9-3-2/",
+      "issues": [],
+      "paragraphs": 51,
+      "definitions": 1,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 12,
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
@@ -6079,8 +6125,8 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "附录 H（资料性）工作带宽和采样速率设置",
-      "route": "/gbt-48336-201-2026-appendix-h/",
+      "chapter": "附录 G（资料性）SLB 连接建立流程示意",
+      "route": "/gbt-48336-201-2026-appendix-g/",
       "issues": [],
       "paragraphs": 1,
       "definitions": 0,
@@ -6093,8 +6139,8 @@
     },
     {
       "code": "GBT-48336.201-2026",
-      "chapter": "附录 G（资料性）SLB 连接建立流程示意",
-      "route": "/gbt-48336-201-2026-appendix-g/",
+      "chapter": "附录 H（资料性）工作带宽和采样速率设置",
+      "route": "/gbt-48336-201-2026-appendix-h/",
       "issues": [],
       "paragraphs": 1,
       "definitions": 0,
@@ -6485,20 +6531,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "6.2.6 信息安全",
-      "route": "/gbt-48336-202-2026-clause-6-2-6/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 5,
-      "mergedCells": 0,
-      "mobileTables": 5
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "6.2.5 管理功能和流程(XRC层)",
       "route": "/gbt-48336-202-2026-clause-6-2-5/",
       "issues": [],
@@ -6510,6 +6542,20 @@
       "tables": 22,
       "mergedCells": 2,
       "mobileTables": 22
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "6.2.6 信息安全",
+      "route": "/gbt-48336-202-2026-clause-6-2-6/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 5,
+      "mergedCells": 0,
+      "mobileTables": 5
     },
     {
       "code": "GBT-48336.202-2026",
@@ -6625,20 +6671,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.1.3.3 信道状态信息参考信号 CSI-RS3",
-      "route": "/gbt-48336-202-2026-clause-8-1-3-3/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 11,
-      "tables": 2,
-      "mergedCells": 0,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.1.3.2 信道状态信息参考信号 CSI-RS2",
       "route": "/gbt-48336-202-2026-clause-8-1-3-2/",
       "issues": [],
@@ -6647,6 +6679,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 18,
+      "tables": 2,
+      "mergedCells": 0,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.1.3.3 信道状态信息参考信号 CSI-RS3",
+      "route": "/gbt-48336-202-2026-clause-8-1-3-3/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7171,6 +7217,20 @@
     },
     {
       "code": "GBT-48336.202-2026",
+      "chapter": "8.1.3.43 预配置调度 T链路数据-随路 DMRS-D",
+      "route": "/gbt-48336-202-2026-clause-8-1-3-43/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 2,
+      "mergedCells": 0,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
       "chapter": "8.1.3.41 预配置调度 T链路数据-非随路 DMRS-D",
       "route": "/gbt-48336-202-2026-clause-8-1-3-41/",
       "issues": [],
@@ -7193,20 +7253,6 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 5,
-      "tables": 2,
-      "mergedCells": 0,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.202-2026",
-      "chapter": "8.1.3.43 预配置调度 T链路数据-随路 DMRS-D",
-      "route": "/gbt-48336-202-2026-clause-8-1-3-43/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 0,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7283,20 +7329,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.1.5 链路控制层功能和流程",
-      "route": "/gbt-48336-202-2026-clause-8-1-5/",
-      "issues": [],
-      "paragraphs": 55,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 89,
-      "tables": 11,
-      "mergedCells": 16,
-      "mobileTables": 11
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.1.4 媒体接入层功能和流程",
       "route": "/gbt-48336-202-2026-clause-8-1-4/",
       "issues": [],
@@ -7325,17 +7357,17 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.1.6.2 PPDR业务广播流程",
-      "route": "/gbt-48336-202-2026-clause-8-1-6-2/",
+      "chapter": "8.1.5 链路控制层功能和流程",
+      "route": "/gbt-48336-202-2026-clause-8-1-5/",
       "issues": [],
-      "paragraphs": 5,
+      "paragraphs": 55,
       "definitions": 0,
       "references": 0,
       "listItems": 0,
-      "nativeMath": 1,
-      "tables": 1,
-      "mergedCells": 1,
-      "mobileTables": 1
+      "nativeMath": 89,
+      "tables": 11,
+      "mergedCells": 16,
+      "mobileTables": 11
     },
     {
       "code": "GBT-48336.202-2026",
@@ -7350,6 +7382,20 @@
       "tables": 5,
       "mergedCells": 2,
       "mobileTables": 5
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.1.6.2 PPDR业务广播流程",
+      "route": "/gbt-48336-202-2026-clause-8-1-6-2/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 1,
+      "tables": 1,
+      "mergedCells": 1,
+      "mobileTables": 1
     },
     {
       "code": "GBT-48336.202-2026",
@@ -7423,20 +7469,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.1.6.9 逻辑信道操作",
-      "route": "/gbt-48336-202-2026-clause-8-1-6-9/",
-      "issues": [],
-      "paragraphs": 15,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 4,
-      "tables": 3,
-      "mergedCells": 0,
-      "mobileTables": 3
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.1.6.8 XRC连接拒绝接入",
       "route": "/gbt-48336-202-2026-clause-8-1-6-8/",
       "issues": [],
@@ -7448,6 +7480,20 @@
       "tables": 4,
       "mergedCells": 2,
       "mobileTables": 4
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.1.6.9 逻辑信道操作",
+      "route": "/gbt-48336-202-2026-clause-8-1-6-9/",
+      "issues": [],
+      "paragraphs": 15,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 4,
+      "tables": 3,
+      "mergedCells": 0,
+      "mobileTables": 3
     },
     {
       "code": "GBT-48336.202-2026",
@@ -7745,20 +7791,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.2.3.10 信道探测信号SRS4",
-      "route": "/gbt-48336-202-2026-clause-8-2-3-10/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 18,
-      "tables": 2,
-      "mergedCells": 0,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.2.3.9 信道探测信号SRS3",
       "route": "/gbt-48336-202-2026-clause-8-2-3-9/",
       "issues": [],
@@ -7767,6 +7799,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 11,
+      "tables": 2,
+      "mergedCells": 0,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.2.3.10 信道探测信号SRS4",
+      "route": "/gbt-48336-202-2026-clause-8-2-3-10/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 18,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7787,20 +7833,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.2.3.13 COT首 TTI",
-      "route": "/gbt-48336-202-2026-clause-8-2-3-13/",
-      "issues": [],
-      "paragraphs": 4,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 3,
-      "tables": 1,
-      "mergedCells": 0,
-      "mobileTables": 1
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.2.3.12 信道探测信号SRS6(可选)",
       "route": "/gbt-48336-202-2026-clause-8-2-3-12/",
       "issues": [],
@@ -7812,6 +7844,20 @@
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.2.3.13 COT首 TTI",
+      "route": "/gbt-48336-202-2026-clause-8-2-3-13/",
+      "issues": [],
+      "paragraphs": 4,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 3,
+      "tables": 1,
+      "mergedCells": 0,
+      "mobileTables": 1
     },
     {
       "code": "GBT-48336.202-2026",
@@ -7871,20 +7917,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.2.3.19 G 链路物理层控制信息4",
-      "route": "/gbt-48336-202-2026-clause-8-2-3-19/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 15,
-      "tables": 2,
-      "mergedCells": 0,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.2.3.18 G 链路物理层控制信息3",
       "route": "/gbt-48336-202-2026-clause-8-2-3-18/",
       "issues": [],
@@ -7893,6 +7925,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 9,
+      "tables": 2,
+      "mergedCells": 0,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.2.3.19 G 链路物理层控制信息4",
+      "route": "/gbt-48336-202-2026-clause-8-2-3-19/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 15,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -7913,20 +7959,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.2.3.22 T链路物理层控制信息1-CQI反馈信息",
-      "route": "/gbt-48336-202-2026-clause-8-2-3-22/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 11,
-      "tables": 2,
-      "mergedCells": 0,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.2.3.21 G 链路物理层控制信息6",
       "route": "/gbt-48336-202-2026-clause-8-2-3-21/",
       "issues": [],
@@ -7935,6 +7967,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 9,
+      "tables": 2,
+      "mergedCells": 0,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.2.3.22 T链路物理层控制信息1-CQI反馈信息",
+      "route": "/gbt-48336-202-2026-clause-8-2-3-22/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 11,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8123,20 +8169,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.2.3.37 预配置调度 G 链路数据-非随路 DMRS-D",
-      "route": "/gbt-48336-202-2026-clause-8-2-3-37/",
-      "issues": [],
-      "paragraphs": 5,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 2,
-      "mergedCells": 0,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.2.3.36 预配置调度 T链路数据3-重传",
       "route": "/gbt-48336-202-2026-clause-8-2-3-36/",
       "issues": [],
@@ -8145,6 +8177,20 @@
       "references": 0,
       "listItems": 0,
       "nativeMath": 12,
+      "tables": 2,
+      "mergedCells": 0,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.2.3.37 预配置调度 G 链路数据-非随路 DMRS-D",
+      "route": "/gbt-48336-202-2026-clause-8-2-3-37/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
@@ -8235,20 +8281,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.2.6 管理功能和流程",
-      "route": "/gbt-48336-202-2026-clause-8-2-6/",
-      "issues": [],
-      "paragraphs": 0,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.2.5 链路控制层功能和流程",
       "route": "/gbt-48336-202-2026-clause-8-2-5/",
       "issues": [],
@@ -8260,6 +8292,20 @@
       "tables": 11,
       "mergedCells": 16,
       "mobileTables": 11
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.2.6 管理功能和流程",
+      "route": "/gbt-48336-202-2026-clause-8-2-6/",
+      "issues": [],
+      "paragraphs": 0,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.202-2026",
@@ -8347,6 +8393,20 @@
     },
     {
       "code": "GBT-48336.202-2026",
+      "chapter": "8.2.6.8 XRC连接拒绝接入",
+      "route": "/gbt-48336-202-2026-clause-8-2-6-8/",
+      "issues": [],
+      "paragraphs": 10,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 7,
+      "tables": 2,
+      "mergedCells": 2,
+      "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
       "chapter": "8.2.6.7 XRC重接入",
       "route": "/gbt-48336-202-2026-clause-8-2-6-7/",
       "issues": [],
@@ -8375,20 +8435,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "8.2.6.8 XRC连接拒绝接入",
-      "route": "/gbt-48336-202-2026-clause-8-2-6-8/",
-      "issues": [],
-      "paragraphs": 10,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 7,
-      "tables": 2,
-      "mergedCells": 2,
-      "mobileTables": 2
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "8.2.6.10 链路失败流程",
       "route": "/gbt-48336-202-2026-clause-8-2-6-10/",
       "issues": [],
@@ -8399,20 +8445,6 @@
       "nativeMath": 2,
       "tables": 4,
       "mergedCells": 0,
-      "mobileTables": 4
-    },
-    {
-      "code": "GBT-48336.202-2026",
-      "chapter": "8.2.6.12 T节点辅助信息上报",
-      "route": "/gbt-48336-202-2026-clause-8-2-6-12/",
-      "issues": [],
-      "paragraphs": 16,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 1,
-      "tables": 4,
-      "mergedCells": 2,
       "mobileTables": 4
     },
     {
@@ -8428,6 +8460,20 @@
       "tables": 2,
       "mergedCells": 0,
       "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "8.2.6.12 T节点辅助信息上报",
+      "route": "/gbt-48336-202-2026-clause-8-2-6-12/",
+      "issues": [],
+      "paragraphs": 16,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 1,
+      "tables": 4,
+      "mergedCells": 2,
+      "mobileTables": 4
     },
     {
       "code": "GBT-48336.202-2026",
@@ -8543,20 +8589,6 @@
     },
     {
       "code": "GBT-48336.202-2026",
-      "chapter": "参考文献",
-      "route": "/gbt-48336-202-2026-references/",
-      "issues": [],
-      "paragraphs": 0,
-      "definitions": 0,
-      "references": 1,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.202-2026",
       "chapter": "10.2 T 节点",
       "route": "/gbt-48336-202-2026-clause-10-2/",
       "issues": [],
@@ -8568,6 +8600,20 @@
       "tables": 22,
       "mergedCells": 0,
       "mobileTables": 22
+    },
+    {
+      "code": "GBT-48336.202-2026",
+      "chapter": "参考文献",
+      "route": "/gbt-48336-202-2026-references/",
+      "issues": [],
+      "paragraphs": 0,
+      "definitions": 0,
+      "references": 1,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.203-2026",
@@ -8655,20 +8701,6 @@
     },
     {
       "code": "GBT-48336.203-2026",
-      "chapter": "5 物理层特性和测试用例",
-      "route": "/gbt-48336-203-2026-clause-5/",
-      "issues": [],
-      "paragraphs": 20,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 24,
-      "nativeMath": 12,
-      "tables": 6,
-      "mergedCells": 6,
-      "mobileTables": 6
-    },
-    {
-      "code": "GBT-48336.203-2026",
       "chapter": "6 数据链路层特性和测试用例",
       "route": "/gbt-48336-203-2026-clause-6/",
       "issues": [],
@@ -8680,6 +8712,20 @@
       "tables": 1,
       "mergedCells": 1,
       "mobileTables": 1
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "chapter": "5 物理层特性和测试用例",
+      "route": "/gbt-48336-203-2026-clause-5/",
+      "issues": [],
+      "paragraphs": 20,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 24,
+      "nativeMath": 12,
+      "tables": 6,
+      "mergedCells": 6,
+      "mobileTables": 6
     },
     {
       "code": "GBT-48336.203-2026",
@@ -8711,20 +8757,6 @@
     },
     {
       "code": "GBT-48336.203-2026",
-      "chapter": "9 同步链路特性和测试用例",
-      "route": "/gbt-48336-203-2026-clause-9/",
-      "issues": [],
-      "paragraphs": 25,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 104,
-      "nativeMath": 16,
-      "tables": 8,
-      "mergedCells": 8,
-      "mobileTables": 8
-    },
-    {
-      "code": "GBT-48336.203-2026",
       "chapter": "10 射频特性和测试方法",
       "route": "/gbt-48336-203-2026-clause-10/",
       "issues": [],
@@ -8736,6 +8768,20 @@
       "tables": 2,
       "mergedCells": 4,
       "mobileTables": 2
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "chapter": "9 同步链路特性和测试用例",
+      "route": "/gbt-48336-203-2026-clause-9/",
+      "issues": [],
+      "paragraphs": 25,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 104,
+      "nativeMath": 16,
+      "tables": 8,
+      "mergedCells": 8,
+      "mobileTables": 8
     },
     {
       "code": "GBT-48336.203-2026",
@@ -8752,20 +8798,6 @@
       "mobileTables": 2
     },
     {
-      "code": "GBT-48336.203-2026",
-      "chapter": "附录A（资料性） 测试用例缩写说明",
-      "route": "/gbt-48336-203-2026-appendix-a/",
-      "issues": [],
-      "paragraphs": 1,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 1,
-      "nativeMath": 0,
-      "tables": 1,
-      "mergedCells": 20,
-      "mobileTables": 1
-    },
-    {
       "code": "GBT-48336.301-2026",
       "chapter": "前言",
       "route": "/gbt-48336-301-2026-preface/",
@@ -8778,6 +8810,20 @@
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.203-2026",
+      "chapter": "附录A（资料性） 测试用例缩写说明",
+      "route": "/gbt-48336-203-2026-appendix-a/",
+      "issues": [],
+      "paragraphs": 1,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 1,
+      "nativeMath": 0,
+      "tables": 1,
+      "mergedCells": 20,
+      "mobileTables": 1
     },
     {
       "code": "GBT-48336.301-2026",
@@ -8935,20 +8981,6 @@
     },
     {
       "code": "GBT-48336.301-2026",
-      "chapter": "7.4 服务结构",
-      "route": "/gbt-48336-301-2026-clause-7-4/",
-      "issues": [],
-      "paragraphs": 86,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 16,
-      "nativeMath": 23,
-      "tables": 17,
-      "mergedCells": 6,
-      "mobileTables": 17
-    },
-    {
-      "code": "GBT-48336.301-2026",
       "chapter": "7.5 服务交互",
       "route": "/gbt-48336-301-2026-clause-7-5/",
       "issues": [],
@@ -8960,6 +8992,20 @@
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "chapter": "7.4 服务结构",
+      "route": "/gbt-48336-301-2026-clause-7-4/",
+      "issues": [],
+      "paragraphs": 86,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 16,
+      "nativeMath": 23,
+      "tables": 17,
+      "mergedCells": 6,
+      "mobileTables": 17
     },
     {
       "code": "GBT-48336.301-2026",
@@ -9089,20 +9135,6 @@
     },
     {
       "code": "GBT-48336.301-2026",
-      "chapter": "7.5.5.5 读取操作",
-      "route": "/gbt-48336-301-2026-clause-7-5-5-5/",
-      "issues": [],
-      "paragraphs": 40,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 10,
-      "tables": 6,
-      "mergedCells": 0,
-      "mobileTables": 6
-    },
-    {
-      "code": "GBT-48336.301-2026",
       "chapter": "7.5.5.6 写入操作",
       "route": "/gbt-48336-301-2026-clause-7-5-5-6/",
       "issues": [],
@@ -9114,6 +9146,20 @@
       "tables": 3,
       "mergedCells": 0,
       "mobileTables": 3
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "chapter": "7.5.5.5 读取操作",
+      "route": "/gbt-48336-301-2026-clause-7-5-5-5/",
+      "issues": [],
+      "paragraphs": 40,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 10,
+      "tables": 6,
+      "mergedCells": 0,
+      "mobileTables": 6
     },
     {
       "code": "GBT-48336.301-2026",
@@ -9411,20 +9457,6 @@
     },
     {
       "code": "GBT-48336.301-2026",
-      "chapter": "10.1 概述",
-      "route": "/gbt-48336-301-2026-clause-10-1/",
-      "issues": [],
-      "paragraphs": 8,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 4,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.301-2026",
       "chapter": "10 测量管理",
       "route": "/gbt-48336-301-2026-clause-10/",
       "issues": [],
@@ -9432,6 +9464,20 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "chapter": "10.1 概述",
+      "route": "/gbt-48336-301-2026-clause-10-1/",
+      "issues": [],
+      "paragraphs": 8,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 4,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -9481,20 +9527,6 @@
     },
     {
       "code": "GBT-48336.301-2026",
-      "chapter": "10.5 测量管理流程",
-      "route": "/gbt-48336-301-2026-clause-10-5/",
-      "issues": [],
-      "paragraphs": 12,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 10,
-      "nativeMath": 0,
-      "tables": 1,
-      "mergedCells": 0,
-      "mobileTables": 1
-    },
-    {
-      "code": "GBT-48336.301-2026",
       "chapter": "10.4 测量管理信令",
       "route": "/gbt-48336-301-2026-clause-10-4/",
       "issues": [],
@@ -9506,6 +9538,20 @@
       "tables": 14,
       "mergedCells": 34,
       "mobileTables": 14
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "chapter": "10.5 测量管理流程",
+      "route": "/gbt-48336-301-2026-clause-10-5/",
+      "issues": [],
+      "paragraphs": 12,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 10,
+      "nativeMath": 0,
+      "tables": 1,
+      "mergedCells": 0,
+      "mobileTables": 1
     },
     {
       "code": "GBT-48336.301-2026",
@@ -9537,20 +9583,6 @@
     },
     {
       "code": "GBT-48336.301-2026",
-      "chapter": "附录 C (资料性) 中继服务发现",
-      "route": "/gbt-48336-301-2026-appendix-c/",
-      "issues": [],
-      "paragraphs": 7,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.301-2026",
       "chapter": "附录 D (规范性) 默认参数配置",
       "route": "/gbt-48336-301-2026-appendix-d/",
       "issues": [],
@@ -9562,6 +9594,20 @@
       "tables": 1,
       "mergedCells": 0,
       "mobileTables": 1
+    },
+    {
+      "code": "GBT-48336.301-2026",
+      "chapter": "附录 C (资料性) 中继服务发现",
+      "route": "/gbt-48336-301-2026-appendix-c/",
+      "issues": [],
+      "paragraphs": 7,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.302-2026",
@@ -9845,17 +9891,17 @@
     },
     {
       "code": "GBT-48336.303-2026",
-      "chapter": "5 通用要求",
-      "route": "/gbt-48336-303-2026-clause-5/",
+      "chapter": "7 多域协调与管理服务数据格式",
+      "route": "/gbt-48336-303-2026-clause-7/",
       "issues": [],
-      "paragraphs": 12,
-      "definitions": 3,
+      "paragraphs": 9,
+      "definitions": 0,
       "references": 0,
-      "listItems": 15,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
+      "listItems": 0,
+      "nativeMath": 7,
+      "tables": 8,
+      "mergedCells": 1,
+      "mobileTables": 8
     },
     {
       "code": "GBT-48336.303-2026",
@@ -9873,17 +9919,17 @@
     },
     {
       "code": "GBT-48336.303-2026",
-      "chapter": "7 多域协调与管理服务数据格式",
-      "route": "/gbt-48336-303-2026-clause-7/",
+      "chapter": "5 通用要求",
+      "route": "/gbt-48336-303-2026-clause-5/",
       "issues": [],
-      "paragraphs": 9,
-      "definitions": 0,
+      "paragraphs": 12,
+      "definitions": 3,
       "references": 0,
-      "listItems": 0,
-      "nativeMath": 7,
-      "tables": 8,
-      "mergedCells": 1,
-      "mobileTables": 8
+      "listItems": 15,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.303-2026",
@@ -10041,17 +10087,17 @@
     },
     {
       "code": "GBT-48336.304-2026",
-      "chapter": "5 概述",
-      "route": "/gbt-48336-304-2026-clause-5/",
+      "chapter": "6.3 去注册流程",
+      "route": "/gbt-48336-304-2026-clause-6-3/",
       "issues": [],
-      "paragraphs": 29,
+      "paragraphs": 3,
       "definitions": 0,
       "references": 0,
-      "listItems": 70,
+      "listItems": 6,
       "nativeMath": 0,
-      "tables": 2,
+      "tables": 0,
       "mergedCells": 0,
-      "mobileTables": 2
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.304-2026",
@@ -10062,20 +10108,6 @@
       "definitions": 0,
       "references": 0,
       "listItems": 35,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.304-2026",
-      "chapter": "6.3 去注册流程",
-      "route": "/gbt-48336-304-2026-clause-6-3/",
-      "issues": [],
-      "paragraphs": 3,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 6,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -10097,17 +10129,17 @@
     },
     {
       "code": "GBT-48336.304-2026",
-      "chapter": "6.6 会话释放",
-      "route": "/gbt-48336-304-2026-clause-6-6/",
+      "chapter": "5 概述",
+      "route": "/gbt-48336-304-2026-clause-5/",
       "issues": [],
-      "paragraphs": 4,
+      "paragraphs": 29,
       "definitions": 0,
       "references": 0,
-      "listItems": 14,
+      "listItems": 70,
       "nativeMath": 0,
-      "tables": 0,
+      "tables": 2,
       "mergedCells": 0,
-      "mobileTables": 0
+      "mobileTables": 2
     },
     {
       "code": "GBT-48336.304-2026",
@@ -10125,27 +10157,13 @@
     },
     {
       "code": "GBT-48336.304-2026",
-      "chapter": "6.7 数据转发机制",
-      "route": "/gbt-48336-304-2026-clause-6-7/",
+      "chapter": "6.6 会话释放",
+      "route": "/gbt-48336-304-2026-clause-6-6/",
       "issues": [],
-      "paragraphs": 5,
+      "paragraphs": 4,
       "definitions": 0,
       "references": 0,
-      "listItems": 10,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
-      "code": "GBT-48336.304-2026",
-      "chapter": "7 星闪5G融合链路管控",
-      "route": "/gbt-48336-304-2026-clause-7/",
-      "issues": [],
-      "paragraphs": 41,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 101,
+      "listItems": 14,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -10164,6 +10182,20 @@
       "tables": 27,
       "mergedCells": 77,
       "mobileTables": 27
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "chapter": "6.7 数据转发机制",
+      "route": "/gbt-48336-304-2026-clause-6-7/",
+      "issues": [],
+      "paragraphs": 5,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 10,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.304-2026",
@@ -10208,20 +10240,6 @@
       "mobileTables": 2
     },
     {
-      "code": "GBT-48336.304-2026",
-      "chapter": "附录D（资料性） 融合系统信道映射",
-      "route": "/gbt-48336-304-2026-appendix-d/",
-      "issues": [],
-      "paragraphs": 7,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 14,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
-    },
-    {
       "code": "GBT-48336.401-2026",
       "chapter": "前言",
       "route": "/gbt-48336-401-2026-preface/",
@@ -10230,6 +10248,20 @@
       "definitions": 0,
       "references": 0,
       "listItems": 15,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "chapter": "附录D（资料性） 融合系统信道映射",
+      "route": "/gbt-48336-304-2026-appendix-d/",
+      "issues": [],
+      "paragraphs": 7,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 14,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -10258,6 +10290,20 @@
       "definitions": 0,
       "references": 0,
       "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.304-2026",
+      "chapter": "7 星闪5G融合链路管控",
+      "route": "/gbt-48336-304-2026-clause-7/",
+      "issues": [],
+      "paragraphs": 41,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 101,
       "nativeMath": 0,
       "tables": 0,
       "mergedCells": 0,
@@ -10335,20 +10381,6 @@
     },
     {
       "code": "GBT-48336.401-2026",
-      "chapter": "6.2 音频属性公开服务",
-      "route": "/gbt-48336-401-2026-clause-6-2/",
-      "issues": [],
-      "paragraphs": 28,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 31,
-      "tables": 10,
-      "mergedCells": 4,
-      "mobileTables": 10
-    },
-    {
-      "code": "GBT-48336.401-2026",
       "chapter": "6.1 音频流管理服务",
       "route": "/gbt-48336-401-2026-clause-6-1/",
       "issues": [],
@@ -10360,6 +10392,20 @@
       "tables": 26,
       "mergedCells": 19,
       "mobileTables": 26
+    },
+    {
+      "code": "GBT-48336.401-2026",
+      "chapter": "6.2 音频属性公开服务",
+      "route": "/gbt-48336-401-2026-clause-6-2/",
+      "issues": [],
+      "paragraphs": 28,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 31,
+      "tables": 10,
+      "mergedCells": 4,
+      "mobileTables": 10
     },
     {
       "code": "GBT-48336.401-2026",
@@ -10755,20 +10801,6 @@
     },
     {
       "code": "GBT-48336.403-2026",
-      "chapter": "8 音量控制服务与访问",
-      "route": "/gbt-48336-403-2026-clause-8/",
-      "issues": [],
-      "paragraphs": 15,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 4,
-      "nativeMath": 0,
-      "tables": 10,
-      "mergedCells": 2,
-      "mobileTables": 10
-    },
-    {
-      "code": "GBT-48336.403-2026",
       "chapter": "7 媒体播放控制服务与访问",
       "route": "/gbt-48336-403-2026-clause-7/",
       "issues": [],
@@ -10780,6 +10812,20 @@
       "tables": 19,
       "mergedCells": 3,
       "mobileTables": 19
+    },
+    {
+      "code": "GBT-48336.403-2026",
+      "chapter": "8 音量控制服务与访问",
+      "route": "/gbt-48336-403-2026-clause-8/",
+      "issues": [],
+      "paragraphs": 15,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 4,
+      "nativeMath": 0,
+      "tables": 10,
+      "mergedCells": 2,
+      "mobileTables": 10
     },
     {
       "code": "GBT-48336.403-2026",
@@ -10881,17 +10927,17 @@
     },
     {
       "code": "GBT-48336.404-2026",
-      "chapter": "3 术语和定义",
-      "route": "/gbt-48336-404-2026-clause-3/",
+      "chapter": "7 设备发现",
+      "route": "/gbt-48336-404-2026-clause-7/",
       "issues": [],
-      "paragraphs": 3,
+      "paragraphs": 8,
       "definitions": 0,
-      "references": 1,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 0,
-      "mergedCells": 0,
-      "mobileTables": 0
+      "references": 0,
+      "listItems": 3,
+      "nativeMath": 2,
+      "tables": 3,
+      "mergedCells": 3,
+      "mobileTables": 3
     },
     {
       "code": "GBT-48336.404-2026",
@@ -10909,17 +10955,17 @@
     },
     {
       "code": "GBT-48336.404-2026",
-      "chapter": "7 设备发现",
-      "route": "/gbt-48336-404-2026-clause-7/",
+      "chapter": "3 术语和定义",
+      "route": "/gbt-48336-404-2026-clause-3/",
       "issues": [],
-      "paragraphs": 8,
+      "paragraphs": 3,
       "definitions": 0,
-      "references": 0,
-      "listItems": 3,
-      "nativeMath": 2,
-      "tables": 3,
-      "mergedCells": 3,
-      "mobileTables": 3
+      "references": 1,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 0,
+      "mergedCells": 0,
+      "mobileTables": 0
     },
     {
       "code": "GBT-48336.404-2026",
@@ -10951,20 +10997,6 @@
     },
     {
       "code": "GBT-48336.404-2026",
-      "chapter": "附录A（规范性） 位置信息管理服务通用唯一标识",
-      "route": "/gbt-48336-404-2026-appendix-a/",
-      "issues": [],
-      "paragraphs": 1,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 0,
-      "tables": 1,
-      "mergedCells": 0,
-      "mobileTables": 1
-    },
-    {
-      "code": "GBT-48336.404-2026",
       "chapter": "附录B（资料性） 基于SLE的ICCE数字车钥匙应用位置信息管理服务属性参考配置",
       "route": "/gbt-48336-404-2026-appendix-b/",
       "issues": [],
@@ -10976,6 +11008,20 @@
       "tables": 3,
       "mergedCells": 0,
       "mobileTables": 3
+    },
+    {
+      "code": "GBT-48336.404-2026",
+      "chapter": "附录A（规范性） 位置信息管理服务通用唯一标识",
+      "route": "/gbt-48336-404-2026-appendix-a/",
+      "issues": [],
+      "paragraphs": 1,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 0,
+      "tables": 1,
+      "mergedCells": 0,
+      "mobileTables": 1
     },
     {
       "code": "GBT-48336.405-2026",
@@ -11511,20 +11557,6 @@
     },
     {
       "code": "GBT-48336.406-2026",
-      "chapter": "9 IPoSL配置管理服务",
-      "route": "/gbt-48336-406-2026-clause-9/",
-      "issues": [],
-      "paragraphs": 27,
-      "definitions": 0,
-      "references": 0,
-      "listItems": 0,
-      "nativeMath": 3,
-      "tables": 16,
-      "mergedCells": 14,
-      "mobileTables": 16
-    },
-    {
-      "code": "GBT-48336.406-2026",
       "chapter": "10 IP承载技术要求",
       "route": "/gbt-48336-406-2026-clause-10/",
       "issues": [],
@@ -11536,6 +11568,20 @@
       "tables": 0,
       "mergedCells": 0,
       "mobileTables": 0
+    },
+    {
+      "code": "GBT-48336.406-2026",
+      "chapter": "9 IPoSL配置管理服务",
+      "route": "/gbt-48336-406-2026-clause-9/",
+      "issues": [],
+      "paragraphs": 27,
+      "definitions": 0,
+      "references": 0,
+      "listItems": 0,
+      "nativeMath": 3,
+      "tables": 16,
+      "mergedCells": 14,
+      "mobileTables": 16
     },
     {
       "code": "GBT-48336.406-2026",

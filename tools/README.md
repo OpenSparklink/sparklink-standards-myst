@@ -7,6 +7,7 @@
 - `build_html.mjs`：严格 MyST 构建，清除过期网页与资源。
 - `build_math_styles.mjs`、`math_in_html.mjs`：原生数学与本地字体。
 - `postprocess_html.mjs`、`localize_styles.mjs`：发布资源、主标题锚点、引用索引、旧地址转向。
+- `build_technical_index.mjs`：从正文和引用清单生成站内技术索引及 JSON 下载文件。
 - `serve_html.mjs`、`site_config.mjs`：本地预览、仓库子路径和跨平台浏览器配置。
 - `limit_build_network.mjs`：限制大型站点渲染时的请求并发。
 

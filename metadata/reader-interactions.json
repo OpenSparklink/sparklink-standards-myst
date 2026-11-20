@@ -1,6 +1,6 @@
 {
   "manifest_sha256": "c3278af063050fb0107920f2ed1e6bbd458825b0fe8ca1b148752f53ddc7a633",
-  "time": "2026-11-19T12:17:22.835Z",
+  "time": "2026-11-20T19:09:56.040Z",
   "results": [
     {
       "check": "中文全文搜索及结果锚点跳转",
@@ -20,6 +20,10 @@
       "check": "正文交叉引用跳转到图表或条款",
       "passed": true,
       "target": "/sparklink-standards-myst/gbt-48336-101-2026-clause-6/#gbt-48336-101-2026-figure-1"
+    },
+    {
+      "check": "窄屏和桌面章节标题与标准检索导航留有间距",
+      "passed": true
     },
     {
       "check": "ASN.1 作为可选取的原生代码显示",
@@ -97,6 +101,26 @@
           6
         ]
       }
+    },
+    {
+      "check": "手机首页到字段检索、规范原条款和查询反馈合读",
+      "passed": true
+    },
+    {
+      "check": "同名试验按 G/T 角色区分，筛选链接可分享",
+      "passed": true
+    },
+    {
+      "check": "章节到同组报文索引与原文锚点",
+      "passed": true
+    },
+    {
+      "check": "桌面页内目录与图号固定链接复制",
+      "passed": true
+    },
+    {
+      "check": "滚动长表时保留表头",
+      "passed": true
     },
     {
       "check": "正文、数学字体与全文搜索无需外部 CDN",
